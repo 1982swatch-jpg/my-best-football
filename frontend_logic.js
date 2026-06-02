@@ -509,4 +509,41 @@ document.addEventListener("keydown", function(e) {
   if (e.ctrlKey && e.key === "u") e.preventDefault();
 });
 }
+window.analyze = async function(fixtureId) {
+  const home = document.getElementById("home").value.trim();
+  const away = document.getElementById("away").value.trim();
+  const resultBox = document.getElementById("result");
 
+  if (!home || !away) {
+    alert("請輸入兩隊名稱");
+    return;
+  }
+
+  resultBox.innerHTML = '<div class="card">AI分析中...</div>';
+
+  try {
+    const res = await fetch("FOOTBALL_FULL_DATABASE_DUMP.json?v=" + Date.now(), { cache: "no-store" });
+    const db = await res.json();
+
+    let data = db.endpoints?.analyze || db.analyze || db;
+
+    resultBox.innerHTML =
+      '<div class="card">' +
+        '<div class="match">' + data.home + ' VS ' + data.away + '</div>' +
+        '<div class="rates">' +
+          '<div><div class="rate green">' + data.homeRate + '%</div><div>' + data.home + '</div></div>' +
+          '<div><div class="rate blue">' + data.awayRate + '%</div><div>' + data.away + '</div></div>' +
+        '</div>' +
+        '<div class="bar">' +
+          '<div class="barHome" style="width:' + data.homeRate + '%"></div>' +
+          '<div class="barAway" style="width:' + data.awayRate + '%"></div>' +
+        '</div>' +
+        '<div class="recommend">' + data.recommendation + '</div>' +
+        '<div class="scorePredict">AI預測比分：' + data.predictedScore + '</div>' +
+        '<div class="playbox"><div class="playbox-title">🧠 分析說明</div><div class="article">' + data.reason + '</div></div>' +
+      '</div>';
+  } catch (err) {
+    resultBox.innerHTML =
+      '<div class="card"><div class="playbox-title">⚠️ 分析失敗</div><div class="playitem">' + err.message + '</div></div>';
+  }
+};
