@@ -379,15 +379,19 @@ async function analyze(fixtureId) {
   resultBox.innerHTML = '<div class="card">AI分析中...<br><span class="small">正在整理球隊資料、H2H、近15場與模型數據。</span></div>';
 
   try {
-    let url = '/api/analyze?home=' + encodeURIComponent(home) + '&away=' + encodeURIComponent(away);
+    let url = 'FOOTBALL_FULL_DATABASE_DUMP.json?v=' + Date.now();
     if (fixtureId) url += '&fixture=' + encodeURIComponent(fixtureId);
 
-    const res = await fetch(url, { cache: "no-store", mode: "cors" });
+    const res = await fetch(url, { cache: "no-store" });
     const text = await res.text();
 
     let data;
     try {
     data = JSON.parse(text);
+
+    if (data.endpoints && data.endpoints.analyze) {
+    data = data.endpoints.analyze;
+    }
     } catch (jsonErr) {
     console.error("Raw response:", text);
     throw new Error("後端回傳不是JSON，請重新整理後再試。");
