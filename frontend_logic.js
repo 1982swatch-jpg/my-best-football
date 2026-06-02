@@ -379,10 +379,10 @@ async function analyze(fixtureId) {
   resultBox.innerHTML = '<div class="card">AI分析中...<br><span class="small">正在整理球隊資料、H2H、近15場與模型數據。</span></div>';
 
   try {
-    let url = '/api/analyze?home=' + encodeURIComponent(home) + '&away=' + encodeURIComponent(away);
+    let url = 'https://football-analyzer-briu.onrender.com/analyze?home=' + encodeURIComponent(home) + '&away=' + encodeURIComponent(away);
     if (fixtureId) url += '&fixture=' + encodeURIComponent(fixtureId);
 
-    const res = await fetch(url, { cache: "no-store" });
+    const res = await fetch(url, { cache: "no-store", mode: "cors" });
     const text = await res.text();
 
     let data;
