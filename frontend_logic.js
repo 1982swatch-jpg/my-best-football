@@ -162,8 +162,16 @@ function renderTags(data) {
     return '<span class="tag">' + t + '</span>';
   }).join("") + '</div>';
 }
+  function renderModelCards(data) {
+  const goalModel = data.goalModel || {};
+  const upsetModel = data.upsetModel || {};
 
-function renderModelCards(data) {
+  const over25 = goalModel.over25 ?? 0;
+  const under25 = goalModel.under25 ?? 0;
+  const btts = goalModel.btts ?? 0;
+  const upsetIndex = upsetModel.upsetIndex ?? 0;
+
+ {
   const rows = [
     ["⚽ Over 2.5", data.goalModel.over25],
     ["🧊 Under 2.5", data.goalModel.under25],
