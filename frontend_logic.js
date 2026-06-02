@@ -496,3 +496,54 @@ document.addEventListener("keydown", function(e) {
   if (e.ctrlKey && e.shiftKey && e.key === "J") e.preventDefault();
   if (e.ctrlKey && e.key === "u") e.preventDefault();
 });
+window.analyze = async function(fixtureId) {
+  const home = document.getElementById("home").value.trim();
+  const away = document.getElementById("away").value.trim();
+  const resultBox = document.getElementById("result");
+
+  if (!home || !away) {
+    alert("請輸入兩隊名稱");
+    return;
+  }
+
+  resultBox.innerHTML = '<div class="card">AI分析中...</div>';
+
+  try {
+    const res = await fetch("FOOTBALL_FULL_DATABASE_DUMP.json?v=" + Date.now(), { cache: "no-store" });
+    const db = await res.json();
+
+    const rec = db.endpoints.recommended;
+    const games = []
+      .concat(rec.strongSignals || [])
+      .concat(rec.goalSignals || [])
+      .concat(rec.upsetSignals || []);
+
+    let data = games.find(g => g.home === home && g.away === away)
+            || games.find(g => g.home === away && g.away === home);
+
+    if (!data) {
+      resultBox.innerHTML =
+        '<div class="card"><div class="playbox-title">⚠️ 找不到這場比賽</div>' +
+        '<div class="playitem">本地資料庫沒有「' + home + ' vs ' + away + '」。</div></div>';
+      return;
+    }
+
+    resultBox.innerHTML =
+      '<div class="card">' +
+      '<div class="match">' + flagImg(data.homeFlag) + data.home + ' VS ' + flagImg(data.awayFlag) + data.away + '</div>' +
+      '<div class="rates">' +
+      '<div><div class="rate green">' + data.homeRate + '%</div><div>' + data.home + '</div></div>' +
+      '<div><div class="rate blue">' + data.awayRate + '%</div><div>' + data.away + '</div></div>' +
+      '</div>' +
+      '<div class="recommend">' + data.recommendation + '</div>' +
+      '<div class="scorePredict">AI預測比分：' + data.predictedScore + '</div>' +
+      '<div class="playbox"><div class="playbox-title">⚽ 進球模型</div>' +
+      '<div class="playitem">大球率：' + (data.goalModel?.over25 ?? "-") + '%｜小球率：' + (data.goalModel?.under25 ?? "-") + '%｜雙方進球：' + (data.goalModel?.btts ?? "-") + '%</div>' +
+      '</div>' +
+      '<div class="playbox"><div class="playbox-title">🧠 分析說明</div>' +
+      '<div class="article">' + (data.reason || "本地資料庫暫無完整短評。") + '</div></div>' +
+      '</div>';
+  } catch (err) {
+    resultBox.innerHTML = '<div class="card">分析失敗：' + err.message + '</div>';
+  }
+};
