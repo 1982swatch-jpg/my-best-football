@@ -509,3 +509,4 @@ document.addEventListener("keydown", function(e) {
   if (e.ctrlKey && e.key === "u") e.preventDefault();
 });
 }
+window.analyze = analyze;
