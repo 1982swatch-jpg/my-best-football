@@ -153,7 +153,7 @@ const data = db.endpoints.recommended;
 function quickMatch(home, away, fixtureId) {
   document.getElementById("home").value = home;
   document.getElementById("away").value = away;
-  window.analyze(fixtureId || "");
+  analyze(fixtureId || "");
 }
 
 function renderTags(data) {
@@ -162,16 +162,8 @@ function renderTags(data) {
     return '<span class="tag">' + t + '</span>';
   }).join("") + '</div>';
 }
-  function renderModelCards(data) {
-  const goalModel = data.goalModel || {};
-  const upsetModel = data.upsetModel || {};
 
-  const over25 = goalModel.over25 ?? 0;
-  const under25 = goalModel.under25 ?? 0;
-  const btts = goalModel.btts ?? 0;
-  const upsetIndex = upsetModel.upsetIndex ?? 0;
-
- {
+function renderModelCards(data) {
   const rows = [
     ["⚽ Over 2.5", data.goalModel.over25],
     ["🧊 Under 2.5", data.goalModel.under25],
@@ -373,7 +365,7 @@ function toggleDetail(btn) {
   btn.innerText = btn.innerText.includes('▲') ? btn.innerText.replace('▲', '▼') : btn.innerText.replace('▼', '▲');
 }
 
-  window.analyze = async function(fixtureId) {
+async function analyze(fixtureId) {
   fixtureId = fixtureId || "";
   const home = document.getElementById("home").value.trim();
   const away = document.getElementById("away").value.trim();
@@ -387,19 +379,15 @@ function toggleDetail(btn) {
   resultBox.innerHTML = '<div class="card">AI分析中...<br><span class="small">正在整理球隊資料、H2H、近15場與模型數據。</span></div>';
 
   try {
-    let url = 'FOOTBALL_FULL_DATABASE_DUMP.json?v=' + Date.now();
+    let url = '/api/analyze?home=' + encodeURIComponent(home) + '&away=' + encodeURIComponent(away);
     if (fixtureId) url += '&fixture=' + encodeURIComponent(fixtureId);
 
-    const res = await fetch(url, { cache: "no-store" });
+    const res = await fetch(url, { cache: "no-store", mode: "cors" });
     const text = await res.text();
 
     let data;
     try {
     data = JSON.parse(text);
-
-    if (data.endpoints && data.endpoints.analyze) {
-    data = data.endpoints.analyze;
-    }
     } catch (jsonErr) {
     console.error("Raw response:", text);
     throw new Error("後端回傳不是JSON，請重新整理後再試。");
@@ -508,42 +496,3 @@ document.addEventListener("keydown", function(e) {
   if (e.ctrlKey && e.shiftKey && e.key === "J") e.preventDefault();
   if (e.ctrlKey && e.key === "u") e.preventDefault();
 });
-}
-window.analyze = async function(fixtureId) {
-  const home = document.getElementById("home").value.trim();
-  const away = document.getElementById("away").value.trim();
-  const resultBox = document.getElementById("result");
-
-  if (!home || !away) {
-    alert("請輸入兩隊名稱");
-    return;
-  }
-
-  resultBox.innerHTML = '<div class="card">AI分析中...</div>';
-
-  try {
-    const res = await fetch("FOOTBALL_FULL_DATABASE_DUMP.json?v=" + Date.now(), { cache: "no-store" });
-    const db = await res.json();
-
-    let data = db.endpoints?.analyze || db.analyze || db;
-
-    resultBox.innerHTML =
-      '<div class="card">' +
-        '<div class="match">' + data.home + ' VS ' + data.away + '</div>' +
-        '<div class="rates">' +
-          '<div><div class="rate green">' + data.homeRate + '%</div><div>' + data.home + '</div></div>' +
-          '<div><div class="rate blue">' + data.awayRate + '%</div><div>' + data.away + '</div></div>' +
-        '</div>' +
-        '<div class="bar">' +
-          '<div class="barHome" style="width:' + data.homeRate + '%"></div>' +
-          '<div class="barAway" style="width:' + data.awayRate + '%"></div>' +
-        '</div>' +
-        '<div class="recommend">' + data.recommendation + '</div>' +
-        '<div class="scorePredict">AI預測比分：' + data.predictedScore + '</div>' +
-        '<div class="playbox"><div class="playbox-title">🧠 分析說明</div><div class="article">' + data.reason + '</div></div>' +
-      '</div>';
-  } catch (err) {
-    resultBox.innerHTML =
-      '<div class="card"><div class="playbox-title">⚠️ 分析失敗</div><div class="playitem">' + err.message + '</div></div>';
-  }
-};
