@@ -153,7 +153,7 @@ const data = db.endpoints.recommended;
 function quickMatch(home, away, fixtureId) {
   document.getElementById("home").value = home;
   document.getElementById("away").value = away;
-  analyze(fixtureId || "");
+  window.analyze(fixtureId || "");
 }
 
 function renderTags(data) {
@@ -373,7 +373,7 @@ function toggleDetail(btn) {
   btn.innerText = btn.innerText.includes('▲') ? btn.innerText.replace('▲', '▼') : btn.innerText.replace('▼', '▲');
 }
 
-  window.analyze = async function analyze(fixtureId) {
+  
   fixtureId = fixtureId || "";
   const home = document.getElementById("home").value.trim();
   const away = document.getElementById("away").value.trim();
