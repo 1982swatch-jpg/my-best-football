@@ -373,7 +373,7 @@ function toggleDetail(btn) {
   btn.innerText = btn.innerText.includes('▲') ? btn.innerText.replace('▲', '▼') : btn.innerText.replace('▼', '▲');
 }
 
-async function analyze(fixtureId) {
+  window.analyze = async function analyze(fixtureId) {
   fixtureId = fixtureId || "";
   const home = document.getElementById("home").value.trim();
   const away = document.getElementById("away").value.trim();
@@ -509,4 +509,4 @@ document.addEventListener("keydown", function(e) {
   if (e.ctrlKey && e.key === "u") e.preventDefault();
 });
 }
-window.analyze = analyze;
+
