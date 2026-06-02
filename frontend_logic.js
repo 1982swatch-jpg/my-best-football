@@ -373,7 +373,7 @@ function toggleDetail(btn) {
   btn.innerText = btn.innerText.includes('▲') ? btn.innerText.replace('▲', '▼') : btn.innerText.replace('▼', '▲');
 }
 
-  
+  window.analyze = async function(fixtureId) {
   fixtureId = fixtureId || "";
   const home = document.getElementById("home").value.trim();
   const away = document.getElementById("away").value.trim();
