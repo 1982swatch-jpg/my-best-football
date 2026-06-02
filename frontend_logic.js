@@ -387,9 +387,10 @@ async function analyze(fixtureId) {
 
     let data;
     try {
-      data = JSON.parse(text);
+    data = JSON.parse(text);
     } catch (jsonErr) {
-      throw new Error("後端回傳不是JSON，可能是登入逾時或伺服器錯誤。");
+    console.error("Raw response:", text);
+    throw new Error("後端回傳不是JSON，請重新整理後再試。");
     }
 
     if (!res.ok || data.error) {
