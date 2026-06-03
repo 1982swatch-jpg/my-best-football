@@ -1,12 +1,12 @@
 {
   "metadata": {
     "source": "https://football-analyzer-briu.onrender.com",
-    "scraped_at": "2026-06-02 12:59:12",
+    "scraped_at": "2026-06-03 00:14:26",
     "auth_used": "Basic Auth"
   },
   "endpoints": {
     "schedule": {
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "source": "official-worldcup",
       "stageLabel": "小組賽準備中",
       "nextGame": {
@@ -1543,89 +1543,79 @@
       },
       {
         "fixtureId": null,
-        "home": "墨西哥",
-        "away": "南非",
-        "homeFlag": "https://flagsapi.com/MX/flat/32.png",
-        "awayFlag": "https://flagsapi.com/ZA/flat/32.png",
-        "homeRate": 60,
-        "awayRate": 40,
-        "predictedWinner": "墨西哥",
-        "recommendation": "墨西哥優勢明顯",
-        "confidence": "中高",
-        "stars": "⭐⭐⭐⭐",
-        "diff": 20,
-        "predictedScore": "3-1",
+        "home": "加拿大",
+        "away": "波士尼亞",
+        "homeFlag": "https://flagsapi.com/CA/flat/32.png",
+        "awayFlag": "https://flagsapi.com/BA/flat/32.png",
+        "homeRate": 57,
+        "awayRate": 43,
+        "predictedWinner": "加拿大",
+        "recommendation": "加拿大略優",
+        "confidence": "中",
+        "stars": "⭐⭐⭐",
+        "diff": 14,
+        "predictedScore": "1-0",
         "modelScore": 62,
         "tags": [
-          "🔥 模型焦點",
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
+          "🧠 AI觀察"
         ],
         "decisionSignals": [
           {
-            "name": "模型焦點",
-            "level": "FOCUS"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
+            "name": "可觀察",
             "level": "MEDIUM"
           }
         ],
         "radar": {
-          "attack": 100,
-          "defense": 74,
-          "form": 72,
+          "attack": 35,
+          "defense": 92,
+          "form": 31,
           "market": 45,
-          "goals": 82,
-          "upset": 25,
+          "goals": 43,
+          "upset": 58,
           "history": 15
         },
         "goalModel": {
-          "expectedGoals": 5.62,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
+          "expectedGoals": 1.55,
+          "over25": 43,
+          "under25": 57,
+          "btts": 35,
+          "totalLean": "2-3球區間"
         },
         "upsetModel": {
-          "upsetIndex": 25,
-          "label": "正常盤",
-          "reason": "模型與市場沒有明顯衝突。",
-          "modelFavorite": "墨西哥",
-          "modelDog": "南非",
+          "upsetIndex": 58,
+          "label": "冷門風險",
+          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
+          "modelFavorite": "加拿大",
+          "modelDog": "波士尼亞",
           "marketFavorite": null
         },
-        "reason": "墨西哥這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。墨西哥近15場進攻效率不錯，前段若能壓上，會讓南非防線承受壓力。進球模型顯示本場預期進球約5.62球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "reason": "加拿大略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。加拿大防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約1.55球，方向偏向「2-3球區間」。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
         "playSuggestions": {
-          "main": "主方向：墨西哥優勢較明顯，但仍需避開臨場變數。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：25%｜正常盤。模型與市場沒有明顯衝突。",
+          "main": "主方向：加拿大略優，適合看穩不看大勝。",
+          "goals": "大小球：高進球率43%、小球率57%、雙方進球率35%。",
+          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
           "market": "市場：目前賠率資料不足，先以AI模型為主。",
           "note": "以上為AI模型綜合分析，非保證結果。"
         },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "🔥 狀態火熱",
-        "awayMomentum": "📊 狀態普通",
+        "dangerLevel": "STABLE",
+        "homeMomentum": "🧊 防守穩定",
+        "awayMomentum": "🧊 防守穩定",
         "odds": null,
         "aiOdds": {
           "type": "ai",
           "bookmaker": "AI模型估算",
-          "homeOdd": 2.14,
-          "drawOdd": 3.49,
+          "homeOdd": 2.42,
+          "drawOdd": 2.95,
           "awayOdd": 3.25,
-          "homeWinRate": 44,
-          "drawRate": 27,
+          "homeWinRate": 39,
+          "drawRate": 32,
           "awayWinRate": 29,
           "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
         },
         "h2h": {
           "total": 0,
           "title": "資料庫近0次交手（最多5場）",
-          "source": "API資料庫",
+          "source": "基礎模型",
           "homeWins": 0,
           "awayWins": 0,
           "draws": 0,
@@ -1634,1146 +1624,178 @@
           "recent": []
         },
         "homeForm": {
-          "score": 0.9111111111111111,
-          "wins": 13,
-          "draws": 2,
-          "losses": 0,
-          "points": 41,
-          "goalsFor": 55,
-          "goalsAgainst": 2,
-          "avgGoalsFor": 3.67,
-          "avgGoalsAgainst": 0.13,
+          "score": 0.6222222222222222,
+          "wins": 7,
+          "draws": 7,
+          "losses": 1,
+          "points": 28,
+          "goalsFor": 21,
+          "goalsAgainst": 5,
+          "avgGoalsFor": 1.4,
+          "avgGoalsAgainst": 0.33,
           "totalGames": 15,
           "recentResults": [
-            {
-              "result": "W",
-              "score": "6-0",
-              "opponent": "Puerto Rico W",
-              "date": "2026-04-19T00:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "9-0",
-              "opponent": "US Virgin Islands W",
-              "date": "2026-04-11T01:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "Brazil W",
-              "date": "2026-03-07T23:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "7-0",
-              "opponent": "St. Lucia W",
-              "date": "2026-03-02T19:00:00+00:00"
-            },
             {
               "result": "W",
               "score": "2-0",
-              "opponent": "Costa Rica W",
-              "date": "2025-12-02T22:00:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.5333333333333333,
-          "wins": 6,
-          "draws": 6,
-          "losses": 3,
-          "points": 24,
-          "goalsFor": 22,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.47,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "D",
-              "score": "0-0",
-              "opponent": "Nicaragua",
-              "date": "2026-05-29T16:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "1-2",
-              "opponent": "巴拿馬",
-              "date": "2026-03-31T17:30:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "巴拿馬",
-              "date": "2026-03-27T17:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "1-2",
-              "opponent": "喀麥隆",
-              "date": "2026-01-04T19:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "3-2",
-              "opponent": "Zimbabwe",
-              "date": "2025-12-29T16:00:00+00:00"
-            }
-          ]
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/1729.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/1531.png",
-        "homeSquad": [
-          {
-            "id": 393077,
-            "name": "N. Hernández",
-            "age": 26,
-            "number": 2,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/393077.png",
-            "club": "Mexico W"
-          },
-          {
-            "id": 102294,
-            "name": "M. Sánchez",
-            "age": 29,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/102294.png",
-            "club": ""
-          },
-          {
-            "id": 515009,
-            "name": "A. Farmer",
-            "age": 21,
-            "number": 8,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/515009.png",
-            "club": ""
-          },
-          {
-            "id": 213130,
-            "name": "M. Delgadillo",
-            "age": 30,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/213130.png",
-            "club": "Mexico W"
-          },
-          {
-            "id": 99694,
-            "name": "K. Palacios",
-            "age": 29,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/99694.png",
-            "club": ""
-          },
-          {
-            "id": 367093,
-            "name": "A. Soto",
-            "age": 19,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/367093.png",
-            "club": ""
-          },
-          {
-            "id": 379909,
-            "name": "N. Mauleón",
-            "age": 23,
-            "number": 17,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/379909.png",
-            "club": ""
-          },
-          {
-            "id": 425613,
-            "name": "J. Casárez",
-            "age": 27,
-            "number": 18,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/425613.png",
-            "club": ""
-          },
-          {
-            "id": 213113,
-            "name": "C. Burkenroad",
-            "age": 32,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/213113.png",
-            "club": ""
-          },
-          {
-            "id": 99738,
-            "name": "C. Corral",
-            "age": 34,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/99738.png",
-            "club": ""
-          },
-          {
-            "id": 360246,
-            "name": "D. Ordoñez",
-            "age": 24,
-            "number": 22,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/360246.png",
-            "club": ""
-          },
-          {
-            "id": 385195,
-            "name": "S. Camberos",
-            "age": 25,
-            "number": 23,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/385195.png",
-            "club": ""
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 179893,
-            "name": "O. Appollis",
-            "age": 24,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/179893.png",
-            "club": "Orlando Pirates"
-          },
-          {
-            "id": 98936,
-            "name": "L. Foster",
-            "age": 25,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/98936.png",
-            "club": ""
-          },
-          {
-            "id": 414149,
-            "name": "R. Mofokeng",
-            "age": 21,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/414149.png",
-            "club": ""
-          },
-          {
-            "id": 354831,
-            "name": "T. Maseko",
-            "age": 22,
-            "number": 12,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/354831.png",
-            "club": "AEL"
-          },
-          {
-            "id": 127429,
-            "name": "I. Rayners",
-            "age": 30,
-            "number": 15,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/127429.png",
-            "club": ""
-          },
-          {
-            "id": 201354,
-            "name": "E. Makgopa",
-            "age": 25,
-            "number": 99,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/201354.png",
-            "club": "Orlando Pirates"
-          },
-          {
-            "id": 3287,
-            "name": "T. Mokoena",
-            "age": 28,
-            "number": 4,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/3287.png",
-            "club": "Mamelodi Sundowns"
-          },
-          {
-            "id": 194430,
-            "name": "T. Mbatha",
-            "age": 25,
-            "number": 5,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/194430.png",
-            "club": "South Africa"
-          },
-          {
-            "id": 295977,
-            "name": "T. Moremi",
-            "age": 25,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/295977.png",
-            "club": ""
-          },
-          {
-            "id": 3289,
-            "name": "T. Zwane",
-            "age": 36,
-            "number": 11,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/3289.png",
-            "club": "South Africa"
-          },
-          {
-            "id": 158433,
-            "name": "S. Sithole",
-            "age": 26,
-            "number": 13,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/158433.png",
-            "club": ""
-          },
-          {
-            "id": 268710,
-            "name": "J. Adams",
-            "age": 24,
-            "number": 23,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/268710.png",
-            "club": ""
-          }
-        ],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 74
-      },
-      {
-        "fixtureId": "None",
-        "home": "突尼西亞",
-        "away": "日本",
-        "homeFlag": "https://flagsapi.com/TN/flat/32.png",
-        "awayFlag": "https://flagsapi.com/JP/flat/32.png",
-        "homeRate": 48,
-        "awayRate": 52,
-        "predictedWinner": "日本",
-        "recommendation": "雙方接近",
-        "confidence": "低",
-        "stars": "⭐",
-        "diff": 4,
-        "predictedScore": "1-1",
-        "modelScore": 62,
-        "tags": [
-          "⚖️ 五五波",
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
-        ],
-        "decisionSignals": [
-          {
-            "name": "不硬追",
-            "level": "STABLE"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 92,
-          "defense": 64,
-          "form": 63,
-          "market": 45,
-          "goals": 82,
-          "upset": 58,
-          "history": 36
-        },
-        "goalModel": {
-          "expectedGoals": 4.78,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
-        },
-        "upsetModel": {
-          "upsetIndex": 58,
-          "label": "冷門風險",
-          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
-          "modelFavorite": "日本",
-          "modelDog": "突尼西亞",
-          "marketFavorite": null
-        },
-        "reason": "這場雙方接近，模型沒有給出明顯單邊，屬於需要觀察開局節奏的比賽。日本近15場進攻效率不錯，前段若能壓上，會讓突尼西亞防線承受壓力。進球模型顯示本場預期進球約4.78球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。資料庫近2次交手（最多5場）：突尼西亞1勝、日本1勝、平手0場。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：雙方接近，不建議只用勝負方向判斷。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "📊 狀態普通",
-        "awayMomentum": "🔥 狀態火熱",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.86,
-          "drawOdd": 2.95,
-          "awayOdd": 2.7,
-          "homeWinRate": 33,
-          "drawRate": 32,
-          "awayWinRate": 35,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 2,
-          "title": "資料庫近2次交手（最多5場）",
-          "source": "API資料庫",
-          "homeWins": 1,
-          "awayWins": 1,
-          "draws": 0,
-          "totalGoals": 5,
-          "avgGoals": 2.5,
-          "recent": [
-            {
-              "year": 2023,
-              "home": "日本",
-              "away": "突尼西亞",
-              "score": "2-0",
-              "winner": "日本",
-              "note": "API資料庫"
-            },
-            {
-              "year": 2022,
-              "home": "日本",
-              "away": "突尼西亞",
-              "score": "0-3",
-              "winner": "突尼西亞",
-              "note": "API資料庫"
-            }
-          ]
-        },
-        "homeForm": {
-          "score": 0.5333333333333333,
-          "wins": 6,
-          "draws": 6,
-          "losses": 3,
-          "points": 24,
-          "goalsFor": 27,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.8,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "L",
-              "score": "0-1",
-              "opponent": "奧地利",
-              "date": "2026-06-01T18:45:00+00:00"
+              "opponent": "烏茲別克",
+              "date": "2026-06-02T01:00:00+00:00"
             },
             {
               "result": "D",
               "score": "0-0",
-              "opponent": "加拿大",
+              "opponent": "突尼西亞",
               "date": "2026-03-31T23:30:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "海地",
-              "date": "2026-03-29T00:00:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "Mali",
-              "date": "2026-01-03T19:00:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "Tanzania",
-              "date": "2025-12-30T16:00:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.7333333333333333,
-          "wins": 10,
-          "draws": 3,
-          "losses": 2,
-          "points": 33,
-          "goalsFor": 28,
-          "goalsAgainst": 8,
-          "avgGoalsFor": 1.87,
-          "avgGoalsAgainst": 0.53,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "Iceland",
-              "date": "2026-05-31T10:25:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "英格蘭",
-              "date": "2026-03-31T18:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "蘇格蘭",
-              "date": "2026-03-28T17:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "3-0",
-              "opponent": "Bolivia",
-              "date": "2025-11-18T10:15:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "迦納",
-              "date": "2025-11-14T10:20:00+00:00"
-            }
-          ]
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/28.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/12.png",
-        "homeSquad": [
-          {
-            "id": 42012,
-            "name": "E. Achouri",
-            "age": 26,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/42012.png",
-            "club": "Tunisia"
-          },
-          {
-            "id": 323974,
-            "name": "E. Saad",
-            "age": 26,
-            "number": 8,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/323974.png",
-            "club": "Tunisia"
-          },
-          {
-            "id": 344862,
-            "name": "H. Mastouri",
-            "age": 28,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/344862.png",
-            "club": "Tunisia"
-          },
-          {
-            "id": 533295,
-            "name": "K. Ayari",
-            "age": 20,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/533295.png",
-            "club": ""
-          },
-          {
-            "id": 2962,
-            "name": "F. Chaouat",
-            "age": 29,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/2962.png",
-            "club": "Tunisia"
-          },
-          {
-            "id": 57518,
-            "name": "S. Tounekti",
-            "age": 23,
-            "number": 26,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/57518.png",
-            "club": ""
-          },
-          {
-            "id": 566059,
-            "name": "R. Elloumi",
-            "age": 18,
-            "number": null,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/566059.png",
-            "club": "Vancouver Whitecaps II"
-          },
-          {
-            "id": 199310,
-            "name": "A. Ben Slimane",
-            "age": 24,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/199310.png",
-            "club": ""
-          },
-          {
-            "id": 180560,
-            "name": "H. Mejbri",
-            "age": 22,
-            "number": 10,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/180560.png",
-            "club": ""
-          },
-          {
-            "id": 310196,
-            "name": "Ismaël Gharbi",
-            "age": 21,
-            "number": 11,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/310196.png",
-            "club": "Tunisia"
-          },
-          {
-            "id": 67195,
-            "name": "H. Mahmoud",
-            "age": 25,
-            "number": 15,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/67195.png",
-            "club": ""
-          },
-          {
-            "id": 21587,
-            "name": "E. Skhiri",
-            "age": 30,
-            "number": 17,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/21587.png",
-            "club": "Tunisia"
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 199143,
-            "name": "Y. Suzuki",
-            "age": 24,
-            "number": 8,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/199143.png",
-            "club": ""
-          },
-          {
-            "id": 72155,
-            "name": "A. Ueda",
-            "age": 27,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/72155.png",
-            "club": ""
-          },
-          {
-            "id": 33224,
-            "name": "D. Maeda",
-            "age": 28,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/33224.png",
-            "club": ""
-          },
-          {
-            "id": 33321,
-            "name": "Keito Nakamura",
-            "age": 25,
-            "number": 13,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/33321.png",
-            "club": "Japan"
-          },
-          {
-            "id": 1942,
-            "name": "J. Ito",
-            "age": 32,
-            "number": 14,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/1942.png",
-            "club": ""
-          },
-          {
-            "id": 422572,
-            "name": "K. Shiogai",
-            "age": 20,
-            "number": 14,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/422572.png",
-            "club": ""
-          },
-          {
-            "id": 33289,
-            "name": "Koki Ogawa",
-            "age": 28,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/33289.png",
-            "club": ""
-          },
-          {
-            "id": 375930,
-            "name": "K. Goto",
-            "age": 20,
-            "number": null,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/375930.png",
-            "club": ""
-          },
-          {
-            "id": 33889,
-            "name": "K. Sano",
-            "age": 25,
-            "number": 5,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/33889.png",
-            "club": ""
-          },
-          {
-            "id": 33142,
-            "name": "S. Tanaka",
-            "age": 23,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/33142.png",
-            "club": ""
-          },
-          {
-            "id": 2598,
-            "name": "R. Dōan",
-            "age": 27,
-            "number": 10,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2598.png",
-            "club": ""
-          },
-          {
-            "id": 2601,
-            "name": "D. Kamada",
-            "age": 29,
-            "number": 15,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2601.png",
-            "club": ""
-          }
-        ],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 56
-      },
-      {
-        "fixtureId": null,
-        "home": "韓國",
-        "away": "捷克",
-        "homeFlag": "https://flagsapi.com/KR/flat/32.png",
-        "awayFlag": "https://flagsapi.com/CZ/flat/32.png",
-        "homeRate": 54,
-        "awayRate": 46,
-        "predictedWinner": "韓國",
-        "recommendation": "韓國小幅優勢",
-        "confidence": "中低",
-        "stars": "⭐⭐",
-        "diff": 8,
-        "predictedScore": "1-1",
-        "modelScore": 62,
-        "tags": [
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
-        ],
-        "decisionSignals": [
-          {
-            "name": "不硬追",
-            "level": "STABLE"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 88,
-          "defense": 54,
-          "form": 64,
-          "market": 45,
-          "goals": 82,
-          "upset": 58,
-          "history": 15
-        },
-        "goalModel": {
-          "expectedGoals": 4.37,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
-        },
-        "upsetModel": {
-          "upsetIndex": 58,
-          "label": "冷門風險",
-          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
-          "modelFavorite": "韓國",
-          "modelDog": "捷克",
-          "marketFavorite": null
-        },
-        "reason": "韓國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。韓國防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約4.37球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：韓國略優，適合看穩不看大勝。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "📊 狀態普通",
-        "awayMomentum": "📊 狀態普通",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.48,
-          "drawOdd": 3.14,
-          "awayOdd": 2.95,
-          "homeWinRate": 38,
-          "drawRate": 30,
-          "awayWinRate": 32,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
-          "source": "API資料庫",
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
-        },
-        "homeForm": {
-          "score": 0.6444444444444445,
-          "wins": 9,
-          "draws": 2,
-          "losses": 4,
-          "points": 29,
-          "goalsFor": 26,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.73,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "5-0",
-              "opponent": "Trinidad and Tobago",
-              "date": "2026-05-31T01:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "0-1",
-              "opponent": "奧地利",
-              "date": "2026-03-31T18:45:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "0-4",
-              "opponent": "象牙海岸",
-              "date": "2026-03-28T14:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "迦納",
-              "date": "2025-11-18T11:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "Bolivia",
-              "date": "2025-11-14T11:00:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.6444444444444445,
-          "wins": 8,
-          "draws": 5,
-          "losses": 2,
-          "points": 29,
-          "goalsFor": 27,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.8,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "2-1",
-              "opponent": "Kosovo",
-              "date": "2026-05-31T14:00:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "丹麥",
-              "date": "2026-03-31T18:45:00+00:00"
             },
             {
               "result": "D",
               "score": "2-2",
-              "opponent": "Rep. Of Ireland",
-              "date": "2026-03-26T19:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "6-0",
-              "opponent": "Gibraltar",
-              "date": "2025-11-17T19:45:00+00:00"
+              "opponent": "Iceland",
+              "date": "2026-03-28T17:00:00+00:00"
             },
             {
               "result": "W",
               "score": "1-0",
-              "opponent": "San Marino",
-              "date": "2025-11-13T17:00:00+00:00"
+              "opponent": "Guatemala",
+              "date": "2026-01-18T03:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "委內瑞拉",
+              "date": "2025-11-19T01:30:00+00:00"
             }
           ]
         },
-        "homeLogo": "https://media.api-sports.io/football/teams/17.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/770.png",
+        "awayForm": {
+          "score": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "avgGoalsFor": 0,
+          "avgGoalsAgainst": 0,
+          "totalGames": 0,
+          "recentResults": []
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/5529.png",
+        "awayLogo": "",
         "homeSquad": [
           {
-            "id": 34211,
-            "name": "Cho Gue-Sung",
-            "age": 28,
-            "number": 3,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34211.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 34710,
-            "name": "Oh Hyeon-Gyu",
-            "age": 24,
+            "id": 541949,
+            "name": "M. Aiyenero",
+            "age": 17,
             "number": 9,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34710.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 304958,
-            "name": "Yang Hyun-Jun",
-            "age": 23,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/304958.png",
-            "club": "Celtic"
-          },
-          {
-            "id": 186,
-            "name": "Son Heung-Min",
-            "age": 33,
-            "number": 13,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/186.png",
-            "club": "Los Angeles FC"
-          },
-          {
-            "id": 34431,
-            "name": "Lee Dong-Gyeong",
-            "age": 28,
-            "number": 20,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34431.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 237050,
-            "name": "Eom Ji-Sung",
-            "age": 23,
-            "number": 23,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/237050.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 357286,
-            "name": "Bae Jun-Ho",
-            "age": 22,
-            "number": 25,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/357286.png",
+            "photo": "https://media.api-sports.io/football/players/541949.png",
             "club": ""
           },
           {
-            "id": 24888,
-            "name": "Hwang Hee-Chan",
-            "age": 29,
-            "number": 26,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/24888.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 99211,
-            "name": "Park Jin-Seop",
+            "id": 2001,
+            "name": "C. Larin",
             "age": 30,
-            "number": 4,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/99211.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 34168,
-            "name": "Kim Jin-Gyu",
-            "age": 28,
-            "number": 6,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/34168.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 2906,
-            "name": "Lee Jae-Sung",
-            "age": 33,
-            "number": 14,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2906.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 2912,
-            "name": "Kim Moon-Hwan",
-            "age": 30,
-            "number": 15,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2912.png",
-            "club": "South Korea"
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 66019,
-            "name": "A. Hložek",
-            "age": 23,
             "number": 9,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66019.png",
-            "club": "Czech Republic"
+            "photo": "https://media.api-sports.io/football/players/2001.png",
+            "club": "Mallorca"
           },
           {
-            "id": 794,
-            "name": "P. Schick",
-            "age": 29,
+            "id": 8489,
+            "name": "J. David",
+            "age": 25,
             "number": 10,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/794.png",
-            "club": "Bayer Leverkusen"
+            "photo": "https://media.api-sports.io/football/players/8489.png",
+            "club": "Juventus"
           },
           {
-            "id": 66340,
-            "name": "J. Kuchta",
-            "age": 28,
+            "id": 19007,
+            "name": "J. Hoilett",
+            "age": 35,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/19007.png",
+            "club": "Hibernian"
+          },
+          {
+            "id": 51293,
+            "name": "T. Bair",
+            "age": 26,
             "number": 11,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66340.png",
-            "club": ""
+            "photo": "https://media.api-sports.io/football/players/51293.png",
+            "club": "Lausanne"
           },
           {
-            "id": 66275,
-            "name": "M. Chytil",
-            "age": 26,
-            "number": 13,
+            "id": 296458,
+            "name": "D. Jebbison",
+            "age": 22,
+            "number": 11,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66275.png",
-            "club": ""
+            "photo": "https://media.api-sports.io/football/players/296458.png",
+            "club": "Preston"
           },
           {
-            "id": 818,
-            "name": "T. Chorý",
-            "age": 30,
+            "id": 351587,
+            "name": "T. Oluwaseyi",
+            "age": 25,
+            "number": 12,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/351587.png",
+            "club": "Minnesota United FC"
+          },
+          {
+            "id": 203428,
+            "name": "J. Russell-Rowe",
+            "age": 23,
+            "number": 12,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/203428.png",
+            "club": "Columbus Crew"
+          },
+          {
+            "id": 50826,
+            "name": "J. Shaffelburg",
+            "age": 26,
+            "number": 14,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/50826.png",
+            "club": "Nashville SC"
+          },
+          {
+            "id": 370938,
+            "name": "T. Coimbra",
+            "age": 21,
             "number": 19,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/818.png",
-            "club": "Czech Republic"
+            "photo": "https://media.api-sports.io/football/players/370938.png",
+            "club": "HFX Wanderers FC"
           },
           {
-            "id": 290212,
-            "name": "D. Višinský",
-            "age": 22,
-            "number": 21,
+            "id": 44798,
+            "name": "L. Millar",
+            "age": 26,
+            "number": 23,
             "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/290212.png",
-            "club": "Czech Republic U21"
+            "photo": "https://media.api-sports.io/football/players/44798.png",
+            "club": "Canada"
           },
           {
-            "id": 271869,
-            "name": "C. Kabongo",
-            "age": 22,
-            "number": null,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/271869.png",
-            "club": "Czech Republic U21"
-          },
-          {
-            "id": 66249,
-            "name": "P. Bucha",
-            "age": 27,
-            "number": 7,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66249.png",
-            "club": "FC Cincinnati"
-          },
-          {
-            "id": 25348,
-            "name": "V. Darida",
-            "age": 35,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/25348.png",
-            "club": ""
-          },
-          {
-            "id": 66253,
-            "name": "T. Ladra",
-            "age": 28,
-            "number": 9,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66253.png",
-            "club": "Plzen"
-          },
-          {
-            "id": 162194,
-            "name": "L. Červ",
+            "id": 313353,
+            "name": "P. David",
             "age": 24,
-            "number": 12,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/162194.png",
-            "club": "Czech Republic"
-          },
-          {
-            "id": 66214,
-            "name": "D. Douděra",
-            "age": 27,
-            "number": 13,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66214.png",
-            "club": ""
+            "number": 24,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/313353.png",
+            "club": "Union St. Gilloise"
           }
         ],
+        "awaySquad": [],
         "lineups": [],
         "injuries": [],
-        "qualityScore": 55
+        "qualityScore": 54
       },
       {
         "fixtureId": "None",
@@ -2816,10 +1838,10 @@
           "market": 45,
           "goals": 82,
           "upset": 25,
-          "history": 15
+          "history": 18
         },
         "goalModel": {
-          "expectedGoals": 4.55,
+          "expectedGoals": 5.99,
           "over25": 82,
           "under25": 18,
           "btts": 80,
@@ -2833,7 +1855,7 @@
           "modelDog": "海地",
           "marketFavorite": null
         },
-        "reason": "巴西這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。巴西近15場進攻效率不錯，前段若能壓上，會讓海地防線承受壓力。進球模型顯示本場預期進球約4.55球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "reason": "巴西這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。巴西近15場進攻效率不錯，前段若能壓上，會讓海地防線承受壓力。進球模型顯示本場預期進球約5.99球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。資料庫近1次交手（最多5場）：巴西1勝、海地0勝、平手0場。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
         "playSuggestions": {
           "main": "主方向：巴西優勢較明顯，但仍需避開臨場變數。",
           "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
@@ -2857,15 +1879,24 @@
           "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
         },
         "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
+          "total": 1,
+          "title": "資料庫近1次交手（最多5場）",
           "source": "API資料庫",
-          "homeWins": 0,
+          "homeWins": 1,
           "awayWins": 0,
           "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
+          "totalGoals": 8,
+          "avgGoals": 8,
+          "recent": [
+            {
+              "year": 2016,
+              "home": "巴西",
+              "away": "海地",
+              "score": "7-1",
+              "winner": "巴西",
+              "note": "API資料庫"
+            }
+          ]
         },
         "homeForm": {
           "score": 0.5555555555555556,
@@ -3179,7 +2210,7 @@
         ],
         "lineups": [],
         "injuries": [],
-        "qualityScore": 72
+        "qualityScore": 74
       },
       {
         "fixtureId": "None",
@@ -3375,7 +2406,7 @@
             "number": 11,
             "position": "Attacker",
             "photo": "https://media.api-sports.io/football/players/296458.png",
-            "club": ""
+            "club": "Preston"
           },
           {
             "id": 351587,
@@ -3844,6 +2875,2439 @@
         "qualityScore": 76
       },
       {
+        "fixtureId": null,
+        "home": "韓國",
+        "away": "捷克",
+        "homeFlag": "https://flagsapi.com/KR/flat/32.png",
+        "awayFlag": "https://flagsapi.com/CZ/flat/32.png",
+        "homeRate": 54,
+        "awayRate": 46,
+        "predictedWinner": "韓國",
+        "recommendation": "韓國小幅優勢",
+        "confidence": "中低",
+        "stars": "⭐⭐",
+        "diff": 8,
+        "predictedScore": "1-1",
+        "modelScore": 62,
+        "tags": [
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "不硬追",
+            "level": "STABLE"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 88,
+          "defense": 54,
+          "form": 64,
+          "market": 45,
+          "goals": 82,
+          "upset": 58,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 4.37,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 58,
+          "label": "冷門風險",
+          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
+          "modelFavorite": "韓國",
+          "modelDog": "捷克",
+          "marketFavorite": null
+        },
+        "reason": "韓國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。韓國防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約4.37球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：韓國略優，適合看穩不看大勝。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "📊 狀態普通",
+        "awayMomentum": "📊 狀態普通",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.48,
+          "drawOdd": 3.14,
+          "awayOdd": 2.95,
+          "homeWinRate": 38,
+          "drawRate": 30,
+          "awayWinRate": 32,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.6444444444444445,
+          "wins": 9,
+          "draws": 2,
+          "losses": 4,
+          "points": 29,
+          "goalsFor": 26,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.73,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "5-0",
+              "opponent": "Trinidad and Tobago",
+              "date": "2026-05-31T01:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "0-1",
+              "opponent": "奧地利",
+              "date": "2026-03-31T18:45:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "0-4",
+              "opponent": "象牙海岸",
+              "date": "2026-03-28T14:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "迦納",
+              "date": "2025-11-18T11:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "Bolivia",
+              "date": "2025-11-14T11:00:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.6444444444444445,
+          "wins": 8,
+          "draws": 5,
+          "losses": 2,
+          "points": 29,
+          "goalsFor": 27,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.8,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "2-1",
+              "opponent": "Kosovo",
+              "date": "2026-05-31T14:00:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "丹麥",
+              "date": "2026-03-31T18:45:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "2-2",
+              "opponent": "Rep. Of Ireland",
+              "date": "2026-03-26T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "6-0",
+              "opponent": "Gibraltar",
+              "date": "2025-11-17T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "San Marino",
+              "date": "2025-11-13T17:00:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/17.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/770.png",
+        "homeSquad": [
+          {
+            "id": 34211,
+            "name": "Cho Gue-Sung",
+            "age": 28,
+            "number": 3,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34211.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 34710,
+            "name": "Oh Hyeon-Gyu",
+            "age": 24,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34710.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 304958,
+            "name": "Yang Hyun-Jun",
+            "age": 23,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/304958.png",
+            "club": "Celtic"
+          },
+          {
+            "id": 186,
+            "name": "Son Heung-Min",
+            "age": 33,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/186.png",
+            "club": "Los Angeles FC"
+          },
+          {
+            "id": 34431,
+            "name": "Lee Dong-Gyeong",
+            "age": 28,
+            "number": 20,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34431.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 237050,
+            "name": "Eom Ji-Sung",
+            "age": 23,
+            "number": 23,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/237050.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 357286,
+            "name": "Bae Jun-Ho",
+            "age": 22,
+            "number": 25,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/357286.png",
+            "club": ""
+          },
+          {
+            "id": 24888,
+            "name": "Hwang Hee-Chan",
+            "age": 29,
+            "number": 26,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/24888.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 99211,
+            "name": "Park Jin-Seop",
+            "age": 30,
+            "number": 4,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/99211.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 34168,
+            "name": "Kim Jin-Gyu",
+            "age": 28,
+            "number": 6,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/34168.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 2906,
+            "name": "Lee Jae-Sung",
+            "age": 33,
+            "number": 14,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2906.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 2912,
+            "name": "Kim Moon-Hwan",
+            "age": 30,
+            "number": 15,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2912.png",
+            "club": "South Korea"
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 66019,
+            "name": "A. Hložek",
+            "age": 23,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66019.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 794,
+            "name": "P. Schick",
+            "age": 29,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/794.png",
+            "club": "Bayer Leverkusen"
+          },
+          {
+            "id": 66340,
+            "name": "J. Kuchta",
+            "age": 28,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66340.png",
+            "club": ""
+          },
+          {
+            "id": 66275,
+            "name": "M. Chytil",
+            "age": 26,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66275.png",
+            "club": ""
+          },
+          {
+            "id": 818,
+            "name": "T. Chorý",
+            "age": 30,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/818.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 290212,
+            "name": "D. Višinský",
+            "age": 22,
+            "number": 21,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/290212.png",
+            "club": "Czech Republic U21"
+          },
+          {
+            "id": 271869,
+            "name": "C. Kabongo",
+            "age": 22,
+            "number": null,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/271869.png",
+            "club": "Czech Republic U21"
+          },
+          {
+            "id": 66249,
+            "name": "P. Bucha",
+            "age": 27,
+            "number": 7,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66249.png",
+            "club": "FC Cincinnati"
+          },
+          {
+            "id": 25348,
+            "name": "V. Darida",
+            "age": 35,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/25348.png",
+            "club": ""
+          },
+          {
+            "id": 66253,
+            "name": "T. Ladra",
+            "age": 28,
+            "number": 9,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66253.png",
+            "club": "Plzen"
+          },
+          {
+            "id": 162194,
+            "name": "L. Červ",
+            "age": 24,
+            "number": 12,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/162194.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 66214,
+            "name": "D. Douděra",
+            "age": 27,
+            "number": 13,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66214.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 55
+      },
+      {
+        "fixtureId": null,
+        "home": "墨西哥",
+        "away": "南非",
+        "homeFlag": "https://flagsapi.com/MX/flat/32.png",
+        "awayFlag": "https://flagsapi.com/ZA/flat/32.png",
+        "homeRate": 60,
+        "awayRate": 40,
+        "predictedWinner": "墨西哥",
+        "recommendation": "墨西哥優勢明顯",
+        "confidence": "中高",
+        "stars": "⭐⭐⭐⭐",
+        "diff": 20,
+        "predictedScore": "3-1",
+        "modelScore": 62,
+        "tags": [
+          "🔥 模型焦點",
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "模型焦點",
+            "level": "FOCUS"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 100,
+          "defense": 74,
+          "form": 72,
+          "market": 45,
+          "goals": 82,
+          "upset": 25,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 5.62,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 25,
+          "label": "正常盤",
+          "reason": "模型與市場沒有明顯衝突。",
+          "modelFavorite": "墨西哥",
+          "modelDog": "南非",
+          "marketFavorite": null
+        },
+        "reason": "墨西哥這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。墨西哥近15場進攻效率不錯，前段若能壓上，會讓南非防線承受壓力。進球模型顯示本場預期進球約5.62球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：墨西哥優勢較明顯，但仍需避開臨場變數。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：25%｜正常盤。模型與市場沒有明顯衝突。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "🔥 狀態火熱",
+        "awayMomentum": "📊 狀態普通",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.14,
+          "drawOdd": 3.49,
+          "awayOdd": 3.25,
+          "homeWinRate": 44,
+          "drawRate": 27,
+          "awayWinRate": 29,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.9111111111111111,
+          "wins": 13,
+          "draws": 2,
+          "losses": 0,
+          "points": 41,
+          "goalsFor": 55,
+          "goalsAgainst": 2,
+          "avgGoalsFor": 3.67,
+          "avgGoalsAgainst": 0.13,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "6-0",
+              "opponent": "Puerto Rico W",
+              "date": "2026-04-19T00:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "9-0",
+              "opponent": "US Virgin Islands W",
+              "date": "2026-04-11T01:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "Brazil W",
+              "date": "2026-03-07T23:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "7-0",
+              "opponent": "St. Lucia W",
+              "date": "2026-03-02T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "Costa Rica W",
+              "date": "2025-12-02T22:00:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.5333333333333333,
+          "wins": 6,
+          "draws": 6,
+          "losses": 3,
+          "points": 24,
+          "goalsFor": 22,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.47,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "D",
+              "score": "0-0",
+              "opponent": "Nicaragua",
+              "date": "2026-05-29T16:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "1-2",
+              "opponent": "巴拿馬",
+              "date": "2026-03-31T17:30:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "巴拿馬",
+              "date": "2026-03-27T17:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "1-2",
+              "opponent": "喀麥隆",
+              "date": "2026-01-04T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "3-2",
+              "opponent": "Zimbabwe",
+              "date": "2025-12-29T16:00:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/1729.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/1531.png",
+        "homeSquad": [
+          {
+            "id": 393077,
+            "name": "N. Hernández",
+            "age": 26,
+            "number": 2,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/393077.png",
+            "club": "Mexico W"
+          },
+          {
+            "id": 102294,
+            "name": "M. Sánchez",
+            "age": 29,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/102294.png",
+            "club": ""
+          },
+          {
+            "id": 515009,
+            "name": "A. Farmer",
+            "age": 21,
+            "number": 8,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/515009.png",
+            "club": ""
+          },
+          {
+            "id": 213130,
+            "name": "M. Delgadillo",
+            "age": 30,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/213130.png",
+            "club": "Mexico W"
+          },
+          {
+            "id": 99694,
+            "name": "K. Palacios",
+            "age": 29,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/99694.png",
+            "club": ""
+          },
+          {
+            "id": 367093,
+            "name": "A. Soto",
+            "age": 19,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/367093.png",
+            "club": ""
+          },
+          {
+            "id": 379909,
+            "name": "N. Mauleón",
+            "age": 23,
+            "number": 17,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/379909.png",
+            "club": ""
+          },
+          {
+            "id": 425613,
+            "name": "J. Casárez",
+            "age": 27,
+            "number": 18,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/425613.png",
+            "club": ""
+          },
+          {
+            "id": 213113,
+            "name": "C. Burkenroad",
+            "age": 32,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/213113.png",
+            "club": ""
+          },
+          {
+            "id": 99738,
+            "name": "C. Corral",
+            "age": 34,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/99738.png",
+            "club": ""
+          },
+          {
+            "id": 360246,
+            "name": "D. Ordoñez",
+            "age": 24,
+            "number": 22,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/360246.png",
+            "club": ""
+          },
+          {
+            "id": 385195,
+            "name": "S. Camberos",
+            "age": 25,
+            "number": 23,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/385195.png",
+            "club": ""
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 179893,
+            "name": "O. Appollis",
+            "age": 24,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/179893.png",
+            "club": "Orlando Pirates"
+          },
+          {
+            "id": 98936,
+            "name": "L. Foster",
+            "age": 25,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/98936.png",
+            "club": ""
+          },
+          {
+            "id": 414149,
+            "name": "R. Mofokeng",
+            "age": 21,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/414149.png",
+            "club": ""
+          },
+          {
+            "id": 354831,
+            "name": "T. Maseko",
+            "age": 22,
+            "number": 12,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/354831.png",
+            "club": "AEL"
+          },
+          {
+            "id": 127429,
+            "name": "I. Rayners",
+            "age": 30,
+            "number": 15,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/127429.png",
+            "club": ""
+          },
+          {
+            "id": 201354,
+            "name": "E. Makgopa",
+            "age": 25,
+            "number": 99,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/201354.png",
+            "club": "Orlando Pirates"
+          },
+          {
+            "id": 3287,
+            "name": "T. Mokoena",
+            "age": 28,
+            "number": 4,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/3287.png",
+            "club": "Mamelodi Sundowns"
+          },
+          {
+            "id": 194430,
+            "name": "T. Mbatha",
+            "age": 25,
+            "number": 5,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/194430.png",
+            "club": "South Africa"
+          },
+          {
+            "id": 295977,
+            "name": "T. Moremi",
+            "age": 25,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/295977.png",
+            "club": ""
+          },
+          {
+            "id": 3289,
+            "name": "T. Zwane",
+            "age": 36,
+            "number": 11,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/3289.png",
+            "club": "South Africa"
+          },
+          {
+            "id": 158433,
+            "name": "S. Sithole",
+            "age": 26,
+            "number": 13,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/158433.png",
+            "club": ""
+          },
+          {
+            "id": 268710,
+            "name": "J. Adams",
+            "age": 24,
+            "number": 23,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/268710.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 74
+      },
+      {
+        "fixtureId": "None",
+        "home": "德國",
+        "away": "象牙海岸",
+        "homeFlag": "https://flagsapi.com/DE/flat/32.png",
+        "awayFlag": "https://flagsapi.com/CI/flat/32.png",
+        "homeRate": 56,
+        "awayRate": 44,
+        "predictedWinner": "德國",
+        "recommendation": "德國略優",
+        "confidence": "中",
+        "stars": "⭐⭐⭐",
+        "diff": 12,
+        "predictedScore": "2-1",
+        "modelScore": 62,
+        "tags": [
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "可觀察",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 100,
+          "defense": 60,
+          "form": 69,
+          "market": 45,
+          "goals": 82,
+          "upset": 58,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 5.26,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 58,
+          "label": "冷門風險",
+          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
+          "modelFavorite": "德國",
+          "modelDog": "象牙海岸",
+          "marketFavorite": null
+        },
+        "reason": "德國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。德國近15場進攻效率不錯，前段若能壓上，會讓象牙海岸防線承受壓力。進球模型顯示本場預期進球約5.26球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：德國略優，適合看穩不看大勝。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "🔥 狀態火熱",
+        "awayMomentum": "🧊 防守穩定",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.42,
+          "drawOdd": 3.14,
+          "awayOdd": 3.04,
+          "homeWinRate": 39,
+          "drawRate": 30,
+          "awayWinRate": 31,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.7111111111111111,
+          "wins": 10,
+          "draws": 2,
+          "losses": 3,
+          "points": 32,
+          "goalsFor": 40,
+          "goalsAgainst": 16,
+          "avgGoalsFor": 2.67,
+          "avgGoalsAgainst": 1.07,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "4-0",
+              "opponent": "Finland",
+              "date": "2026-05-31T18:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-1",
+              "opponent": "迦納",
+              "date": "2026-03-30T18:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "4-3",
+              "opponent": "瑞士",
+              "date": "2026-03-27T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "6-0",
+              "opponent": "Slovakia",
+              "date": "2025-11-17T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "Luxembourg",
+              "date": "2025-11-14T19:45:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.6666666666666666,
+          "wins": 9,
+          "draws": 3,
+          "losses": 3,
+          "points": 30,
+          "goalsFor": 28,
+          "goalsAgainst": 8,
+          "avgGoalsFor": 1.87,
+          "avgGoalsAgainst": 0.53,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "蘇格蘭",
+              "date": "2026-03-31T18:30:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "4-0",
+              "opponent": "韓國",
+              "date": "2026-03-28T14:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "2-3",
+              "opponent": "埃及",
+              "date": "2026-01-10T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "3-0",
+              "opponent": "Burkina Faso",
+              "date": "2026-01-06T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "3-2",
+              "opponent": "Gabon",
+              "date": "2025-12-31T19:00:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/25.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/1501.png",
+        "homeSquad": [
+          {
+            "id": 978,
+            "name": "K. Havertz",
+            "age": 26,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/978.png",
+            "club": ""
+          },
+          {
+            "id": 128533,
+            "name": "J. Leweling",
+            "age": 24,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/128533.png",
+            "club": "VfB Stuttgart"
+          },
+          {
+            "id": 158644,
+            "name": "M. Beier",
+            "age": 23,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/158644.png",
+            "club": ""
+          },
+          {
+            "id": 158054,
+            "name": "N. Woltemade",
+            "age": 23,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/158054.png",
+            "club": "Germany U21"
+          },
+          {
+            "id": 26475,
+            "name": "D. Undav",
+            "age": 29,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/26475.png",
+            "club": "VfB Stuttgart"
+          },
+          {
+            "id": 644,
+            "name": "L. Sané",
+            "age": 30,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/644.png",
+            "club": "Bayern München"
+          },
+          {
+            "id": 18970,
+            "name": "P. Groß",
+            "age": 34,
+            "number": 5,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/18970.png",
+            "club": "Borussia Dortmund"
+          },
+          {
+            "id": 328033,
+            "name": "A. Pavlović",
+            "age": 21,
+            "number": 5,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/328033.png",
+            "club": "Bayern München"
+          },
+          {
+            "id": 502,
+            "name": "J. Kimmich",
+            "age": 30,
+            "number": 6,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/502.png",
+            "club": "Bayern München"
+          },
+          {
+            "id": 511,
+            "name": "L. Goretzka",
+            "age": 30,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/511.png",
+            "club": ""
+          },
+          {
+            "id": 714,
+            "name": "N. Amiri",
+            "age": 29,
+            "number": 10,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/714.png",
+            "club": "FSV Mainz 05"
+          },
+          {
+            "id": 181812,
+            "name": "J. Musiala",
+            "age": 22,
+            "number": 10,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/181812.png",
+            "club": "Bayern München"
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 162707,
+            "name": "E. Wahi",
+            "age": 22,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/162707.png",
+            "club": "France U21"
+          },
+          {
+            "id": 301771,
+            "name": "S. Adingra",
+            "age": 23,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/301771.png",
+            "club": ""
+          },
+          {
+            "id": 275651,
+            "name": "A. Bonny",
+            "age": 22,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/275651.png",
+            "club": ""
+          },
+          {
+            "id": 334429,
+            "name": "O. Diakité",
+            "age": 22,
+            "number": 14,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/334429.png",
+            "club": "Ivory Coast"
+          },
+          {
+            "id": 263228,
+            "name": "P. Guiagon",
+            "age": 24,
+            "number": 14,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/263228.png",
+            "club": ""
+          },
+          {
+            "id": 157997,
+            "name": "A. Diallo",
+            "age": 23,
+            "number": 15,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/157997.png",
+            "club": ""
+          },
+          {
+            "id": 3246,
+            "name": "N. Pépé",
+            "age": 30,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/3246.png",
+            "club": ""
+          },
+          {
+            "id": 137303,
+            "name": "E. Guessand",
+            "age": 24,
+            "number": 22,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/137303.png",
+            "club": ""
+          },
+          {
+            "id": 513776,
+            "name": "Y. Diomande",
+            "age": 19,
+            "number": 26,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/513776.png",
+            "club": ""
+          },
+          {
+            "id": 3243,
+            "name": "J. Seri",
+            "age": 34,
+            "number": 4,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/3243.png",
+            "club": ""
+          },
+          {
+            "id": 30807,
+            "name": "S. Fofana",
+            "age": 30,
+            "number": 6,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/30807.png",
+            "club": ""
+          },
+          {
+            "id": 1642,
+            "name": "F. Kessié",
+            "age": 29,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/1642.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 61
+      },
+      {
+        "fixtureId": "None",
+        "home": "韓國",
+        "away": "捷克",
+        "homeFlag": "https://flagsapi.com/KR/flat/32.png",
+        "awayFlag": "https://flagsapi.com/CZ/flat/32.png",
+        "homeRate": 54,
+        "awayRate": 46,
+        "predictedWinner": "韓國",
+        "recommendation": "韓國小幅優勢",
+        "confidence": "中低",
+        "stars": "⭐⭐",
+        "diff": 8,
+        "predictedScore": "1-1",
+        "modelScore": 62,
+        "tags": [
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "不硬追",
+            "level": "STABLE"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 88,
+          "defense": 54,
+          "form": 64,
+          "market": 45,
+          "goals": 82,
+          "upset": 58,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 4.37,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 58,
+          "label": "冷門風險",
+          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
+          "modelFavorite": "韓國",
+          "modelDog": "捷克",
+          "marketFavorite": null
+        },
+        "reason": "韓國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。韓國防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約4.37球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：韓國略優，適合看穩不看大勝。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "📊 狀態普通",
+        "awayMomentum": "📊 狀態普通",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.48,
+          "drawOdd": 3.14,
+          "awayOdd": 2.95,
+          "homeWinRate": 38,
+          "drawRate": 30,
+          "awayWinRate": 32,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.6444444444444445,
+          "wins": 9,
+          "draws": 2,
+          "losses": 4,
+          "points": 29,
+          "goalsFor": 26,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.73,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "5-0",
+              "opponent": "Trinidad and Tobago",
+              "date": "2026-05-31T01:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "0-1",
+              "opponent": "奧地利",
+              "date": "2026-03-31T18:45:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "0-4",
+              "opponent": "象牙海岸",
+              "date": "2026-03-28T14:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "迦納",
+              "date": "2025-11-18T11:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "Bolivia",
+              "date": "2025-11-14T11:00:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.6444444444444445,
+          "wins": 8,
+          "draws": 5,
+          "losses": 2,
+          "points": 29,
+          "goalsFor": 27,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.8,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "2-1",
+              "opponent": "Kosovo",
+              "date": "2026-05-31T14:00:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "丹麥",
+              "date": "2026-03-31T18:45:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "2-2",
+              "opponent": "Rep. Of Ireland",
+              "date": "2026-03-26T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "6-0",
+              "opponent": "Gibraltar",
+              "date": "2025-11-17T19:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "San Marino",
+              "date": "2025-11-13T17:00:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/17.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/770.png",
+        "homeSquad": [
+          {
+            "id": 34211,
+            "name": "Cho Gue-Sung",
+            "age": 28,
+            "number": 3,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34211.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 34710,
+            "name": "Oh Hyeon-Gyu",
+            "age": 24,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34710.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 304958,
+            "name": "Yang Hyun-Jun",
+            "age": 23,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/304958.png",
+            "club": "Celtic"
+          },
+          {
+            "id": 186,
+            "name": "Son Heung-Min",
+            "age": 33,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/186.png",
+            "club": "Los Angeles FC"
+          },
+          {
+            "id": 34431,
+            "name": "Lee Dong-Gyeong",
+            "age": 28,
+            "number": 20,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/34431.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 237050,
+            "name": "Eom Ji-Sung",
+            "age": 23,
+            "number": 23,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/237050.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 357286,
+            "name": "Bae Jun-Ho",
+            "age": 22,
+            "number": 25,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/357286.png",
+            "club": ""
+          },
+          {
+            "id": 24888,
+            "name": "Hwang Hee-Chan",
+            "age": 29,
+            "number": 26,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/24888.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 99211,
+            "name": "Park Jin-Seop",
+            "age": 30,
+            "number": 4,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/99211.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 34168,
+            "name": "Kim Jin-Gyu",
+            "age": 28,
+            "number": 6,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/34168.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 2906,
+            "name": "Lee Jae-Sung",
+            "age": 33,
+            "number": 14,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2906.png",
+            "club": "South Korea"
+          },
+          {
+            "id": 2912,
+            "name": "Kim Moon-Hwan",
+            "age": 30,
+            "number": 15,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2912.png",
+            "club": "South Korea"
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 66019,
+            "name": "A. Hložek",
+            "age": 23,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66019.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 794,
+            "name": "P. Schick",
+            "age": 29,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/794.png",
+            "club": "Bayer Leverkusen"
+          },
+          {
+            "id": 66340,
+            "name": "J. Kuchta",
+            "age": 28,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66340.png",
+            "club": ""
+          },
+          {
+            "id": 66275,
+            "name": "M. Chytil",
+            "age": 26,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/66275.png",
+            "club": ""
+          },
+          {
+            "id": 818,
+            "name": "T. Chorý",
+            "age": 30,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/818.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 290212,
+            "name": "D. Višinský",
+            "age": 22,
+            "number": 21,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/290212.png",
+            "club": "Czech Republic U21"
+          },
+          {
+            "id": 271869,
+            "name": "C. Kabongo",
+            "age": 22,
+            "number": null,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/271869.png",
+            "club": "Czech Republic U21"
+          },
+          {
+            "id": 66249,
+            "name": "P. Bucha",
+            "age": 27,
+            "number": 7,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66249.png",
+            "club": "FC Cincinnati"
+          },
+          {
+            "id": 25348,
+            "name": "V. Darida",
+            "age": 35,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/25348.png",
+            "club": ""
+          },
+          {
+            "id": 66253,
+            "name": "T. Ladra",
+            "age": 28,
+            "number": 9,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66253.png",
+            "club": "Plzen"
+          },
+          {
+            "id": 162194,
+            "name": "L. Červ",
+            "age": 24,
+            "number": 12,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/162194.png",
+            "club": "Czech Republic"
+          },
+          {
+            "id": 66214,
+            "name": "D. Douděra",
+            "age": 27,
+            "number": 13,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/66214.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 55
+      },
+      {
+        "fixtureId": "None",
+        "home": "墨西哥",
+        "away": "南非",
+        "homeFlag": "https://flagsapi.com/MX/flat/32.png",
+        "awayFlag": "https://flagsapi.com/ZA/flat/32.png",
+        "homeRate": 60,
+        "awayRate": 40,
+        "predictedWinner": "墨西哥",
+        "recommendation": "墨西哥優勢明顯",
+        "confidence": "中高",
+        "stars": "⭐⭐⭐⭐",
+        "diff": 20,
+        "predictedScore": "3-1",
+        "modelScore": 62,
+        "tags": [
+          "🔥 模型焦點",
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "模型焦點",
+            "level": "FOCUS"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 100,
+          "defense": 74,
+          "form": 72,
+          "market": 45,
+          "goals": 82,
+          "upset": 25,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 5.62,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 25,
+          "label": "正常盤",
+          "reason": "模型與市場沒有明顯衝突。",
+          "modelFavorite": "墨西哥",
+          "modelDog": "南非",
+          "marketFavorite": null
+        },
+        "reason": "墨西哥這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。墨西哥近15場進攻效率不錯，前段若能壓上，會讓南非防線承受壓力。進球模型顯示本場預期進球約5.62球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：墨西哥優勢較明顯，但仍需避開臨場變數。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：25%｜正常盤。模型與市場沒有明顯衝突。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "🔥 狀態火熱",
+        "awayMomentum": "📊 狀態普通",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.14,
+          "drawOdd": 3.49,
+          "awayOdd": 3.25,
+          "homeWinRate": 44,
+          "drawRate": 27,
+          "awayWinRate": 29,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.9111111111111111,
+          "wins": 13,
+          "draws": 2,
+          "losses": 0,
+          "points": 41,
+          "goalsFor": 55,
+          "goalsAgainst": 2,
+          "avgGoalsFor": 3.67,
+          "avgGoalsAgainst": 0.13,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "6-0",
+              "opponent": "Puerto Rico W",
+              "date": "2026-04-19T00:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "9-0",
+              "opponent": "US Virgin Islands W",
+              "date": "2026-04-11T01:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "Brazil W",
+              "date": "2026-03-07T23:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "7-0",
+              "opponent": "St. Lucia W",
+              "date": "2026-03-02T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "Costa Rica W",
+              "date": "2025-12-02T22:00:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.5333333333333333,
+          "wins": 6,
+          "draws": 6,
+          "losses": 3,
+          "points": 24,
+          "goalsFor": 22,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.47,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "D",
+              "score": "0-0",
+              "opponent": "Nicaragua",
+              "date": "2026-05-29T16:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "1-2",
+              "opponent": "巴拿馬",
+              "date": "2026-03-31T17:30:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "巴拿馬",
+              "date": "2026-03-27T17:00:00+00:00"
+            },
+            {
+              "result": "L",
+              "score": "1-2",
+              "opponent": "喀麥隆",
+              "date": "2026-01-04T19:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "3-2",
+              "opponent": "Zimbabwe",
+              "date": "2025-12-29T16:00:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/1729.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/1531.png",
+        "homeSquad": [
+          {
+            "id": 393077,
+            "name": "N. Hernández",
+            "age": 26,
+            "number": 2,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/393077.png",
+            "club": "Mexico W"
+          },
+          {
+            "id": 102294,
+            "name": "M. Sánchez",
+            "age": 29,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/102294.png",
+            "club": ""
+          },
+          {
+            "id": 515009,
+            "name": "A. Farmer",
+            "age": 21,
+            "number": 8,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/515009.png",
+            "club": ""
+          },
+          {
+            "id": 213130,
+            "name": "M. Delgadillo",
+            "age": 30,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/213130.png",
+            "club": "Mexico W"
+          },
+          {
+            "id": 99694,
+            "name": "K. Palacios",
+            "age": 29,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/99694.png",
+            "club": ""
+          },
+          {
+            "id": 367093,
+            "name": "A. Soto",
+            "age": 19,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/367093.png",
+            "club": ""
+          },
+          {
+            "id": 379909,
+            "name": "N. Mauleón",
+            "age": 23,
+            "number": 17,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/379909.png",
+            "club": ""
+          },
+          {
+            "id": 425613,
+            "name": "J. Casárez",
+            "age": 27,
+            "number": 18,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/425613.png",
+            "club": ""
+          },
+          {
+            "id": 213113,
+            "name": "C. Burkenroad",
+            "age": 32,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/213113.png",
+            "club": ""
+          },
+          {
+            "id": 99738,
+            "name": "C. Corral",
+            "age": 34,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/99738.png",
+            "club": ""
+          },
+          {
+            "id": 360246,
+            "name": "D. Ordoñez",
+            "age": 24,
+            "number": 22,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/360246.png",
+            "club": ""
+          },
+          {
+            "id": 385195,
+            "name": "S. Camberos",
+            "age": 25,
+            "number": 23,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/385195.png",
+            "club": ""
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 179893,
+            "name": "O. Appollis",
+            "age": 24,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/179893.png",
+            "club": "Orlando Pirates"
+          },
+          {
+            "id": 98936,
+            "name": "L. Foster",
+            "age": 25,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/98936.png",
+            "club": ""
+          },
+          {
+            "id": 414149,
+            "name": "R. Mofokeng",
+            "age": 21,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/414149.png",
+            "club": ""
+          },
+          {
+            "id": 354831,
+            "name": "T. Maseko",
+            "age": 22,
+            "number": 12,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/354831.png",
+            "club": "AEL"
+          },
+          {
+            "id": 127429,
+            "name": "I. Rayners",
+            "age": 30,
+            "number": 15,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/127429.png",
+            "club": ""
+          },
+          {
+            "id": 201354,
+            "name": "E. Makgopa",
+            "age": 25,
+            "number": 99,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/201354.png",
+            "club": "Orlando Pirates"
+          },
+          {
+            "id": 3287,
+            "name": "T. Mokoena",
+            "age": 28,
+            "number": 4,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/3287.png",
+            "club": "Mamelodi Sundowns"
+          },
+          {
+            "id": 194430,
+            "name": "T. Mbatha",
+            "age": 25,
+            "number": 5,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/194430.png",
+            "club": "South Africa"
+          },
+          {
+            "id": 295977,
+            "name": "T. Moremi",
+            "age": 25,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/295977.png",
+            "club": ""
+          },
+          {
+            "id": 3289,
+            "name": "T. Zwane",
+            "age": 36,
+            "number": 11,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/3289.png",
+            "club": "South Africa"
+          },
+          {
+            "id": 158433,
+            "name": "S. Sithole",
+            "age": 26,
+            "number": 13,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/158433.png",
+            "club": ""
+          },
+          {
+            "id": 268710,
+            "name": "J. Adams",
+            "age": 24,
+            "number": 23,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/268710.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 74
+      },
+      {
+        "fixtureId": "None",
+        "home": "突尼西亞",
+        "away": "日本",
+        "homeFlag": "https://flagsapi.com/TN/flat/32.png",
+        "awayFlag": "https://flagsapi.com/JP/flat/32.png",
+        "homeRate": 49,
+        "awayRate": 51,
+        "predictedWinner": "日本",
+        "recommendation": "雙方接近",
+        "confidence": "低",
+        "stars": "⭐",
+        "diff": 2,
+        "predictedScore": "1-1",
+        "modelScore": 62,
+        "tags": [
+          "⚖️ 五五波",
+          "⚽ 高進球傾向",
+          "🥅 雙方進攻活躍"
+        ],
+        "decisionSignals": [
+          {
+            "name": "不硬追",
+            "level": "STABLE"
+          },
+          {
+            "name": "高進球傾向",
+            "level": "MEDIUM"
+          },
+          {
+            "name": "雙方進攻活躍",
+            "level": "MEDIUM"
+          }
+        ],
+        "radar": {
+          "attack": 92,
+          "defense": 64,
+          "form": 63,
+          "market": 45,
+          "goals": 82,
+          "upset": 58,
+          "history": 15
+        },
+        "goalModel": {
+          "expectedGoals": 4.33,
+          "over25": 82,
+          "under25": 18,
+          "btts": 80,
+          "totalLean": "偏高進球"
+        },
+        "upsetModel": {
+          "upsetIndex": 58,
+          "label": "冷門風險",
+          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
+          "modelFavorite": "日本",
+          "modelDog": "突尼西亞",
+          "marketFavorite": null
+        },
+        "reason": "這場雙方接近，模型沒有給出明顯單邊，屬於需要觀察開局節奏的比賽。日本近15場進攻效率不錯，前段若能壓上，會讓突尼西亞防線承受壓力。進球模型顯示本場預期進球約4.33球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
+        "playSuggestions": {
+          "main": "主方向：雙方接近，不建議只用勝負方向判斷。",
+          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
+          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
+          "market": "市場：目前賠率資料不足，先以AI模型為主。",
+          "note": "以上為AI模型綜合分析，非保證結果。"
+        },
+        "dangerLevel": "MEDIUM",
+        "homeMomentum": "📊 狀態普通",
+        "awayMomentum": "🔥 狀態火熱",
+        "odds": null,
+        "aiOdds": {
+          "type": "ai",
+          "bookmaker": "AI模型估算",
+          "homeOdd": 2.86,
+          "drawOdd": 2.95,
+          "awayOdd": 2.7,
+          "homeWinRate": 33,
+          "drawRate": 32,
+          "awayWinRate": 35,
+          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
+        },
+        "h2h": {
+          "total": 0,
+          "title": "資料庫近0次交手（最多5場）",
+          "source": "API資料庫",
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 0,
+          "totalGoals": 0,
+          "avgGoals": 0,
+          "recent": []
+        },
+        "homeForm": {
+          "score": 0.5333333333333333,
+          "wins": 6,
+          "draws": 6,
+          "losses": 3,
+          "points": 24,
+          "goalsFor": 27,
+          "goalsAgainst": 14,
+          "avgGoalsFor": 1.8,
+          "avgGoalsAgainst": 0.93,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "L",
+              "score": "0-1",
+              "opponent": "奧地利",
+              "date": "2026-06-01T18:45:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "0-0",
+              "opponent": "加拿大",
+              "date": "2026-03-31T23:30:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "海地",
+              "date": "2026-03-29T00:00:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "Mali",
+              "date": "2026-01-03T19:00:00+00:00"
+            },
+            {
+              "result": "D",
+              "score": "1-1",
+              "opponent": "Tanzania",
+              "date": "2025-12-30T16:00:00+00:00"
+            }
+          ]
+        },
+        "awayForm": {
+          "score": 0.7333333333333333,
+          "wins": 10,
+          "draws": 3,
+          "losses": 2,
+          "points": 33,
+          "goalsFor": 28,
+          "goalsAgainst": 8,
+          "avgGoalsFor": 1.87,
+          "avgGoalsAgainst": 0.53,
+          "totalGames": 15,
+          "recentResults": [
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "Iceland",
+              "date": "2026-05-31T10:25:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "英格蘭",
+              "date": "2026-03-31T18:45:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "1-0",
+              "opponent": "蘇格蘭",
+              "date": "2026-03-28T17:00:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "3-0",
+              "opponent": "Bolivia",
+              "date": "2025-11-18T10:15:00+00:00"
+            },
+            {
+              "result": "W",
+              "score": "2-0",
+              "opponent": "迦納",
+              "date": "2025-11-14T10:20:00+00:00"
+            }
+          ]
+        },
+        "homeLogo": "https://media.api-sports.io/football/teams/28.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/12.png",
+        "homeSquad": [
+          {
+            "id": 42012,
+            "name": "E. Achouri",
+            "age": 26,
+            "number": 7,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/42012.png",
+            "club": "Tunisia"
+          },
+          {
+            "id": 323974,
+            "name": "E. Saad",
+            "age": 26,
+            "number": 8,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/323974.png",
+            "club": "Tunisia"
+          },
+          {
+            "id": 344862,
+            "name": "H. Mastouri",
+            "age": 28,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/344862.png",
+            "club": "Tunisia"
+          },
+          {
+            "id": 533295,
+            "name": "K. Ayari",
+            "age": 20,
+            "number": 10,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/533295.png",
+            "club": ""
+          },
+          {
+            "id": 2962,
+            "name": "F. Chaouat",
+            "age": 29,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/2962.png",
+            "club": ""
+          },
+          {
+            "id": 57518,
+            "name": "S. Tounekti",
+            "age": 23,
+            "number": 26,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/57518.png",
+            "club": ""
+          },
+          {
+            "id": 566059,
+            "name": "R. Elloumi",
+            "age": 18,
+            "number": null,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/566059.png",
+            "club": "Vancouver Whitecaps II"
+          },
+          {
+            "id": 199310,
+            "name": "A. Ben Slimane",
+            "age": 24,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/199310.png",
+            "club": "Tunisia"
+          },
+          {
+            "id": 180560,
+            "name": "H. Mejbri",
+            "age": 22,
+            "number": 10,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/180560.png",
+            "club": "Tunisia"
+          },
+          {
+            "id": 310196,
+            "name": "Ismaël Gharbi",
+            "age": 21,
+            "number": 11,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/310196.png",
+            "club": ""
+          },
+          {
+            "id": 67195,
+            "name": "H. Mahmoud",
+            "age": 25,
+            "number": 15,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/67195.png",
+            "club": "FC Lugano"
+          },
+          {
+            "id": 21587,
+            "name": "E. Skhiri",
+            "age": 30,
+            "number": 17,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/21587.png",
+            "club": ""
+          }
+        ],
+        "awaySquad": [
+          {
+            "id": 199143,
+            "name": "Y. Suzuki",
+            "age": 24,
+            "number": 8,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/199143.png",
+            "club": "Japan"
+          },
+          {
+            "id": 72155,
+            "name": "A. Ueda",
+            "age": 27,
+            "number": 9,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/72155.png",
+            "club": "Feyenoord"
+          },
+          {
+            "id": 33224,
+            "name": "D. Maeda",
+            "age": 28,
+            "number": 11,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/33224.png",
+            "club": ""
+          },
+          {
+            "id": 33321,
+            "name": "Keito Nakamura",
+            "age": 25,
+            "number": 13,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/33321.png",
+            "club": ""
+          },
+          {
+            "id": 1942,
+            "name": "J. Ito",
+            "age": 32,
+            "number": 14,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/1942.png",
+            "club": ""
+          },
+          {
+            "id": 422572,
+            "name": "K. Shiogai",
+            "age": 20,
+            "number": 14,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/422572.png",
+            "club": ""
+          },
+          {
+            "id": 33289,
+            "name": "Koki Ogawa",
+            "age": 28,
+            "number": 19,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/33289.png",
+            "club": ""
+          },
+          {
+            "id": 375930,
+            "name": "K. Goto",
+            "age": 20,
+            "number": null,
+            "position": "Attacker",
+            "photo": "https://media.api-sports.io/football/players/375930.png",
+            "club": ""
+          },
+          {
+            "id": 33889,
+            "name": "K. Sano",
+            "age": 25,
+            "number": 5,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/33889.png",
+            "club": "Japan"
+          },
+          {
+            "id": 33142,
+            "name": "S. Tanaka",
+            "age": 23,
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/33142.png",
+            "club": ""
+          },
+          {
+            "id": 2598,
+            "name": "R. Dōan",
+            "age": 27,
+            "number": 10,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2598.png",
+            "club": ""
+          },
+          {
+            "id": 2601,
+            "name": "D. Kamada",
+            "age": 29,
+            "number": 15,
+            "position": "Midfielder",
+            "photo": "https://media.api-sports.io/football/players/2601.png",
+            "club": ""
+          }
+        ],
+        "lineups": [],
+        "injuries": [],
+        "qualityScore": 50
+      },
+      {
         "fixtureId": "None",
         "home": "荷蘭",
         "away": "瑞典",
@@ -4264,1478 +5728,6 @@
         "lineups": [],
         "injuries": [],
         "qualityScore": 69
-      },
-      {
-        "fixtureId": "None",
-        "home": "德國",
-        "away": "象牙海岸",
-        "homeFlag": "https://flagsapi.com/DE/flat/32.png",
-        "awayFlag": "https://flagsapi.com/CI/flat/32.png",
-        "homeRate": 56,
-        "awayRate": 44,
-        "predictedWinner": "德國",
-        "recommendation": "德國略優",
-        "confidence": "中",
-        "stars": "⭐⭐⭐",
-        "diff": 12,
-        "predictedScore": "2-1",
-        "modelScore": 62,
-        "tags": [
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
-        ],
-        "decisionSignals": [
-          {
-            "name": "可觀察",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 100,
-          "defense": 60,
-          "form": 69,
-          "market": 45,
-          "goals": 82,
-          "upset": 58,
-          "history": 15
-        },
-        "goalModel": {
-          "expectedGoals": 5.26,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
-        },
-        "upsetModel": {
-          "upsetIndex": 58,
-          "label": "冷門風險",
-          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
-          "modelFavorite": "德國",
-          "modelDog": "象牙海岸",
-          "marketFavorite": null
-        },
-        "reason": "德國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。德國近15場進攻效率不錯，前段若能壓上，會讓象牙海岸防線承受壓力。進球模型顯示本場預期進球約5.26球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：德國略優，適合看穩不看大勝。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "🔥 狀態火熱",
-        "awayMomentum": "🧊 防守穩定",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.42,
-          "drawOdd": 3.14,
-          "awayOdd": 3.04,
-          "homeWinRate": 39,
-          "drawRate": 30,
-          "awayWinRate": 31,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
-          "source": "API資料庫",
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
-        },
-        "homeForm": {
-          "score": 0.7111111111111111,
-          "wins": 10,
-          "draws": 2,
-          "losses": 3,
-          "points": 32,
-          "goalsFor": 40,
-          "goalsAgainst": 16,
-          "avgGoalsFor": 2.67,
-          "avgGoalsAgainst": 1.07,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "4-0",
-              "opponent": "Finland",
-              "date": "2026-05-31T18:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-1",
-              "opponent": "迦納",
-              "date": "2026-03-30T18:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "4-3",
-              "opponent": "瑞士",
-              "date": "2026-03-27T19:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "6-0",
-              "opponent": "Slovakia",
-              "date": "2025-11-17T19:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "Luxembourg",
-              "date": "2025-11-14T19:45:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.6666666666666666,
-          "wins": 9,
-          "draws": 3,
-          "losses": 3,
-          "points": 30,
-          "goalsFor": 28,
-          "goalsAgainst": 8,
-          "avgGoalsFor": 1.87,
-          "avgGoalsAgainst": 0.53,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "蘇格蘭",
-              "date": "2026-03-31T18:30:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "4-0",
-              "opponent": "韓國",
-              "date": "2026-03-28T14:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "2-3",
-              "opponent": "埃及",
-              "date": "2026-01-10T19:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "3-0",
-              "opponent": "Burkina Faso",
-              "date": "2026-01-06T19:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "3-2",
-              "opponent": "Gabon",
-              "date": "2025-12-31T19:00:00+00:00"
-            }
-          ]
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/25.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/1501.png",
-        "homeSquad": [
-          {
-            "id": 978,
-            "name": "K. Havertz",
-            "age": 26,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/978.png",
-            "club": ""
-          },
-          {
-            "id": 128533,
-            "name": "J. Leweling",
-            "age": 24,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/128533.png",
-            "club": "VfB Stuttgart"
-          },
-          {
-            "id": 158644,
-            "name": "M. Beier",
-            "age": 23,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/158644.png",
-            "club": ""
-          },
-          {
-            "id": 158054,
-            "name": "N. Woltemade",
-            "age": 23,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/158054.png",
-            "club": "Germany U21"
-          },
-          {
-            "id": 26475,
-            "name": "D. Undav",
-            "age": 29,
-            "number": 13,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/26475.png",
-            "club": "VfB Stuttgart"
-          },
-          {
-            "id": 644,
-            "name": "L. Sané",
-            "age": 30,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/644.png",
-            "club": "Bayern München"
-          },
-          {
-            "id": 18970,
-            "name": "P. Groß",
-            "age": 34,
-            "number": 5,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/18970.png",
-            "club": "Borussia Dortmund"
-          },
-          {
-            "id": 328033,
-            "name": "A. Pavlović",
-            "age": 21,
-            "number": 5,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/328033.png",
-            "club": "Bayern München"
-          },
-          {
-            "id": 502,
-            "name": "J. Kimmich",
-            "age": 30,
-            "number": 6,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/502.png",
-            "club": "Bayern München"
-          },
-          {
-            "id": 511,
-            "name": "L. Goretzka",
-            "age": 30,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/511.png",
-            "club": ""
-          },
-          {
-            "id": 714,
-            "name": "N. Amiri",
-            "age": 29,
-            "number": 10,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/714.png",
-            "club": "FSV Mainz 05"
-          },
-          {
-            "id": 181812,
-            "name": "J. Musiala",
-            "age": 22,
-            "number": 10,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/181812.png",
-            "club": "Bayern München"
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 162707,
-            "name": "E. Wahi",
-            "age": 22,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/162707.png",
-            "club": "France U21"
-          },
-          {
-            "id": 301771,
-            "name": "S. Adingra",
-            "age": 23,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/301771.png",
-            "club": ""
-          },
-          {
-            "id": 275651,
-            "name": "A. Bonny",
-            "age": 22,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/275651.png",
-            "club": ""
-          },
-          {
-            "id": 334429,
-            "name": "O. Diakité",
-            "age": 22,
-            "number": 14,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/334429.png",
-            "club": "Ivory Coast"
-          },
-          {
-            "id": 263228,
-            "name": "P. Guiagon",
-            "age": 24,
-            "number": 14,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/263228.png",
-            "club": ""
-          },
-          {
-            "id": 157997,
-            "name": "A. Diallo",
-            "age": 23,
-            "number": 15,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/157997.png",
-            "club": ""
-          },
-          {
-            "id": 3246,
-            "name": "N. Pépé",
-            "age": 30,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/3246.png",
-            "club": ""
-          },
-          {
-            "id": 137303,
-            "name": "E. Guessand",
-            "age": 24,
-            "number": 22,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/137303.png",
-            "club": ""
-          },
-          {
-            "id": 513776,
-            "name": "Y. Diomande",
-            "age": 19,
-            "number": 26,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/513776.png",
-            "club": ""
-          },
-          {
-            "id": 3243,
-            "name": "J. Seri",
-            "age": 34,
-            "number": 4,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/3243.png",
-            "club": ""
-          },
-          {
-            "id": 30807,
-            "name": "S. Fofana",
-            "age": 30,
-            "number": 6,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/30807.png",
-            "club": ""
-          },
-          {
-            "id": 1642,
-            "name": "F. Kessié",
-            "age": 29,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/1642.png",
-            "club": ""
-          }
-        ],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 61
-      },
-      {
-        "fixtureId": "None",
-        "home": "墨西哥",
-        "away": "南非",
-        "homeFlag": "https://flagsapi.com/MX/flat/32.png",
-        "awayFlag": "https://flagsapi.com/ZA/flat/32.png",
-        "homeRate": 60,
-        "awayRate": 40,
-        "predictedWinner": "墨西哥",
-        "recommendation": "墨西哥優勢明顯",
-        "confidence": "中高",
-        "stars": "⭐⭐⭐⭐",
-        "diff": 20,
-        "predictedScore": "3-1",
-        "modelScore": 62,
-        "tags": [
-          "🔥 模型焦點",
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
-        ],
-        "decisionSignals": [
-          {
-            "name": "模型焦點",
-            "level": "FOCUS"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 100,
-          "defense": 74,
-          "form": 72,
-          "market": 45,
-          "goals": 82,
-          "upset": 25,
-          "history": 15
-        },
-        "goalModel": {
-          "expectedGoals": 5.62,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
-        },
-        "upsetModel": {
-          "upsetIndex": 25,
-          "label": "正常盤",
-          "reason": "模型與市場沒有明顯衝突。",
-          "modelFavorite": "墨西哥",
-          "modelDog": "南非",
-          "marketFavorite": null
-        },
-        "reason": "墨西哥這場模型優勢較明顯，主要來自近期狀態、基本戰力與攻防穩定度。墨西哥近15場進攻效率不錯，前段若能壓上，會讓南非防線承受壓力。進球模型顯示本場預期進球約5.62球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：墨西哥優勢較明顯，但仍需避開臨場變數。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：25%｜正常盤。模型與市場沒有明顯衝突。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "🔥 狀態火熱",
-        "awayMomentum": "📊 狀態普通",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.14,
-          "drawOdd": 3.49,
-          "awayOdd": 3.25,
-          "homeWinRate": 44,
-          "drawRate": 27,
-          "awayWinRate": 29,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
-          "source": "API資料庫",
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
-        },
-        "homeForm": {
-          "score": 0.9111111111111111,
-          "wins": 13,
-          "draws": 2,
-          "losses": 0,
-          "points": 41,
-          "goalsFor": 55,
-          "goalsAgainst": 2,
-          "avgGoalsFor": 3.67,
-          "avgGoalsAgainst": 0.13,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "6-0",
-              "opponent": "Puerto Rico W",
-              "date": "2026-04-19T00:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "9-0",
-              "opponent": "US Virgin Islands W",
-              "date": "2026-04-11T01:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "Brazil W",
-              "date": "2026-03-07T23:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "7-0",
-              "opponent": "St. Lucia W",
-              "date": "2026-03-02T19:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "Costa Rica W",
-              "date": "2025-12-02T22:00:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.5333333333333333,
-          "wins": 6,
-          "draws": 6,
-          "losses": 3,
-          "points": 24,
-          "goalsFor": 22,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.47,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "D",
-              "score": "0-0",
-              "opponent": "Nicaragua",
-              "date": "2026-05-29T16:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "1-2",
-              "opponent": "巴拿馬",
-              "date": "2026-03-31T17:30:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "巴拿馬",
-              "date": "2026-03-27T17:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "1-2",
-              "opponent": "喀麥隆",
-              "date": "2026-01-04T19:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "3-2",
-              "opponent": "Zimbabwe",
-              "date": "2025-12-29T16:00:00+00:00"
-            }
-          ]
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/1729.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/1531.png",
-        "homeSquad": [
-          {
-            "id": 393077,
-            "name": "N. Hernández",
-            "age": 26,
-            "number": 2,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/393077.png",
-            "club": "Mexico W"
-          },
-          {
-            "id": 102294,
-            "name": "M. Sánchez",
-            "age": 29,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/102294.png",
-            "club": ""
-          },
-          {
-            "id": 515009,
-            "name": "A. Farmer",
-            "age": 21,
-            "number": 8,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/515009.png",
-            "club": ""
-          },
-          {
-            "id": 213130,
-            "name": "M. Delgadillo",
-            "age": 30,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/213130.png",
-            "club": "Mexico W"
-          },
-          {
-            "id": 99694,
-            "name": "K. Palacios",
-            "age": 29,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/99694.png",
-            "club": ""
-          },
-          {
-            "id": 367093,
-            "name": "A. Soto",
-            "age": 19,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/367093.png",
-            "club": ""
-          },
-          {
-            "id": 379909,
-            "name": "N. Mauleón",
-            "age": 23,
-            "number": 17,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/379909.png",
-            "club": ""
-          },
-          {
-            "id": 425613,
-            "name": "J. Casárez",
-            "age": 27,
-            "number": 18,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/425613.png",
-            "club": ""
-          },
-          {
-            "id": 213113,
-            "name": "C. Burkenroad",
-            "age": 32,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/213113.png",
-            "club": ""
-          },
-          {
-            "id": 99738,
-            "name": "C. Corral",
-            "age": 34,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/99738.png",
-            "club": ""
-          },
-          {
-            "id": 360246,
-            "name": "D. Ordoñez",
-            "age": 24,
-            "number": 22,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/360246.png",
-            "club": ""
-          },
-          {
-            "id": 385195,
-            "name": "S. Camberos",
-            "age": 25,
-            "number": 23,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/385195.png",
-            "club": ""
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 179893,
-            "name": "O. Appollis",
-            "age": 24,
-            "number": 7,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/179893.png",
-            "club": "Orlando Pirates"
-          },
-          {
-            "id": 98936,
-            "name": "L. Foster",
-            "age": 25,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/98936.png",
-            "club": ""
-          },
-          {
-            "id": 414149,
-            "name": "R. Mofokeng",
-            "age": 21,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/414149.png",
-            "club": ""
-          },
-          {
-            "id": 354831,
-            "name": "T. Maseko",
-            "age": 22,
-            "number": 12,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/354831.png",
-            "club": "AEL"
-          },
-          {
-            "id": 127429,
-            "name": "I. Rayners",
-            "age": 30,
-            "number": 15,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/127429.png",
-            "club": ""
-          },
-          {
-            "id": 201354,
-            "name": "E. Makgopa",
-            "age": 25,
-            "number": 99,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/201354.png",
-            "club": "Orlando Pirates"
-          },
-          {
-            "id": 3287,
-            "name": "T. Mokoena",
-            "age": 28,
-            "number": 4,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/3287.png",
-            "club": "Mamelodi Sundowns"
-          },
-          {
-            "id": 194430,
-            "name": "T. Mbatha",
-            "age": 25,
-            "number": 5,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/194430.png",
-            "club": "South Africa"
-          },
-          {
-            "id": 295977,
-            "name": "T. Moremi",
-            "age": 25,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/295977.png",
-            "club": ""
-          },
-          {
-            "id": 3289,
-            "name": "T. Zwane",
-            "age": 36,
-            "number": 11,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/3289.png",
-            "club": "South Africa"
-          },
-          {
-            "id": 158433,
-            "name": "S. Sithole",
-            "age": 26,
-            "number": 13,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/158433.png",
-            "club": ""
-          },
-          {
-            "id": 268710,
-            "name": "J. Adams",
-            "age": 24,
-            "number": 23,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/268710.png",
-            "club": ""
-          }
-        ],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 74
-      },
-      {
-        "fixtureId": "None",
-        "home": "韓國",
-        "away": "捷克",
-        "homeFlag": "https://flagsapi.com/KR/flat/32.png",
-        "awayFlag": "https://flagsapi.com/CZ/flat/32.png",
-        "homeRate": 54,
-        "awayRate": 46,
-        "predictedWinner": "韓國",
-        "recommendation": "韓國小幅優勢",
-        "confidence": "中低",
-        "stars": "⭐⭐",
-        "diff": 8,
-        "predictedScore": "1-1",
-        "modelScore": 62,
-        "tags": [
-          "⚽ 高進球傾向",
-          "🥅 雙方進攻活躍"
-        ],
-        "decisionSignals": [
-          {
-            "name": "不硬追",
-            "level": "STABLE"
-          },
-          {
-            "name": "高進球傾向",
-            "level": "MEDIUM"
-          },
-          {
-            "name": "雙方進攻活躍",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 88,
-          "defense": 54,
-          "form": 64,
-          "market": 45,
-          "goals": 82,
-          "upset": 58,
-          "history": 15
-        },
-        "goalModel": {
-          "expectedGoals": 4.37,
-          "over25": 82,
-          "under25": 18,
-          "btts": 80,
-          "totalLean": "偏高進球"
-        },
-        "upsetModel": {
-          "upsetIndex": 58,
-          "label": "冷門風險",
-          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
-          "modelFavorite": "韓國",
-          "modelDog": "捷克",
-          "marketFavorite": null
-        },
-        "reason": "韓國略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。韓國防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約4.37球，方向偏向「偏高進球」。雙方進球率達80%，代表兩邊都有破門條件。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：韓國略優，適合看穩不看大勝。",
-          "goals": "大小球：高進球率82%、小球率18%、雙方進球率80%。",
-          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "MEDIUM",
-        "homeMomentum": "📊 狀態普通",
-        "awayMomentum": "📊 狀態普通",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.48,
-          "drawOdd": 3.14,
-          "awayOdd": 2.95,
-          "homeWinRate": 38,
-          "drawRate": 30,
-          "awayWinRate": 32,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
-          "source": "API資料庫",
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
-        },
-        "homeForm": {
-          "score": 0.6444444444444445,
-          "wins": 9,
-          "draws": 2,
-          "losses": 4,
-          "points": 29,
-          "goalsFor": 26,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.73,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "5-0",
-              "opponent": "Trinidad and Tobago",
-              "date": "2026-05-31T01:00:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "0-1",
-              "opponent": "奧地利",
-              "date": "2026-03-31T18:45:00+00:00"
-            },
-            {
-              "result": "L",
-              "score": "0-4",
-              "opponent": "象牙海岸",
-              "date": "2026-03-28T14:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "迦納",
-              "date": "2025-11-18T11:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "Bolivia",
-              "date": "2025-11-14T11:00:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0.6444444444444445,
-          "wins": 8,
-          "draws": 5,
-          "losses": 2,
-          "points": 29,
-          "goalsFor": 27,
-          "goalsAgainst": 14,
-          "avgGoalsFor": 1.8,
-          "avgGoalsAgainst": 0.93,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "2-1",
-              "opponent": "Kosovo",
-              "date": "2026-05-31T14:00:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "1-1",
-              "opponent": "丹麥",
-              "date": "2026-03-31T18:45:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "2-2",
-              "opponent": "Rep. Of Ireland",
-              "date": "2026-03-26T19:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "6-0",
-              "opponent": "Gibraltar",
-              "date": "2025-11-17T19:45:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "San Marino",
-              "date": "2025-11-13T17:00:00+00:00"
-            }
-          ]
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/17.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/770.png",
-        "homeSquad": [
-          {
-            "id": 34211,
-            "name": "Cho Gue-Sung",
-            "age": 28,
-            "number": 3,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34211.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 34710,
-            "name": "Oh Hyeon-Gyu",
-            "age": 24,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34710.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 304958,
-            "name": "Yang Hyun-Jun",
-            "age": 23,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/304958.png",
-            "club": "Celtic"
-          },
-          {
-            "id": 186,
-            "name": "Son Heung-Min",
-            "age": 33,
-            "number": 13,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/186.png",
-            "club": "Los Angeles FC"
-          },
-          {
-            "id": 34431,
-            "name": "Lee Dong-Gyeong",
-            "age": 28,
-            "number": 20,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/34431.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 237050,
-            "name": "Eom Ji-Sung",
-            "age": 23,
-            "number": 23,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/237050.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 357286,
-            "name": "Bae Jun-Ho",
-            "age": 22,
-            "number": 25,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/357286.png",
-            "club": ""
-          },
-          {
-            "id": 24888,
-            "name": "Hwang Hee-Chan",
-            "age": 29,
-            "number": 26,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/24888.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 99211,
-            "name": "Park Jin-Seop",
-            "age": 30,
-            "number": 4,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/99211.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 34168,
-            "name": "Kim Jin-Gyu",
-            "age": 28,
-            "number": 6,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/34168.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 2906,
-            "name": "Lee Jae-Sung",
-            "age": 33,
-            "number": 14,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2906.png",
-            "club": "South Korea"
-          },
-          {
-            "id": 2912,
-            "name": "Kim Moon-Hwan",
-            "age": 30,
-            "number": 15,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/2912.png",
-            "club": "South Korea"
-          }
-        ],
-        "awaySquad": [
-          {
-            "id": 66019,
-            "name": "A. Hložek",
-            "age": 23,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66019.png",
-            "club": "Czech Republic"
-          },
-          {
-            "id": 794,
-            "name": "P. Schick",
-            "age": 29,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/794.png",
-            "club": "Bayer Leverkusen"
-          },
-          {
-            "id": 66340,
-            "name": "J. Kuchta",
-            "age": 28,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66340.png",
-            "club": ""
-          },
-          {
-            "id": 66275,
-            "name": "M. Chytil",
-            "age": 26,
-            "number": 13,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/66275.png",
-            "club": ""
-          },
-          {
-            "id": 818,
-            "name": "T. Chorý",
-            "age": 30,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/818.png",
-            "club": "Czech Republic"
-          },
-          {
-            "id": 290212,
-            "name": "D. Višinský",
-            "age": 22,
-            "number": 21,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/290212.png",
-            "club": "Czech Republic U21"
-          },
-          {
-            "id": 271869,
-            "name": "C. Kabongo",
-            "age": 22,
-            "number": null,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/271869.png",
-            "club": "Czech Republic U21"
-          },
-          {
-            "id": 66249,
-            "name": "P. Bucha",
-            "age": 27,
-            "number": 7,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66249.png",
-            "club": "FC Cincinnati"
-          },
-          {
-            "id": 25348,
-            "name": "V. Darida",
-            "age": 35,
-            "number": 8,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/25348.png",
-            "club": ""
-          },
-          {
-            "id": 66253,
-            "name": "T. Ladra",
-            "age": 28,
-            "number": 9,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66253.png",
-            "club": "Plzen"
-          },
-          {
-            "id": 162194,
-            "name": "L. Červ",
-            "age": 24,
-            "number": 12,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/162194.png",
-            "club": "Czech Republic"
-          },
-          {
-            "id": 66214,
-            "name": "D. Douděra",
-            "age": 27,
-            "number": 13,
-            "position": "Midfielder",
-            "photo": "https://media.api-sports.io/football/players/66214.png",
-            "club": ""
-          }
-        ],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 55
-      },
-      {
-        "fixtureId": null,
-        "home": "加拿大",
-        "away": "波士尼亞",
-        "homeFlag": "https://flagsapi.com/CA/flat/32.png",
-        "awayFlag": "https://flagsapi.com/BA/flat/32.png",
-        "homeRate": 57,
-        "awayRate": 43,
-        "predictedWinner": "加拿大",
-        "recommendation": "加拿大略優",
-        "confidence": "中",
-        "stars": "⭐⭐⭐",
-        "diff": 14,
-        "predictedScore": "1-0",
-        "modelScore": 62,
-        "tags": [
-          "🧠 AI觀察"
-        ],
-        "decisionSignals": [
-          {
-            "name": "可觀察",
-            "level": "MEDIUM"
-          }
-        ],
-        "radar": {
-          "attack": 35,
-          "defense": 92,
-          "form": 31,
-          "market": 45,
-          "goals": 43,
-          "upset": 58,
-          "history": 15
-        },
-        "goalModel": {
-          "expectedGoals": 1.55,
-          "over25": 43,
-          "under25": 57,
-          "btts": 35,
-          "totalLean": "2-3球區間"
-        },
-        "upsetModel": {
-          "upsetIndex": 58,
-          "label": "冷門風險",
-          "reason": "雙方差距不大，勝負容易被臨場狀態改變。",
-          "modelFavorite": "加拿大",
-          "modelDog": "波士尼亞",
-          "marketFavorite": null
-        },
-        "reason": "加拿大略佔上風，但差距還不到完全壓制，臨場節奏仍是關鍵。加拿大防守控制較穩，若先取得領先，後段守住比賽的能力較好。進球模型顯示本場預期進球約1.55球，方向偏向「2-3球區間」。目前市場資料不足，先以模型數據與近期狀態作為主要參考。",
-        "playSuggestions": {
-          "main": "主方向：加拿大略優，適合看穩不看大勝。",
-          "goals": "大小球：高進球率43%、小球率57%、雙方進球率35%。",
-          "upset": "變數指數：58%｜冷門風險。雙方差距不大，勝負容易被臨場狀態改變。",
-          "market": "市場：目前賠率資料不足，先以AI模型為主。",
-          "note": "以上為AI模型綜合分析，非保證結果。"
-        },
-        "dangerLevel": "STABLE",
-        "homeMomentum": "🧊 防守穩定",
-        "awayMomentum": "🧊 防守穩定",
-        "odds": null,
-        "aiOdds": {
-          "type": "ai",
-          "bookmaker": "AI模型估算",
-          "homeOdd": 2.42,
-          "drawOdd": 2.95,
-          "awayOdd": 3.25,
-          "homeWinRate": 39,
-          "drawRate": 32,
-          "awayWinRate": 29,
-          "note": "非固定值，依勝率、差距、進球模型、防守穩定與變數風險即時計算。"
-        },
-        "h2h": {
-          "total": 0,
-          "title": "資料庫近0次交手（最多5場）",
-          "source": "基礎模型",
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 0,
-          "totalGoals": 0,
-          "avgGoals": 0,
-          "recent": []
-        },
-        "homeForm": {
-          "score": 0.6222222222222222,
-          "wins": 7,
-          "draws": 7,
-          "losses": 1,
-          "points": 28,
-          "goalsFor": 21,
-          "goalsAgainst": 5,
-          "avgGoalsFor": 1.4,
-          "avgGoalsAgainst": 0.33,
-          "totalGames": 15,
-          "recentResults": [
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "烏茲別克",
-              "date": "2026-06-02T01:00:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "0-0",
-              "opponent": "突尼西亞",
-              "date": "2026-03-31T23:30:00+00:00"
-            },
-            {
-              "result": "D",
-              "score": "2-2",
-              "opponent": "Iceland",
-              "date": "2026-03-28T17:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "1-0",
-              "opponent": "Guatemala",
-              "date": "2026-01-18T03:00:00+00:00"
-            },
-            {
-              "result": "W",
-              "score": "2-0",
-              "opponent": "委內瑞拉",
-              "date": "2025-11-19T01:30:00+00:00"
-            }
-          ]
-        },
-        "awayForm": {
-          "score": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "avgGoalsFor": 0,
-          "avgGoalsAgainst": 0,
-          "totalGames": 0,
-          "recentResults": []
-        },
-        "homeLogo": "https://media.api-sports.io/football/teams/5529.png",
-        "awayLogo": "",
-        "homeSquad": [
-          {
-            "id": 541949,
-            "name": "M. Aiyenero",
-            "age": 17,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/541949.png",
-            "club": ""
-          },
-          {
-            "id": 2001,
-            "name": "C. Larin",
-            "age": 30,
-            "number": 9,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/2001.png",
-            "club": "Mallorca"
-          },
-          {
-            "id": 8489,
-            "name": "J. David",
-            "age": 25,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/8489.png",
-            "club": "Juventus"
-          },
-          {
-            "id": 19007,
-            "name": "J. Hoilett",
-            "age": 35,
-            "number": 10,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/19007.png",
-            "club": "Hibernian"
-          },
-          {
-            "id": 51293,
-            "name": "T. Bair",
-            "age": 26,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/51293.png",
-            "club": "Lausanne"
-          },
-          {
-            "id": 296458,
-            "name": "D. Jebbison",
-            "age": 22,
-            "number": 11,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/296458.png",
-            "club": ""
-          },
-          {
-            "id": 351587,
-            "name": "T. Oluwaseyi",
-            "age": 25,
-            "number": 12,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/351587.png",
-            "club": "Minnesota United FC"
-          },
-          {
-            "id": 203428,
-            "name": "J. Russell-Rowe",
-            "age": 23,
-            "number": 12,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/203428.png",
-            "club": "Columbus Crew"
-          },
-          {
-            "id": 50826,
-            "name": "J. Shaffelburg",
-            "age": 26,
-            "number": 14,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/50826.png",
-            "club": "Nashville SC"
-          },
-          {
-            "id": 370938,
-            "name": "T. Coimbra",
-            "age": 21,
-            "number": 19,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/370938.png",
-            "club": "HFX Wanderers FC"
-          },
-          {
-            "id": 44798,
-            "name": "L. Millar",
-            "age": 26,
-            "number": 23,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/44798.png",
-            "club": "Canada"
-          },
-          {
-            "id": 313353,
-            "name": "P. David",
-            "age": 24,
-            "number": 24,
-            "position": "Attacker",
-            "photo": "https://media.api-sports.io/football/players/313353.png",
-            "club": "Union St. Gilloise"
-          }
-        ],
-        "awaySquad": [],
-        "lineups": [],
-        "injuries": [],
-        "qualityScore": 54
       }
     ]
   }
