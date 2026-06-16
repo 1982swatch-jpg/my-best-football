@@ -94,7 +94,7 @@ function renderStandingsGroup(group, index, total) {
       teams.map(function(team) {
         return '<div class="standings-row">' +
           '<span>' + team.rank + '</span>' +
-          '<span class="standings-team">' + (team.flag || "") + ' ' + team.team + '</span>' +
+          '<span class="standings-team">' + flagImg(team.flag) + team.team + '</span>' +
           '<span>' + team.played + '</span>' +
           '<span>' + team.wins + '</span>' +
           '<span>' + team.draws + '</span>' +
@@ -465,7 +465,7 @@ function renderSquad(data) {
 
   function playerRows(players) {
     if (!players.length) return '<div class="playitem">暫無球員資料</div>';
-    return players.slice(0, 12).map(function(p) {
+    return players.map(function(p) {
       return '<div class="player-row">' +
         (p.photo ? '<img src="' + p.photo + '" />' : "") +
         '<span>' + (p.number ? '<b>' + p.number + '</b> ' : '') + p.name + (p.club ? '<small class="club-name">｜' + p.club + '</small>' : '') + '</span><em>' + (p.position || "") + '</em>' +

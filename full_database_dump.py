@@ -428,31 +428,84 @@ def extract_ttyingqiu_standings(html):
 
 
 def worldcup_group_standings():
+    def row(rank, flag_code, team, played=0, wins=0, draws=0, losses=0, gf=0, ga=0):
+        return {
+            "rank": rank,
+            "flag": flag(flag_code),
+            "team": team,
+            "played": played,
+            "wins": wins,
+            "draws": draws,
+            "losses": losses,
+            "gf": gf,
+            "ga": ga,
+            "gd": gf - ga,
+            "pts": wins * 3 + draws,
+        }
+
+    groups = [
+        {
+            "group": "A組",
+            "teams": [
+                row(1, "MX", "墨西哥", 1, 1, 0, 0, 2, 0),
+                row(2, "KR", "韓國", 1, 1, 0, 0, 2, 1),
+                row(3, "CZ", "捷克", 1, 0, 0, 1, 1, 2),
+                row(4, "ZA", "南非", 1, 0, 0, 1, 0, 2),
+            ],
+        },
+        {
+            "group": "B組",
+            "teams": [
+                row(1, "CH", "瑞士", 1, 0, 1, 0, 1, 1),
+                row(2, "CA", "加拿大", 1, 0, 1, 0, 1, 1),
+                row(3, "QA", "卡達", 1, 0, 1, 0, 1, 1),
+                row(4, "BA", "波士尼亞", 1, 0, 1, 0, 1, 1),
+            ],
+        },
+        {
+            "group": "I組",
+            "teams": [
+                row(1, "FR", "法國"),
+                row(2, "SN", "塞內加爾"),
+                row(3, "NO", "挪威"),
+                row(4, "IQ", "伊拉克"),
+            ],
+        },
+        {
+            "group": "J組",
+            "teams": [
+                row(1, "AR", "阿根廷"),
+                row(2, "AT", "奧地利"),
+                row(3, "DZ", "阿爾及利亞"),
+                row(4, "JO", "約旦"),
+            ],
+        },
+        {
+            "group": "K組",
+            "teams": [
+                row(1, "PT", "葡萄牙"),
+                row(2, "CO", "哥倫比亞"),
+                row(3, "UZ", "烏茲別克"),
+                row(4, "CD", "剛果民主共和國"),
+            ],
+        },
+        {
+            "group": "L組",
+            "teams": [
+                row(1, "GB", "英格蘭"),
+                row(2, "HR", "克羅埃西亞"),
+                row(3, "GH", "迦納"),
+                row(4, "PA", "巴拿馬"),
+            ],
+        },
+    ]
+
     return {
         "source": "ttyingqiu-standings-cache",
         "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
         "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "note": "天天盈球積分頁可連線；目前先使用已抓取/快取小組資料顯示，後續可接動態 API 自動擴充。",
-        "groups": [
-            {
-                "group": "A組",
-                "teams": [
-                    {"rank": 1, "flag": "🇲🇽", "team": "墨西哥", "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3},
-                    {"rank": 2, "flag": "🇰🇷", "team": "韓國", "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 3},
-                    {"rank": 3, "flag": "🇨🇿", "team": "捷克", "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 0},
-                    {"rank": 4, "flag": "🇿🇦", "team": "南非", "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 0, "ga": 2, "gd": -2, "pts": 0},
-                ],
-            },
-            {
-                "group": "B組",
-                "teams": [
-                    {"rank": 1, "flag": "🇨🇭", "team": "瑞士", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
-                    {"rank": 2, "flag": "🇨🇦", "team": "加拿大", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
-                    {"rank": 3, "flag": "🇶🇦", "team": "卡達", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
-                    {"rank": 4, "flag": "🇧🇦", "team": "波黑", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
-                ],
-            },
-        ],
+        "note": "已顯示站內鎖定賽程小組；C-H 組等待外部積分 API 完整解析後同步。",
+        "groups": groups,
     }
 
 

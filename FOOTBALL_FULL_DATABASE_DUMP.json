@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-16 14:12:51",
+    "scraped_at": "2026-06-16 14:38:05",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1751,15 +1751,15 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-16 14:12:51",
-      "note": "天天盈球積分頁可連線；目前先使用已抓取/快取小組資料顯示，後續可接動態 API 自動擴充。",
+      "updatedAt": "2026-06-16 14:38:05",
+      "note": "已顯示站內鎖定賽程小組；C-H 組等待外部積分 API 完整解析後同步。",
       "groups": [
         {
           "group": "A組",
           "teams": [
             {
               "rank": 1,
-              "flag": "🇲🇽",
+              "flag": "https://flagsapi.com/MX/flat/32.png",
               "team": "墨西哥",
               "played": 1,
               "wins": 1,
@@ -1772,7 +1772,7 @@
             },
             {
               "rank": 2,
-              "flag": "🇰🇷",
+              "flag": "https://flagsapi.com/KR/flat/32.png",
               "team": "韓國",
               "played": 1,
               "wins": 1,
@@ -1785,7 +1785,7 @@
             },
             {
               "rank": 3,
-              "flag": "🇨🇿",
+              "flag": "https://flagsapi.com/CZ/flat/32.png",
               "team": "捷克",
               "played": 1,
               "wins": 0,
@@ -1798,7 +1798,7 @@
             },
             {
               "rank": 4,
-              "flag": "🇿🇦",
+              "flag": "https://flagsapi.com/ZA/flat/32.png",
               "team": "南非",
               "played": 1,
               "wins": 0,
@@ -1816,7 +1816,7 @@
           "teams": [
             {
               "rank": 1,
-              "flag": "🇨🇭",
+              "flag": "https://flagsapi.com/CH/flat/32.png",
               "team": "瑞士",
               "played": 1,
               "wins": 0,
@@ -1829,7 +1829,7 @@
             },
             {
               "rank": 2,
-              "flag": "🇨🇦",
+              "flag": "https://flagsapi.com/CA/flat/32.png",
               "team": "加拿大",
               "played": 1,
               "wins": 0,
@@ -1842,7 +1842,7 @@
             },
             {
               "rank": 3,
-              "flag": "🇶🇦",
+              "flag": "https://flagsapi.com/QA/flat/32.png",
               "team": "卡達",
               "played": 1,
               "wins": 0,
@@ -1855,8 +1855,8 @@
             },
             {
               "rank": 4,
-              "flag": "🇧🇦",
-              "team": "波黑",
+              "flag": "https://flagsapi.com/BA/flat/32.png",
+              "team": "波士尼亞",
               "played": 1,
               "wins": 0,
               "draws": 1,
@@ -1865,6 +1865,234 @@
               "ga": 1,
               "gd": 0,
               "pts": 1
+            }
+          ]
+        },
+        {
+          "group": "I組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "https://flagsapi.com/FR/flat/32.png",
+              "team": "法國",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 2,
+              "flag": "https://flagsapi.com/SN/flat/32.png",
+              "team": "塞內加爾",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 3,
+              "flag": "https://flagsapi.com/NO/flat/32.png",
+              "team": "挪威",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 4,
+              "flag": "https://flagsapi.com/IQ/flat/32.png",
+              "team": "伊拉克",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "group": "J組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "https://flagsapi.com/AR/flat/32.png",
+              "team": "阿根廷",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 2,
+              "flag": "https://flagsapi.com/AT/flat/32.png",
+              "team": "奧地利",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 3,
+              "flag": "https://flagsapi.com/DZ/flat/32.png",
+              "team": "阿爾及利亞",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 4,
+              "flag": "https://flagsapi.com/JO/flat/32.png",
+              "team": "約旦",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "group": "K組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "https://flagsapi.com/PT/flat/32.png",
+              "team": "葡萄牙",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 2,
+              "flag": "https://flagsapi.com/CO/flat/32.png",
+              "team": "哥倫比亞",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 3,
+              "flag": "https://flagsapi.com/UZ/flat/32.png",
+              "team": "烏茲別克",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 4,
+              "flag": "https://flagsapi.com/CD/flat/32.png",
+              "team": "剛果民主共和國",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "group": "L組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "https://flagsapi.com/GB/flat/32.png",
+              "team": "英格蘭",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 2,
+              "flag": "https://flagsapi.com/HR/flat/32.png",
+              "team": "克羅埃西亞",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 3,
+              "flag": "https://flagsapi.com/GH/flat/32.png",
+              "team": "迦納",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
+            },
+            {
+              "rank": 4,
+              "flag": "https://flagsapi.com/PA/flat/32.png",
+              "team": "巴拿馬",
+              "played": 0,
+              "wins": 0,
+              "draws": 0,
+              "losses": 0,
+              "gf": 0,
+              "ga": 0,
+              "gd": 0,
+              "pts": 0
             }
           ]
         }
@@ -2865,10 +3093,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
