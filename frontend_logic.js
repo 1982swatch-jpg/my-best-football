@@ -133,9 +133,7 @@ async function loadGroupStandings() {
       return Array.isArray(group.teams) && group.teams.length > 0;
     }) : [];
 
-    if (source) {
-      source.innerText = data.source === "ttyingqiu-standings-cache" ? "天天盈球資料" : "小組積分";
-    }
+    if (source) source.innerText = "";
 
     if (standingsGroups.length === 0) {
       panel.innerHTML = "目前尚未取得小組積分。";
