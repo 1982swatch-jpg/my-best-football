@@ -429,85 +429,37 @@ def extract_ttyingqiu_standings(html):
 
 def worldcup_group_standings():
     def row(rank, flag_code, team, played=0, wins=0, draws=0, losses=0, gf=0, ga=0):
-        return {
-            "rank": rank,
-            "flag": flag(flag_code),
-            "team": team,
-            "played": played,
-            "wins": wins,
-            "draws": draws,
-            "losses": losses,
-            "gf": gf,
-            "ga": ga,
-            "gd": gf - ga,
-            "pts": wins * 3 + draws,
-        }
+        return {"rank": rank, "flag": flag(flag_code), "team": team, "played": played, "wins": wins, "draws": draws, "losses": losses, "gf": gf, "ga": ga, "gd": gf - ga, "pts": wins * 3 + draws}
 
-    groups = [
-        {
-            "group": "A組",
-            "teams": [
-                row(1, "MX", "墨西哥", 1, 1, 0, 0, 2, 0),
-                row(2, "KR", "韓國", 1, 1, 0, 0, 2, 1),
-                row(3, "CZ", "捷克", 1, 0, 0, 1, 1, 2),
-                row(4, "ZA", "南非", 1, 0, 0, 1, 0, 2),
-            ],
-        },
-        {
-            "group": "B組",
-            "teams": [
-                row(1, "CH", "瑞士", 1, 0, 1, 0, 1, 1),
-                row(2, "CA", "加拿大", 1, 0, 1, 0, 1, 1),
-                row(3, "QA", "卡達", 1, 0, 1, 0, 1, 1),
-                row(4, "BA", "波士尼亞", 1, 0, 1, 0, 1, 1),
-            ],
-        },
-        {
-            "group": "I組",
-            "teams": [
-                row(1, "FR", "法國"),
-                row(2, "SN", "塞內加爾"),
-                row(3, "NO", "挪威"),
-                row(4, "IQ", "伊拉克"),
-            ],
-        },
-        {
-            "group": "J組",
-            "teams": [
-                row(1, "AR", "阿根廷"),
-                row(2, "AT", "奧地利"),
-                row(3, "DZ", "阿爾及利亞"),
-                row(4, "JO", "約旦"),
-            ],
-        },
-        {
-            "group": "K組",
-            "teams": [
-                row(1, "PT", "葡萄牙"),
-                row(2, "CO", "哥倫比亞"),
-                row(3, "UZ", "烏茲別克"),
-                row(4, "CD", "剛果民主共和國"),
-            ],
-        },
-        {
-            "group": "L組",
-            "teams": [
-                row(1, "GB", "英格蘭"),
-                row(2, "HR", "克羅埃西亞"),
-                row(3, "GH", "迦納"),
-                row(4, "PA", "巴拿馬"),
-            ],
-        },
+    source_groups = [
+        ("A", [("MX", "\u58a8\u897f\u54e5", 1, 1, 0, 0, 2, 0), ("KR", "\u97d3\u570b", 1, 1, 0, 0, 2, 1), ("CZ", "\u6377\u514b", 1, 0, 0, 1, 1, 2), ("ZA", "\u5357\u975e", 1, 0, 0, 1, 0, 2)]),
+        ("B", [("CH", "\u745e\u58eb", 1, 0, 1, 0, 1, 1), ("CA", "\u52a0\u62ff\u5927", 1, 0, 1, 0, 1, 1), ("QA", "\u5361\u9054", 1, 0, 1, 0, 1, 1), ("BA", "\u6ce2\u58eb\u5c3c\u4e9e", 1, 0, 1, 0, 1, 1)]),
+        ("C", [("GB-SCT", "\u8607\u683c\u862d", 1, 1, 0, 0, 1, 0), ("MA", "\u6469\u6d1b\u54e5", 1, 0, 1, 0, 1, 1), ("BR", "\u5df4\u897f", 1, 0, 1, 0, 1, 1), ("HT", "\u6d77\u5730", 1, 0, 0, 1, 0, 1)]),
+        ("D", [("US", "\u7f8e\u570b", 1, 1, 0, 0, 4, 1), ("AU", "\u6fb3\u5927\u5229\u4e9e", 1, 1, 0, 0, 2, 0), ("TR", "\u571f\u8033\u5176", 1, 0, 0, 1, 0, 2), ("PY", "\u5df4\u62c9\u572d", 1, 0, 0, 1, 1, 4)]),
+        ("E", [("DE", "\u5fb7\u570b", 1, 1, 0, 0, 7, 1), ("CI", "\u79d1\u7279\u8fea\u74e6", 1, 1, 0, 0, 1, 0), ("EC", "\u5384\u74dc\u591a\u723e", 1, 0, 0, 1, 0, 1), ("CW", "\u5eab\u62c9\u7d22", 1, 0, 0, 1, 1, 7)]),
+        ("F", [("SE", "\u745e\u5178", 1, 1, 0, 0, 5, 1), ("JP", "\u65e5\u672c", 1, 0, 1, 0, 2, 2), ("NL", "\u8377\u862d", 1, 0, 1, 0, 2, 2), ("TN", "\u7a81\u5c3c\u897f\u4e9e", 1, 0, 0, 1, 1, 5)]),
+        ("G", [("NZ", "\u7d10\u897f\u862d", 1, 0, 1, 0, 2, 2), ("IR", "\u4f0a\u6717", 1, 0, 1, 0, 2, 2), ("BE", "\u6bd4\u5229\u6642", 1, 0, 1, 0, 1, 1), ("EG", "\u57c3\u53ca", 1, 0, 1, 0, 1, 1)]),
+        ("H", [("UY", "\u70cf\u62c9\u572d", 1, 0, 1, 0, 1, 1), ("SA", "\u6c99\u70cf\u5730\u963f\u62c9\u4f2f", 1, 0, 1, 0, 1, 1), ("ES", "\u897f\u73ed\u7259", 1, 0, 1, 0, 0, 0), ("CV", "\u7dad\u5fb7\u89d2", 1, 0, 1, 0, 0, 0)]),
+        ("I", [("FR", "\u6cd5\u570b"), ("SN", "\u585e\u5167\u52a0\u723e"), ("NO", "\u632a\u5a01"), ("IQ", "\u4f0a\u62c9\u514b")]),
+        ("J", [("AR", "\u963f\u6839\u5ef7"), ("AT", "\u5967\u5730\u5229"), ("DZ", "\u963f\u723e\u53ca\u5229\u4e9e"), ("JO", "\u7d04\u65e6")]),
+        ("K", [("PT", "\u8461\u8404\u7259"), ("CO", "\u54e5\u502b\u6bd4\u4e9e"), ("UZ", "\u70cf\u8332\u5225\u514b"), ("CD", "\u525b\u679c\u6c11\u4e3b\u5171\u548c\u570b")]),
+        ("L", [("GB-ENG", "\u82f1\u683c\u862d"), ("HR", "\u514b\u7f85\u57c3\u897f\u4e9e"), ("GH", "\u8fe6\u7d0d"), ("PA", "\u5df4\u62ff\u99ac")]),
     ]
-
-    return {
-        "source": "ttyingqiu-standings-cache",
-        "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-        "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "note": "已顯示站內鎖定賽程小組；C-H 組等待外部積分 API 完整解析後同步。",
-        "groups": groups,
-    }
-
+    groups = []
+    for group_key, teams in source_groups:
+        group_rows = [row(rank, *team) for rank, team in enumerate(teams, 1)]
+        groups.append({"group": f"{group_key}\u7d44", "sourceGroup": group_key, "teams": group_rows})
+    third_place = []
+    for group in groups:
+        team = dict(group["teams"][2])
+        team["group"] = group["group"]
+        third_place.append(team)
+    third_place.sort(key=lambda team: (-team["pts"], -team["gd"], -team["gf"], team["ga"], team["group"]))
+    for index, team in enumerate(third_place, 1):
+        team["rank"] = index
+        team["team"] = f"{team['team']} ({team['group']})"
+    groups.append({"group": "\u7b2c3\u540d\u968a\u4f0d\u6392\u540d", "sourceGroup": "\u7b2c3\u540d\u961f\u4f0d\u6392\u540d", "type": "thirdPlace", "teams": third_place})
+    return {"source": "ttyingqiu-standings-cache", "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026", "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S"), "groups": groups}
 
 def collect_external_intel():
     extractors = {

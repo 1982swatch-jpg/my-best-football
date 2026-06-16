@@ -80,7 +80,8 @@ function renderStandingsDots(total, active) {
 }
 
 function renderStandingsGroup(group, index, total) {
-  const teams = Array.isArray(group.teams) ? group.teams.slice(0, 4) : [];
+  const limit = group.type === "thirdPlace" ? 12 : 4;
+  const teams = Array.isArray(group.teams) ? group.teams.slice(0, limit) : [];
 
   return '<div class="standings-group">' +
     '<div class="standings-group-name">' +
@@ -113,6 +114,7 @@ function showStandingsGroup(nextIndex) {
 
   standingsIndex = (nextIndex + standingsGroups.length) % standingsGroups.length;
   panel.classList.remove("bounce");
+  panel.classList.toggle("third-place", standingsGroups[standingsIndex].type === "thirdPlace");
   panel.innerHTML = renderStandingsGroup(standingsGroups[standingsIndex], standingsIndex, standingsGroups.length);
   void panel.offsetWidth;
   panel.classList.add("bounce");
