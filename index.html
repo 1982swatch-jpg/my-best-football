@@ -457,6 +457,46 @@ button:hover{
 }
 .model-card b { color:#fff; font-size:13px; }
 .model-card div { color:#00ff9c; font-size:22px; font-weight:900; margin-top:6px; }
+.recommendation-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.recommendation-card div {
+  color:#ffd166;
+  font-size:19px;
+  line-height:1.25;
+  letter-spacing:0;
+  word-break:break-word;
+}
+.recommendation-card span {
+  display:block;
+  margin-top:7px;
+  color:#aab3c5;
+  font-size:12px;
+  font-weight:700;
+}
+.model-context {
+  margin-top:12px;
+  padding:12px;
+  border-radius:14px;
+  background:rgba(0,255,156,.06);
+  border:1px solid rgba(0,255,156,.14);
+  color:#d8e1f0;
+  font-size:13px;
+  line-height:1.55;
+}
+.model-context b {
+  display:block;
+  color:#00ff9c;
+  margin-bottom:4px;
+}
+.model-context span {
+  display:block;
+  color:#eef4ff;
+}
+.model-context em {
+  display:block;
+  margin-top:4px;
+  color:#aab3c5;
+  font-style:normal;
+}
 .radar-row {
   display:grid;
   grid-template-columns:72px 1fr 38px;
@@ -513,6 +553,7 @@ button:hover{
   .radar-wrap{ grid-template-columns:1fr; justify-items:center; }
   .odds-grid{ grid-template-columns:1fr; }
   .h2h-row{ grid-template-columns:1fr; }
+  .recommendation-grid{ grid-template-columns:1fr; }
 }
 .squad-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
 .player-row {

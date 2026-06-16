@@ -1,8 +1,40 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-16 12:52:30",
-    "auth_used": "none"
+    "scraped_at": "2026-06-16 13:14:11",
+    "auth_used": "none",
+    "external_sources": [
+      {
+        "name": "球天下世界杯",
+        "url": "https://m.qtx.com/worldcup",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "7M赛前分析",
+        "url": "https://news.7m.com.cn/list/5/index.shtml",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "7M AI模型预测",
+        "url": "https://tv.7m.com.cn/big/",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "天天盈球",
+        "url": "https://www.ttyingqiu.com/index",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "天天盈球世界杯积分",
+        "url": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
+        "ok": true,
+        "error": ""
+      }
+    ]
   },
   "endpoints": {
     "schedule": {
@@ -174,6 +206,50 @@
           "awayRate": 42,
           "predictedWinner": "法國",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 60
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 70
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "塞內加爾 +0.5 受讓",
+              "confidence": 58
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "法國 58%",
+              "confidence": 58
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 59
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 66
+            }
+          ],
           "recommendation": "法國 優勢觀察",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -195,7 +271,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -239,6 +318,50 @@
           "awayRate": 68,
           "predictedWinner": "挪威",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 72
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 73
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "挪威 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "挪威 68%",
+              "confidence": 68
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 60
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 63
+            }
+          ],
           "recommendation": "挪威 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -260,7 +383,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -304,6 +430,50 @@
           "awayRate": 31,
           "predictedWinner": "阿根廷",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 74
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 71
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "阿根廷 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "阿根廷 69%",
+              "confidence": 69
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 59
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 61
+            }
+          ],
           "recommendation": "阿根廷 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -325,7 +495,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛；球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "externalIntel": [
+            "球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛",
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+          ],
           "qualityScore": 74,
           "homeForm": {
             "wins": 8,
@@ -371,6 +545,50 @@
           "awayRate": 34,
           "predictedWinner": "奧地利",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 70
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 72
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "奧地利 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "奧地利 66%",
+              "confidence": 66
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-4 球",
+              "confidence": 61
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場有球",
+              "confidence": 61
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 65
+            }
+          ],
           "recommendation": "奧地利 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -392,7 +610,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -436,6 +655,50 @@
           "awayRate": 47,
           "predictedWinner": "迦納",
           "predictedScore": "1-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "1-1",
+              "confidence": 55
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 71
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "巴拿馬 +0.5 受讓",
+              "confidence": 58
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "迦納 53%",
+              "confidence": 53
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 51
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 60
+            }
+          ],
           "recommendation": "雙方接近，重點觀察開局節奏",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -457,7 +720,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -503,6 +767,50 @@
           "awayRate": 42,
           "predictedWinner": "法國",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 60
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 70
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "塞內加爾 +0.5 受讓",
+              "confidence": 58
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "法國 58%",
+              "confidence": 58
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 59
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 66
+            }
+          ],
           "recommendation": "法國 優勢觀察",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -524,7 +832,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -568,6 +879,50 @@
           "awayRate": 68,
           "predictedWinner": "挪威",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 72
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 73
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "挪威 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "挪威 68%",
+              "confidence": 68
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 60
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 63
+            }
+          ],
           "recommendation": "挪威 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -589,7 +944,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -633,6 +991,50 @@
           "awayRate": 31,
           "predictedWinner": "阿根廷",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 74
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 71
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "阿根廷 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "阿根廷 69%",
+              "confidence": 69
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 59
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 61
+            }
+          ],
           "recommendation": "阿根廷 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -654,7 +1056,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "外部公開資訊：球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛；球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "externalIntel": [
+            "球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛",
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+          ],
           "qualityScore": 74,
           "homeForm": {
             "wins": 8,
@@ -698,6 +1104,50 @@
           "awayRate": 34,
           "predictedWinner": "奧地利",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 70
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 72
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "奧地利 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "奧地利 66%",
+              "confidence": 66
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-4 球",
+              "confidence": 61
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場有球",
+              "confidence": 61
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 65
+            }
+          ],
           "recommendation": "奧地利 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -719,7 +1169,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -765,6 +1216,50 @@
           "awayRate": 47,
           "predictedWinner": "迦納",
           "predictedScore": "1-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "1-1",
+              "confidence": 55
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 71
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "巴拿馬 +0.5 受讓",
+              "confidence": 58
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "迦納 53%",
+              "confidence": 53
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 51
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 60
+            }
+          ],
           "recommendation": "雙方接近，重點觀察開局節奏",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -786,7 +1281,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -830,6 +1326,50 @@
           "awayRate": 47,
           "predictedWinner": "英格蘭",
           "predictedScore": "1-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "1-1",
+              "confidence": 55
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 65
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "克羅埃西亞 +0.5 受讓",
+              "confidence": 58
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "英格蘭 53%",
+              "confidence": 53
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 52
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 62
+            }
+          ],
           "recommendation": "雙方接近，重點觀察開局節奏",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -851,7 +1391,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -895,6 +1436,50 @@
           "awayRate": 29,
           "predictedWinner": "葡萄牙",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 76
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 69
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "葡萄牙 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "葡萄牙 71%",
+              "confidence": 71
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 60
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 61
+            }
+          ],
           "recommendation": "葡萄牙 優勢觀察",
           "confidence": "中高",
           "stars": "⭐⭐⭐⭐",
@@ -916,7 +1501,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 76,
           "homeForm": {
             "wins": 5,
@@ -960,6 +1546,50 @@
           "awayRate": 59,
           "predictedWinner": "哥倫比亞",
           "predictedScore": "2-1",
+          "recommendationPanel": [
+            {
+              "key": "score",
+              "label": "比分",
+              "value": "2-1",
+              "confidence": 62
+            },
+            {
+              "key": "total",
+              "label": "大小球",
+              "value": "大 2.5",
+              "confidence": 69
+            },
+            {
+              "key": "handicap",
+              "label": "讓球/受讓",
+              "value": "哥倫比亞 -0.5",
+              "confidence": 68
+            },
+            {
+              "key": "winRate",
+              "label": "勝率方向",
+              "value": "哥倫比亞 59%",
+              "confidence": 59
+            },
+            {
+              "key": "goalCount",
+              "label": "進球數",
+              "value": "2-3 球",
+              "confidence": 60
+            },
+            {
+              "key": "firstHalf",
+              "label": "特1/半場",
+              "value": "特1：上半場小 1",
+              "confidence": 56
+            },
+            {
+              "key": "btts",
+              "label": "雙方進球",
+              "value": "是",
+              "confidence": 65
+            }
+          ],
           "recommendation": "哥倫比亞 優勢觀察",
           "confidence": "中",
           "stars": "⭐⭐⭐",
@@ -981,7 +1611,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1029,6 +1660,50 @@
         "awayRate": 42,
         "predictedWinner": "法國",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 60
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 70
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "塞內加爾 +0.5 受讓",
+            "confidence": 58
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "法國 58%",
+            "confidence": 58
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 59
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 66
+          }
+        ],
         "recommendation": "法國 優勢觀察",
         "confidence": "中",
         "stars": "⭐⭐⭐",
@@ -1050,7 +1725,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "外部公開資訊：球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛",
+        "externalIntel": [
+          "球天下世界杯賽程：法国 vs 塞内加尔｜06-17 03:00｜未开赛"
+        ],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -1094,6 +1772,50 @@
         "awayRate": 68,
         "predictedWinner": "挪威",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 72
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 73
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "挪威 -0.5",
+            "confidence": 68
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "挪威 68%",
+            "confidence": 68
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 60
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 63
+          }
+        ],
         "recommendation": "挪威 優勢觀察",
         "confidence": "中高",
         "stars": "⭐⭐⭐⭐",
@@ -1115,7 +1837,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "外部公開資訊：球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛",
+        "externalIntel": [
+          "球天下世界杯賽程：伊拉克 vs 挪威｜06-17 06:00｜未开赛"
+        ],
         "qualityScore": 72,
         "homeForm": {
           "wins": 3,
@@ -1159,6 +1884,50 @@
         "awayRate": 31,
         "predictedWinner": "阿根廷",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 74
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 71
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "阿根廷 -0.5",
+            "confidence": 68
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "阿根廷 69%",
+            "confidence": 69
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 59
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 61
+          }
+        ],
         "recommendation": "阿根廷 優勢觀察",
         "confidence": "中高",
         "stars": "⭐⭐⭐⭐",
@@ -1180,7 +1949,11 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "外部公開資訊：球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛；球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+        "externalIntel": [
+          "球天下世界杯賽程：阿根廷 vs 阿尔及利亚｜06-17 09:00｜未开赛",
+          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+        ],
         "qualityScore": 74,
         "homeForm": {
           "wins": 8,
@@ -1224,6 +1997,50 @@
         "awayRate": 34,
         "predictedWinner": "奧地利",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 70
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 72
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "奧地利 -0.5",
+            "confidence": 68
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "奧地利 66%",
+            "confidence": 66
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-4 球",
+            "confidence": 61
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場有球",
+            "confidence": 61
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 65
+          }
+        ],
         "recommendation": "奧地利 優勢觀察",
         "confidence": "中高",
         "stars": "⭐⭐⭐⭐",
@@ -1245,7 +2062,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -1289,6 +2107,50 @@
         "awayRate": 47,
         "predictedWinner": "迦納",
         "predictedScore": "1-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "1-1",
+            "confidence": 55
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 71
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "巴拿馬 +0.5 受讓",
+            "confidence": 58
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "迦納 53%",
+            "confidence": 53
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 51
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 60
+          }
+        ],
         "recommendation": "雙方接近，重點觀察開局節奏",
         "confidence": "中",
         "stars": "⭐⭐⭐",
@@ -1310,7 +2172,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -1354,6 +2217,50 @@
         "awayRate": 47,
         "predictedWinner": "英格蘭",
         "predictedScore": "1-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "1-1",
+            "confidence": 55
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 65
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "克羅埃西亞 +0.5 受讓",
+            "confidence": 58
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "英格蘭 53%",
+            "confidence": 53
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 52
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 62
+          }
+        ],
         "recommendation": "雙方接近，重點觀察開局節奏",
         "confidence": "中",
         "stars": "⭐⭐⭐",
@@ -1375,7 +2282,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -1419,6 +2327,50 @@
         "awayRate": 29,
         "predictedWinner": "葡萄牙",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 76
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 69
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "葡萄牙 -0.5",
+            "confidence": 68
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "葡萄牙 71%",
+            "confidence": 71
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 60
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 61
+          }
+        ],
         "recommendation": "葡萄牙 優勢觀察",
         "confidence": "中高",
         "stars": "⭐⭐⭐⭐",
@@ -1440,7 +2392,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 76,
         "homeForm": {
           "wins": 5,
@@ -1484,6 +2437,50 @@
         "awayRate": 59,
         "predictedWinner": "哥倫比亞",
         "predictedScore": "2-1",
+        "recommendationPanel": [
+          {
+            "key": "score",
+            "label": "比分",
+            "value": "2-1",
+            "confidence": 62
+          },
+          {
+            "key": "total",
+            "label": "大小球",
+            "value": "大 2.5",
+            "confidence": 69
+          },
+          {
+            "key": "handicap",
+            "label": "讓球/受讓",
+            "value": "哥倫比亞 -0.5",
+            "confidence": 68
+          },
+          {
+            "key": "winRate",
+            "label": "勝率方向",
+            "value": "哥倫比亞 59%",
+            "confidence": 59
+          },
+          {
+            "key": "goalCount",
+            "label": "進球數",
+            "value": "2-3 球",
+            "confidence": 60
+          },
+          {
+            "key": "firstHalf",
+            "label": "特1/半場",
+            "value": "特1：上半場小 1",
+            "confidence": 56
+          },
+          {
+            "key": "btts",
+            "label": "雙方進球",
+            "value": "是",
+            "confidence": 65
+          }
+        ],
         "recommendation": "哥倫比亞 優勢觀察",
         "confidence": "中",
         "stars": "⭐⭐⭐",
@@ -1505,7 +2502,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "首頁已改用站內自建資料模型；外部分析後端授權失效不再阻擋首頁更新。",
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -1533,6 +2531,120 @@
           "totalGames": 15,
           "recentResults": []
         }
+      }
+    ],
+    "externalIntel": [
+      {
+        "name": "球天下世界杯",
+        "url": "https://m.qtx.com/worldcup",
+        "kind": "schedule_news",
+        "ok": true,
+        "matches": [
+          {
+            "home": "法国",
+            "away": "塞内加尔",
+            "time": "06-17 03:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "伊拉克",
+            "away": "挪威",
+            "time": "06-17 06:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "阿根廷",
+            "away": "阿尔及利亚",
+            "time": "06-17 09:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          }
+        ],
+        "headlines": [
+          "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
+          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "2026世界杯 06-16 13:06 亚足联球队本届世界杯2胜4平仍不败 还有三支亚洲球队将登场 世界杯 06-16 12:45 今日4场世界杯小组赛4连平 多支强队没能完",
+          "2026世界杯 06-16 10:16 本届世界杯已有3粒乌龙“领跑”射手榜 巴拉圭、瑞士、埃及球员打进乌龙 世界杯 06-16 10:15 世界杯开赛以来最大冷门诞生 ！西",
+          "2026世界杯 06-16 10:05 世界杯6月17日赛程表及最新比分结果一览（完整版） 2026世界杯 06-16 09:32 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴"
+        ],
+        "error": ""
+      },
+      {
+        "name": "7M赛前分析",
+        "url": "https://news.7m.com.cn/list/5/index.shtml",
+        "kind": "pre_match_news",
+        "ok": true,
+        "matches": [],
+        "headlines": [],
+        "error": ""
+      },
+      {
+        "name": "7M AI模型预测",
+        "url": "https://tv.7m.com.cn/big/",
+        "kind": "ai_prediction",
+        "ok": true,
+        "matches": [
+          {
+            "home": "Belgium",
+            "away": "Egypt",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5002024",
+            "summary": "Belgium vs Egypt｜比分1-0｜大小大2.5｜讓球Egypt -1｜勝率Belgium｜進球數2"
+          },
+          {
+            "home": "Saudi Arabia",
+            "away": "Uruguay",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5002026",
+            "summary": "Saudi Arabia vs Uruguay｜比分0-1｜大小小2.25｜讓球Saudi Arabia 1.25｜勝率Uruguay｜進球數2"
+          },
+          {
+            "home": "Iran",
+            "away": "New Zealand",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5002025",
+            "summary": "Iran vs New Zealand｜比分1-0｜大小大2｜讓球New Zealand -0.5｜勝率Iran｜進球數2"
+          }
+        ],
+        "headlines": [
+          "Belgium vs Egypt｜比分1-0｜大小大2.5｜讓球Egypt -1｜勝率Belgium｜進球數2",
+          "Saudi Arabia vs Uruguay｜比分0-1｜大小小2.25｜讓球Saudi Arabia 1.25｜勝率Uruguay｜進球數2",
+          "Iran vs New Zealand｜比分1-0｜大小大2｜讓球New Zealand -0.5｜勝率Iran｜進球數2"
+        ],
+        "error": ""
+      },
+      {
+        "name": "天天盈球",
+        "url": "https://www.ttyingqiu.com/index",
+        "kind": "score_news",
+        "ok": true,
+        "matches": [],
+        "headlines": [
+          "沙尔克“将永久租借”凯文·穆勒 进神聊球",
+          "柏林联盟免费签下中卫芝诺·范登·博世 鬼手爱球",
+          "马库斯·克罗切在达成协议后“加入”AC米兰 V先生",
+          "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
+        ],
+        "error": ""
+      },
+      {
+        "name": "天天盈球世界杯积分",
+        "url": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
+        "kind": "standings",
+        "ok": true,
+        "matches": [],
+        "headlines": [
+          "天天盈球2026世界盃積分頁已連線，可作分組積分來源。"
+        ],
+        "error": ""
       }
     ]
   }

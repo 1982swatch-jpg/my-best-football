@@ -29,6 +29,12 @@ const TEAMS = {
   '德國': { aliases: ['germany'], flag: 'DE', strength: 86 },
   '日本': { aliases: ['japan'], flag: 'JP', strength: 77 },
   '荷蘭': { aliases: ['netherlands'], flag: 'NL', strength: 84 },
+  '比利時': { aliases: ['belgium'], flag: 'BE', strength: 84 },
+  '埃及': { aliases: ['egypt'], flag: 'EG', strength: 70 },
+  '烏拉圭': { aliases: ['uruguay'], flag: 'UY', strength: 82 },
+  '沙烏地阿拉伯': { aliases: ['saudi arabia', 'saudi'], flag: 'SA', strength: 66 },
+  '伊朗': { aliases: ['iran'], flag: 'IR', strength: 75 },
+  '紐西蘭': { aliases: ['new zealand'], flag: 'NZ', strength: 64 },
 };
 
 function normalize(value) {
@@ -58,6 +64,164 @@ function hashText(text) {
   return Math.abs(h);
 }
 
+function buildRecommendationPanel(home, away, metrics) {
+  const favorite = metrics.homeRate >= metrics.awayRate ? home.name : away.name;
+  const underdog = metrics.homeRate >= metrics.awayRate ? away.name : home.name;
+  const edge = Math.abs(metrics.homeRate - metrics.awayRate);
+  const totalLine = metrics.over25 >= 58 ? '大 2.5' : metrics.over25 <= 48 ? '小 2.5' : '2/2.5 觀察';
+  const goalCount = metrics.expectedGoals >= 2.75 ? '2-4 球' : metrics.expectedGoals <= 2.25 ? '1-2 球' : '2-3 球';
+  const handicap = edge >= 18 ? `${favorite} -0.5` : `${underdog} +0.5 受讓`;
+  const firstHalf = metrics.expectedGoals >= 2.75 ? '特1：上半場有球' : '特1：上半場小 1';
+
+  return [
+    { key: 'score', label: '比分', value: metrics.predictedScore, confidence: metrics.modelScore },
+    { key: 'total', label: '大小球', value: totalLine, confidence: metrics.over25 >= 58 ? metrics.over25 : 100 - metrics.over25 },
+    { key: 'handicap', label: '讓球/受讓', value: handicap, confidence: edge >= 18 ? 68 : 58 },
+    { key: 'winRate', label: '勝率方向', value: `${favorite} ${Math.max(metrics.homeRate, metrics.awayRate)}%`, confidence: Math.max(metrics.homeRate, metrics.awayRate) },
+    { key: 'goalCount', label: '進球數', value: goalCount, confidence: Math.round(metrics.expectedGoals * 22) },
+    { key: 'firstHalf', label: '特1/半場', value: firstHalf, confidence: metrics.expectedGoals >= 2.75 ? 61 : 56 },
+    { key: 'btts', label: '雙方進球', value: metrics.btts >= 58 ? '是' : '觀察', confidence: metrics.btts }
+  ];
+}
+
+function stripHtml(html) {
+  return String(html || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function aliasesFor(team) {
+  return [team.name, ...(team.aliases || [])];
+}
+
+async function fetchText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 3500);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FootballDataBot/1.0)' }
+    });
+    if (!res.ok) return '';
+    return await res.text();
+  } catch (_) {
+    return '';
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function collectExternalNotes(home, away) {
+  const homeAliases = aliasesFor(home).map(normalize);
+  const awayAliases = aliasesFor(away).map(normalize);
+  const sources = [
+    ['球天下世界杯', 'https://m.qtx.com/worldcup'],
+    ['7M赛前分析', 'https://news.7m.com.cn/list/5/index.shtml'],
+    ['天天盈球', 'https://www.ttyingqiu.com/index']
+  ];
+  const notes = [];
+
+  for (const [name, url] of sources) {
+    const text = normalize(stripHtml(await fetchText(url)));
+    if (!text) continue;
+    const hasHome = homeAliases.some(a => a && text.includes(a));
+    const hasAway = awayAliases.some(a => a && text.includes(a));
+    if (hasHome && hasAway) {
+      notes.push(`${name}：公開列表頁有 ${home.name} / ${away.name} 相關賽事或資訊`);
+    } else if (hasHome || hasAway) {
+      notes.push(`${name}：公開列表頁有 ${hasHome ? home.name : away.name} 相關資訊`);
+    }
+  }
+  return notes.slice(0, 4);
+}
+
+function parsePercent(value, fallback) {
+  const num = Number(String(value || '').replace('%', ''));
+  return Number.isFinite(num) ? Math.round(num) : fallback;
+}
+
+function sevenMWdlLabel(wdl, home, away) {
+  if (!wdl) return '';
+  if (wdl.predict === 1) return `${home.name} ${wdl.homeRate || ''}`.trim();
+  if (wdl.predict === 2) return `和局 ${wdl.drawRate || ''}`.trim();
+  if (wdl.predict === 3) return `${away.name} ${wdl.awayRate || ''}`.trim();
+  return '';
+}
+
+function sevenMHandicapLabel(handicap, home, away) {
+  if (!handicap) return '';
+  const line = Number(handicap.handicap || 0);
+  const side = handicap.predict === 1 ? home.name : handicap.predict === 2 ? away.name : '受讓觀察';
+  const signed = line > 0 ? `+${line}` : String(line);
+  return `${side} ${signed}`;
+}
+
+function sevenMTotalLabel(overunder) {
+  if (!overunder) return '';
+  const line = overunder.score || 2.5;
+  if (overunder.predict === 1) return `大 ${line}`;
+  if (overunder.predict === 2) return `小 ${line}`;
+  return `${line} 觀察`;
+}
+
+function panelFromSevenM(ai, home, away) {
+  const data = ai?.data || {};
+  const score = data.score?.options?.[0];
+  const goal = data.goal?.options?.[0];
+  const wdlConf = Math.max(
+    parsePercent(data.wdl?.homeRate, 0),
+    parsePercent(data.wdl?.drawRate, 0),
+    parsePercent(data.wdl?.awayRate, 0)
+  );
+  const overConf = Math.max(parsePercent(data.overunder?.overRate, 0), parsePercent(data.overunder?.underRate, 0));
+  const handicapConf = Math.max(parsePercent(data.handicap?.homeRate, 0), parsePercent(data.handicap?.awayRate, 0), parsePercent(data.handicap?.evenRate, 0));
+  return [
+    { key: 'score', label: '比分', value: score?.score || '觀察', confidence: parsePercent(score?.rate, 55) },
+    { key: 'total', label: '大小球', value: sevenMTotalLabel(data.overunder) || '觀察', confidence: overConf || 55 },
+    { key: 'handicap', label: '讓球/受讓', value: sevenMHandicapLabel(data.handicap, home, away) || '觀察', confidence: handicapConf || 55 },
+    { key: 'winRate', label: '勝率方向', value: sevenMWdlLabel(data.wdl, home, away) || '觀察', confidence: wdlConf || 55 },
+    { key: 'goalCount', label: '進球數', value: goal ? `${goal.score} 球` : '觀察', confidence: parsePercent(goal?.rate, 55) },
+    { key: 'firstHalf', label: '特1/半場', value: data.overunder?.predict === 1 ? '特1：上半場有球' : '特1：上半場小 1', confidence: overConf ? Math.max(50, overConf - 6) : 55 },
+    { key: 'btts', label: '雙方進球', value: data.overunder?.predict === 1 ? '偏是' : '觀察', confidence: overConf || 55 }
+  ];
+}
+
+async function collectSevenMAiPrediction(home, away) {
+  const homeAliases = aliasesFor(home).map(normalize);
+  const awayAliases = aliasesFor(away).map(normalize);
+  const html = await fetchText('https://tv.7m.com.cn/big/');
+  const ids = [...new Set([...String(html).matchAll(/ShowAnalyse_big\((\d+)\)/g)].map(m => m[1]))].slice(0, 12);
+
+  for (const id of ids) {
+    const raw = await fetchText(`https://txt-api.7mdt.com/specials/worldcup2026/getMatchAiData?matchId=${id}&lan=3&t=${Date.now()}`);
+    if (!raw) continue;
+    try {
+      const ai = JSON.parse(raw);
+      const match = ai?.data?.match || {};
+      const apiHome = normalize(match.homeName);
+      const apiAway = normalize(match.awayName);
+      const sameOrder = homeAliases.some(a => a && apiHome.includes(a)) && awayAliases.some(a => a && apiAway.includes(a));
+      const reverseOrder = homeAliases.some(a => a && apiAway.includes(a)) && awayAliases.some(a => a && apiHome.includes(a));
+      if (ai.status === 200 && (sameOrder || reverseOrder)) {
+        return {
+          id,
+          url: `https://analyse.7m.com.cn/${id}/index_big.shtml`,
+          panel: panelFromSevenM(ai, home, away),
+          note: `7M AI模型：已抓取 ${match.homeName} vs ${match.awayName} 的比分、大小球、讓球、勝平負與進球數。`
+        };
+      }
+    } catch (_) {
+      continue;
+    }
+  }
+  return null;
+}
+
 function buildForm(seed, strength) {
   const wins = clamp(Math.round(strength / 14 + (seed % 4) - 2), 2, 10);
   const draws = clamp(4 + (seed % 3) - 1, 2, 6);
@@ -85,9 +249,13 @@ function buildForm(seed, strength) {
   };
 }
 
-function analyzeMatch(homeInput, awayInput) {
+async function analyzeMatch(homeInput, awayInput) {
   const home = resolveTeam(homeInput);
   const away = resolveTeam(awayInput);
+  const [externalIntel, sevenMAi] = await Promise.all([
+    collectExternalNotes(home, away),
+    collectSevenMAiPrediction(home, away)
+  ]);
   const seed = hashText(`${home.name}:${away.name}`);
   const diff = home.strength - away.strength;
   const homeRate = clamp(Math.round(50 + diff * 0.9 + ((seed % 9) - 4)), 18, 82);
@@ -100,6 +268,18 @@ function analyzeMatch(homeInput, awayInput) {
   const upsetIndex = clamp(Math.round(62 - Math.abs(diff) * 0.55 + (seed % 9)), 28, 68);
   const homeGoals = homeRate >= awayRate ? (expectedGoals >= 2.7 ? 2 : 1) : (btts > 52 ? 1 : 0);
   const awayGoals = awayRate > homeRate ? (expectedGoals >= 2.7 ? 2 : 1) : (btts > 52 ? 1 : 0);
+  const predictedScore = `${homeGoals}-${awayGoals}`;
+  const recommendationPanel = buildRecommendationPanel(home, away, {
+    homeRate,
+    awayRate,
+    predictedScore,
+    expectedGoals,
+    over25,
+    btts,
+    modelScore
+  });
+  const finalRecommendationPanel = sevenMAi?.panel || recommendationPanel;
+  const finalExternalIntel = sevenMAi?.note ? [sevenMAi.note, ...externalIntel] : externalIntel;
 
   return {
     home: home.name,
@@ -113,10 +293,11 @@ function analyzeMatch(homeInput, awayInput) {
     confidence: modelScore >= 75 ? '高' : modelScore >= 62 ? '中高' : '中',
     stars: modelScore >= 80 ? '⭐⭐⭐⭐⭐' : modelScore >= 70 ? '⭐⭐⭐⭐' : '⭐⭐⭐',
     diff: Math.abs(homeRate - awayRate),
-    predictedScore: `${homeGoals}-${awayGoals}`,
+    predictedScore,
+    recommendationPanel: finalRecommendationPanel,
     modelScore,
     dangerLevel: upsetIndex >= 58 ? 'MEDIUM' : 'LOW',
-    tags: ['🏆 世界盃', '📊 本地資料模型', '🧠 AI估算'],
+    tags: ['🏆 世界盃', sevenMAi ? '📡 7M AI補強' : '📊 本地資料模型', '🧠 AI估算'],
     decisionSignals: [
       { name: Math.abs(homeRate - awayRate) < 12 ? '五五波觀察' : '優勢方向明確', level: modelScore >= 70 ? 'STRONG' : 'STABLE' },
       { name: over25 >= 60 ? '高進球傾向' : '進球均衡', level: 'MEDIUM' },
@@ -148,9 +329,10 @@ function analyzeMatch(homeInput, awayInput) {
       main: `主方向：${favorite} ${Math.abs(homeRate - awayRate) < 12 ? '小幅優勢或五五波' : '較明顯優勢'}。`,
       goals: `大小球：高進球 ${over25}%、雙方進球 ${btts}%。`,
       upset: `變數：${upsetIndex}%｜${upsetIndex >= 58 ? '需防冷門' : '正常觀察'}。`,
-      market: '市場：目前使用本地模型估算，外部即時賠率未接入。',
+      market: sevenMAi ? '市場：已接入 7M AI 公開模型作為推薦補強。' : '市場：目前使用本地模型估算，外部即時賠率未接入。',
       note: '以上為資訊研究與模型觀察，不保證賽果。'
     },
+    externalIntel: finalExternalIntel,
     homeMomentum: home.strength >= away.strength ? '📈 狀態較佳' : '📊 狀態普通',
     awayMomentum: away.strength > home.strength ? '📈 狀態較佳' : '📊 狀態普通',
     odds: null,
@@ -204,5 +386,5 @@ module.exports = async function handler(req, res) {
     return;
   }
 
-  sendJson(res, 200, analyzeMatch(home, away));
+  sendJson(res, 200, await analyzeMatch(home, away));
 };

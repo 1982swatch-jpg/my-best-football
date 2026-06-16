@@ -30,7 +30,6 @@ function renderList(title, desc, list) {
       '<div class="quick-meta">' + (m.recommendation || "焦點觀察") + (m.homeRate ? "｜" + m.homeRate + "% : " + m.awayRate + "%" : "") + '</div>' +
       '<div class="quick-meta">' + (m.predictedScore ? "AI比分 " + m.predictedScore + "｜" : "") + (m.goalModel ? "高進球" + m.goalModel.over25 + "%｜BTTS " + m.goalModel.btts + "%｜" : "") + (m.upsetModel ? "變數" + m.upsetModel.upsetIndex + "%" : "") + '</div>' +
       renderMiniTags(m.tags) +
-      '<div class="quick-market">' + (m.market || "市場資料暫無，使用AI基礎模型") + '</div>' +
     '</div>';
   }).join("");
 
@@ -173,15 +172,49 @@ function renderModelCards(data) {
     ["⚠️ 變數風險", data.upsetModel.upsetIndex]
   ];
 
+  const edge = Math.abs((Number(data.homeRate) || 0) - (Number(data.awayRate) || 0));
+  const context = [
+    "勝率差 " + edge + "%",
+    "預期進球 " + data.goalModel.expectedGoals,
+    "BTTS " + data.goalModel.btts + "%",
+    "變數 " + data.upsetModel.upsetIndex + "%"
+  ];
+
   return '<div class="model-grid">' +
     '<div class="model-card"><b>高進球率</b><div>' + data.goalModel.over25 + '%</div></div>' +
     '<div class="model-card"><b>低進球率</b><div>' + data.goalModel.under25 + '%</div></div>' +
     '<div class="model-card"><b>雙方進球</b><div>' + data.goalModel.btts + '%</div></div>' +
     '<div class="model-card"><b>變數指數</b><div>' + data.upsetModel.upsetIndex + '%</div></div>' +
   '</div>' +
+  '<div class="model-context">' +
+    '<b>模型依據</b><span>' + context.join("｜") + '</span>' +
+    '<em>資料：站內賽程模型、公開資訊補強、隊伍強度與進球分布估算。</em>' +
+  '</div>' +
   '<div class="goal-bars">' + rows.map(function(r) {
     return '<div class="goal-line"><div>' + r[0] + '</div><div class="goal-track"><div class="goal-fill" style="width:' + r[1] + '%"></div></div><b>' + r[1] + '%</b></div>';
   }).join("") + '</div>';
+}
+
+function renderRecommendationPanel(data) {
+  const panel = Array.isArray(data.recommendationPanel) ? data.recommendationPanel : [
+    { label: "比分", value: data.predictedScore, confidence: data.modelScore },
+    { label: "大小球", value: data.goalModel.over25 >= 58 ? "大 2.5" : data.goalModel.over25 <= 48 ? "小 2.5" : "2/2.5 觀察", confidence: data.goalModel.over25 >= 58 ? data.goalModel.over25 : data.goalModel.under25 },
+    { label: "勝率方向", value: data.predictedWinner + " " + Math.max(data.homeRate, data.awayRate) + "%", confidence: Math.max(data.homeRate, data.awayRate) },
+    { label: "進球數", value: data.goalModel.expectedGoals >= 2.75 ? "2-4 球" : data.goalModel.expectedGoals <= 2.25 ? "1-2 球" : "2-3 球", confidence: Math.round(data.goalModel.expectedGoals * 22) },
+    { label: "雙方進球", value: data.goalModel.btts >= 58 ? "是" : "觀察", confidence: data.goalModel.btts },
+    { label: "特1/半場", value: data.goalModel.expectedGoals >= 2.75 ? "特1：上半場有球" : "特1：上半場小 1", confidence: data.goalModel.expectedGoals >= 2.75 ? 61 : 56 }
+  ];
+
+  return '<div class="model-grid recommendation-grid">' +
+    panel.slice(0, 8).map(function(item) {
+      const confidence = Math.max(0, Math.min(99, Math.round(item.confidence || 0)));
+      return '<div class="model-card recommendation-card">' +
+        '<b>' + item.label + '</b>' +
+        '<div>' + item.value + '</div>' +
+        '<span>信心 ' + confidence + '%</span>' +
+      '</div>';
+    }).join("") +
+  '</div>';
 }
 
 function renderRadar(data) {
@@ -248,6 +281,18 @@ function renderSignals(data) {
   '</div>';
 }
 
+function renderExternalIntel(data) {
+  const notes = data.externalIntel || [];
+  if (!notes.length) return "";
+  return '<div class="playbox">' +
+    '<div class="playbox-title">🌐 外部公開資料補強</div>' +
+    notes.slice(0, 4).map(function(x) {
+      return '<div class="playitem">' + x + '</div>';
+    }).join("") +
+    '<div class="small">來源為公開列表頁摘要，只作模型補強，不直接複製完整文章。</div>' +
+  '</div>';
+}
+
 function renderH2H(data) {
   if (!data.h2h || data.h2h.total === 0) {
     return '<div class="statbox"><div class="playbox-title">🤝 歷史交手</div><div class="playitem">API暫無完整歷史交手資料</div></div>';
@@ -299,8 +344,9 @@ function decimalOddFromRate(rate) {
 function renderOdds(data) {
   if (!data.odds) {
     const draw = Math.max(9, Math.round(100 - Math.max(data.homeRate, data.awayRate) - 8));
-    return '<div class="statbox"><div class="playbox-title">💰 AI 模擬賠率</div>' +
-      '<div class="small">目前市場資料暫無，以下為 AI 依勝率模型推估，僅供觀察。</div>' +
+    return '<div class="statbox"><div class="playbox-title">💰 AI 模擬賠率 / 推薦方向</div>' +
+      '<div class="small">目前市場資料暫無，以下整合勝率、進球模型與公開資料補強，只作賽前觀察。</div>' +
+      renderRecommendationPanel(data) +
       '<div class="odds-grid">' +
         '<div class="odd-card"><b>主勝</b><span>' + decimalOddFromRate(data.homeRate) + '</span></div>' +
         '<div class="odd-card"><b>和局</b><span>' + decimalOddFromRate(draw) + '</span></div>' +
@@ -309,8 +355,9 @@ function renderOdds(data) {
     '</div>';
   }
 
-  return '<div class="statbox"><div class="playbox-title">💰 市場賠率</div>' +
+  return '<div class="statbox"><div class="playbox-title">💰 市場賠率 / 推薦方向</div>' +
     '<div class="playitem">莊家：' + (data.odds.bookmaker || '市場平均') + '</div>' +
+    renderRecommendationPanel(data) +
     '<div class="odds-grid">' +
       '<div class="odd-card"><b>主勝</b><span>' + (data.odds.homeOdd || '-') + '</span></div>' +
       '<div class="odd-card"><b>和局</b><span>' + (data.odds.drawOdd || '-') + '</span></div>' +
@@ -427,6 +474,8 @@ async function analyze(fixtureId) {
           '<div class="playbox-title">🧠 進階短評</div>' +
           '<div class="article">' + data.reason + '</div>' +
         '</div>' +
+
+        renderExternalIntel(data) +
 
         '<p class="small">模型信心分數：' + data.modelScore + '%｜模型方向：' + data.predictedWinner + '</p>' +
 
