@@ -831,6 +831,121 @@ button:hover{
   box-shadow:inset 0 1px 0 rgba(255,255,255,.035);
 }
 
+.standings-card{
+  margin-bottom:18px;
+  padding:16px;
+}
+
+.standings-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.standings-title{
+  color:var(--accent);
+  font-weight:900;
+  font-size:15px;
+}
+
+.standings-source{
+  color:var(--gold);
+  font-size:11px;
+  font-weight:800;
+}
+
+.standings-panel{
+  min-height:172px;
+  border-radius:18px;
+  background:linear-gradient(145deg, rgba(15,23,42,.88), rgba(9,14,28,.72));
+  border:1px solid rgba(255,255,255,.10);
+  overflow:hidden;
+}
+
+.standings-panel.bounce{
+  animation:standingsBounce .48s ease;
+}
+
+.standings-group{
+  padding:12px 13px 10px;
+}
+
+.standings-group-name{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  color:#ffd166;
+  font-size:13px;
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+.standings-table{
+  display:grid;
+  gap:6px;
+}
+
+.standings-row{
+  display:grid;
+  grid-template-columns:28px 1fr 54px 42px 34px;
+  gap:6px;
+  align-items:center;
+  padding:7px 8px;
+  border-radius:12px;
+  background:rgba(255,255,255,.045);
+  color:#d8e1f0;
+  font-size:12px;
+}
+
+.standings-row.header{
+  background:rgba(0,255,156,.08);
+  color:#9fe7d0;
+  font-size:11px;
+  font-weight:900;
+}
+
+.standings-team{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#f8fafc;
+  font-weight:800;
+}
+
+.standings-pts{
+  color:#ff4d4d;
+  font-weight:1000;
+  text-align:right;
+}
+
+.standings-dots{
+  display:flex;
+  justify-content:center;
+  gap:6px;
+  margin-top:10px;
+}
+
+.standings-dot{
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:rgba(255,255,255,.22);
+}
+
+.standings-dot.active{
+  width:18px;
+  border-radius:999px;
+  background:linear-gradient(90deg, var(--accent), var(--accent2));
+}
+
+@keyframes standingsBounce{
+  0%{ transform:translateY(8px) scale(.985); opacity:.55; }
+  55%{ transform:translateY(-3px) scale(1.01); opacity:1; }
+  100%{ transform:translateY(0) scale(1); opacity:1; }
+}
+
 /* Schedule center becomes app-like compact dashboard */
 .stageBox{
   display:grid;
@@ -1295,6 +1410,15 @@ button:hover{
       </div>
     </div>
     <div class="countdown" id="countdown"></div>
+  </div>
+
+  <div class="card standings-card" id="standingsCard">
+    <div class="standings-head">
+      <div class="standings-title">📊 世界盃小組積分</div>
+      <div class="standings-source" id="standingsSource">天天盈球</div>
+    </div>
+    <div class="standings-panel" id="standingsPanel">正在讀取小組積分...</div>
+    <div class="standings-dots" id="standingsDots"></div>
   </div>
 
   <div class="card" id="scheduleCard">

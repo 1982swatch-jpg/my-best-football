@@ -66,6 +66,94 @@ function renderScheduleGame(g) {
   '</div>';
 }
 
+let standingsGroups = [];
+let standingsIndex = 0;
+let standingsTimer = null;
+
+function renderStandingsDots(total, active) {
+  const dots = document.getElementById("standingsDots");
+  if (!dots) return;
+
+  dots.innerHTML = Array.from({ length: total }).map(function(_, index) {
+    return '<button class="standings-dot' + (index === active ? ' active' : '') + '" aria-label="切換到第 ' + (index + 1) + ' 組" onclick="showStandingsGroup(' + index + ')"></button>';
+  }).join("");
+}
+
+function renderStandingsGroup(group, index, total) {
+  const teams = Array.isArray(group.teams) ? group.teams.slice(0, 4) : [];
+
+  return '<div class="standings-group">' +
+    '<div class="standings-group-name">' +
+      '<span>' + (group.group || "小組") + '積分</span>' +
+      '<span>' + (index + 1) + ' / ' + total + '</span>' +
+    '</div>' +
+    '<div class="standings-table">' +
+      '<div class="standings-row header">' +
+        '<span>排名</span><span>球隊</span><span>賽</span><span>勝</span><span>平</span><span>負</span><span>淨勝</span><span>積分</span>' +
+      '</div>' +
+      teams.map(function(team) {
+        return '<div class="standings-row">' +
+          '<span>' + team.rank + '</span>' +
+          '<span class="standings-team">' + (team.flag || "") + ' ' + team.team + '</span>' +
+          '<span>' + team.played + '</span>' +
+          '<span>' + team.wins + '</span>' +
+          '<span>' + team.draws + '</span>' +
+          '<span>' + team.losses + '</span>' +
+          '<span>' + (team.gd > 0 ? "+" + team.gd : team.gd) + '</span>' +
+          '<span class="standings-pts">' + team.pts + '</span>' +
+        '</div>';
+      }).join("") +
+    '</div>' +
+  '</div>';
+}
+
+function showStandingsGroup(nextIndex) {
+  const panel = document.getElementById("standingsPanel");
+  if (!panel || standingsGroups.length === 0) return;
+
+  standingsIndex = (nextIndex + standingsGroups.length) % standingsGroups.length;
+  panel.classList.remove("bounce");
+  panel.innerHTML = renderStandingsGroup(standingsGroups[standingsIndex], standingsIndex, standingsGroups.length);
+  void panel.offsetWidth;
+  panel.classList.add("bounce");
+  renderStandingsDots(standingsGroups.length, standingsIndex);
+}
+
+async function loadGroupStandings() {
+  const panel = document.getElementById("standingsPanel");
+  const source = document.getElementById("standingsSource");
+  if (!panel) return;
+
+  try {
+    const res = await fetch("FOOTBALL_FULL_DATABASE_DUMP.json?v=" + Date.now(), { cache: "no-store" });
+    const db = await res.json();
+    const data = db.endpoints && db.endpoints.groupStandings ? db.endpoints.groupStandings : {};
+
+    standingsGroups = Array.isArray(data.groups) ? data.groups.filter(function(group) {
+      return Array.isArray(group.teams) && group.teams.length > 0;
+    }) : [];
+
+    if (source) {
+      source.innerText = data.source === "ttyingqiu-standings-cache" ? "天天盈球資料" : "小組積分";
+    }
+
+    if (standingsGroups.length === 0) {
+      panel.innerHTML = "目前尚未取得小組積分。";
+      return;
+    }
+
+    showStandingsGroup(0);
+
+    if (standingsTimer) clearInterval(standingsTimer);
+    standingsTimer = setInterval(function() {
+      showStandingsGroup(standingsIndex + 1);
+    }, 4200);
+  } catch (err) {
+    console.error("loadGroupStandings error:", err);
+    panel.innerHTML = "小組積分讀取失敗，請稍後再試。";
+  }
+}
+
 
 function toggleScheduleCenter() {
   const card = document.getElementById("scheduleCard");
@@ -377,10 +465,10 @@ function renderSquad(data) {
 
   function playerRows(players) {
     if (!players.length) return '<div class="playitem">暫無球員資料</div>';
-    return players.slice(0, 6).map(function(p) {
+    return players.slice(0, 12).map(function(p) {
       return '<div class="player-row">' +
         (p.photo ? '<img src="' + p.photo + '" />' : "") +
-        '<span>' + p.name + (p.club ? '<small class="club-name">｜' + p.club + '</small>' : '') + '</span><em>' + (p.position || "") + '</em>' +
+        '<span>' + (p.number ? '<b>' + p.number + '</b> ' : '') + p.name + (p.club ? '<small class="club-name">｜' + p.club + '</small>' : '') + '</span><em>' + (p.position || "") + '</em>' +
       '</div>';
     }).join("");
   }
@@ -396,11 +484,14 @@ function renderSquad(data) {
 function renderInjuriesAndLineups(data) {
   const injuries = data.injuries || [];
   const lineups = data.lineups || [];
+  const lineupText = lineups.length ? lineups.map(function(item) {
+    return item.team + (item.formation ? " " + item.formation : "") + (item.avgAge ? "｜均齡 " + item.avgAge : "") + (item.starters ? "｜首發 " + item.starters + " 人" : "");
+  }).join("<br>") : "賽前公布後自動更新";
 
   return '<div class="statbox">' +
     '<div class="playbox-title">🏥 傷病 / 先發資訊</div>' +
     '<div class="playitem">傷病資料：' + (injuries.length ? injuries.length + " 筆" : "暫無公開傷病") + '</div>' +
-    '<div class="playitem">先發名單：' + (lineups.length ? "已公布" : "賽前公布後自動更新") + '</div>' +
+    '<div class="playitem">先發名單：' + lineupText + '</div>' +
   '</div>';
 }
 
@@ -524,6 +615,7 @@ window.addEventListener('error', function(e) {
 });
 
 loadScheduleCenter();
+loadGroupStandings();
 loadRecommended();
 
 const worldCupDate = new Date("2026-06-11T00:00:00");

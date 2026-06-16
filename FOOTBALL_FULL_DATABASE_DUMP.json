@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-16 13:52:19",
+    "scraped_at": "2026-06-16 14:12:51",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1748,6 +1748,128 @@
       ],
       "splitSignals": []
     },
+    "groupStandings": {
+      "source": "ttyingqiu-standings-cache",
+      "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
+      "updatedAt": "2026-06-16 14:12:51",
+      "note": "天天盈球積分頁可連線；目前先使用已抓取/快取小組資料顯示，後續可接動態 API 自動擴充。",
+      "groups": [
+        {
+          "group": "A組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "🇲🇽",
+              "team": "墨西哥",
+              "played": 1,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "gf": 2,
+              "ga": 0,
+              "gd": 2,
+              "pts": 3
+            },
+            {
+              "rank": 2,
+              "flag": "🇰🇷",
+              "team": "韓國",
+              "played": 1,
+              "wins": 1,
+              "draws": 0,
+              "losses": 0,
+              "gf": 2,
+              "ga": 1,
+              "gd": 1,
+              "pts": 3
+            },
+            {
+              "rank": 3,
+              "flag": "🇨🇿",
+              "team": "捷克",
+              "played": 1,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "gf": 1,
+              "ga": 2,
+              "gd": -1,
+              "pts": 0
+            },
+            {
+              "rank": 4,
+              "flag": "🇿🇦",
+              "team": "南非",
+              "played": 1,
+              "wins": 0,
+              "draws": 0,
+              "losses": 1,
+              "gf": 0,
+              "ga": 2,
+              "gd": -2,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "group": "B組",
+          "teams": [
+            {
+              "rank": 1,
+              "flag": "🇨🇭",
+              "team": "瑞士",
+              "played": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "gf": 1,
+              "ga": 1,
+              "gd": 0,
+              "pts": 1
+            },
+            {
+              "rank": 2,
+              "flag": "🇨🇦",
+              "team": "加拿大",
+              "played": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "gf": 1,
+              "ga": 1,
+              "gd": 0,
+              "pts": 1
+            },
+            {
+              "rank": 3,
+              "flag": "🇶🇦",
+              "team": "卡達",
+              "played": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "gf": 1,
+              "ga": 1,
+              "gd": 0,
+              "pts": 1
+            },
+            {
+              "rank": 4,
+              "flag": "🇧🇦",
+              "team": "波黑",
+              "played": 1,
+              "wins": 0,
+              "draws": 1,
+              "losses": 0,
+              "gf": 1,
+              "ga": 1,
+              "gd": 0,
+              "pts": 1
+            }
+          ]
+        }
+      ]
+    },
     "analyses": [
       {
         "home": "法國",
@@ -2743,10 +2865,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -2796,9 +2918,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "沙尔克“将永久租借”凯文·穆勒 进神聊球",
-          "柏林联盟免费签下中卫芝诺·范登·博世 鬼手爱球",
-          "马库斯·克罗切在达成协议后“加入”AC米兰 V先生",
+          "西班牙边锋准备拒绝曼联和利物浦转会英超对手 东神看球",
+          "Rafa Mir因性侵犯被判处八年半监禁 东神看球",
+          "特尔齐奇评估阵容，竞技面对2027年合同召唤 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""

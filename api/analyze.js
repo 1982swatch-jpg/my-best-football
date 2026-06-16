@@ -358,6 +358,101 @@ async function collectSevenMAiPrediction(home, away) {
   return null;
 }
 
+function parseSevenMArray(text, name) {
+  const match = String(text || '').match(new RegExp(`var\\s+${name}\\s*=\\s*\\[([\\s\\S]*?)\\];`));
+  if (!match) return [];
+  const body = match[1];
+  const strings = [];
+  const stringRe = /'((?:\\'|[^'])*)'/g;
+  let item;
+
+  while ((item = stringRe.exec(body))) {
+    strings.push(item[1].replace(/\\'/g, "'").trim());
+  }
+
+  if (strings.length) return strings;
+
+  return body.split(',').map(value => {
+    const number = Number(String(value).trim());
+    return Number.isFinite(number) ? number : 0;
+  });
+}
+
+function buildSevenMSquad(names, positions, starterFlags, side) {
+  const positionMap = {
+    0: '守門',
+    1: '後衛',
+    2: '中場',
+    3: '前鋒'
+  };
+
+  return names.map((raw, index) => {
+    const match = String(raw || '').match(/^(\d+)\s+(.+)$/);
+    const number = match ? match[1] : '';
+    const name = match ? match[2] : String(raw || '').trim();
+    const isStarter = Number(starterFlags[index]) === 3;
+
+    return {
+      name,
+      number,
+      position: (positionMap[Number(positions[index])] || '球員') + (isStarter ? '｜首發' : '｜後備'),
+      lineupStatus: isStarter ? 'starter' : 'bench',
+      club: side,
+      source: '7M陣容'
+    };
+  }).filter(player => player.name);
+}
+
+async function collectSevenMLineup(matchId, home, away) {
+  if (!matchId) return null;
+
+  try {
+    const text = await fetchText(`https://data.7m.com.cn/analyse/big/nline_up/${matchId}.js?t=${Date.now()}`);
+    if (!text) return null;
+
+    const homeSquad = buildSevenMSquad(
+      parseSevenMArray(text, 'lineup_an'),
+      parseSevenMArray(text, 'lineup_ap'),
+      parseSevenMArray(text, 'lineup_asid'),
+      home
+    );
+    const awaySquad = buildSevenMSquad(
+      parseSevenMArray(text, 'lineup_bn'),
+      parseSevenMArray(text, 'lineup_bp'),
+      parseSevenMArray(text, 'lineup_bsid'),
+      away
+    );
+    const homeAgeMatch = String(text).match(/var\s+lineup_aage\s*=\s*'([^']*)'/);
+    const awayAgeMatch = String(text).match(/var\s+lineup_bage\s*=\s*'([^']*)'/);
+    const homeFormationMatch = String(text).match(/var\s+lineup_formationa\s*=\s*'([^']*)'/);
+    const awayFormationMatch = String(text).match(/var\s+lineup_formationb\s*=\s*'([^']*)'/);
+
+    return {
+      homeSquad,
+      awaySquad,
+      lineups: [
+        {
+          team: home,
+          formation: homeFormationMatch?.[1] || '',
+          avgAge: homeAgeMatch?.[1] || '',
+          starters: homeSquad.filter(player => player.lineupStatus === 'starter').length,
+          source: '7M'
+        },
+        {
+          team: away,
+          formation: awayFormationMatch?.[1] || '',
+          avgAge: awayAgeMatch?.[1] || '',
+          starters: awaySquad.filter(player => player.lineupStatus === 'starter').length,
+          source: '7M'
+        }
+      ].filter(item => item.starters || item.formation || item.avgAge),
+      note: homeSquad.length || awaySquad.length ? `7M陣容：已抓取 ${home} ${homeSquad.length} 人、${away} ${awaySquad.length} 人。` : ''
+    };
+  } catch (_) {
+    return null;
+  }
+}
+
 function buildForm(seed, strength) {
   const wins = clamp(Math.round(strength / 14 + (seed % 4) - 2), 2, 10);
   const draws = clamp(4 + (seed % 3) - 1, 2, 6);
@@ -414,7 +509,12 @@ async function analyzeMatch(homeInput, awayInput) {
     modelScore
   });
   const finalRecommendationPanel = sevenMAi?.panel || recommendationPanel;
-  const finalExternalIntel = sevenMAi?.note ? [sevenMAi.note, ...externalIntel] : externalIntel;
+  const sevenMLineup = sevenMAi?.id ? await collectSevenMLineup(sevenMAi.id, home.name, away.name) : null;
+  const finalExternalIntel = [
+    sevenMAi?.note,
+    sevenMLineup?.note,
+    ...externalIntel
+  ].filter(Boolean);
 
   return {
     home: home.name,
@@ -492,9 +592,9 @@ async function analyzeMatch(homeInput, awayInput) {
     },
     homeForm: buildForm(seed, home.strength),
     awayForm: buildForm(seed >> 2, away.strength),
-    homeSquad: [],
-    awaySquad: [],
-    lineups: [],
+    homeSquad: sevenMLineup?.homeSquad || [],
+    awaySquad: sevenMLineup?.awaySquad || [],
+    lineups: sevenMLineup?.lineups || [],
     injuries: [],
     qualityScore: modelScore
   };

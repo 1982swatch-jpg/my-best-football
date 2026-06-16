@@ -427,6 +427,35 @@ def extract_ttyingqiu_standings(html):
     return {"matches": [], "headlines": titles[:3]}
 
 
+def worldcup_group_standings():
+    return {
+        "source": "ttyingqiu-standings-cache",
+        "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
+        "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "note": "天天盈球積分頁可連線；目前先使用已抓取/快取小組資料顯示，後續可接動態 API 自動擴充。",
+        "groups": [
+            {
+                "group": "A組",
+                "teams": [
+                    {"rank": 1, "flag": "🇲🇽", "team": "墨西哥", "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3},
+                    {"rank": 2, "flag": "🇰🇷", "team": "韓國", "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 3},
+                    {"rank": 3, "flag": "🇨🇿", "team": "捷克", "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 0},
+                    {"rank": 4, "flag": "🇿🇦", "team": "南非", "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 0, "ga": 2, "gd": -2, "pts": 0},
+                ],
+            },
+            {
+                "group": "B組",
+                "teams": [
+                    {"rank": 1, "flag": "🇨🇭", "team": "瑞士", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
+                    {"rank": 2, "flag": "🇨🇦", "team": "加拿大", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
+                    {"rank": 3, "flag": "🇶🇦", "team": "卡達", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
+                    {"rank": 4, "flag": "🇧🇦", "team": "波黑", "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1},
+                ],
+            },
+        ],
+    }
+
+
 def collect_external_intel():
     extractors = {
         "球天下世界杯": extract_qtx,
@@ -589,6 +618,7 @@ def build_database():
                 "upsetSignals": recommended[4:8],
                 "splitSignals": [],
             },
+            "groupStandings": worldcup_group_standings(),
             "analyses": recommended,
             "externalIntel": external_intel,
         },
