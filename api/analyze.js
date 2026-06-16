@@ -84,6 +84,142 @@ function buildRecommendationPanel(home, away, metrics) {
   ];
 }
 
+function predictScore({ homeRate, awayRate, expectedGoals, btts, upsetIndex, seed }) {
+  const edge = Math.abs(homeRate - awayRate);
+  const homeShare = homeRate / Math.max(1, homeRate + awayRate);
+  let homeXg = expectedGoals * (0.42 + homeShare * 0.38);
+  let awayXg = expectedGoals - homeXg;
+
+  homeXg += ((seed % 5) - 2) * 0.08;
+  awayXg += (((seed >> 3) % 5) - 2) * 0.08;
+
+  let homeGoals = clamp(Math.round(homeXg), 0, 4);
+  let awayGoals = clamp(Math.round(awayXg), 0, 4);
+
+  if (edge >= 28) {
+    if (homeRate > awayRate) homeGoals = Math.max(homeGoals, awayGoals + (expectedGoals >= 3 ? 2 : 1));
+    else awayGoals = Math.max(awayGoals, homeGoals + (expectedGoals >= 3 ? 2 : 1));
+  } else if (edge <= 8 && btts >= 56) {
+    homeGoals = Math.max(1, homeGoals);
+    awayGoals = Math.max(1, awayGoals);
+  }
+
+  if (expectedGoals < 2.25) {
+    if (homeGoals + awayGoals > 2) {
+      if (homeGoals >= awayGoals) homeGoals -= 1;
+      else awayGoals -= 1;
+    }
+  } else if (expectedGoals >= 3.05 && homeGoals + awayGoals < 3) {
+    if (homeRate >= awayRate) homeGoals += 1;
+    else awayGoals += 1;
+  }
+
+  if (btts < 48 && edge >= 14) {
+    if (homeRate >= awayRate) awayGoals = Math.min(awayGoals, (seed % 3 === 0 || upsetIndex > 60) ? 1 : 0);
+    else homeGoals = Math.min(homeGoals, (seed % 3 === 0 || upsetIndex > 60) ? 1 : 0);
+  }
+
+  homeGoals = clamp(homeGoals, 0, 4);
+  awayGoals = clamp(awayGoals, 0, 4);
+
+  if (homeGoals === 0 && awayGoals === 0) {
+    if (expectedGoals >= 2.15) {
+      if (homeRate >= awayRate) homeGoals = 1;
+      else awayGoals = 1;
+    }
+  }
+
+  return `${homeGoals}-${awayGoals}`;
+}
+
+function teamTier(strength) {
+  if (strength >= 86) return { label: '頂級強隊', attack: 1.16, defense: 0.78, volatility: 0.82 };
+  if (strength >= 78) return { label: '強隊', attack: 1.08, defense: 0.88, volatility: 0.92 };
+  if (strength >= 70) return { label: '中上隊', attack: 1.00, defense: 1.00, volatility: 1.00 };
+  if (strength >= 62) return { label: '中段隊', attack: 0.90, defense: 1.12, volatility: 1.10 };
+  return { label: '弱隊', attack: 0.78, defense: 1.28, volatility: 1.22 };
+}
+
+function predictScoreWithTeamTiers({ home, away, homeRate, awayRate, expectedGoals, btts, upsetIndex, seed }) {
+  const homeTier = teamTier(home.strength);
+  const awayTier = teamTier(away.strength);
+  const strengthGap = home.strength - away.strength;
+  const absGap = Math.abs(strengthGap);
+  const homeShare = homeRate / Math.max(1, homeRate + awayRate);
+
+  let homeXg = expectedGoals * (0.40 + homeShare * 0.40);
+  let awayXg = expectedGoals - homeXg;
+
+  homeXg *= homeTier.attack * awayTier.defense;
+  awayXg *= awayTier.attack * homeTier.defense;
+
+  if (absGap >= 18) {
+    if (strengthGap > 0) {
+      homeXg += 0.28;
+      awayXg -= 0.18;
+    } else {
+      awayXg += 0.28;
+      homeXg -= 0.18;
+    }
+  }
+
+  const volatility = (homeTier.volatility + awayTier.volatility) / 2;
+  homeXg += ((seed % 7) - 3) * 0.045 * volatility;
+  awayXg += (((seed >> 4) % 7) - 3) * 0.045 * volatility;
+
+  if (upsetIndex >= 60) {
+    if (homeRate >= awayRate) awayXg += 0.16;
+    else homeXg += 0.16;
+  }
+
+  homeXg = clamp(homeXg, 0.12, 3.8);
+  awayXg = clamp(awayXg, 0.12, 3.8);
+
+  let homeGoals = clamp(Math.round(homeXg), 0, 4);
+  let awayGoals = clamp(Math.round(awayXg), 0, 4);
+
+  if (absGap >= 24) {
+    if (strengthGap > 0) {
+      homeGoals = Math.max(homeGoals, awayGoals + 1);
+      if (expectedGoals >= 3 || homeXg >= 2.15) homeGoals = Math.max(homeGoals, 2);
+      if (btts < 58) awayGoals = Math.min(awayGoals, upsetIndex >= 62 ? 1 : 0);
+    } else {
+      awayGoals = Math.max(awayGoals, homeGoals + 1);
+      if (expectedGoals >= 3 || awayXg >= 2.15) awayGoals = Math.max(awayGoals, 2);
+      if (btts < 58) homeGoals = Math.min(homeGoals, upsetIndex >= 62 ? 1 : 0);
+    }
+  } else if (absGap <= 8 && btts >= 56) {
+    homeGoals = Math.max(1, homeGoals);
+    awayGoals = Math.max(1, awayGoals);
+  }
+
+  if (expectedGoals < 2.25 && homeGoals + awayGoals > 2) {
+    if (homeGoals > awayGoals) homeGoals -= 1;
+    else if (awayGoals > homeGoals) awayGoals -= 1;
+    else if (seed % 2 === 0) homeGoals -= 1;
+    else awayGoals -= 1;
+  }
+
+  if (expectedGoals >= 3.05 && homeGoals + awayGoals < 3) {
+    if (homeXg >= awayXg) homeGoals += 1;
+    else awayGoals += 1;
+  }
+
+  if (homeGoals === 0 && awayGoals === 0 && expectedGoals >= 2.05) {
+    if (homeXg >= awayXg) homeGoals = 1;
+    else awayGoals = 1;
+  }
+
+  return {
+    score: `${clamp(homeGoals, 0, 4)}-${clamp(awayGoals, 0, 4)}`,
+    homeTier: homeTier.label,
+    awayTier: awayTier.label,
+    homeXg: Number(homeXg.toFixed(2)),
+    awayXg: Number(awayXg.toFixed(2)),
+    strengthGap
+  };
+}
+
 function stripHtml(html) {
   return String(html || '')
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
@@ -266,9 +402,8 @@ async function analyzeMatch(homeInput, awayInput) {
   const over25 = clamp(Math.round(46 + expectedGoals * 8 + (seed % 8)), 42, 78);
   const btts = clamp(Math.round(42 + (100 - Math.abs(diff)) / 5 + (seed % 7)), 38, 72);
   const upsetIndex = clamp(Math.round(62 - Math.abs(diff) * 0.55 + (seed % 9)), 28, 68);
-  const homeGoals = homeRate >= awayRate ? (expectedGoals >= 2.7 ? 2 : 1) : (btts > 52 ? 1 : 0);
-  const awayGoals = awayRate > homeRate ? (expectedGoals >= 2.7 ? 2 : 1) : (btts > 52 ? 1 : 0);
-  const predictedScore = `${homeGoals}-${awayGoals}`;
+  const scoreModel = predictScoreWithTeamTiers({ home, away, homeRate, awayRate, expectedGoals, btts, upsetIndex, seed });
+  const predictedScore = scoreModel.score;
   const recommendationPanel = buildRecommendationPanel(home, away, {
     homeRate,
     awayRate,
@@ -314,10 +449,18 @@ async function analyzeMatch(homeInput, awayInput) {
     },
     goalModel: {
       expectedGoals,
+      homeExpectedGoals: scoreModel.homeXg,
+      awayExpectedGoals: scoreModel.awayXg,
       over25,
       under25: 100 - over25,
       btts,
       totalLean: over25 >= 60 ? '偏高進球' : '均衡'
+    },
+    teamTierModel: {
+      homeTier: scoreModel.homeTier,
+      awayTier: scoreModel.awayTier,
+      strengthGap: scoreModel.strengthGap,
+      note: '比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。'
     },
     upsetModel: {
       upsetIndex,

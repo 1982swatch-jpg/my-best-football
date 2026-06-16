@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-16 13:14:11",
+    "scraped_at": "2026-06-16 13:52:19",
     "auth_used": "none",
     "external_sources": [
       {
@@ -256,10 +256,18 @@
           "diff": 16,
           "goalModel": {
             "expectedGoals": 2.67,
+            "homeExpectedGoals": 1.84,
+            "awayExpectedGoals": 0.91,
             "over25": 70,
             "under25": 30,
             "btts": 66,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "強隊",
+            "strengthGap": 10,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 60,
@@ -317,12 +325,12 @@
           "homeRate": 32,
           "awayRate": 68,
           "predictedWinner": "挪威",
-          "predictedScore": "2-1",
+          "predictedScore": "1-2",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "1-2",
               "confidence": 72
             },
             {
@@ -368,10 +376,18 @@
           "diff": 36,
           "goalModel": {
             "expectedGoals": 2.73,
+            "homeExpectedGoals": 1.19,
+            "awayExpectedGoals": 1.56,
             "over25": 73,
             "under25": 27,
             "btts": 63,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中段隊",
+            "awayTier": "強隊",
+            "strengthGap": -17,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 54,
@@ -429,12 +445,12 @@
           "homeRate": 69,
           "awayRate": 31,
           "predictedWinner": "阿根廷",
-          "predictedScore": "2-1",
+          "predictedScore": "2-0",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "2-0",
               "confidence": 74
             },
             {
@@ -480,10 +496,18 @@
           "diff": 38,
           "goalModel": {
             "expectedGoals": 2.7,
+            "homeExpectedGoals": 2.4,
+            "awayExpectedGoals": 0.38,
             "over25": 71,
             "under25": 29,
             "btts": 61,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "中上隊",
+            "strengthGap": 18,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 59,
@@ -544,12 +568,12 @@
           "homeRate": 66,
           "awayRate": 34,
           "predictedWinner": "奧地利",
-          "predictedScore": "2-1",
+          "predictedScore": "3-1",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "3-1",
               "confidence": 70
             },
             {
@@ -595,10 +619,18 @@
           "diff": 32,
           "goalModel": {
             "expectedGoals": 2.78,
+            "homeExpectedGoals": 2.51,
+            "awayExpectedGoals": 0.94,
             "over25": 72,
             "under25": 28,
             "btts": 65,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中上隊",
+            "awayTier": "弱隊",
+            "strengthGap": 15,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 61,
@@ -705,10 +737,18 @@
           "diff": 6,
           "goalModel": {
             "expectedGoals": 2.33,
+            "homeExpectedGoals": 1.46,
+            "awayExpectedGoals": 0.67,
             "over25": 71,
             "under25": 29,
             "btts": 60,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中上隊",
+            "awayTier": "中段隊",
+            "strengthGap": 8,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 58,
@@ -817,10 +857,18 @@
           "diff": 16,
           "goalModel": {
             "expectedGoals": 2.67,
+            "homeExpectedGoals": 1.84,
+            "awayExpectedGoals": 0.91,
             "over25": 70,
             "under25": 30,
             "btts": 66,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "強隊",
+            "strengthGap": 10,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 60,
@@ -878,12 +926,12 @@
           "homeRate": 32,
           "awayRate": 68,
           "predictedWinner": "挪威",
-          "predictedScore": "2-1",
+          "predictedScore": "1-2",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "1-2",
               "confidence": 72
             },
             {
@@ -929,10 +977,18 @@
           "diff": 36,
           "goalModel": {
             "expectedGoals": 2.73,
+            "homeExpectedGoals": 1.19,
+            "awayExpectedGoals": 1.56,
             "over25": 73,
             "under25": 27,
             "btts": 63,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中段隊",
+            "awayTier": "強隊",
+            "strengthGap": -17,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 54,
@@ -990,12 +1046,12 @@
           "homeRate": 69,
           "awayRate": 31,
           "predictedWinner": "阿根廷",
-          "predictedScore": "2-1",
+          "predictedScore": "2-0",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "2-0",
               "confidence": 74
             },
             {
@@ -1041,10 +1097,18 @@
           "diff": 38,
           "goalModel": {
             "expectedGoals": 2.7,
+            "homeExpectedGoals": 2.4,
+            "awayExpectedGoals": 0.38,
             "over25": 71,
             "under25": 29,
             "btts": 61,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "中上隊",
+            "strengthGap": 18,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 59,
@@ -1103,12 +1167,12 @@
           "homeRate": 66,
           "awayRate": 34,
           "predictedWinner": "奧地利",
-          "predictedScore": "2-1",
+          "predictedScore": "3-1",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "3-1",
               "confidence": 70
             },
             {
@@ -1154,10 +1218,18 @@
           "diff": 32,
           "goalModel": {
             "expectedGoals": 2.78,
+            "homeExpectedGoals": 2.51,
+            "awayExpectedGoals": 0.94,
             "over25": 72,
             "under25": 28,
             "btts": 65,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中上隊",
+            "awayTier": "弱隊",
+            "strengthGap": 15,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 61,
@@ -1266,10 +1338,18 @@
           "diff": 6,
           "goalModel": {
             "expectedGoals": 2.33,
+            "homeExpectedGoals": 1.46,
+            "awayExpectedGoals": 0.67,
             "over25": 71,
             "under25": 29,
             "btts": 60,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中上隊",
+            "awayTier": "中段隊",
+            "strengthGap": 8,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 58,
@@ -1376,10 +1456,18 @@
           "diff": 6,
           "goalModel": {
             "expectedGoals": 2.36,
+            "homeExpectedGoals": 1.4,
+            "awayExpectedGoals": 0.81,
             "over25": 65,
             "under25": 35,
             "btts": 62,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "強隊",
+            "strengthGap": 7,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 59,
@@ -1435,12 +1523,12 @@
           "homeRate": 71,
           "awayRate": 29,
           "predictedWinner": "葡萄牙",
-          "predictedScore": "2-1",
+          "predictedScore": "3-0",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "3-0",
               "confidence": 76
             },
             {
@@ -1486,10 +1574,18 @@
           "diff": 42,
           "goalModel": {
             "expectedGoals": 2.72,
+            "homeExpectedGoals": 2.7,
+            "awayExpectedGoals": 0.5,
             "over25": 69,
             "under25": 31,
             "btts": 61,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "頂級強隊",
+            "awayTier": "中段隊",
+            "strengthGap": 19,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 60,
@@ -1545,12 +1641,12 @@
           "homeRate": 41,
           "awayRate": 59,
           "predictedWinner": "哥倫比亞",
-          "predictedScore": "2-1",
+          "predictedScore": "2-2",
           "recommendationPanel": [
             {
               "key": "score",
               "label": "比分",
-              "value": "2-1",
+              "value": "2-2",
               "confidence": 62
             },
             {
@@ -1596,10 +1692,18 @@
           "diff": 18,
           "goalModel": {
             "expectedGoals": 2.74,
+            "homeExpectedGoals": 1.52,
+            "awayExpectedGoals": 1.58,
             "over25": 69,
             "under25": 31,
             "btts": 65,
             "totalLean": "偏高進球"
+          },
+          "teamTierModel": {
+            "homeTier": "中段隊",
+            "awayTier": "強隊",
+            "strengthGap": -13,
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
           },
           "upsetModel": {
             "upsetIndex": 62,
@@ -1710,10 +1814,18 @@
         "diff": 16,
         "goalModel": {
           "expectedGoals": 2.67,
+          "homeExpectedGoals": 1.84,
+          "awayExpectedGoals": 0.91,
           "over25": 70,
           "under25": 30,
           "btts": 66,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "頂級強隊",
+          "awayTier": "強隊",
+          "strengthGap": 10,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 60,
@@ -1771,12 +1883,12 @@
         "homeRate": 32,
         "awayRate": 68,
         "predictedWinner": "挪威",
-        "predictedScore": "2-1",
+        "predictedScore": "1-2",
         "recommendationPanel": [
           {
             "key": "score",
             "label": "比分",
-            "value": "2-1",
+            "value": "1-2",
             "confidence": 72
           },
           {
@@ -1822,10 +1934,18 @@
         "diff": 36,
         "goalModel": {
           "expectedGoals": 2.73,
+          "homeExpectedGoals": 1.19,
+          "awayExpectedGoals": 1.56,
           "over25": 73,
           "under25": 27,
           "btts": 63,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "中段隊",
+          "awayTier": "強隊",
+          "strengthGap": -17,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 54,
@@ -1883,12 +2003,12 @@
         "homeRate": 69,
         "awayRate": 31,
         "predictedWinner": "阿根廷",
-        "predictedScore": "2-1",
+        "predictedScore": "2-0",
         "recommendationPanel": [
           {
             "key": "score",
             "label": "比分",
-            "value": "2-1",
+            "value": "2-0",
             "confidence": 74
           },
           {
@@ -1934,10 +2054,18 @@
         "diff": 38,
         "goalModel": {
           "expectedGoals": 2.7,
+          "homeExpectedGoals": 2.4,
+          "awayExpectedGoals": 0.38,
           "over25": 71,
           "under25": 29,
           "btts": 61,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "頂級強隊",
+          "awayTier": "中上隊",
+          "strengthGap": 18,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 59,
@@ -1996,12 +2124,12 @@
         "homeRate": 66,
         "awayRate": 34,
         "predictedWinner": "奧地利",
-        "predictedScore": "2-1",
+        "predictedScore": "3-1",
         "recommendationPanel": [
           {
             "key": "score",
             "label": "比分",
-            "value": "2-1",
+            "value": "3-1",
             "confidence": 70
           },
           {
@@ -2047,10 +2175,18 @@
         "diff": 32,
         "goalModel": {
           "expectedGoals": 2.78,
+          "homeExpectedGoals": 2.51,
+          "awayExpectedGoals": 0.94,
           "over25": 72,
           "under25": 28,
           "btts": 65,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "中上隊",
+          "awayTier": "弱隊",
+          "strengthGap": 15,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 61,
@@ -2157,10 +2293,18 @@
         "diff": 6,
         "goalModel": {
           "expectedGoals": 2.33,
+          "homeExpectedGoals": 1.46,
+          "awayExpectedGoals": 0.67,
           "over25": 71,
           "under25": 29,
           "btts": 60,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "中上隊",
+          "awayTier": "中段隊",
+          "strengthGap": 8,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 58,
@@ -2267,10 +2411,18 @@
         "diff": 6,
         "goalModel": {
           "expectedGoals": 2.36,
+          "homeExpectedGoals": 1.4,
+          "awayExpectedGoals": 0.81,
           "over25": 65,
           "under25": 35,
           "btts": 62,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "頂級強隊",
+          "awayTier": "強隊",
+          "strengthGap": 7,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 59,
@@ -2326,12 +2478,12 @@
         "homeRate": 71,
         "awayRate": 29,
         "predictedWinner": "葡萄牙",
-        "predictedScore": "2-1",
+        "predictedScore": "3-0",
         "recommendationPanel": [
           {
             "key": "score",
             "label": "比分",
-            "value": "2-1",
+            "value": "3-0",
             "confidence": 76
           },
           {
@@ -2377,10 +2529,18 @@
         "diff": 42,
         "goalModel": {
           "expectedGoals": 2.72,
+          "homeExpectedGoals": 2.7,
+          "awayExpectedGoals": 0.5,
           "over25": 69,
           "under25": 31,
           "btts": 61,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "頂級強隊",
+          "awayTier": "中段隊",
+          "strengthGap": 19,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 60,
@@ -2436,12 +2596,12 @@
         "homeRate": 41,
         "awayRate": 59,
         "predictedWinner": "哥倫比亞",
-        "predictedScore": "2-1",
+        "predictedScore": "2-2",
         "recommendationPanel": [
           {
             "key": "score",
             "label": "比分",
-            "value": "2-1",
+            "value": "2-2",
             "confidence": 62
           },
           {
@@ -2487,10 +2647,18 @@
         "diff": 18,
         "goalModel": {
           "expectedGoals": 2.74,
+          "homeExpectedGoals": 1.52,
+          "awayExpectedGoals": 1.58,
           "over25": 69,
           "under25": 31,
           "btts": 65,
           "totalLean": "偏高進球"
+        },
+        "teamTierModel": {
+          "homeTier": "中段隊",
+          "awayTier": "強隊",
+          "strengthGap": -13,
+          "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。"
         },
         "upsetModel": {
           "upsetIndex": 62,

@@ -176,9 +176,11 @@ function renderModelCards(data) {
   const context = [
     "勝率差 " + edge + "%",
     "預期進球 " + data.goalModel.expectedGoals,
+    data.goalModel.homeExpectedGoals && data.goalModel.awayExpectedGoals ? data.home + " xG " + data.goalModel.homeExpectedGoals + " / " + data.away + " xG " + data.goalModel.awayExpectedGoals : "",
+    data.teamTierModel ? data.home + " " + data.teamTierModel.homeTier + " / " + data.away + " " + data.teamTierModel.awayTier : "",
     "BTTS " + data.goalModel.btts + "%",
     "變數 " + data.upsetModel.upsetIndex + "%"
-  ];
+  ].filter(Boolean);
 
   return '<div class="model-grid">' +
     '<div class="model-card"><b>高進球率</b><div>' + data.goalModel.over25 + '%</div></div>' +
@@ -188,7 +190,7 @@ function renderModelCards(data) {
   '</div>' +
   '<div class="model-context">' +
     '<b>模型依據</b><span>' + context.join("｜") + '</span>' +
-    '<em>資料：站內賽程模型、公開資訊補強、隊伍強度與進球分布估算。</em>' +
+    '<em>資料：站內賽程模型、公開資訊補強、隊伍強弱分層、攻防係數與進球分布估算。</em>' +
   '</div>' +
   '<div class="goal-bars">' + rows.map(function(r) {
     return '<div class="goal-line"><div>' + r[0] + '</div><div class="goal-track"><div class="goal-fill" style="width:' + r[1] + '%"></div></div><b>' + r[1] + '%</b></div>';

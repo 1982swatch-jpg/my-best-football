@@ -137,6 +137,153 @@ def build_recommendation_panel(home, away, home_rate, away_rate, predicted_score
     ]
 
 
+def predict_score(home_rate, away_rate, expected_goals, btts, upset, seed):
+    edge = abs(home_rate - away_rate)
+    home_share = home_rate / max(1, home_rate + away_rate)
+    home_xg = expected_goals * (0.42 + home_share * 0.38)
+    away_xg = expected_goals - home_xg
+
+    home_xg += ((seed % 5) - 2) * 0.08
+    away_xg += (((seed >> 3) % 5) - 2) * 0.08
+
+    home_goals = clamp(round(home_xg), 0, 4)
+    away_goals = clamp(round(away_xg), 0, 4)
+
+    if edge >= 28:
+        if home_rate > away_rate:
+            home_goals = max(home_goals, away_goals + (2 if expected_goals >= 3 else 1))
+        else:
+            away_goals = max(away_goals, home_goals + (2 if expected_goals >= 3 else 1))
+    elif edge <= 8 and btts >= 56:
+        home_goals = max(1, home_goals)
+        away_goals = max(1, away_goals)
+
+    if expected_goals < 2.25 and home_goals + away_goals > 2:
+        if home_goals >= away_goals:
+            home_goals -= 1
+        else:
+            away_goals -= 1
+    elif expected_goals >= 3.05 and home_goals + away_goals < 3:
+        if home_rate >= away_rate:
+            home_goals += 1
+        else:
+            away_goals += 1
+
+    if btts < 48 and edge >= 14:
+        concede = 1 if seed % 3 == 0 or upset > 60 else 0
+        if home_rate >= away_rate:
+            away_goals = min(away_goals, concede)
+        else:
+            home_goals = min(home_goals, concede)
+
+    home_goals = clamp(home_goals, 0, 4)
+    away_goals = clamp(away_goals, 0, 4)
+
+    if home_goals == 0 and away_goals == 0 and expected_goals >= 2.15:
+        if home_rate >= away_rate:
+            home_goals = 1
+        else:
+            away_goals = 1
+
+    return f"{home_goals}-{away_goals}"
+
+
+def team_tier(strength):
+    if strength >= 86:
+        return {"label": "頂級強隊", "attack": 1.16, "defense": 0.78, "volatility": 0.82}
+    if strength >= 78:
+        return {"label": "強隊", "attack": 1.08, "defense": 0.88, "volatility": 0.92}
+    if strength >= 70:
+        return {"label": "中上隊", "attack": 1.00, "defense": 1.00, "volatility": 1.00}
+    if strength >= 62:
+        return {"label": "中段隊", "attack": 0.90, "defense": 1.12, "volatility": 1.10}
+    return {"label": "弱隊", "attack": 0.78, "defense": 1.28, "volatility": 1.22}
+
+
+def predict_score_with_team_tiers(home_strength, away_strength, home_rate, away_rate, expected_goals, btts, upset, seed):
+    home_tier = team_tier(home_strength)
+    away_tier = team_tier(away_strength)
+    strength_gap = home_strength - away_strength
+    abs_gap = abs(strength_gap)
+    home_share = home_rate / max(1, home_rate + away_rate)
+
+    home_xg = expected_goals * (0.40 + home_share * 0.40)
+    away_xg = expected_goals - home_xg
+    home_xg *= home_tier["attack"] * away_tier["defense"]
+    away_xg *= away_tier["attack"] * home_tier["defense"]
+
+    if abs_gap >= 18:
+        if strength_gap > 0:
+            home_xg += 0.28
+            away_xg -= 0.18
+        else:
+            away_xg += 0.28
+            home_xg -= 0.18
+
+    volatility = (home_tier["volatility"] + away_tier["volatility"]) / 2
+    home_xg += ((seed % 7) - 3) * 0.045 * volatility
+    away_xg += (((seed >> 4) % 7) - 3) * 0.045 * volatility
+
+    if upset >= 60:
+        if home_rate >= away_rate:
+            away_xg += 0.16
+        else:
+            home_xg += 0.16
+
+    home_xg = clamp(home_xg, 0.12, 3.8)
+    away_xg = clamp(away_xg, 0.12, 3.8)
+    home_goals = clamp(round(home_xg), 0, 4)
+    away_goals = clamp(round(away_xg), 0, 4)
+
+    if abs_gap >= 24:
+        if strength_gap > 0:
+            home_goals = max(home_goals, away_goals + 1)
+            if expected_goals >= 3 or home_xg >= 2.15:
+                home_goals = max(home_goals, 2)
+            if btts < 58:
+                away_goals = min(away_goals, 1 if upset >= 62 else 0)
+        else:
+            away_goals = max(away_goals, home_goals + 1)
+            if expected_goals >= 3 or away_xg >= 2.15:
+                away_goals = max(away_goals, 2)
+            if btts < 58:
+                home_goals = min(home_goals, 1 if upset >= 62 else 0)
+    elif abs_gap <= 8 and btts >= 56:
+        home_goals = max(1, home_goals)
+        away_goals = max(1, away_goals)
+
+    if expected_goals < 2.25 and home_goals + away_goals > 2:
+        if home_goals > away_goals:
+            home_goals -= 1
+        elif away_goals > home_goals:
+            away_goals -= 1
+        elif seed % 2 == 0:
+            home_goals -= 1
+        else:
+            away_goals -= 1
+
+    if expected_goals >= 3.05 and home_goals + away_goals < 3:
+        if home_xg >= away_xg:
+            home_goals += 1
+        else:
+            away_goals += 1
+
+    if home_goals == 0 and away_goals == 0 and expected_goals >= 2.05:
+        if home_xg >= away_xg:
+            home_goals = 1
+        else:
+            away_goals = 1
+
+    return {
+        "score": f"{clamp(home_goals, 0, 4)}-{clamp(away_goals, 0, 4)}",
+        "homeTier": home_tier["label"],
+        "awayTier": away_tier["label"],
+        "homeXg": round(home_xg, 2),
+        "awayXg": round(away_xg, 2),
+        "strengthGap": strength_gap,
+    }
+
+
 def clean_text(text):
     text = re.sub(r"<script[\s\S]*?</script>", " ", text, flags=re.I)
     text = re.sub(r"<style[\s\S]*?</style>", " ", text, flags=re.I)
@@ -360,7 +507,11 @@ def analyze_game(g, external_intel=None):
     over25 = clamp(round(46 + expected_goals * 8 + seed % 8), 42, 78)
     btts = clamp(round(42 + (100 - abs(diff)) / 5 + seed % 7), 38, 72)
     upset = clamp(round(62 - abs(diff) * 0.55 + seed % 9), 28, 68)
-    predicted_score = "2-1" if abs(diff) > 8 else "1-1"
+    score_model = predict_score_with_team_tiers(
+        home_strength, away_strength, home_rate, away_rate,
+        expected_goals, btts, upset, seed
+    )
+    predicted_score = score_model["score"]
 
     item = dict(g)
     external_notes = related_external_notes(g, external_intel)
@@ -380,10 +531,18 @@ def analyze_game(g, external_intel=None):
         "diff": abs(home_rate - away_rate),
         "goalModel": {
             "expectedGoals": expected_goals,
+            "homeExpectedGoals": score_model["homeXg"],
+            "awayExpectedGoals": score_model["awayXg"],
             "over25": over25,
             "under25": 100 - over25,
             "btts": btts,
             "totalLean": "偏高進球" if over25 >= 60 else "均衡",
+        },
+        "teamTierModel": {
+            "homeTier": score_model["homeTier"],
+            "awayTier": score_model["awayTier"],
+            "strengthGap": score_model["strengthGap"],
+            "note": "比分已加入隊伍強弱分層、攻防係數、弱隊失球風險與爆冷變數。",
         },
         "upsetModel": {
             "upsetIndex": upset,
