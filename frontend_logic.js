@@ -90,15 +90,16 @@ const data = db.endpoints.schedule;
 
     const games = Array.isArray(data.scheduleGames) ? data.scheduleGames.slice(0, 3) : [];
     const next = data.nextGame || games[0] || {};
-    const nextText = next.home && next.away
-      ? next.home + " vs " + next.away + "｜" + (next.time || formatDate(next.date))
-      : "尚未取得";
+    const nextMatch = next.home && next.away ? next.home + " vs " + next.away : "尚未取得";
+    const nextTime = next.home && next.away ? (next.time || formatDate(next.date)) : "";
 
     scheduleBox.innerText = "已讀取已鎖定賽程資料，近期顯示三場。";
 
     stageBox.innerHTML =
       '<div class="stageItem"><b>目前階段</b><span>' + (data.stageLabel || "小組賽準備中") + '</span></div>' +
-      '<div class="stageItem"><b>下一場比賽</b><span>' + nextText + '</span></div>';
+      '<div class="stageItem"><b>下一場比賽</b><span class="next-match-name">' + nextMatch + '</span>' +
+        (nextTime ? '<span class="next-match-time">' + nextTime + '</span>' : '') +
+      '</div>';
 
     scheduleList.innerHTML = games.map(renderScheduleGame).join("");
 
