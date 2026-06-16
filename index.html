@@ -1162,7 +1162,7 @@ button:hover{
 <div id="serialOverlay" class="serial-overlay">
   <div class="serial-modal">
     <div class="serial-title">系統存取驗證</div>
-    <div class="serial-sub">請輸入您的授權序號以開啟 AI 分析系統</div>
+    <div class="serial-sub">請輸入授權序號</div>
     <input type="text" id="serialInput" class="serial-input" placeholder="XXXX-XXXX" maxlength="20">
     <button onclick="verifySerial()" class="serial-btn">驗證並登入</button>
     <div id="serialError" class="serial-error">❌ 序號無效或已過期，請聯繫管理員</div>
@@ -1264,7 +1264,7 @@ async function verifySerial() {
         const data = await res.json();
 
         if (data.valid) {
-            const days = data.days_left ? '剩餘 ' + data.days_left + ' 天' : '永久授權';
+            const days = data.one_time ? '一次性登入成功' : (data.days_left ? '剩餘 ' + data.days_left + ' 天' : '永久授權');
             btn.innerText = '✅ 驗證成功！' + days;
             btn.style.background = 'linear-gradient(90deg,#00ff9c,#00c97a)';
             localStorage.setItem('fifa_analyzer_verified', 'true');
@@ -1317,6 +1317,6 @@ const _ss = document.createElement('style');
 _ss.innerHTML = '@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px)}50%{transform:translateX(8px)}75%{transform:translateX(-8px)}}';
 document.head.appendChild(_ss);
 </script>
-<script src="frontend_logic.js?v=20260602fix2"></script>
+<script src="frontend_logic.js?v=20260602fix3"></script>
 </body>
 </html>

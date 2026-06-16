@@ -1,8 +1,7 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/analyze",
-      "destination": "https://football-analyzer-briu.onrender.com/analyze"
+  "functions": {
+    "api/analyze.js": {
+      "maxDuration": 30
     }
-  ]
+  }
 }
