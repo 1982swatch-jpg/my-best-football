@@ -2,6 +2,7 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timedelta, timezone
 from html import unescape
 
 import requests
@@ -77,14 +78,27 @@ TEAM_ALIASES = {
 }
 
 
-def game(home, away, home_flag, away_flag, date, label, venue, round_, status="未開賽"):
+TAIPEI_TZ = timezone(timedelta(hours=8))
+
+
+def kickoff_label(date, label):
+    if label and re.search(r"\d{1,2}:\d{2}", label):
+        return label
+    try:
+        kickoff = datetime.fromisoformat(date).astimezone(TAIPEI_TZ)
+        return kickoff.strftime("%Y/%m/%d %H:%M")
+    except ValueError:
+        return label
+
+
+def game(home, away, home_flag, away_flag, date, label, venue, round_, status="\u672a\u958b\u8cfd"):
     return {
         "home": home,
         "away": away,
         "homeFlag": flag(home_flag),
         "awayFlag": flag(away_flag),
         "date": date,
-        "time": label,
+        "time": kickoff_label(date, label),
         "venue": venue,
         "round": round_,
         "status": status,
