@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-16 18:19:01",
+    "scraped_at": "2026-06-17 13:01:55",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,10 +279,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2",
+          "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2",
           "externalIntel": [
             "7M AI模型预测賽程：France vs Senegal｜｜7M AI",
-            "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2"
+            "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2"
           ],
           "qualityScore": 60,
           "homeForm": {
@@ -400,9 +400,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多；7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
+          "market": "外部公開資訊：7M AI模型预测賽程：Iraq vs Norway｜｜7M AI；7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3",
           "externalIntel": [
-            "球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
             "7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
             "7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3"
           ],
@@ -526,7 +525,7 @@
           "externalIntel": [
             "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
             "7M AI模型预测賽程：Argentina vs Algeria｜｜7M AI",
-            "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Algeria -1.25｜勝率Argentina｜進球數2"
+            "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Argentina -1｜勝率Argentina｜進球數2"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -767,8 +766,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -887,10 +888,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2",
+          "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2",
           "externalIntel": [
             "7M AI模型预测賽程：France vs Senegal｜｜7M AI",
-            "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2"
+            "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2"
           ],
           "qualityScore": 60,
           "homeForm": {
@@ -1008,9 +1009,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多；7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
+          "market": "外部公開資訊：7M AI模型预测賽程：Iraq vs Norway｜｜7M AI；7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3",
           "externalIntel": [
-            "球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
             "7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
             "7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3"
           ],
@@ -1134,7 +1134,7 @@
           "externalIntel": [
             "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
             "7M AI模型预测賽程：Argentina vs Algeria｜｜7M AI",
-            "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Algeria -1.25｜勝率Argentina｜進球數2"
+            "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Argentina -1｜勝率Argentina｜進球數2"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1375,8 +1375,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1493,10 +1495,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛；球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
+          "market": "外部公開資訊：球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛",
           "externalIntel": [
-            "球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛",
-            "球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多"
+            "球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛"
           ],
           "qualityScore": 55,
           "homeForm": {
@@ -1734,8 +1735,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：球天下世界杯賽程：乌兹别克斯坦 vs 哥伦比亚｜06-18 10:00｜未开赛",
+          "externalIntel": [
+            "球天下世界杯賽程：乌兹别克斯坦 vs 哥伦比亚｜06-18 10:00｜未开赛"
+          ],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1770,7 +1773,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-16 18:19:01",
+      "updatedAt": "2026-06-17 13:01:55",
       "groups": [
         {
           "group": "A組",
@@ -2734,10 +2737,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2",
+        "market": "外部公開資訊：7M AI模型预测賽程：France vs Senegal｜｜7M AI；7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2",
         "externalIntel": [
           "7M AI模型预测賽程：France vs Senegal｜｜7M AI",
-          "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2"
+          "7M AI模型预测：France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2"
         ],
         "qualityScore": 60,
         "homeForm": {
@@ -2855,9 +2858,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多；7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
+        "market": "外部公開資訊：7M AI模型预测賽程：Iraq vs Norway｜｜7M AI；7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3",
         "externalIntel": [
-          "球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
           "7M AI模型预测賽程：Iraq vs Norway｜｜7M AI",
           "7M AI模型预测：Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3"
         ],
@@ -2981,7 +2983,7 @@
         "externalIntel": [
           "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "7M AI模型预测賽程：Argentina vs Algeria｜｜7M AI",
-          "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Algeria -1.25｜勝率Argentina｜進球數2"
+          "7M AI模型预测：Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Argentina -1｜勝率Argentina｜進球數2"
         ],
         "qualityScore": 74,
         "homeForm": {
@@ -3220,8 +3222,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛",
+        "externalIntel": [
+          "球天下世界杯賽程：加纳 vs 巴拿马｜06-18 07:00｜未开赛"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -3338,10 +3342,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛；球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
+        "market": "外部公開資訊：球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛",
         "externalIntel": [
-          "球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛",
-          "球天下世界杯：2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多"
+          "球天下世界杯賽程：英格兰 vs 克罗地亚｜06-18 04:00｜未开赛"
         ],
         "qualityScore": 55,
         "homeForm": {
@@ -3579,8 +3582,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：球天下世界杯賽程：乌兹别克斯坦 vs 哥伦比亚｜06-18 10:00｜未开赛",
+        "externalIntel": [
+          "球天下世界杯賽程：乌兹别克斯坦 vs 哥伦比亚｜06-18 10:00｜未开赛"
+        ],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3630,13 +3635,32 @@
             "time": "06-18 04:00",
             "status": "未开赛",
             "source": "球天下世界杯"
+          },
+          {
+            "home": "加纳",
+            "away": "巴拿马",
+            "time": "06-18 07:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "乌兹别克斯坦",
+            "away": "哥伦比亚",
+            "time": "06-18 10:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "捷克",
+            "away": "南非",
+            "time": "06-19 00:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
           }
         ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
-          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯 06-16 16:01 哈兰德代表哪个国家参加世界杯？挪威国家队的绝对核心 世界杯 06-16 15:47 超8成英格兰球迷认为无法夺冠 晋级预期保守预测最多",
-          "2026世界杯 06-16 13:06 亚足联球队本届世界杯2胜4平仍不败 还有三支亚洲球队将登场 世界杯 06-16 12:45 今日4场世界杯小组赛4连平 多支强队没能完"
+          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
         ],
         "error": ""
       },
@@ -3662,7 +3686,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002042",
-            "summary": "France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2"
+            "summary": "France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2"
           },
           {
             "home": "Iraq",
@@ -3680,7 +3704,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002036",
-            "summary": "Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Algeria -1.25｜勝率Argentina｜進球數2"
+            "summary": "Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Argentina -1｜勝率Argentina｜進球數2"
           },
           {
             "home": "Austria",
@@ -3693,9 +3717,9 @@
           }
         ],
         "headlines": [
-          "France vs Senegal｜比分1-0｜大小大2.75｜讓球Senegal -1.25｜勝率France｜進球數2",
+          "France vs Senegal｜比分1-0｜大小大2.75｜讓球France -1｜勝率France｜進球數2",
           "Iraq vs Norway｜比分0-2｜大小小3｜讓球Norway 1.75｜勝率Norway｜進球數3",
-          "Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Algeria -1.25｜勝率Argentina｜進球數2",
+          "Argentina vs Algeria｜比分1-0｜大小小2.5｜讓球Argentina -1｜勝率Argentina｜進球數2",
           "Austria vs Jordan｜比分2-0｜大小大2.5｜讓球Jordan -1.25｜勝率Austria｜進球數3"
         ],
         "error": ""
@@ -3707,9 +3731,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "吉列尔莫·阿尔马达（Guillermo Almada）考虑第一批美洲球员离开，维尼修斯·利马（Vinícius Lima）和何塞·苏尼加（José Zúñiga）可能离开 东神看球",
-          "伊赞·冈萨雷斯加盟赫罗纳足球俱乐部至2029年 鬼手爱球",
-          "前狼队前锋拉法·米尔在西班牙被判处八年半监禁 年叔说球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
