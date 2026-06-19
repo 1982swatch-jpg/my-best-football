@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-18 12:32:26",
+    "scraped_at": "2026-06-19 00:12:32",
     "auth_used": "none",
     "external_sources": [
       {
@@ -755,12 +755,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求；7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-          "externalIntel": [
-            "球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求",
-            "7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-            "7M AI模型预测：Ghana vs Panama｜比分1-0｜大小小2.25｜讓球Panama -0.25｜勝率Ghana｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1355,12 +1351,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求；7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-          "externalIntel": [
-            "球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求",
-            "7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-            "7M AI模型预测：Ghana vs Panama｜比分1-0｜大小小2.25｜讓球Panama -0.25｜勝率Ghana｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1477,11 +1469,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测賽程：England vs Croatia｜｜7M AI；7M AI模型预测：England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测賽程：England vs Croatia｜｜7M AI",
-            "7M AI模型预测：England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1598,10 +1587,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3",
-          "externalIntel": [
-            "7M AI模型预测：Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 76,
           "homeForm": {
             "wins": 5,
@@ -1718,11 +1705,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近；7M AI模型预测賽程：Uzbekistan vs Colombia｜｜7M AI",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
           "externalIntel": [
-            "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-            "7M AI模型预测賽程：Uzbekistan vs Colombia｜｜7M AI",
-            "7M AI模型预测：Uzbekistan vs Colombia｜比分0-1｜大小小2.75｜讓球Uzbekistan 1.5｜勝率Colombia｜進球數2"
+            "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近"
           ],
           "qualityScore": 62,
           "homeForm": {
@@ -1758,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-18 12:32:26",
+      "updatedAt": "2026-06-19 00:12:32",
       "groups": [
         {
           "group": "A組",
@@ -3196,12 +3181,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求；7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-        "externalIntel": [
-          "球天下世界杯：2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求",
-          "7M AI模型预测賽程：Ghana vs Panama｜｜7M AI",
-          "7M AI模型预测：Ghana vs Panama｜比分1-0｜大小小2.25｜讓球Panama -0.25｜勝率Ghana｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -3318,11 +3299,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测賽程：England vs Croatia｜｜7M AI；7M AI模型预测：England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测賽程：England vs Croatia｜｜7M AI",
-          "7M AI模型预测：England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3439,10 +3417,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3",
-        "externalIntel": [
-          "7M AI模型预测：Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 76,
         "homeForm": {
           "wins": 5,
@@ -3559,11 +3535,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近；7M AI模型预测賽程：Uzbekistan vs Colombia｜｜7M AI",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
         "externalIntel": [
-          "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-          "7M AI模型预测賽程：Uzbekistan vs Colombia｜｜7M AI",
-          "7M AI模型预测：Uzbekistan vs Colombia｜比分0-1｜大小小2.75｜讓球Uzbekistan 1.5｜勝率Colombia｜進球數2"
+          "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近"
         ],
         "qualityScore": 62,
         "homeForm": {
@@ -3602,37 +3576,16 @@
         "ok": true,
         "matches": [
           {
-            "home": "捷克",
-            "away": "南非",
-            "time": "06-19 00:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "瑞士",
-            "away": "波黑",
-            "time": "06-19 03:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "加拿大",
-            "away": "卡塔尔",
-            "time": "06-19 06:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "墨西哥",
-            "away": "韩国",
-            "time": "06-19 09:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "美国",
             "away": "澳大利亚",
             "time": "06-20 03:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "苏格兰",
+            "away": "摩洛哥",
+            "time": "06-20 06:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
@@ -3641,8 +3594,7 @@
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-          "2026世界杯 06-18 17:39 专题 更多 2026美加墨世界杯 世界杯2022赛程表 世界杯足球赛2022赛程时间 女篮世界杯直播 世界杯直播 2022世界杯赛程 ",
-          "2026世界杯 06-18 11:10 加纳成世界杯胜场最多的非洲国家 时隔16年再首战赢球 世界杯 06-18 11:02 世界杯美国vs澳大利亚前瞻预测分析 袋鼠军团力求"
+          "2026世界杯 06-18 17:39 梅西世界杯哭泣因为父亲重病 亲承哭与足球无关 世界杯 06-18 17:05 世界杯瑞士vs波黑谁能赢？瑞士目标全取三分 瑞士 06-"
         ],
         "error": ""
       },
@@ -3662,57 +3614,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "Portugal",
-            "away": "Democratic Rep Congo",
+            "home": "Switzerland",
+            "away": "Bosnia and Herzegovina",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058674",
-            "summary": "Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3"
+            "matchId": "5058665",
+            "summary": "Switzerland vs Bosnia and Herzegovina｜比分1-0｜大小小2.5｜讓球Bosnia and Herzegovina -1｜勝率Switzerland｜進球數2"
           },
           {
-            "home": "England",
-            "away": "Croatia",
+            "home": "Canada",
+            "away": "Qatar",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002045",
-            "summary": "England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2"
+            "matchId": "5002008",
+            "summary": "Canada vs Qatar｜比分2-0｜大小小2.75｜讓球Qatar -1.75｜勝率Canada｜進球數2"
           },
           {
-            "home": "Ghana",
-            "away": "Panama",
+            "home": "Mexico",
+            "away": "Korea Republic",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002046",
-            "summary": "Ghana vs Panama｜比分1-0｜大小小2.25｜讓球Panama -0.25｜勝率Ghana｜進球數2"
-          },
-          {
-            "home": "Uzbekistan",
-            "away": "Colombia",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5002051",
-            "summary": "Uzbekistan vs Colombia｜比分0-1｜大小小2.75｜讓球Uzbekistan 1.5｜勝率Colombia｜進球數2"
-          },
-          {
-            "home": "Czech Republic",
-            "away": "South Africa",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058662",
-            "summary": "Czech Republic vs South Africa｜比分1-0｜大小小2.25｜讓球South Africa -0.5｜勝率Czech Republic｜進球數2"
+            "matchId": "5001994",
+            "summary": "Mexico vs Korea Republic｜比分1-0｜大小小2.25｜讓球Mexico -0.5｜勝率Mexico｜進球數2"
           }
         ],
         "headlines": [
-          "Portugal vs Democratic Rep Congo｜比分2-0｜大小大2.75｜讓球Democratic Rep Congo -1.5｜勝率Portugal｜進球數3",
-          "England vs Croatia｜比分1-0｜大小小2.5｜讓球England -0.75｜勝率England｜進球數2",
-          "Ghana vs Panama｜比分1-0｜大小小2.25｜讓球Panama -0.25｜勝率Ghana｜進球數2",
-          "Uzbekistan vs Colombia｜比分0-1｜大小小2.75｜讓球Uzbekistan 1.5｜勝率Colombia｜進球數2",
-          "Czech Republic vs South Africa｜比分1-0｜大小小2.25｜讓球South Africa -0.5｜勝率Czech Republic｜進球數2"
+          "Switzerland vs Bosnia and Herzegovina｜比分1-0｜大小小2.5｜讓球Bosnia and Herzegovina -1｜勝率Switzerland｜進球數2",
+          "Canada vs Qatar｜比分2-0｜大小小2.75｜讓球Qatar -1.75｜勝率Canada｜進球數2",
+          "Mexico vs Korea Republic｜比分1-0｜大小小2.25｜讓球Mexico -0.5｜勝率Mexico｜進球數2"
         ],
         "error": ""
       },
