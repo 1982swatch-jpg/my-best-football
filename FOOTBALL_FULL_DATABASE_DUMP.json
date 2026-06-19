@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-19 16:19:14",
+    "scraped_at": "2026-06-19 21:52:36",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-19 16:19:14",
+      "updatedAt": "2026-06-19 21:52:36",
       "groups": [
         {
           "group": "A組",
@@ -3596,10 +3596,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3614,7 +3614,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5001997",
-            "summary": "USA vs Australia｜比分1-0｜大小小2.5｜讓球Australia -1｜勝率USA｜進球數2"
+            "summary": "USA vs Australia｜比分1-0｜大小小2.25｜讓球Australia -1｜勝率USA｜進球數2"
           },
           {
             "home": "Scotland",
@@ -3632,7 +3632,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002001",
-            "summary": "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.75｜勝率Brazil｜進球數3"
+            "summary": "Brazil vs Haiti｜比分3-0｜大小小3.75｜讓球Haiti -2.5｜勝率Brazil｜進球數3"
           },
           {
             "home": "Turkey",
@@ -3645,9 +3645,9 @@
           }
         ],
         "headlines": [
-          "USA vs Australia｜比分1-0｜大小小2.5｜讓球Australia -1｜勝率USA｜進球數2",
+          "USA vs Australia｜比分1-0｜大小小2.25｜讓球Australia -1｜勝率USA｜進球數2",
           "Scotland vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.75｜勝率Morocco｜進球數2",
-          "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.75｜勝率Brazil｜進球數3",
+          "Brazil vs Haiti｜比分3-0｜大小小3.75｜讓球Haiti -2.5｜勝率Brazil｜進球數3",
           "Turkey vs Paraguay｜比分1-1｜大小小2.25｜讓球Paraguay -0.5｜勝率Turkey｜進球數2"
         ],
         "error": ""
