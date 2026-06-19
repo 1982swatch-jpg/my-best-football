@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-19 00:12:32",
+    "scraped_at": "2026-06-19 16:19:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1705,10 +1705,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-          "externalIntel": [
-            "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1743,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-19 00:12:32",
+      "updatedAt": "2026-06-19 16:19:14",
       "groups": [
         {
           "group": "A組",
@@ -3535,10 +3533,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-        "externalIntel": [
-          "球天下世界杯：2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3576,25 +3572,23 @@
         "ok": true,
         "matches": [
           {
-            "home": "美国",
-            "away": "澳大利亚",
-            "time": "06-20 03:00",
+            "home": "荷兰",
+            "away": "瑞典",
+            "time": "06-21 01:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "苏格兰",
-            "away": "摩洛哥",
-            "time": "06-20 06:00",
+            "home": "德国",
+            "away": "科特迪瓦",
+            "time": "06-21 04:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
         ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
-          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯 06-18 19:00 哥伦比亚首发平均年龄刷新28年纪录 成本届第三高龄 世界杯 06-18 18:07 本届“大力神杯”含金量升至历届最高 五十年来涨幅近",
-          "2026世界杯 06-18 17:39 梅西世界杯哭泣因为父亲重病 亲承哭与足球无关 世界杯 06-18 17:05 世界杯瑞士vs波黑谁能赢？瑞士目标全取三分 瑞士 06-"
+          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
         ],
         "error": ""
       },
@@ -3602,10 +3596,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3614,37 +3608,47 @@
         "ok": true,
         "matches": [
           {
-            "home": "Switzerland",
-            "away": "Bosnia and Herzegovina",
+            "home": "USA",
+            "away": "Australia",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058665",
-            "summary": "Switzerland vs Bosnia and Herzegovina｜比分1-0｜大小小2.5｜讓球Bosnia and Herzegovina -1｜勝率Switzerland｜進球數2"
+            "matchId": "5001997",
+            "summary": "USA vs Australia｜比分1-0｜大小小2.5｜讓球Australia -1｜勝率USA｜進球數2"
           },
           {
-            "home": "Canada",
-            "away": "Qatar",
+            "home": "Scotland",
+            "away": "Morocco",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002008",
-            "summary": "Canada vs Qatar｜比分2-0｜大小小2.75｜讓球Qatar -1.75｜勝率Canada｜進球數2"
+            "matchId": "5002005",
+            "summary": "Scotland vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.75｜勝率Morocco｜進球數2"
           },
           {
-            "home": "Mexico",
-            "away": "Korea Republic",
+            "home": "Brazil",
+            "away": "Haiti",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5001994",
-            "summary": "Mexico vs Korea Republic｜比分1-0｜大小小2.25｜讓球Mexico -0.5｜勝率Mexico｜進球數2"
+            "matchId": "5002001",
+            "summary": "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.75｜勝率Brazil｜進球數3"
+          },
+          {
+            "home": "Turkey",
+            "away": "Paraguay",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058669",
+            "summary": "Turkey vs Paraguay｜比分1-1｜大小小2.25｜讓球Paraguay -0.5｜勝率Turkey｜進球數2"
           }
         ],
         "headlines": [
-          "Switzerland vs Bosnia and Herzegovina｜比分1-0｜大小小2.5｜讓球Bosnia and Herzegovina -1｜勝率Switzerland｜進球數2",
-          "Canada vs Qatar｜比分2-0｜大小小2.75｜讓球Qatar -1.75｜勝率Canada｜進球數2",
-          "Mexico vs Korea Republic｜比分1-0｜大小小2.25｜讓球Mexico -0.5｜勝率Mexico｜進球數2"
+          "USA vs Australia｜比分1-0｜大小小2.5｜讓球Australia -1｜勝率USA｜進球數2",
+          "Scotland vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.75｜勝率Morocco｜進球數2",
+          "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.75｜勝率Brazil｜進球數3",
+          "Turkey vs Paraguay｜比分1-1｜大小小2.25｜讓球Paraguay -0.5｜勝率Turkey｜進球數2"
         ],
         "error": ""
       },
