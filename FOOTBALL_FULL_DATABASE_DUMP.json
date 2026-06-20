@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-20 10:19:18",
+    "scraped_at": "2026-06-20 17:08:24",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-20 10:19:18",
+      "updatedAt": "2026-06-20 17:08:24",
       "groups": [
         {
           "group": "A組",
@@ -3572,30 +3572,16 @@
         "ok": true,
         "matches": [
           {
-            "home": "荷兰",
-            "away": "瑞典",
-            "time": "06-21 01:00",
+            "home": "西班牙",
+            "away": "沙特阿拉伯",
+            "time": "06-22 00:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "德国",
-            "away": "科特迪瓦",
-            "time": "06-21 04:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "厄瓜多尔",
-            "away": "库拉索",
-            "time": "06-21 08:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "突尼斯",
-            "away": "日本",
-            "time": "06-21 12:00",
+            "home": "比利时",
+            "away": "伊朗",
+            "time": "06-22 03:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
@@ -3622,47 +3608,57 @@
         "ok": true,
         "matches": [
           {
-            "home": "USA",
-            "away": "Australia",
+            "home": "Netherlands",
+            "away": "Sweden",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5001997",
-            "summary": "USA vs Australia｜比分1-0｜大小小2.25｜讓球Australia -1｜勝率USA｜進球數2"
+            "matchId": "5058672",
+            "summary": "Netherlands vs Sweden｜比分1-1｜大小大2.75｜讓球Netherlands -0.75｜勝率Netherlands｜進球數2"
           },
           {
-            "home": "Scotland",
-            "away": "Morocco",
+            "home": "Germany",
+            "away": "Cote d'Ivoire",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002005",
-            "summary": "Scotland vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.75｜勝率Morocco｜進球數2"
+            "matchId": "5002013",
+            "summary": "Germany vs Cote d'Ivoire｜比分2-1｜大小小3｜讓球Cote d'Ivoire -1.25｜勝率Germany｜進球數3"
           },
           {
-            "home": "Brazil",
-            "away": "Haiti",
+            "home": "Ecuador",
+            "away": "Curacao",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002001",
-            "summary": "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.5｜勝率Brazil｜進球數3"
+            "matchId": "5002012",
+            "summary": "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3"
           },
           {
-            "home": "Turkey",
-            "away": "Paraguay",
+            "home": "Tunisia",
+            "away": "Japan",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058669",
-            "summary": "Turkey vs Paraguay｜比分1-1｜大小小2.25｜讓球Paraguay -0.5｜勝率Turkey｜進球數2"
+            "matchId": "5002019",
+            "summary": "Tunisia vs Japan｜比分0-1｜大小小2.25｜讓球Tunisia 1｜勝率Japan｜進球數2"
+          },
+          {
+            "home": "Spain",
+            "away": "Saudi Arabia",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5002028",
+            "summary": "Spain vs Saudi Arabia｜比分觀察｜大小觀察｜讓球觀察 ｜勝率觀察｜進球數觀察"
           }
         ],
         "headlines": [
-          "USA vs Australia｜比分1-0｜大小小2.25｜讓球Australia -1｜勝率USA｜進球數2",
-          "Scotland vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.75｜勝率Morocco｜進球數2",
-          "Brazil vs Haiti｜比分3-0｜大小小3.5｜讓球Haiti -2.5｜勝率Brazil｜進球數3",
-          "Turkey vs Paraguay｜比分1-1｜大小小2.25｜讓球Paraguay -0.5｜勝率Turkey｜進球數2"
+          "Netherlands vs Sweden｜比分1-1｜大小大2.75｜讓球Netherlands -0.75｜勝率Netherlands｜進球數2",
+          "Germany vs Cote d'Ivoire｜比分2-1｜大小小3｜讓球Cote d'Ivoire -1.25｜勝率Germany｜進球數3",
+          "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3",
+          "Tunisia vs Japan｜比分0-1｜大小小2.25｜讓球Tunisia 1｜勝率Japan｜進球數2",
+          "Spain vs Saudi Arabia｜比分觀察｜大小觀察｜讓球觀察 ｜勝率觀察｜進球數觀察"
         ],
         "error": ""
       },
