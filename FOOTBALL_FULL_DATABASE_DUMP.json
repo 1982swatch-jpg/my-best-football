@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-20 21:56:13",
+    "scraped_at": "2026-06-21 11:32:48",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-20 21:56:13",
+      "updatedAt": "2026-06-21 11:32:48",
       "groups": [
         {
           "group": "A組",
@@ -3584,6 +3584,20 @@
             "time": "06-22 03:00",
             "status": "未开赛",
             "source": "球天下世界杯"
+          },
+          {
+            "home": "乌拉圭",
+            "away": "佛得角",
+            "time": "06-22 06:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "新西兰",
+            "away": "埃及",
+            "time": "06-22 09:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
           }
         ],
         "headlines": [
@@ -3632,7 +3646,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002012",
-            "summary": "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2｜勝率Ecuador｜進球數3"
+            "summary": "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3"
           },
           {
             "home": "Tunisia",
@@ -3641,7 +3655,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002019",
-            "summary": "Tunisia vs Japan｜比分0-1｜大小小2.25｜讓球Tunisia 1｜勝率Japan｜進球數2"
+            "summary": "Tunisia vs Japan｜比分0-1｜大小小2.5｜讓球Tunisia 1.25｜勝率Japan｜進球數2"
           },
           {
             "home": "Spain",
@@ -3650,15 +3664,15 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002028",
-            "summary": "Spain vs Saudi Arabia｜比分2-0｜大小小3.25｜讓球Saudi Arabia -2.5｜勝率Spain｜進球數3"
+            "summary": "Spain vs Saudi Arabia｜比分2-0｜大小小3.5｜讓球Saudi Arabia -2.75｜勝率Spain｜進球數3"
           }
         ],
         "headlines": [
           "Netherlands vs Sweden｜比分1-1｜大小大2.75｜讓球Netherlands -0.75｜勝率Netherlands｜進球數2",
           "Germany vs Cote d'Ivoire｜比分2-1｜大小小3｜讓球Cote d'Ivoire -1.25｜勝率Germany｜進球數3",
-          "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2｜勝率Ecuador｜進球數3",
-          "Tunisia vs Japan｜比分0-1｜大小小2.25｜讓球Tunisia 1｜勝率Japan｜進球數2",
-          "Spain vs Saudi Arabia｜比分2-0｜大小小3.25｜讓球Saudi Arabia -2.5｜勝率Spain｜進球數3"
+          "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3",
+          "Tunisia vs Japan｜比分0-1｜大小小2.5｜讓球Tunisia 1.25｜勝率Japan｜進球數2",
+          "Spain vs Saudi Arabia｜比分2-0｜大小小3.5｜讓球Saudi Arabia -2.75｜勝率Spain｜進球數3"
         ],
         "error": ""
       },
