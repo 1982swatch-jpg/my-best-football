@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-21 11:32:48",
+    "scraped_at": "2026-06-21 17:11:43",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-21 11:32:48",
+      "updatedAt": "2026-06-21 17:11:43",
       "groups": [
         {
           "group": "A組",
@@ -3572,37 +3572,24 @@
         "ok": true,
         "matches": [
           {
-            "home": "西班牙",
-            "away": "沙特阿拉伯",
-            "time": "06-22 00:00",
+            "home": "阿根廷",
+            "away": "奥地利",
+            "time": "06-23 01:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "比利时",
-            "away": "伊朗",
-            "time": "06-22 03:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "乌拉圭",
-            "away": "佛得角",
-            "time": "06-22 06:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "新西兰",
-            "away": "埃及",
-            "time": "06-22 09:00",
+            "home": "法国",
+            "away": "伊拉克",
+            "time": "06-23 05:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
         ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
-          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+          "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "2026世界杯 06-21 19:56 瑞典上场5-1这场1-5净胜球清零 北欧劲旅暴露防守弱点 世界杯 06-21 15:34 荷兰队达成世界杯百球成就 橙衣军团本轮大胜北"
         ],
         "error": ""
       },
@@ -3622,57 +3609,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "Netherlands",
-            "away": "Sweden",
+            "home": "Belgium",
+            "away": "Iran",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058672",
-            "summary": "Netherlands vs Sweden｜比分1-1｜大小大2.75｜讓球Netherlands -0.75｜勝率Netherlands｜進球數2"
+            "matchId": "5002020",
+            "summary": "Belgium vs Iran｜比分2-0｜大小大2.75｜讓球Iran -1.25｜勝率Belgium｜進球數2"
           },
           {
-            "home": "Germany",
-            "away": "Cote d'Ivoire",
+            "home": "Uruguay",
+            "away": "Cape Verde",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002013",
-            "summary": "Germany vs Cote d'Ivoire｜比分2-1｜大小小3｜讓球Cote d'Ivoire -1.25｜勝率Germany｜進球數3"
+            "matchId": "5002029",
+            "summary": "Uruguay vs Cape Verde｜比分1-0｜大小小2.25｜讓球Cape Verde -1.25｜勝率Uruguay｜進球數2"
           },
           {
-            "home": "Ecuador",
-            "away": "Curacao",
+            "home": "New Zealand",
+            "away": "Egypt",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002012",
-            "summary": "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3"
-          },
-          {
-            "home": "Tunisia",
-            "away": "Japan",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5002019",
-            "summary": "Tunisia vs Japan｜比分0-1｜大小小2.5｜讓球Tunisia 1.25｜勝率Japan｜進球數2"
-          },
-          {
-            "home": "Spain",
-            "away": "Saudi Arabia",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5002028",
-            "summary": "Spain vs Saudi Arabia｜比分2-0｜大小小3.5｜讓球Saudi Arabia -2.75｜勝率Spain｜進球數3"
+            "matchId": "5002021",
+            "summary": "New Zealand vs Egypt｜比分0-1｜大小小2.5｜讓球New Zealand 1｜勝率Egypt｜進球數2"
           }
         ],
         "headlines": [
-          "Netherlands vs Sweden｜比分1-1｜大小大2.75｜讓球Netherlands -0.75｜勝率Netherlands｜進球數2",
-          "Germany vs Cote d'Ivoire｜比分2-1｜大小小3｜讓球Cote d'Ivoire -1.25｜勝率Germany｜進球數3",
-          "Ecuador vs Curacao｜比分2-0｜大小小3｜讓球Curacao -2.25｜勝率Ecuador｜進球數3",
-          "Tunisia vs Japan｜比分0-1｜大小小2.5｜讓球Tunisia 1.25｜勝率Japan｜進球數2",
-          "Spain vs Saudi Arabia｜比分2-0｜大小小3.5｜讓球Saudi Arabia -2.75｜勝率Spain｜進球數3"
+          "Belgium vs Iran｜比分2-0｜大小大2.75｜讓球Iran -1.25｜勝率Belgium｜進球數2",
+          "Uruguay vs Cape Verde｜比分1-0｜大小小2.25｜讓球Cape Verde -1.25｜勝率Uruguay｜進球數2",
+          "New Zealand vs Egypt｜比分0-1｜大小小2.5｜讓球New Zealand 1｜勝率Egypt｜進球數2"
         ],
         "error": ""
       },
