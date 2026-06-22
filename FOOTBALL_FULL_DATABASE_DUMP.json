@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-21 22:22:11",
+    "scraped_at": "2026-06-22 17:20:41",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,8 +279,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+            "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -397,8 +400,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+            "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -515,9 +521,12 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+            "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+            "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+            "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -637,8 +646,12 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1；7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+            "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+            "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -875,8 +888,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+            "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -993,8 +1009,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+            "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -1111,9 +1130,12 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+            "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+            "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+            "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1231,8 +1253,12 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1；7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+            "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+            "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1469,8 +1495,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：球天下世界杯：2026世界杯 06-22 14:20 克罗地亚足球什么水平？世界杯赛场的顶级黑马强队 克罗地亚 06-22 13:37 李现世界杯开球状态满分 完美契合资深足球球迷身份 世",
+          "externalIntel": [
+            "球天下世界杯：2026世界杯 06-22 14:20 克罗地亚足球什么水平？世界杯赛场的顶级黑马强队 克罗地亚 06-22 13:37 李现世界杯开球状态满分 完美契合资深足球球迷身份 世"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1741,7 +1769,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-21 22:22:11",
+      "updatedAt": "2026-06-22 17:20:41",
       "groups": [
         {
           "group": "A組",
@@ -2705,8 +2733,11 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+          "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+        ],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -2823,8 +2854,11 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3；7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+          "7M AI模型预测：Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+        ],
         "qualityScore": 72,
         "homeForm": {
           "wins": 3,
@@ -2941,9 +2975,12 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
         "externalIntel": [
-          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+          "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+          "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
         ],
         "qualityScore": 74,
         "homeForm": {
@@ -3061,8 +3098,12 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1；7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+          "7M AI模型预测：Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2",
+          "天天盈球：阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球"
+        ],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -3297,8 +3338,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：球天下世界杯：2026世界杯 06-22 14:20 克罗地亚足球什么水平？世界杯赛场的顶级黑马强队 克罗地亚 06-22 13:37 李现世界杯开球状态满分 完美契合资深足球球迷身份 世",
+        "externalIntel": [
+          "球天下世界杯：2026世界杯 06-22 14:20 克罗地亚足球什么水平？世界杯赛场的顶级黑马强队 克罗地亚 06-22 13:37 李现世界杯开球状态满分 完美契合资深足球球迷身份 世"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3572,16 +3615,16 @@
         "ok": true,
         "matches": [
           {
-            "home": "阿根廷",
-            "away": "奥地利",
-            "time": "06-23 01:00",
+            "home": "葡萄牙",
+            "away": "乌兹别克斯坦",
+            "time": "06-24 01:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "法国",
-            "away": "伊拉克",
-            "time": "06-23 05:00",
+            "home": "英格兰",
+            "away": "加纳",
+            "time": "06-24 04:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
@@ -3589,7 +3632,8 @@
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯 06-21 19:56 瑞典上场5-1这场1-5净胜球清零 北欧劲旅暴露防守弱点 世界杯 06-21 15:34 荷兰队达成世界杯百球成就 橙衣军团本轮大胜北"
+          "2026世界杯射手榜最新排名一览（完整版） 2026世界杯 06-22 14:44 世界杯小组赛出线规则详细一览 2026世界杯48进32规则 2026世界杯 06-22 1",
+          "2026世界杯 06-22 14:20 克罗地亚足球什么水平？世界杯赛场的顶级黑马强队 克罗地亚 06-22 13:37 李现世界杯开球状态满分 完美契合资深足球球迷身份 世"
         ],
         "error": ""
       },
@@ -3609,37 +3653,47 @@
         "ok": true,
         "matches": [
           {
-            "home": "Belgium",
-            "away": "Iran",
+            "home": "Argentina",
+            "away": "Austria",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002020",
-            "summary": "Belgium vs Iran｜比分2-0｜大小大2.5｜讓球Iran -1.25｜勝率Belgium｜進球數2"
+            "matchId": "5002038",
+            "summary": "Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1"
           },
           {
-            "home": "Uruguay",
-            "away": "Cape Verde",
+            "home": "France",
+            "away": "Iraq",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002029",
-            "summary": "Uruguay vs Cape Verde｜比分1-0｜大小小2.25｜讓球Cape Verde -1.25｜勝率Uruguay｜進球數2"
+            "matchId": "5058685",
+            "summary": "France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3"
           },
           {
-            "home": "New Zealand",
-            "away": "Egypt",
+            "home": "Norway",
+            "away": "Senegal",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002021",
-            "summary": "New Zealand vs Egypt｜比分0-1｜大小小2.5｜讓球New Zealand 1｜勝率Egypt｜進球數2"
+            "matchId": "5002044",
+            "summary": "Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2"
+          },
+          {
+            "home": "Jordan",
+            "away": "Algeria",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5002039",
+            "summary": "Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2"
           }
         ],
         "headlines": [
-          "Belgium vs Iran｜比分2-0｜大小大2.5｜讓球Iran -1.25｜勝率Belgium｜進球數2",
-          "Uruguay vs Cape Verde｜比分1-0｜大小小2.25｜讓球Cape Verde -1.25｜勝率Uruguay｜進球數2",
-          "New Zealand vs Egypt｜比分0-1｜大小小2.5｜讓球New Zealand 1｜勝率Egypt｜進球數2"
+          "Argentina vs Austria｜比分1-0｜大小小2.5｜讓球Austria -1.25｜勝率Argentina｜進球數1",
+          "France vs Iraq｜比分3-0｜大小小3.75｜讓球Iraq -2.75｜勝率France｜進球數3",
+          "Norway vs Senegal｜比分1-1｜大小大2.5｜讓球Senegal -0.25｜勝率Norway｜進球數2",
+          "Jordan vs Algeria｜比分0-1｜大小小2.5｜讓球Jordan 1｜勝率Algeria｜進球數2"
         ],
         "error": ""
       },
@@ -3650,6 +3704,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "前阿森纳和布伦特福德后卫将在永久转会之前在莱顿东方接受体检-独家 锤哥营地",
+          "阿尔及利亚XI vs约旦-预测阵容和球队新闻 进神聊球",
+          "报道：罗伯托·德泽尔比准备将托特纳姆热刺二人组赶出大门 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
