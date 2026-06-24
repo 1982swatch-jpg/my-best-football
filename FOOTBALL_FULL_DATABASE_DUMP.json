@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-24 10:35:55",
+    "scraped_at": "2026-06-24 18:20:59",
     "auth_used": "none",
     "external_sources": [
       {
@@ -755,11 +755,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3；7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-            "7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1354,11 +1351,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3；7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-            "7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1475,11 +1469,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3；7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-            "7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1596,10 +1587,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3",
-          "externalIntel": [
-            "7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 76,
           "homeForm": {
             "wins": 5,
@@ -1716,11 +1705,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3；7M AI模型预测：Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3",
-            "7M AI模型预测：Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1755,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-24 10:35:55",
+      "updatedAt": "2026-06-24 18:20:59",
       "groups": [
         {
           "group": "A組",
@@ -3193,11 +3179,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3；7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-          "7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -3314,11 +3297,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3；7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-          "7M AI模型预测：Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3435,10 +3415,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3",
-        "externalIntel": [
-          "7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 76,
         "homeForm": {
           "wins": 5,
@@ -3555,11 +3533,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3；7M AI模型预测：Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3",
-          "7M AI模型预测：Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3595,36 +3570,7 @@
         "url": "https://m.qtx.com/worldcup",
         "kind": "schedule_news",
         "ok": true,
-        "matches": [
-          {
-            "home": "瑞士",
-            "away": "加拿大",
-            "time": "06-25 03:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "波黑",
-            "away": "卡塔尔",
-            "time": "06-25 03:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "苏格兰",
-            "away": "巴西",
-            "time": "06-25 06:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "摩洛哥",
-            "away": "海地",
-            "time": "06-25 06:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          }
-        ],
+        "matches": [],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
@@ -3649,47 +3595,67 @@
         "ok": true,
         "matches": [
           {
-            "home": "Portugal",
-            "away": "Uzbekistan",
+            "home": "Switzerland",
+            "away": "Canada",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002052",
-            "summary": "Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3"
+            "matchId": "5002007",
+            "summary": "Switzerland vs Canada｜比分1-1｜大小小2.25｜讓球Canada -0.25｜勝率Switzerland｜進球數2"
           },
           {
-            "home": "England",
-            "away": "Ghana",
+            "home": "Bosnia and Herzegovina",
+            "away": "Qatar",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002047",
-            "summary": "England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3"
+            "matchId": "5058666",
+            "summary": "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小小3｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3"
           },
           {
-            "home": "Panama",
-            "away": "Croatia",
+            "home": "Scotland",
+            "away": "Brazil",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5002048",
-            "summary": "Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2"
+            "matchId": "5002003",
+            "summary": "Scotland vs Brazil｜比分0-2｜大小小2.75｜讓球Scotland 1.5｜勝率Brazil｜進球數2"
           },
           {
-            "home": "Colombia",
-            "away": "Democratic Rep Congo",
+            "home": "Morocco",
+            "away": "Haiti",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058675",
-            "summary": "Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2"
+            "matchId": "5002004",
+            "summary": "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Haiti -2｜勝率Morocco｜進球數3"
+          },
+          {
+            "home": "South Africa",
+            "away": "Korea Republic",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5001995",
+            "summary": "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球South Africa 1｜勝率Korea Republic｜進球數2"
+          },
+          {
+            "home": "Czech Republic",
+            "away": "Mexico",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058663",
+            "summary": "Czech Republic vs Mexico｜比分1-1｜大小小2.5｜讓球Czech Republic 0.5｜勝率Mexico｜進球數2"
           }
         ],
         "headlines": [
-          "Portugal vs Uzbekistan｜比分2-0｜大小小3.25｜讓球Uzbekistan -2.25｜勝率Portugal｜進球數3",
-          "England vs Ghana｜比分2-0｜大小小3｜讓球Ghana -2｜勝率England｜進球數3",
-          "Panama vs Croatia｜比分0-2｜大小大2.75｜讓球Panama 1.25｜勝率Croatia｜進球數2",
-          "Colombia vs Democratic Rep Congo｜比分1-0｜大小小2.25｜讓球Democratic Rep Congo -1｜勝率Colombia｜進球數2"
+          "Switzerland vs Canada｜比分1-1｜大小小2.25｜讓球Canada -0.25｜勝率Switzerland｜進球數2",
+          "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小小3｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3",
+          "Scotland vs Brazil｜比分0-2｜大小小2.75｜讓球Scotland 1.5｜勝率Brazil｜進球數2",
+          "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Haiti -2｜勝率Morocco｜進球數3",
+          "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球South Africa 1｜勝率Korea Republic｜進球數2",
+          "Czech Republic vs Mexico｜比分1-1｜大小小2.5｜讓球Czech Republic 0.5｜勝率Mexico｜進球數2"
         ],
         "error": ""
       },
@@ -3700,9 +3666,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "罗伯托·德泽尔比告诉所罗门庄园寻求在今年夏天离开托特纳姆热刺 波总聊波",
-          "桑德兰转会综述：雷恩“推动”马延达、2500万英镑凯尔特人联系和1000万英镑门将估值 安胖懂个球",
-          "诺丁汉森林退出：萨沃纳“将加盟亚特兰大、奥林匹亚科斯”，在卡莫身上花费巨资，弗拉泰西谈判加强 进神聊球",
+          "路易斯·加西亚·费尔南德斯被任命为马略卡岛的德米凯利斯的替代者 东神看球",
+          "皇家社会友谊赛转会后狼队改变季前赛计划 波总聊波",
+          "瓦斯科接近与尼尔森·德奥萨达成贝蒂斯协议 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
