@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-24 18:20:59",
+    "scraped_at": "2026-06-25 10:28:57",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-24 18:20:59",
+      "updatedAt": "2026-06-25 10:28:57",
       "groups": [
         {
           "group": "A組",
@@ -3570,12 +3570,40 @@
         "url": "https://m.qtx.com/worldcup",
         "kind": "schedule_news",
         "ok": true,
-        "matches": [],
+        "matches": [
+          {
+            "home": "厄瓜多尔",
+            "away": "德国",
+            "time": "06-26 04:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "库拉索",
+            "away": "科特迪瓦",
+            "time": "06-26 04:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "突尼斯",
+            "away": "荷兰",
+            "time": "06-26 07:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "日本",
+            "away": "瑞典",
+            "time": "06-26 07:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          }
+        ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯小组赛最新比分结果一览（完整版） 2026世界杯 06-24 15:53 唯一六届世界杯都有进球的球员！C罗世界杯已打进10球 C罗 06-24 15:40 C",
-          "2026世界杯小组赛积分榜排名最新一览 48队争32强 2026世界杯 06-24 11:26 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备170"
+          "2026世界杯赛程最新对阵图 2026世界杯 06-25 15:03 世界杯日本队将对阵瑞典队 两队胜者将直接晋级 世界杯 06-25 14:47 专题 更多 2026美加墨"
         ],
         "error": ""
       },
@@ -3610,7 +3638,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058666",
-            "summary": "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小小3｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3"
+            "summary": "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小大2.75｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3"
           },
           {
             "home": "Scotland",
@@ -3619,7 +3647,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002003",
-            "summary": "Scotland vs Brazil｜比分0-2｜大小小2.75｜讓球Scotland 1.5｜勝率Brazil｜進球數2"
+            "summary": "Scotland vs Brazil｜比分0-2｜大小小2.5｜讓球Scotland 1.5｜勝率Brazil｜進球數2"
           },
           {
             "home": "Morocco",
@@ -3628,7 +3656,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002004",
-            "summary": "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Haiti -2｜勝率Morocco｜進球數3"
+            "summary": "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Morocco -1.5｜勝率Morocco｜進球數3"
           },
           {
             "home": "South Africa",
@@ -3637,7 +3665,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5001995",
-            "summary": "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球South Africa 1｜勝率Korea Republic｜進球數2"
+            "summary": "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球Korea Republic 0.75｜勝率Korea Republic｜進球數2"
           },
           {
             "home": "Czech Republic",
@@ -3646,16 +3674,16 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058663",
-            "summary": "Czech Republic vs Mexico｜比分1-1｜大小小2.5｜讓球Czech Republic 0.5｜勝率Mexico｜進球數2"
+            "summary": "Czech Republic vs Mexico｜比分1-1｜大小小2.25｜讓球Czech Republic 0.75｜勝率Mexico｜進球數2"
           }
         ],
         "headlines": [
           "Switzerland vs Canada｜比分1-1｜大小小2.25｜讓球Canada -0.25｜勝率Switzerland｜進球數2",
-          "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小小3｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3",
-          "Scotland vs Brazil｜比分0-2｜大小小2.75｜讓球Scotland 1.5｜勝率Brazil｜進球數2",
-          "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Haiti -2｜勝率Morocco｜進球數3",
-          "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球South Africa 1｜勝率Korea Republic｜進球數2",
-          "Czech Republic vs Mexico｜比分1-1｜大小小2.5｜讓球Czech Republic 0.5｜勝率Mexico｜進球數2"
+          "Bosnia and Herzegovina vs Qatar｜比分2-0｜大小大2.75｜讓球Qatar -1.25｜勝率Bosnia and Herzegovina｜進球數3",
+          "Scotland vs Brazil｜比分0-2｜大小小2.5｜讓球Scotland 1.5｜勝率Brazil｜進球數2",
+          "Morocco vs Haiti｜比分2-0｜大小小3｜讓球Morocco -1.5｜勝率Morocco｜進球數3",
+          "South Africa vs Korea Republic｜比分0-1｜大小小2.25｜讓球Korea Republic 0.75｜勝率Korea Republic｜進球數2",
+          "Czech Republic vs Mexico｜比分1-1｜大小小2.25｜讓球Czech Republic 0.75｜勝率Mexico｜進球數2"
         ],
         "error": ""
       },
@@ -3666,9 +3694,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "路易斯·加西亚·费尔南德斯被任命为马略卡岛的德米凯利斯的替代者 东神看球",
-          "皇家社会友谊赛转会后狼队改变季前赛计划 波总聊波",
-          "瓦斯科接近与尼尔森·德奥萨达成贝蒂斯协议 进神聊球",
+          "所罗门庄园“被告知他可以离开”托特纳姆热刺，利兹联队最爱考虑未来 安胖懂个球",
+          "纳扎里·鲁辛（Nazary Rusyn）谈到桑德兰的联系并概述合同立场 波总聊波",
+          "尼克·沃特梅德“即将在世界杯上首次亮相”对阵厄瓜多尔 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
