@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-25 19:19:44",
+    "scraped_at": "2026-06-26 10:39:42",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-25 19:19:44",
+      "updatedAt": "2026-06-26 10:39:42",
       "groups": [
         {
           "group": "A組",
@@ -3570,11 +3570,27 @@
         "url": "https://m.qtx.com/worldcup",
         "kind": "schedule_news",
         "ok": true,
-        "matches": [],
+        "matches": [
+          {
+            "home": "挪威",
+            "away": "法国",
+            "time": "06-27 03:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "塞内加尔",
+            "away": "伊拉克",
+            "time": "06-27 03:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          }
+        ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯赛程最新对阵图 2026世界杯 06-25 15:03 专题 更多 2026美加墨世界杯 世界杯2022赛程表 世界杯足球赛2022赛程时间 女篮世界杯直播 世"
+          "2026世界杯32强参赛球队名单最新一览（附全部出炉图片） 2026世界杯 06-26 17:26 专题 更多 2026美加墨世界杯 世界杯2022赛程表 世界杯足球赛202",
+          "2026世界杯 06-26 11:35 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备17033375号-1"
         ],
         "error": ""
       },
@@ -3618,7 +3634,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058673",
-            "summary": "Japan vs Sweden｜比分1-1｜大小大2.5｜讓球Japan -0.5｜勝率Japan｜進球數2"
+            "summary": "Japan vs Sweden｜比分1-1｜大小大2.5｜讓球Japan -0.25｜勝率Japan｜進球數2"
           },
           {
             "home": "Tunisia",
@@ -3627,7 +3643,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5002018",
-            "summary": "Tunisia vs Netherlands｜比分0-3｜大小小3.25｜讓球Tunisia 2.5｜勝率Netherlands｜進球數3"
+            "summary": "Tunisia vs Netherlands｜比分0-3｜大小小3.25｜讓球Tunisia 2.25｜勝率Netherlands｜進球數3"
           },
           {
             "home": "Turkey",
@@ -3636,7 +3652,7 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058670",
-            "summary": "Turkey vs USA｜比分1-1｜大小小3｜讓球USA 0.5｜勝率USA｜進球數2"
+            "summary": "Turkey vs USA｜比分1-1｜大小大2.75｜讓球USA 0.25｜勝率USA｜進球數2"
           },
           {
             "home": "Paraguay",
@@ -3645,16 +3661,16 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5001998",
-            "summary": "Paraguay vs Australia｜比分1-0｜大小大1.75｜讓球Australia -0.25｜勝率Paraguay｜進球數1"
+            "summary": "Paraguay vs Australia｜比分1-0｜大小大1.5｜讓球Australia -0.25｜勝率Paraguay｜進球數1"
           }
         ],
         "headlines": [
           "Curacao vs Cote d'Ivoire｜比分0-2｜大小小3.25｜讓球Curacao 2.25｜勝率Cote d'Ivoire｜進球數3",
           "Ecuador vs Germany｜比分1-1｜大小大2.75｜讓球Germany 0.75｜勝率Germany｜進球數2",
-          "Japan vs Sweden｜比分1-1｜大小大2.5｜讓球Japan -0.5｜勝率Japan｜進球數2",
-          "Tunisia vs Netherlands｜比分0-3｜大小小3.25｜讓球Tunisia 2.5｜勝率Netherlands｜進球數3",
-          "Turkey vs USA｜比分1-1｜大小小3｜讓球USA 0.5｜勝率USA｜進球數2",
-          "Paraguay vs Australia｜比分1-0｜大小大1.75｜讓球Australia -0.25｜勝率Paraguay｜進球數1"
+          "Japan vs Sweden｜比分1-1｜大小大2.5｜讓球Japan -0.25｜勝率Japan｜進球數2",
+          "Tunisia vs Netherlands｜比分0-3｜大小小3.25｜讓球Tunisia 2.25｜勝率Netherlands｜進球數3",
+          "Turkey vs USA｜比分1-1｜大小大2.75｜讓球USA 0.25｜勝率USA｜進球數2",
+          "Paraguay vs Australia｜比分1-0｜大小大1.5｜讓球Australia -0.25｜勝率Paraguay｜進球數1"
         ],
         "error": ""
       },
@@ -3665,9 +3681,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "科恩在世界杯上对阵加拿大队的可怕受伤后，国际足联发布了五场禁赛 V先生",
-          "意甲中场球员今年夏天想加盟阿森纳：阿尔特塔应该采取行动吗？ 锤哥营地",
-          "根据报道的条款，加图索与拉齐奥的合同将“续签”，进入前12名 鬼手爱球",
+          "托特纳姆热刺队相信他们与桑德罗·托纳利和马修斯·费尔南德斯达成了口头协议，因为他们计划签下另外两名球员 锤哥营地",
+          "桑德兰前锋布罗比取得罕见的世界杯壮举 进神聊球",
+          "纽卡斯尔“权衡”莱比锡RB的安东尼奥·努萨5000万欧元转会 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
