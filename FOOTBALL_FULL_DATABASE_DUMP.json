@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-27 09:18:34",
+    "scraped_at": "2026-06-27 15:54:58",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1753,7 +1753,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-27 09:18:34",
+      "updatedAt": "2026-06-27 15:54:58",
       "groups": [
         {
           "group": "A組",
@@ -3600,6 +3600,34 @@
             "home": "克罗地亚",
             "away": "加纳",
             "time": "06-28 05:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "哥伦比亚",
+            "away": "葡萄牙",
+            "time": "06-28 07:30",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "刚果(金)",
+            "away": "乌兹别克斯坦",
+            "time": "06-28 07:30",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "约旦",
+            "away": "阿根廷",
+            "time": "06-28 10:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "阿尔及利亚",
+            "away": "奥地利",
+            "time": "06-28 10:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
