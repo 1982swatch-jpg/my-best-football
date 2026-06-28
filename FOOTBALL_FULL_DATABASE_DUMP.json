@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-28 10:12:41",
+    "scraped_at": "2026-06-28 16:00:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1765,7 +1765,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-28 10:12:41",
+      "updatedAt": "2026-06-28 16:00:11",
       "groups": [
         {
           "group": "A組",
@@ -3612,16 +3612,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "南非",
-            "away": "加拿大",
-            "time": "06-29 03:00",
+            "home": "巴西",
+            "away": "日本",
+            "time": "06-30 01:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "巴西",
-            "away": "日本",
-            "time": "06-30 01:00",
+            "home": "德国",
+            "away": "巴拉圭",
+            "time": "06-30 04:30",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "荷兰",
+            "away": "摩洛哥",
+            "time": "06-30 09:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "科特迪瓦",
+            "away": "挪威",
+            "time": "07-01 01:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
+          },
+          {
+            "home": "法国",
+            "away": "瑞典",
+            "time": "07-01 05:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           }
@@ -3719,9 +3740,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "转会新闻直播：阿森纳得到吉马良斯的提振;扎卡想要切尔西;费尔南德斯转会曼联;利物浦转折 曾哥谈球",
-          "杰克·沃特斯对桑德兰终止合同感到失望 波总聊波",
-          "纽卡斯尔声称“没有接触”，阿森纳转会对吉马良斯造成了巨大打击 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
