@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-29 14:39:13",
+    "scraped_at": "2026-06-29 22:17:31",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-29 14:39:13",
+      "updatedAt": "2026-06-29 22:17:31",
       "groups": [
         {
           "group": "A組",
@@ -3572,27 +3572,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "巴西",
-            "away": "日本",
-            "time": "06-30 01:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "德国",
-            "away": "巴拉圭",
-            "time": "06-30 04:30",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "荷兰",
-            "away": "摩洛哥",
-            "time": "06-30 09:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "科特迪瓦",
             "away": "挪威",
             "time": "07-01 01:00",
@@ -3617,8 +3596,9 @@
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯16强赛程对阵图最新一览（完整版） 2026世界杯 06-29 18:35 专题 更多 2026美加墨世界杯 世界杯2022赛程表 世界杯足球赛2022赛程时间",
-          "2026世界杯16强名单参赛球队名单最新盘点（附全部出炉图片） 2026世界杯 06-29 16:35 十二年断层，意大利最年轻世界杯球员已33岁 1911 播放 00:31"
+          "2026世界杯赞助收入预计破17.8亿美元 将打破纪录 2026世界杯 06-29 23:43 爱德华门迪出战比利时存疑 球员遭遇膝伤困扰 世界杯 06-29 19:21 马",
+          "2026世界杯16强赛程对阵图最新一览（完整版） 2026世界杯 06-29 18:35 韩国球员每人获约35.5万元奖金 晋级奖全泡汤 韩国 06-29 18:05 日本将",
+          "2026世界杯16强名单参赛球队名单最新盘点（附全部出炉图片） 2026世界杯 06-29 16:35 日本还未在世界杯淘汰赛阶段取胜 球队多次惜败对手 世界杯 06-29 "
         ],
         "error": ""
       },
@@ -3638,17 +3618,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "South Africa",
-            "away": "Canada",
+            "home": "Brazil",
+            "away": "Japan",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058728",
-            "summary": "South Africa vs Canada｜比分0-1｜大小小2.25｜讓球Canada 0.5｜勝率Canada｜進球數2"
+            "matchId": "5058729",
+            "summary": "Brazil vs Japan｜比分1-0｜大小小2.25｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
+          },
+          {
+            "home": "Germany",
+            "away": "Paraguay",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058730",
+            "summary": "Germany vs Paraguay｜比分2-0｜大小大2.75｜讓球Paraguay -1.5｜勝率Germany｜進球數2"
+          },
+          {
+            "home": "Netherlands",
+            "away": "Morocco",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058731",
+            "summary": "Netherlands vs Morocco｜比分1-1｜大小小2.25｜讓球Morocco -0.25｜勝率Netherlands｜進球數2"
           }
         ],
         "headlines": [
-          "South Africa vs Canada｜比分0-1｜大小小2.25｜讓球Canada 0.5｜勝率Canada｜進球數2"
+          "Brazil vs Japan｜比分1-0｜大小小2.25｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
+          "Germany vs Paraguay｜比分2-0｜大小大2.75｜讓球Paraguay -1.5｜勝率Germany｜進球數2",
+          "Netherlands vs Morocco｜比分1-1｜大小小2.25｜讓球Morocco -0.25｜勝率Netherlands｜進球數2"
         ],
         "error": ""
       },
@@ -3659,9 +3659,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "雷恩仍在就签下身价2500万欧元的桑德兰前锋埃利泽·梅延达进行谈判 波总聊波",
-          "18岁新星前往法甲对手，令人担忧的巴黎圣日耳曼人才流失仍在继续 鬼手爱球",
-          "利物浦和曼联告诉目标青睐欧洲巨人 V先生",
+          "克里斯·伊瑙·奥拉托斯独家：哪些欧洲巨人正在追逐中场球员 安胖懂个球",
+          "帕克、卡西姆：曼联试图签下曼城两名备受好评的中场球员 鬼手爱球",
+          "曼城2026年世界杯观察：蓝军小组赛表现如何 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
