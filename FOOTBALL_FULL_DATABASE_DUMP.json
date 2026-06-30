@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-30 08:53:02",
+    "scraped_at": "2026-06-30 13:51:23",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-30 08:53:02",
+      "updatedAt": "2026-06-30 13:51:23",
       "groups": [
         {
           "group": "A組",
@@ -3605,6 +3605,13 @@
             "time": "07-02 04:00",
             "status": "未开赛",
             "source": "球天下世界杯"
+          },
+          {
+            "home": "美国",
+            "away": "波黑",
+            "time": "07-02 08:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
           }
         ],
         "headlines": [
@@ -3670,9 +3677,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "耶尔森·莫斯奎拉“成为雷恩的目标”，狼队的大门可能为纳赛尔·吉加打开 波总聊波",
-          "迪奥曼德被捕后，巴黎圣日耳曼边锋重新分配，利物浦仍然受益 曾哥谈球",
-          "巴黎足球俱乐部因新教练提出推迟回归，罗西尼尔在框架中 进神聊球",
+          "尤文图斯询问斯维拉尔并联系球员经纪人 安胖懂个球",
+          "迈阿密国际将克雷马斯基出售给帕尔马足球俱乐部 安胖懂个球",
+          "据报道，伊蒂哈德愿意向孔蒂提供2000万欧元的薪水来接任主教练 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
