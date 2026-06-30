@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-30 13:51:23",
+    "scraped_at": "2026-06-30 19:29:09",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "天天盈球",
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-30 13:51:23",
+      "updatedAt": "2026-06-30 19:29:09",
       "groups": [
         {
           "group": "A組",
@@ -3572,27 +3572,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "科特迪瓦",
-            "away": "挪威",
-            "time": "07-01 01:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "法国",
-            "away": "瑞典",
-            "time": "07-01 05:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "墨西哥",
-            "away": "厄瓜多尔",
-            "time": "07-01 09:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "英格兰",
             "away": "刚果(金)",
             "time": "07-02 00:00",
@@ -3633,42 +3612,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
-        "matches": [
-          {
-            "home": "Brazil",
-            "away": "Japan",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058729",
-            "summary": "Brazil vs Japan｜比分1-0｜大小小2.25｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
-          },
-          {
-            "home": "Germany",
-            "away": "Paraguay",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058730",
-            "summary": "Germany vs Paraguay｜比分2-0｜大小大2.75｜讓球Paraguay -1.5｜勝率Germany｜進球數2"
-          },
-          {
-            "home": "Netherlands",
-            "away": "Morocco",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058731",
-            "summary": "Netherlands vs Morocco｜比分1-1｜大小小2.25｜讓球Morocco -0.25｜勝率Netherlands｜進球數2"
-          }
-        ],
-        "headlines": [
-          "Brazil vs Japan｜比分1-0｜大小小2.25｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
-          "Germany vs Paraguay｜比分2-0｜大小大2.75｜讓球Paraguay -1.5｜勝率Germany｜進球數2",
-          "Netherlands vs Morocco｜比分1-1｜大小小2.25｜讓球Morocco -0.25｜勝率Netherlands｜進球數2"
-        ],
-        "error": ""
+        "ok": false,
+        "matches": [],
+        "headlines": [],
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "天天盈球",
@@ -3677,9 +3624,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "尤文图斯询问斯维拉尔并联系球员经纪人 安胖懂个球",
-          "迈阿密国际将克雷马斯基出售给帕尔马足球俱乐部 安胖懂个球",
-          "据报道，伊蒂哈德愿意向孔蒂提供2000万欧元的薪水来接任主教练 东神看球",
+          "切尔西希望重新签下这名意甲中场球员：阿隆索应该带他回来吗？ 波总聊波",
+          "天空体育：罗马将保留所有顶级球员 进神聊球",
+          "尤文图斯在伯恩茅斯和米兰的联系中重新对莱切天才蒂亚戈·加布里埃尔感兴趣 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
