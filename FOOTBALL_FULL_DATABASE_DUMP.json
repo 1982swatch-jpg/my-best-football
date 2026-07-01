@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-06-30 19:29:09",
+    "scraped_at": "2026-07-01 02:10:04",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -279,8 +279,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3",
+          "externalIntel": [
+            "7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -397,8 +399,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -875,8 +879,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3",
+          "externalIntel": [
+            "7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -993,8 +999,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -1469,8 +1477,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1741,7 +1751,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-06-30 19:29:09",
+      "updatedAt": "2026-07-01 02:10:04",
       "groups": [
         {
           "group": "A組",
@@ -2705,8 +2715,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3",
+        "externalIntel": [
+          "7M AI模型预测：France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3"
+        ],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -2823,8 +2835,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2"
+        ],
         "qualityScore": 72,
         "homeForm": {
           "wins": 3,
@@ -3297,8 +3311,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3612,10 +3628,52 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
-        "matches": [],
-        "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "matches": [
+          {
+            "home": "Cote d'Ivoire",
+            "away": "Norway",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058732",
+            "summary": "Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2"
+          },
+          {
+            "home": "France",
+            "away": "Sweden",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058734",
+            "summary": "France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3"
+          },
+          {
+            "home": "Mexico",
+            "away": "Ecuador",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058735",
+            "summary": "Mexico vs Ecuador｜比分1-0｜大小大1.75｜讓球Ecuador -0.25｜勝率Mexico｜進球數1"
+          },
+          {
+            "home": "England",
+            "away": "Democratic Rep Congo",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058736",
+            "summary": "England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2"
+          }
+        ],
+        "headlines": [
+          "Cote d'Ivoire vs Norway｜比分1-1｜大小小2.5｜讓球Cote d'Ivoire 0.25｜勝率Norway｜進球數2",
+          "France vs Sweden｜比分2-0｜大小小3.25｜讓球Sweden -1.5｜勝率France｜進球數3",
+          "Mexico vs Ecuador｜比分1-0｜大小大1.75｜讓球Ecuador -0.25｜勝率Mexico｜進球數1",
+          "England vs Democratic Rep Congo｜比分2-0｜大小小2.5｜讓球Democratic Rep Congo -1.5｜勝率England｜進球數2"
+        ],
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3624,9 +3682,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "切尔西希望重新签下这名意甲中场球员：阿隆索应该带他回来吗？ 波总聊波",
-          "天空体育：罗马将保留所有顶级球员 进神聊球",
-          "尤文图斯在伯恩茅斯和米兰的联系中重新对莱切天才蒂亚戈·加布里埃尔感兴趣 大伟侃球",
+          "BlueCo拥有的斯特拉斯堡被欧足联罚款1300万欧元 鬼手爱球",
+          "墨西哥/厄瓜多尔-官方阵容：帕乔首发 锤哥营地",
+          "利亚姆·罗西尼尔（Liam Rosenior）将于周四签署为期两年的巴黎足球俱乐部合同 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
