@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-02 13:25:28",
+    "scraped_at": "2026-07-02 19:05:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,10 +279,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -517,9 +515,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+            "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -639,8 +638,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -877,10 +878,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -1115,9 +1114,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+            "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1235,8 +1235,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1476,7 +1478,8 @@
           "market": "外部公開資訊：球天下世界杯：2026世界杯射手榜最新排名一览（官方数据完整版） 2026世界杯 07-02 16:05 墨西哥VS英格兰历史比分 三狮军团保持全胜 世界杯 07-02 15:59 专题 ；球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 ",
           "externalIntel": [
             "球天下世界杯：2026世界杯射手榜最新排名一览（官方数据完整版） 2026世界杯 07-02 16:05 墨西哥VS英格兰历史比分 三狮军团保持全胜 世界杯 07-02 15:59 专题 ",
-            "球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 "
+            "球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 ",
+            "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
           ],
           "qualityScore": 55,
           "homeForm": {
@@ -1594,8 +1597,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+          ],
           "qualityScore": 76,
           "homeForm": {
             "wins": 5,
@@ -1748,7 +1753,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-02 13:25:28",
+      "updatedAt": "2026-07-02 19:05:50",
       "groups": [
         {
           "group": "A組",
@@ -2712,10 +2717,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -2950,9 +2953,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2",
         "externalIntel": [
-          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
+          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
         ],
         "qualityScore": 74,
         "homeForm": {
@@ -3070,8 +3074,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
+        ],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -3309,7 +3315,8 @@
         "market": "外部公開資訊：球天下世界杯：2026世界杯射手榜最新排名一览（官方数据完整版） 2026世界杯 07-02 16:05 墨西哥VS英格兰历史比分 三狮军团保持全胜 世界杯 07-02 15:59 专题 ；球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 ",
         "externalIntel": [
           "球天下世界杯：2026世界杯射手榜最新排名一览（官方数据完整版） 2026世界杯 07-02 16:05 墨西哥VS英格兰历史比分 三狮军团保持全胜 世界杯 07-02 15:59 专题 ",
-          "球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 "
+          "球天下世界杯：2026世界杯 07-02 12:59 本届世界杯最大的黑马是美国队吗？美国队的表现足够亮眼 美国 07-02 12:51 安东尼-戈登替补上场助攻双响 球员力助英格兰晋级 ",
+          "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
         ],
         "qualityScore": 55,
         "homeForm": {
@@ -3427,8 +3434,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+        ],
         "qualityScore": 76,
         "homeForm": {
           "wins": 5,
@@ -3584,27 +3593,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "西班牙",
-            "away": "奥地利",
-            "time": "07-03 03:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "葡萄牙",
-            "away": "克罗地亚",
-            "time": "07-03 07:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "瑞士",
-            "away": "阿尔及利亚",
-            "time": "07-03 11:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "澳大利亚",
             "away": "埃及",
             "time": "07-04 02:00",
@@ -3653,27 +3641,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "Belgium",
-            "away": "Senegal",
+            "home": "Spain",
+            "away": "Austria",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058737",
-            "summary": "Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2"
+            "matchId": "5058739",
+            "summary": "Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
           },
           {
-            "home": "USA",
-            "away": "Bosnia and Herzegovina",
+            "home": "Portugal",
+            "away": "Croatia",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058738",
-            "summary": "USA vs Bosnia and Herzegovina｜比分2-0｜大小大2.75｜讓球Bosnia and Herzegovina -1.5｜勝率USA｜進球數2"
+            "matchId": "5058740",
+            "summary": "Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+          },
+          {
+            "home": "Switzerland",
+            "away": "Algeria",
+            "time": "",
+            "status": "7M AI",
+            "source": "7M AI模型预测",
+            "matchId": "5058741",
+            "summary": "Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
           }
         ],
         "headlines": [
-          "Belgium vs Senegal｜比分1-1｜大小小2.75｜讓球Senegal -0.5｜勝率Belgium｜進球數2",
-          "USA vs Bosnia and Herzegovina｜比分2-0｜大小大2.75｜讓球Bosnia and Herzegovina -1.5｜勝率USA｜進球數2"
+          "Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
+          "Portugal vs Croatia｜比分1-0｜大小大2.75｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
+          "Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
         ],
         "error": ""
       },
