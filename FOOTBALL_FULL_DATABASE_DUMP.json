@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-03 13:30:10",
+    "scraped_at": "2026-07-03 18:58:23",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -515,11 +515,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
           "externalIntel": [
             "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-            "球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
-            "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
+            "球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
+            "7M AI模型预测：Argentina vs Cape Verde｜比分0-0｜大小小2.75｜讓球Cape Verde -2.25｜勝率Argentina｜進球數1"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -639,10 +639,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -759,8 +757,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1115,11 +1115,11 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
           "externalIntel": [
             "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-            "球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
-            "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
+            "球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
+            "7M AI模型预测：Argentina vs Cape Verde｜比分0-0｜大小小2.75｜讓球Cape Verde -2.25｜勝率Argentina｜進球數1"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1237,10 +1237,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1359,8 +1357,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1477,10 +1477,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1597,10 +1595,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07；7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯 07-03 22:35 “身价8.07亿欧元对阵5450万欧元” 15倍身价差的世界杯对决 佛得角 07-03 21:20 西班牙葡萄牙谁能晋级世界杯八强？西；球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07",
           "externalIntel": [
-            "球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07",
-            "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+            "球天下世界杯：2026世界杯 07-03 22:35 “身价8.07亿欧元对阵5450万欧元” 15倍身价差的世界杯对决 佛得角 07-03 21:20 西班牙葡萄牙谁能晋级世界杯八强？西",
+            "球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07"
           ],
           "qualityScore": 76,
           "homeForm": {
@@ -1718,8 +1716,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
+          ],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1754,7 +1754,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-03 13:30:10",
+      "updatedAt": "2026-07-03 18:58:23",
       "groups": [
         {
           "group": "A組",
@@ -2954,11 +2954,11 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
         "externalIntel": [
           "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "球天下世界杯：2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训",
-          "7M AI模型预测：Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
+          "球天下世界杯：2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门",
+          "7M AI模型预测：Argentina vs Cape Verde｜比分0-0｜大小小2.75｜讓球Cape Verde -2.25｜勝率Argentina｜進球數1"
         ],
         "qualityScore": 74,
         "homeForm": {
@@ -3076,10 +3076,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -3196,8 +3194,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -3314,10 +3314,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3434,10 +3432,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07；7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯 07-03 22:35 “身价8.07亿欧元对阵5450万欧元” 15倍身价差的世界杯对决 佛得角 07-03 21:20 西班牙葡萄牙谁能晋级世界杯八强？西；球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07",
         "externalIntel": [
-          "球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07",
-          "7M AI模型预测：Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+          "球天下世界杯：2026世界杯 07-03 22:35 “身价8.07亿欧元对阵5450万欧元” 15倍身价差的世界杯对决 佛得角 07-03 21:20 西班牙葡萄牙谁能晋级世界杯八强？西",
+          "球天下世界杯：2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07"
         ],
         "qualityScore": 76,
         "homeForm": {
@@ -3555,8 +3553,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
+        ],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3594,27 +3594,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "澳大利亚",
-            "away": "埃及",
-            "time": "07-04 02:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "阿根廷",
-            "away": "佛得角",
-            "time": "07-04 06:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "哥伦比亚",
-            "away": "加纳",
-            "time": "07-04 09:30",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "加拿大",
             "away": "摩洛哥",
             "time": "07-05 01:00",
@@ -3627,13 +3606,21 @@
             "time": "07-05 05:00",
             "status": "未开赛",
             "source": "球天下世界杯"
+          },
+          {
+            "home": "巴西",
+            "away": "挪威",
+            "time": "07-06 04:00",
+            "status": "未开赛",
+            "source": "球天下世界杯"
           }
         ],
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
+          "2026世界杯 07-03 22:35 “身价8.07亿欧元对阵5450万欧元” 15倍身价差的世界杯对决 佛得角 07-03 21:20 西班牙葡萄牙谁能晋级世界杯八强？西",
           "2026世界杯 07-03 17:43 西班牙vs葡萄牙历史比赛结果 斗牛士军团取胜次数更多 世界杯 07-03 17:41 莫德里奇结束世界杯之旅 魔笛终谢幕 世界杯 07",
-          "2026世界杯 07-03 17:10 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门 佛得角 07-03 16:53 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训"
+          "2026世界杯 07-03 17:10 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 佛得角门将苦练防守备战阿根廷 终极梦想扑出梅西的射门"
         ],
         "error": ""
       },
@@ -3641,10 +3628,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3653,37 +3640,37 @@
         "ok": true,
         "matches": [
           {
-            "home": "Spain",
-            "away": "Austria",
+            "home": "Australia",
+            "away": "Egypt",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058739",
-            "summary": "Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2"
+            "matchId": "5058742",
+            "summary": "Australia vs Egypt｜比分0-1｜大小小2｜讓球Australia 0.25｜勝率Egypt｜進球數2"
           },
           {
-            "home": "Portugal",
-            "away": "Croatia",
+            "home": "Argentina",
+            "away": "Cape Verde",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058740",
-            "summary": "Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2"
+            "matchId": "5058743",
+            "summary": "Argentina vs Cape Verde｜比分0-0｜大小小2.75｜讓球Cape Verde -2.25｜勝率Argentina｜進球數1"
           },
           {
-            "home": "Switzerland",
-            "away": "Algeria",
+            "home": "Colombia",
+            "away": "Ghana",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058741",
-            "summary": "Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
+            "matchId": "5058744",
+            "summary": "Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
           }
         ],
         "headlines": [
-          "Spain vs Austria｜比分2-0｜大小大2.75｜讓球Austria -1.5｜勝率Spain｜進球數2",
-          "Portugal vs Croatia｜比分1-0｜大小大2.5｜讓球Portugal -0.75｜勝率Portugal｜進球數2",
-          "Switzerland vs Algeria｜比分1-0｜大小小2.25｜讓球Algeria -0.5｜勝率Switzerland｜進球數2"
+          "Australia vs Egypt｜比分0-1｜大小小2｜讓球Australia 0.25｜勝率Egypt｜進球數2",
+          "Argentina vs Cape Verde｜比分0-0｜大小小2.75｜讓球Cape Verde -2.25｜勝率Argentina｜進球數1",
+          "Colombia vs Ghana｜比分1-0｜大小小2.5｜讓球Ghana -1.25｜勝率Colombia｜進球數2"
         ],
         "error": ""
       },
