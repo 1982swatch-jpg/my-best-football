@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-05 13:02:48",
+    "scraped_at": "2026-07-05 18:57:32",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,10 +279,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -399,8 +397,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -877,10 +877,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -997,8 +995,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
+          ],
           "qualityScore": 72,
           "homeForm": {
             "wins": 3,
@@ -1473,8 +1473,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1745,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-05 13:02:48",
+      "updatedAt": "2026-07-05 18:57:32",
       "groups": [
         {
           "group": "A組",
@@ -2709,10 +2711,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -2829,8 +2829,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
+        ],
         "qualityScore": 72,
         "homeForm": {
           "wins": 3,
@@ -3303,8 +3305,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3578,20 +3582,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "巴西",
-            "away": "挪威",
-            "time": "07-06 04:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "墨西哥",
-            "away": "英格兰",
-            "time": "07-06 08:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "葡萄牙",
             "away": "西班牙",
             "time": "07-07 03:00",
@@ -3644,27 +3634,27 @@
         "ok": true,
         "matches": [
           {
-            "home": "Canada",
-            "away": "Morocco",
+            "home": "Brazil",
+            "away": "Norway",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058745",
-            "summary": "Canada vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.5｜勝率Morocco｜進球數2"
+            "matchId": "5058747",
+            "summary": "Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2"
           },
           {
-            "home": "Paraguay",
-            "away": "France",
+            "home": "Mexico",
+            "away": "England",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058746",
-            "summary": "Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2"
+            "matchId": "5058748",
+            "summary": "Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
           }
         ],
         "headlines": [
-          "Canada vs Morocco｜比分0-1｜大小小2.25｜讓球Morocco 0.5｜勝率Morocco｜進球數2",
-          "Paraguay vs France｜比分0-2｜大小大2.75｜讓球France 1.75｜勝率France｜進球數2"
+          "Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
+          "Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
         ],
         "error": ""
       },
