@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-05 18:57:32",
+    "scraped_at": "2026-07-06 01:57:03",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1473,9 +1473,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2",
+          "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
           "externalIntel": [
-            "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+            "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
           ],
           "qualityScore": 55,
           "homeForm": {
@@ -1747,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-05 18:57:32",
+      "updatedAt": "2026-07-06 01:57:03",
       "groups": [
         {
           "group": "A組",
@@ -3305,9 +3305,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2",
+        "market": "外部公開資訊：7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
         "externalIntel": [
-          "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+          "7M AI模型预测：Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
         ],
         "qualityScore": 55,
         "homeForm": {
@@ -3613,8 +3613,7 @@
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯 07-05 18:23 世界杯7月6日赛程直播时间表一览（世界杯8强诞生4席） 2026世界杯 07-05 16:52 摩洛哥连续两届世界杯闯入八强 北非劲旅",
-          "2026世界杯 07-04 15:57 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备17033375号-1"
+          "2026世界杯 07-05 18:23 世界杯7月6日赛程直播时间表一览（世界杯8强诞生4席） 2026世界杯 07-05 16:52 摩洛哥连续两届世界杯闯入八强 北非劲旅"
         ],
         "error": ""
       },
@@ -3649,12 +3648,12 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058748",
-            "summary": "Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+            "summary": "Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
           }
         ],
         "headlines": [
           "Brazil vs Norway｜比分1-1｜大小大2.75｜讓球Brazil -0.75｜勝率Brazil｜進球數2",
-          "Mexico vs England｜比分1-1｜大小大2｜讓球Mexico 0.25｜勝率England｜進球數2"
+          "Mexico vs England｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
         ],
         "error": ""
       },
