@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-07 14:02:08",
+    "scraped_at": "2026-07-07 19:30:33",
     "auth_used": "none",
     "external_sources": [
       {
@@ -515,10 +515,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-            "7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1112,10 +1111,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1",
+          "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "externalIntel": [
-            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-            "7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1"
+            "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
           ],
           "qualityScore": 74,
           "homeForm": {
@@ -1589,10 +1587,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 76,
           "homeForm": {
             "wins": 5,
@@ -1709,8 +1705,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
+          "externalIntel": [
+            "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
+          ],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1745,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-07 14:02:08",
+      "updatedAt": "2026-07-07 19:30:33",
       "groups": [
         {
           "group": "A組",
@@ -2945,10 +2943,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015；7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1",
+        "market": "外部公開資訊：球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
         "externalIntel": [
-          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "7M AI模型预测：Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1"
+          "球天下世界杯：2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015"
         ],
         "qualityScore": 74,
         "homeForm": {
@@ -3420,10 +3417,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 76,
         "homeForm": {
           "wins": 5,
@@ -3540,8 +3535,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
+        "externalIntel": [
+          "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
+        ],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3579,20 +3576,6 @@
         "ok": true,
         "matches": [
           {
-            "home": "阿根廷",
-            "away": "埃及",
-            "time": "07-08 00:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
-            "home": "瑞士",
-            "away": "哥伦比亚",
-            "time": "07-08 04:00",
-            "status": "未开赛",
-            "source": "球天下世界杯"
-          },
-          {
             "home": "法国",
             "away": "摩洛哥",
             "time": "07-10 04:00",
@@ -3614,7 +3597,7 @@
             "source": "球天下世界杯"
           },
           {
-            "home": "阿根廷/埃及",
+            "home": "阿根廷",
             "away": "瑞士/哥伦比亚",
             "time": "07-12 09:00",
             "status": "未开赛",
@@ -3625,7 +3608,7 @@
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "2026世界杯 07-07 17:29 2026世界杯1/4决赛对阵赛程图最新一览（上半区+下半区完整版） 2026世界杯 07-07 17:18 世界杯只剩最后10场比赛 ",
-          "2026世界杯 07-07 16:54 世界杯八强已出六队 即将决出最后两个席位 2026世界杯 07-07 14:20 球场边的各国美女，你最喜欢哪一个 1613 播放 0"
+          "2026世界杯 07-07 16:54 球场边的各国美女，你最喜欢哪一个 1613 播放 00:30 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备"
         ],
         "error": ""
       },
@@ -3645,37 +3628,17 @@
         "ok": true,
         "matches": [
           {
-            "home": "Portugal",
-            "away": "Spain",
+            "home": "Switzerland",
+            "away": "Colombia",
             "time": "",
             "status": "7M AI",
             "source": "7M AI模型预测",
-            "matchId": "5058749",
-            "summary": "Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2"
-          },
-          {
-            "home": "USA",
-            "away": "Belgium",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058750",
-            "summary": "USA vs Belgium｜比分1-1｜大小大2.75｜讓球USA 0｜勝率USA｜進球數2"
-          },
-          {
-            "home": "Argentina",
-            "away": "Egypt",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058751",
-            "summary": "Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1"
+            "matchId": "5058752",
+            "summary": "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
           }
         ],
         "headlines": [
-          "Portugal vs Spain｜比分1-1｜大小大2.75｜讓球Portugal 0.5｜勝率Spain｜進球數2",
-          "USA vs Belgium｜比分1-1｜大小大2.75｜讓球USA 0｜勝率USA｜進球數2",
-          "Argentina vs Egypt｜比分1-0｜大小小2.5｜讓球Egypt -1.5｜勝率Argentina｜進球數1"
+          "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
         ],
         "error": ""
       },
@@ -3686,8 +3649,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "罗马暂停了格林伍德的谈判，因为球员提出了要求 曾哥谈球",
-          "拉齐奥拒绝AC米兰首次竞购吉拉·洛蒂托玩熟悉的游戏 安胖懂个球 · 1小时前 达里亚·罗索（Daria Rosso）签订了第一份职业合同！ 鬼手爱球 · 1小时前",
+          "罗马将莫雷拉的谈判推迟至世界杯结束 东神看球",
+          "利兹联瞄准3000万欧元的中场球员和GK：哪一个最适合他们 进神聊球",
+          "今日转会市场：内雷斯下场，尤文图斯退出，卡莱利转投国米 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
