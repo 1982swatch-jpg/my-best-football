@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-07 19:30:33",
+    "scraped_at": "2026-07-08 01:24:12",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "天天盈球",
@@ -1705,10 +1705,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1743,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-07 19:30:33",
+      "updatedAt": "2026-07-08 01:24:12",
       "groups": [
         {
           "group": "A組",
@@ -3535,10 +3533,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3598,7 +3594,7 @@
           },
           {
             "home": "阿根廷",
-            "away": "瑞士/哥伦比亚",
+            "away": "瑞士",
             "time": "07-12 09:00",
             "status": "未开赛",
             "source": "球天下世界杯"
@@ -3608,7 +3604,7 @@
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
           "2026世界杯 07-07 17:29 2026世界杯1/4决赛对阵赛程图最新一览（上半区+下半区完整版） 2026世界杯 07-07 17:18 世界杯只剩最后10场比赛 ",
-          "2026世界杯 07-07 16:54 球场边的各国美女，你最喜欢哪一个 1613 播放 00:30 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备"
+          "2026世界杯 07-07 16:54 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备17033375号-1"
         ],
         "error": ""
       },
@@ -3625,22 +3621,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
-        "matches": [
-          {
-            "home": "Switzerland",
-            "away": "Colombia",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058752",
-            "summary": "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-          }
-        ],
-        "headlines": [
-          "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-        ],
-        "error": ""
+        "ok": false,
+        "matches": [],
+        "headlines": [],
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "天天盈球",
@@ -3649,9 +3633,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "罗马将莫雷拉的谈判推迟至世界杯结束 东神看球",
-          "利兹联瞄准3000万欧元的中场球员和GK：哪一个最适合他们 进神聊球",
-          "今日转会市场：内雷斯下场，尤文图斯退出，卡莱利转投国米 东神看球",
+          "“迈出强有力的一步”--阿斯顿维拉将中场视为主要目标 波总聊波",
+          "加斯佩里尼讨论了与弗里德金和达米科的关系，详细介绍了转会计划：“事情将在下周开始。” 大伟侃球",
+          "利兹联的锡安铃木：英超俱乐部“表现出兴趣”，帕尔马对他的估值为2600万英镑 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
