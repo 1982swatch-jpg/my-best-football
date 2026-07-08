@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-08 13:25:04",
+    "scraped_at": "2026-07-08 19:03:05",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1469,10 +1469,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：球天下世界杯：2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 格伊：与哈兰德对决是挑战 但强调球队会‌全力为胜利‌而战 英格兰 07-",
-          "externalIntel": [
-            "球天下世界杯：2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 格伊：与哈兰德对决是挑战 但强调球队会‌全力为胜利‌而战 英格兰 07-"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1707,10 +1705,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
-          "externalIntel": [
-            "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1745,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-08 13:25:04",
+      "updatedAt": "2026-07-08 19:03:05",
       "groups": [
         {
           "group": "A組",
@@ -3301,10 +3297,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：球天下世界杯：2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 格伊：与哈兰德对决是挑战 但强调球队会‌全力为胜利‌而战 英格兰 07-",
-        "externalIntel": [
-          "球天下世界杯：2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 格伊：与哈兰德对决是挑战 但强调球队会‌全力为胜利‌而战 英格兰 07-"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3539,10 +3533,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2",
-        "externalIntel": [
-          "7M AI模型预测：Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3625,7 +3617,7 @@
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 格伊：与哈兰德对决是挑战 但强调球队会‌全力为胜利‌而战 英格兰 07-"
+          "2026世界杯场均评分TOP10：梅西9.2分断层居首 姆巴佩排名第三 梅西 07-08 12:20 球场边的各国美女，你最喜欢哪一个 1613 播放 00:30 上一页 5"
         ],
         "error": ""
       },
@@ -3643,20 +3635,8 @@
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
         "ok": true,
-        "matches": [
-          {
-            "home": "Switzerland",
-            "away": "Colombia",
-            "time": "",
-            "status": "7M AI",
-            "source": "7M AI模型预测",
-            "matchId": "5058752",
-            "summary": "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-          }
-        ],
-        "headlines": [
-          "Switzerland vs Colombia｜比分1-1｜大小小2.25｜讓球Switzerland 0.25｜勝率Colombia｜進球數2"
-        ],
+        "matches": [],
+        "headlines": [],
         "error": ""
       },
       {
@@ -3666,9 +3646,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "桑德兰和伯恩茅斯在尤文图斯条款谈判中“加紧”斥资3000万英镑引进塔里克·穆哈雷莫维奇 安胖懂个球",
-          "保罗·迪巴拉“同意”罗马续约，本菲卡兴趣结束 东神看球",
-          "如果1700万英镑的价格有所提高，帕尔马将“就马里亚诺·特洛展开谈判”，利兹联、桑德兰和富勒姆将与马里亚诺·特洛展开联系 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
