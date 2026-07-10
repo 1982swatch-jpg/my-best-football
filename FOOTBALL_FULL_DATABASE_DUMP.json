@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-10 08:57:17",
+    "scraped_at": "2026-07-10 13:52:19",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1747,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-10 08:57:17",
+      "updatedAt": "2026-07-10 13:52:19",
       "groups": [
         {
           "group": "A組",
@@ -3668,9 +3668,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "帕特里克·维埃拉在斯特拉斯堡公开“令人遗憾的经历”后猛烈抨击切尔西老板 安胖懂个球",
-          "阿森纳和利物浦接受里尔对阿尤布·布阿迪的要求 鬼手爱球",
-          "等待索恩·阿扎尔的消息，朗斯重返拉盖莱特训练 曾哥谈球",
+          "都灵将利兹联门将卢卡斯·佩里“添加”到夏季候选名单 鬼手爱球",
+          "西班牙在洛杉矶四分之一决赛中对阵比利时，德布劳内困境迫在眉睫 鬼手爱球",
+          "官方：尤文图斯与技术总监莫德斯托分道扬镳 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
