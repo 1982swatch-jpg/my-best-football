@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-11 07:29:43",
+    "scraped_at": "2026-07-11 12:48:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1745,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-11 07:29:43",
+      "updatedAt": "2026-07-11 12:48:44",
       "groups": [
         {
           "group": "A組",
@@ -3664,10 +3664,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "嘲笑特朗普的持久强国卢卡库威胁西班牙不败 V先生",
-          "曼联否认他们退出埃德森转会的报道 大伟侃球",
-          "迪米特里耶夫斯基在2028年续约后重返瓦伦西亚季前赛，拥有",
-          "权力 进神聊球 · 1小时前",
+          "伊万·拉基蒂奇离开哈伊杜克后，塞维利亚“将阿尔瓦罗·内格雷多加入塞维利亚竞技队 波总聊波",
+          "皇家社会与Bizkaia的Ermua Blues签署了三个赛季的合作伙伴关系 波总聊波",
+          "据报道，尽管过去对阿森纳中场有兴趣，皇马不会转会 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
