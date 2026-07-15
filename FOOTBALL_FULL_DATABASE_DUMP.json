@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-14 18:58:39",
+    "scraped_at": "2026-07-15 01:12:34",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1753,7 +1753,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-14 18:58:39",
+      "updatedAt": "2026-07-15 01:12:34",
       "groups": [
         {
           "group": "A組",
@@ -3598,14 +3598,14 @@
             "source": "球天下世界杯"
           },
           {
-            "home": "法国/西班牙败者",
+            "home": "法国",
             "away": "英格兰/阿根廷败者",
             "time": "07-19 05:00",
             "status": "未开赛",
             "source": "球天下世界杯"
           },
           {
-            "home": "法国/西班牙胜者",
+            "home": "西班牙",
             "away": "英格兰/阿根廷胜者",
             "time": "07-20 03:00",
             "status": "未开赛",
@@ -3658,9 +3658,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "德尚在瓦伦西亚短暂的表现被人们铭记为一名卑微的冠军 进神聊球",
-          "皇家社会在皇家马德里的揭幕战“将被推迟” V先生",
-          "皇马通过出售年轻球员获得",
+          "罗马与萨默维尔的经纪人举行了积极的会议 曾哥谈球",
+          "继多基之后，拉齐奥“发起”新的进攻，争夺顶级防守目标 东神看球",
+          "斯帕莱蒂为尤文图斯“瞄准”若昂·帕尔希尼亚，马尔科·席尔瓦和本菲卡面临竞争 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
