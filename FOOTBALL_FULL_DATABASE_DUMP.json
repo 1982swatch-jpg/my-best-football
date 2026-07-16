@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-16 07:52:00",
+    "scraped_at": "2026-07-16 13:13:54",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1471,10 +1471,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2；天天盈球：七场淘汰赛，同样的缺陷：英格兰的精英问题胜过图赫尔的战术 曾哥谈球",
+          "market": "外部公開資訊：7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
           "externalIntel": [
-            "7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
-            "天天盈球：七场淘汰赛，同样的缺陷：英格兰的精英问题胜过图赫尔的战术 曾哥谈球"
+            "7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
           ],
           "qualityScore": 55,
           "homeForm": {
@@ -1746,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-16 07:52:00",
+      "updatedAt": "2026-07-16 13:13:54",
       "groups": [
         {
           "group": "A組",
@@ -3303,10 +3302,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2；天天盈球：七场淘汰赛，同样的缺陷：英格兰的精英问题胜过图赫尔的战术 曾哥谈球",
+        "market": "外部公開資訊：7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
         "externalIntel": [
-          "7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2",
-          "天天盈球：七场淘汰赛，同样的缺陷：英格兰的精英问题胜过图赫尔的战术 曾哥谈球"
+          "7M AI模型预测：England vs Argentina｜比分1-1｜大小大2｜讓球England 0｜勝率England｜進球數2"
         ],
         "qualityScore": 55,
         "homeForm": {
@@ -3638,9 +3636,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹联将以3400万英镑的价格“签下”塔里克·穆哈雷莫维奇，桑德兰看起来将错失机会 曾哥谈球",
-          "解释：罗马的萨默维尔立场、曼联的不情愿以及佐利斯的联系 锤哥营地",
-          "七场淘汰赛，同样的缺陷：英格兰的精英问题胜过图赫尔的战术 曾哥谈球",
+          "意大利国脚扎尼奥洛面临被乌迪内斯冻结的风险 鬼手爱球",
+          "法布里齐奥·罗马诺：利兹联将以3400万英镑的价格“签下”塔里克·穆哈雷莫维奇，桑德兰将错失机会 安胖懂个球",
+          "曼联正在与科内的经纪人进行谈判，但尚未向罗马提出报价 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
