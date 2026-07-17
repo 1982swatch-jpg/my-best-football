@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-16 18:52:24",
+    "scraped_at": "2026-07-17 01:24:56",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-16 18:52:24",
+      "updatedAt": "2026-07-17 01:24:56",
       "groups": [
         {
           "group": "A組",
@@ -3618,9 +3618,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦伦西亚与凯恩·范·奥维伦的谈判因右后卫争夺而放缓 波总聊波",
-          "塞维利亚排起三个出口，潜在6000万美元意外之财 锤哥营地",
-          "复星十年：狼队五笔最糟糕的签约 安胖懂个球",
+          "富康将作为前阿森纳后卫前往威尼斯自由转会 东神看球",
+          "利兹联队与意甲中卫2100万英镑联系在一起：正确的决定应该是什么？ V先生",
+          "罗马在特索尔迪的比赛中对保尔西亚占据优势 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
