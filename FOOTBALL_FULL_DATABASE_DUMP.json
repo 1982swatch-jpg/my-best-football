@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-17 18:50:00",
+    "scraped_at": "2026-07-18 01:16:55",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1747,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-17 18:50:00",
+      "updatedAt": "2026-07-18 01:16:55",
       "groups": [
         {
           "group": "A組",
@@ -3629,9 +3629,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "森克·奥兹卡卡尔转会特拉布宗斯波，为瓦伦西亚净胜约170万欧元 安胖懂个球",
-          "塞维利亚拒绝了650万奥林匹亚科斯对Oso的出价，马里纳基斯集团推动 安胖懂个球",
-          "皇马将需要支付2亿至2.5亿欧元才能说服拜仁慕尼黑出售顶级目标 进神聊球",
+          "利兹联队以3400万英镑签下塔里克·穆哈雷莫维奇，他将与拉芬哈并列前十 进神聊球",
+          "帕尔马的马特奥·佩莱格里诺：水晶宫威胁尤文图斯引进前锋 曾哥谈球",
+          "拉齐奥在三马争夺年轻的意大利国际后卫 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
