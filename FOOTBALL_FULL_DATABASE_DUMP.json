@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-18 18:42:56",
+    "scraped_at": "2026-07-19 01:23:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,10 +279,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3；天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地",
+          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3",
           "externalIntel": [
-            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3",
-            "天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地"
+            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
           ],
           "qualityScore": 60,
           "homeForm": {
@@ -758,8 +757,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球",
+          "externalIntel": [
+            "天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -878,10 +879,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3；天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地",
+          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3",
           "externalIntel": [
-            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3",
-            "天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地"
+            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
           ],
           "qualityScore": 60,
           "homeForm": {
@@ -1357,8 +1357,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球",
+          "externalIntel": [
+            "天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 5,
@@ -1475,9 +1477,9 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3",
+          "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3",
           "externalIntel": [
-            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3"
+            "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
           ],
           "qualityScore": 55,
           "homeForm": {
@@ -1749,7 +1751,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-18 18:42:56",
+      "updatedAt": "2026-07-19 01:23:11",
       "groups": [
         {
           "group": "A組",
@@ -2713,10 +2715,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3；天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地",
+        "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3",
         "externalIntel": [
-          "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3",
-          "天天盈球：“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地"
+          "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
         ],
         "qualityScore": 60,
         "homeForm": {
@@ -3190,8 +3191,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球",
+        "externalIntel": [
+          "天天盈球：罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 5,
@@ -3308,9 +3311,9 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3",
+        "market": "外部公開資訊：7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3",
         "externalIntel": [
-          "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3"
+          "7M AI模型预测：France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
         ],
         "qualityScore": 55,
         "homeForm": {
@@ -3620,11 +3623,11 @@
             "status": "7M AI",
             "source": "7M AI模型预测",
             "matchId": "5058759",
-            "summary": "France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3"
+            "summary": "France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
           }
         ],
         "headlines": [
-          "France vs England｜比分2-1｜大小小3.25｜讓球France -0.5｜勝率France｜進球數3"
+          "France vs England｜比分2-1｜大小小3.25｜讓球France -0.75｜勝率France｜進球數3"
         ],
         "error": ""
       },
@@ -3635,9 +3638,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦伦西亚对阿尔梅里亚球星的新接近 进神聊球",
-          "西蒙尼瞄准奥亚尔扎巴尔，阿尔瓦雷斯·萨加重塑马竞的进攻 V先生",
-          "“人们并不总是欣赏你的伟大，时间和历史会见证这一点”--基利安·姆巴佩向即将离任的法国队主教练迪迪埃·德尚致敬 锤哥营地",
+          "利兹联队净支出1400万英镑，对手塔里克·穆哈雷莫维奇（Tarik Muharemovic）净支出10亿英镑 进神聊球",
+          "罗马诺：加纳乔拒绝阿斯顿维拉，只想要罗马 鬼手爱球",
+          "卢西亚诺·沃尔卡诺感谢桑德兰担任AC蒙扎青年队的工作 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
