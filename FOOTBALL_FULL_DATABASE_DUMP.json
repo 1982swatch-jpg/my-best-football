@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-20 19:21:24",
+    "scraped_at": "2026-07-21 01:22:42",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-20 19:21:24",
+      "updatedAt": "2026-07-21 01:22:42",
       "groups": [
         {
           "group": "A組",
@@ -3604,9 +3604,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "扎尼奥洛与乌迪内斯达成新协议，合同到2029年 安胖懂个球",
-          "穆哈雷莫维奇3400万英镑后，博彩公司预测英超积分榜，利兹联、桑德兰、诺丁汉森林和水晶宫均被征召 V先生",
-          "西汉姆联为边锋获得3900万英镑的正式待遇：对铁锤帮来说最好的决定是什么？ 波总聊波",
+          "利兹联签下塔里克·穆哈雷莫维奇后博彩公司预测英超联赛结束 大伟侃球",
+          "迪马尔齐奥：罗马也对谢尔德鲁普感兴趣 进神聊球",
+          "尤文图斯希望埃米利亚诺·马丁内斯迫使阿斯顿维拉出售 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
