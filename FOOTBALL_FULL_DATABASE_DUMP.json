@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-22 13:17:07",
+    "scraped_at": "2026-07-22 18:53:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-22 13:17:07",
+      "updatedAt": "2026-07-22 18:53:44",
       "groups": [
         {
           "group": "A組",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "由于罗马的兴趣，切尔西为后卫设定了1700万英镑的价格 安胖懂个球",
-          "那不勒斯选择暂时不替换受伤的布翁乔诺 V先生",
-          "吉内夫拉·莫雷蒂租借给科莫女足 东神看球",
+          "成交：威尼斯打破俱乐部纪录签下尼日利亚前锋亚当斯 东神看球",
+          "卡雷拉将皇家社会合同延长至2031年，距离上次续约已有八个月 曾哥谈球",
+          "由于富勒姆感兴趣，皇马不确定是否让年轻球员租借并选择购买 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
