@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-21 19:00:53",
+    "scraped_at": "2026-07-22 01:21:20",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-21 19:00:53",
+      "updatedAt": "2026-07-22 01:21:20",
       "groups": [
         {
           "group": "A組",
@@ -3606,9 +3606,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "VCF培训会议21-07-26 波总聊波",
-          "乔恩·巴尔达（Jon Balda）与祖比埃塔（Zubieta）一起训练 安胖懂个球",
-          "西班牙赢得世界杯后，西班牙可以恢复博尔哈·伊格莱西亚斯的谈判，塞尔塔·维戈提高了转会费 安胖懂个球",
+          "英超竞争对手支持利兹联队以3400万英镑引进塔里克·穆哈雷莫维奇，丹尼尔·法克的健康状况评估 鬼手爱球",
+          "据纽卡斯尔兴趣报道，由于利兹联出价未能达到，帕尔马“要求”为铃木提供4000万欧元 东神看球",
+          "拉齐奥面临利兹和伊普斯维奇镇争夺USMNT明星的竞争 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
