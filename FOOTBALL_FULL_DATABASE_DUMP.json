@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-25 07:47:27",
+    "scraped_at": "2026-07-25 12:55:35",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1745,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-25 07:47:27",
+      "updatedAt": "2026-07-25 12:55:35",
       "groups": [
         {
           "group": "A組",
@@ -3614,9 +3614,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "多夫比克即将出局，罗马为特索尔迪向布鲁日施压 安胖懂个球",
-          "震惊欧洲俱乐部与曼联球星费尔南德斯的随行人员取得联系 安胖懂个球",
-          "报道：切尔西球星可能以3000万英镑的价格离开 大伟侃球",
+          "古拉西“即将”从莱比锡转会到比利亚雷亚尔 大伟侃球",
+          "穆尼耶和安德烈斯·加西亚溜走，瓦伦西亚足球俱乐部的右后卫迷宫加深 鬼手爱球",
+          "皇马对追逐奥利塞而危及拜仁关系持谨慎态度 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
