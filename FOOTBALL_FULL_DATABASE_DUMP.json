@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-24 19:08:39",
+    "scraped_at": "2026-07-25 01:25:26",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1707,8 +1707,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：米娜帮助卡利亚里吸引哥伦比亚同胞昆特罗 鬼手爱球",
+          "externalIntel": [
+            "天天盈球：米娜帮助卡利亚里吸引哥伦比亚同胞昆特罗 鬼手爱球"
+          ],
           "qualityScore": 62,
           "homeForm": {
             "wins": 4,
@@ -1743,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-24 19:08:39",
+      "updatedAt": "2026-07-25 01:25:26",
       "groups": [
         {
           "group": "A組",
@@ -3536,8 +3538,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：天天盈球：米娜帮助卡利亚里吸引哥伦比亚同胞昆特罗 鬼手爱球",
+        "externalIntel": [
+          "天天盈球：米娜帮助卡利亚里吸引哥伦比亚同胞昆特罗 鬼手爱球"
+        ],
         "qualityScore": 62,
         "homeForm": {
           "wins": 4,
@@ -3609,9 +3613,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦斯科对Yeboah感兴趣，厄瓜多尔世界杯首发在威尼斯 锤哥营地",
-          "科莫2-2战平巴黎足球俱乐部，乌迪内斯输掉斯旺西城友谊赛 V先生",
-          "都灵接近佩里，利兹联确定替代者 V先生",
+          "曼联在这位意甲中场球员身上保留了标签：卡里克应该为他转会吗？ 曾哥谈球",
+          "若昂·马里奥正在为佛罗伦萨进行深入谈判，选择900万欧元从尤文图斯收购 V先生",
+          "米娜帮助卡利亚里吸引哥伦比亚同胞昆特罗 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
