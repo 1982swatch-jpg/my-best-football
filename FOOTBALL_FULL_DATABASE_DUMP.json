@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-26 18:52:17",
+    "scraped_at": "2026-07-27 01:46:32",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1745,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-26 18:52:17",
+      "updatedAt": "2026-07-27 01:46:32",
       "groups": [
         {
           "group": "A組",
@@ -3614,9 +3614,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "巴普蒂斯特·圣玛丽亚（Baptiste Santamaria）在欧罗巴联赛预选赛中首次亮相PAOK进球 锤哥营地",
-          "阿森纳准备向维尼修斯少年提供历史上最大的合同 大伟侃球",
-          "莱万特球星前往英超联赛 东神看球",
+          "2-0友谊赛胜利后，阿莱格里等待见到那不勒斯阵容 波总聊波",
+          "莱切警告班达擅离职守后“将面临其行为的后果” 曾哥谈球",
+          "加图索坚称球队被红牌罚下场，为拉齐奥中场欢呼 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
