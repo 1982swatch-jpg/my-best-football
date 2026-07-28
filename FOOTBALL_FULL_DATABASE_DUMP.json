@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-28 13:26:04",
+    "scraped_at": "2026-07-28 19:04:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fa2e5a"
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-28 13:26:04",
+      "updatedAt": "2026-07-28 19:04:45",
       "groups": [
         {
           "group": "A組",
@@ -3598,10 +3598,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fa2e5a"
       },
       {
         "name": "天天盈球",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "布莱顿加入巴德吉比赛，罗马“考虑”桑德兰边锋阿丁格拉 V先生",
-          "为什么马尔蒂尼和莱昂纳多不想聘请孔蒂或曼奇尼担任意大利教练 曾哥谈球",
-          "本菲卡确认古斯塔沃·巴雷拉永久转会蒙扎 进神聊球",
+          "都灵追逐阿贾克斯天才菲茨-吉姆，欢迎科默特，等待佩里 安胖懂个球",
+          "萨索洛以1000万欧元的价格收购鲍伊，穆拉蒂埃里转会维罗纳 大伟侃球",
+          "以色列·雷耶斯推动加盟罗马，与美国俱乐部进行谈判 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
