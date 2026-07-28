@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-28 01:20:49",
+    "scraped_at": "2026-07-28 08:11:08",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1745,7 +1745,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-28 01:20:49",
+      "updatedAt": "2026-07-28 08:11:08",
       "groups": [
         {
           "group": "A組",
@@ -3614,9 +3614,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "由于膝盖问题，利兹联淡化了对奥马尔·索莱的兴趣 波总聊波",
-          "罗马瞄准了里斯本竞技后卫伊万·弗雷斯内达 锤哥营地",
-          "意大利在曼奇尼和孔蒂之间做出选择，再次回到未来 波总聊波",
+          "转会新闻-铃木转会巴黎圣日耳曼，真正的选择吗？ 鬼手爱球",
+          "如果布拉德利·巴科拉离开巴黎圣日耳曼，OL将只得到国际足联的声援 安胖懂个球",
+          "Les Corons：Pierre Bachelet的歌曲如何成为RC Lens的非官方国歌 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
