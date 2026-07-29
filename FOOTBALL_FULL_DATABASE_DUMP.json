@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-28 19:04:45",
+    "scraped_at": "2026-07-29 01:23:59",
     "auth_used": "none",
     "external_sources": [
       {
@@ -20,7 +20,7 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fa2e5a"
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f055da"
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-28 19:04:45",
+      "updatedAt": "2026-07-29 01:23:59",
       "groups": [
         {
           "group": "A組",
@@ -3601,7 +3601,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fa2e5a"
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f055da"
       },
       {
         "name": "天天盈球",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "都灵追逐阿贾克斯天才菲茨-吉姆，欢迎科默特，等待佩里 安胖懂个球",
-          "萨索洛以1000万欧元的价格收购鲍伊，穆拉蒂埃里转会维罗纳 大伟侃球",
-          "以色列·雷耶斯推动加盟罗马，与美国俱乐部进行谈判 进神聊球",
+          "沙尔克和那不勒斯就租借林德斯特伦达成协议 大伟侃球",
+          "尤文图斯结束阿纳托利·特鲁宾追逐，英超转会仍有可能 进神聊球",
+          "利兹联队“告诉”佩塔尔·苏西奇不会出售，因为国际米兰保持稳定 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
