@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-29 01:23:59",
+    "scraped_at": "2026-07-29 08:15:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f055da"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -279,8 +279,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波",
+          "externalIntel": [
+            "天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -875,8 +877,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波",
+          "externalIntel": [
+            "天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波"
+          ],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -1743,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-29 01:23:59",
+      "updatedAt": "2026-07-29 08:15:11",
       "groups": [
         {
           "group": "A組",
@@ -2707,8 +2711,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波",
+        "externalIntel": [
+          "天天盈球：媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波"
+        ],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -3598,10 +3604,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f055da"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3610,9 +3616,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "沙尔克和那不勒斯就租借林德斯特伦达成协议 大伟侃球",
-          "尤文图斯结束阿纳托利·特鲁宾追逐，英超转会仍有可能 进神聊球",
-          "利兹联队“告诉”佩塔尔·苏西奇不会出售，因为国际米兰保持稳定 曾哥谈球",
+          "桑德兰正在就图卢兹左后卫达扬·梅萨利进行“深入谈判” 曾哥谈球",
+          "媒体评论：齐达内新任法国主帅和巴黎圣日耳曼的转会计划 波总聊波",
+          "Matis Abline将在3000万欧元转会前接受摩纳哥体检 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
