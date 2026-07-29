@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-29 13:40:55",
+    "scraped_at": "2026-07-29 18:51:36",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-29 13:40:55",
+      "updatedAt": "2026-07-29 18:51:36",
       "groups": [
         {
           "group": "A組",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "如果詹姆斯·特拉福德交易顺利完成诺丁汉森林揭幕战，丹尼尔·法克将执掌利兹十一人队 V先生",
-          "萨默维尔失利后，罗马瞄准布伦特福德边锋 波总聊波",
-          "尤文图斯在博洛尼亚和帕尔马男子方面面临",
+          "L ' INFORMATIU Del Valencia CF - 29/07/26 锤哥营地",
+          "由于特工否认与拉斯帕尔马斯的联系，拉法米尔的未来悬而未决 安胖懂个球",
+          "皇家社会就西汉姆联球星的交易进行接触 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
