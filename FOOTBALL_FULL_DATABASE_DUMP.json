@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-30 13:22:21",
+    "scraped_at": "2026-07-30 19:05:55",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-30 13:22:21",
+      "updatedAt": "2026-07-30 19:05:55",
       "groups": [
         {
           "group": "A組",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "那不勒斯目前专注于切尔西的后防线 V先生",
-          "尤文图斯收购科洛·穆阿尼和阿拉贝戈维奇 曾哥谈球",
-          "国际米兰U23 2026/27年意甲联赛赛程 曾哥谈球",
+          "阿贾克斯的菲茨-吉姆正在转会都灵的途中 东神看球",
+          "罗马“考虑”引进桑德兰创纪录的哈比卜·迪亚拉 安胖懂个球",
+          "乔瓦尼·曼纳表示，弗兰克·安吉萨在桑德兰的联系中不会出售 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
