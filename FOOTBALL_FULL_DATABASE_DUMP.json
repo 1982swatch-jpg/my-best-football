@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-31 08:31:30",
+    "scraped_at": "2026-07-31 13:26:41",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f6b1be"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-31 08:31:30",
+      "updatedAt": "2026-07-31 13:26:41",
       "groups": [
         {
           "group": "A組",
@@ -3578,10 +3578,10 @@
         "headlines": [
           "2026世界杯联赛新闻_2026世界杯视频直播_2026世界杯积分榜_球天下体育 新闻 头条 世界杯 NBA 英超 西甲 中超 意甲 德甲 法甲 综合 CBA 专题 百科 欧",
           "2026世界杯A组赛程时间表最新版 墨西哥VS南非6月12日带来揭幕战 世界杯 06-01 14:40 置顶 2026阿根廷队世界杯参赛球员名单及身价完整一览（总价8.015",
-          "2026世界杯 07-27 17:14 世界杯决赛主裁判温契奇宣布退役 16年哨声圆满收官 世界杯 07-27 16:16 姆巴佩发文回顾本届世界杯 10球封神仍有遗憾 姆巴",
+          "2026世界杯 07-27 17:14 世界杯决赛主裁判温契奇宣布退役 16年哨声圆满收官 世界杯 07-27 16:16 十二年断层，意大利最年轻世界杯球员已33岁 191",
           "2026世界杯速度榜排行榜单最新一览 姆巴佩以37.61km/h最高时速登顶 2026世界杯 07-25 11:04 世界杯后英格兰身价涨幅榜 全队身价无一下跌 英格兰 07",
-          "2026世界杯 07-24 20:47 一胖一瘦一代人的回忆，大罗和里瓦尔多现身巴西队训练场 1733 播放 00:26 美国被曝有意申办2038年世界杯 要单独拿下主办权 ",
-          "2026世界杯球员实力排名：梅西姆巴佩贝林厄姆前3 罗德里仅排名第18 2026世界杯 07-24 14:50 FIFA公布世界杯球迷票选最佳阵容 沃齐尼亚意外上榜 FIFA"
+          "2026世界杯 07-24 20:47 美国被曝有意申办2038年世界杯 要单独拿下主办权 美国 07-24 18:04 天空评2026世界杯球员实力排名：梅西姆巴佩贝林厄姆",
+          "2026世界杯 07-24 14:50 上一页 5 下一页 加载中 地图 TAG 隐私 联系 备案号：闽ICP备17033375号-1"
         ],
         "error": ""
       },
@@ -3598,10 +3598,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f6b1be"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "官方-巴黎圣日耳曼学院产品在瑞士重新开始 东神看球",
-          "Matis Abline离开南特加盟摩纳哥，交易至2031年 东神看球",
-          "曼城“瞄准”杰罗尼莫·鲁利，詹姆斯·特拉福德接近利兹联纪录 V先生",
+          "意甲前锋洗牌：圣地亚哥·卡斯特罗加盟罗马，阿尔蒂姆·多夫比克租借至博洛尼亚 大伟侃球",
+          "利物浦瞄准前切尔西后卫，作为红军棘手局面的完美权宜之计签约 波总聊波",
+          "另一名年轻球员从皇马季前赛中蒂亚戈·皮塔克的挫折中受益 曾哥谈球 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
