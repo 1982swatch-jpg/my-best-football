@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-31 01:29:15",
+    "scraped_at": "2026-07-31 08:31:30",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f6b1be"
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-31 01:29:15",
+      "updatedAt": "2026-07-31 08:31:30",
       "groups": [
         {
           "group": "A組",
@@ -3598,10 +3598,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f6b1be"
       },
       {
         "name": "天天盈球",
@@ -3610,9 +3610,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "28岁的利兹联球员一两天内即将离开：他们需要一个替代品吗？ 鬼手爱球",
-          "圣地亚哥·卡斯特罗首次接受罗马采访：“我想尽快来到这里。” 鬼手爱球",
-          "五星级表现击败普斯卡斯 进神聊球",
+          "官方-巴黎圣日耳曼学院产品在瑞士重新开始 东神看球",
+          "Matis Abline离开南特加盟摩纳哥，交易至2031年 东神看球",
+          "曼城“瞄准”杰罗尼莫·鲁利，詹姆斯·特拉福德接近利兹联纪录 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
