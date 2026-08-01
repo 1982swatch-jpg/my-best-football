@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-01 01:30:03",
+    "scraped_at": "2026-08-01 07:58:56",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-01 01:30:03",
+      "updatedAt": "2026-08-01 07:58:56",
       "groups": [
         {
           "group": "A組",
@@ -3606,9 +3606,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "交易完成：哈尔哈尔抵达威尼斯，500万欧元加上与GV梅赫伦的奖金协议 大伟侃球",
-          "利兹联确认XI对阵桑德兰，夏季签约球员首次首发 进神聊球",
-          "库利亚拉基斯将于明天抵达罗马，等待罗马体检 鬼手爱球",
+          "利兹联险胜桑德兰，穆哈雷莫维奇在友谊赛中首秀表现出色 曾哥谈球",
+          "都灵拒绝了罗马对卡恰马尼的第一份报价 V先生",
+          "切尔西后卫贝努瓦·巴迪亚希勒成为那不勒斯的首要目标 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
