@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-07-31 19:04:44",
+    "scraped_at": "2026-08-01 01:30:03",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1741,7 +1741,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-07-31 19:04:44",
+      "updatedAt": "2026-08-01 01:30:03",
       "groups": [
         {
           "group": "A組",
@@ -3606,9 +3606,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "官方：鲍伊与萨索洛达成1050万欧元的交易，穆拉蒂埃里转会维罗纳 V先生",
-          "罗马询问埃文·盖桑 V先生",
-          "报道那不勒斯希望租借加蒂，并选择从尤文图斯购买 曾哥谈球",
+          "交易完成：哈尔哈尔抵达威尼斯，500万欧元加上与GV梅赫伦的奖金协议 大伟侃球",
+          "利兹联确认XI对阵桑德兰，夏季签约球员首次首发 进神聊球",
+          "库利亚拉基斯将于明天抵达罗马，等待罗马体检 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
