@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-01 18:49:57",
+    "scraped_at": "2026-08-02 01:27:39",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-01 18:49:57",
+      "updatedAt": "2026-08-02 01:27:39",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "当皇家社会在意大利式的抢劫中追平巴莱西的伟大米兰时 东神看球",
-          "皇马签下雨果·吉娜 锤哥营地",
-          "本周的单品：大量紫色、第三套球衣以及新的梅西和CR 7装备 进神聊球",
+          "格雷厄姆·史密斯在桑德兰获胜后对利兹联队进行了评价，穆哈雷莫维奇10投8中，前锋得到6分 波总聊波",
+          "以色列·雷耶斯、罗马的兴趣以及为什么美洲退出尚未完成 鬼手爱球",
+          "托特纳姆热刺愿意批准古列尔莫·维卡里奥租借退出 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
