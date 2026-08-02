@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-02 01:27:39",
+    "scraped_at": "2026-08-02 08:01:12",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out."
       },
       {
         "name": "7M AI模型预测",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-02 01:27:39",
+      "updatedAt": "2026-08-02 08:01:12",
       "groups": [
         {
           "group": "A組",
@@ -3588,10 +3588,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out."
       },
       {
         "name": "7M AI模型预测",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "格雷厄姆·史密斯在桑德兰获胜后对利兹联队进行了评价，穆哈雷莫维奇10投8中，前锋得到6分 波总聊波",
-          "以色列·雷耶斯、罗马的兴趣以及为什么美洲退出尚未完成 鬼手爱球",
-          "托特纳姆热刺愿意批准古列尔莫·维卡里奥租借退出 V先生",
+          "利物浦预计将再次收到国际米兰对柯蒂斯·琼斯的报价 V先生",
+          "AC米兰联系阿森纳询问多才多艺的球星伊森·恩瓦内里 锤哥营地",
+          "在ESPN消息来源更新后，阿森纳获得了签下维尼修斯的重大鼓励 安胖懂个球 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
