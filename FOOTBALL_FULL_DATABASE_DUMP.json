@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-04 13:43:21",
+    "scraped_at": "2026-08-04 19:15:53",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f07b4f"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-04 13:43:21",
+      "updatedAt": "2026-08-04 19:15:53",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f07b4f"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹联转会新闻直播：最新更新和谣言 进神聊球",
-          "罗马将雷丁上限定为2800万欧元，准备好用莫利纳或弗雷斯诺达代替 V先生",
-          "有了马特维什·萨福诺夫和卢卡斯·切瓦利埃，巴黎圣日耳曼为什么要换另一名门将？ 锤哥营地",
+          "凯尔特人队将重拾对意甲中场轰动的兴趣：为什么他们必须引进他 大伟侃球",
+          "罗马拒绝了罗比尼奥·瓦兹的四项租借提议 V先生",
+          "在杰斯珀·林德斯特罗姆转会失败后，那不勒斯考虑对沙尔克采取行动 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
