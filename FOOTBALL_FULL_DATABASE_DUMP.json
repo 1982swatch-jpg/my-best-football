@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-03 19:15:02",
+    "scraped_at": "2026-08-04 01:17:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-03 19:15:02",
+      "updatedAt": "2026-08-04 01:17:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹联首发对阵利物浦，卡尔弗特-勒温重返替补席 波总聊波",
-          "罗马天才巴因再次严重受伤缺阵9个月 大伟侃球",
-          "铃木锡安，早熟的钢铁天才，巴黎圣日耳曼的下一任门将？ 锤哥营地",
+          "比杜和吉·内冈回归后，科林蒂安确认了国际比赛的阵容 V先生",
+          "国际迈阿密将Kevin De Bruyne作为下一个标志性签约 进神聊球",
+          "拉齐奥与苦苦挣扎的AC米兰前锋进行重新启动谈判 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
