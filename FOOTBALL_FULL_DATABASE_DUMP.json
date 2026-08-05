@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-05 13:30:54",
+    "scraped_at": "2026-08-05 19:10:08",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-05 13:30:54",
+      "updatedAt": "2026-08-05 19:10:08",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "据报道，罗马正在接近马德里竞技老将 进神聊球",
-          "官方：那不勒斯以3000万欧元的价格将古铁雷斯出售给勒沃库森 东神看球",
-          "南安普顿的罗宾逊将“租借”意甲球队蒙扎一个赛季 锤哥营地",
+          "报道赫尔城想要皮纳蒙蒂，第一次报价被拒绝，但1000万欧元就足够了 进神聊球",
+          "安杰利诺完成拉科蒂沃体检，在租借前飞往西班牙 鬼手爱球",
+          "友好|那不勒斯2-1奥萨苏纳：波利塔诺和卢卡取得胜利 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
