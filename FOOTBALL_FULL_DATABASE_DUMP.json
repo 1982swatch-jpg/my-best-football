@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-05 01:21:59",
+    "scraped_at": "2026-08-05 08:12:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-05 01:21:59",
+      "updatedAt": "2026-08-05 08:12:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "ððŸFC早餐：灾难性的准备ð，FC 27 ð的另一种WTF模式 V先生",
+          "约翰·曼赞比将为阿斯顿维拉“缺席”欧洲超级杯对阵巴黎圣日耳曼 安胖懂个球",
+          "Nayef Aguerd在杆位加强皇家社会的防守 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
