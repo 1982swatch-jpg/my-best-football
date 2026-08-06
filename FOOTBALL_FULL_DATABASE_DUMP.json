@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-06 01:21:11",
+    "scraped_at": "2026-08-06 08:11:18",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f0f3bb"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-06 01:21:11",
+      "updatedAt": "2026-08-06 08:11:18",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f0f3bb"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "马德里竞技球星同意转投意甲 进神聊球",
-          "那不勒斯即将引进伯努瓦·巴迪亚希勒 锤哥营地",
-          "加图索拒绝以拉齐奥球迷缺席为借口，暗示一线队晋级 安胖懂个球",
+          "消息来源：利物浦将就签下4000万至5000万欧元的姆巴耶展开谈判，他“喜欢”红军项目 进神聊球",
+          "报道：水晶宫准备斥资1500万英镑引进后卫 大伟侃球",
+          "利兹联队最新转会詹姆斯·特拉福德，帕维尔·苏尔奇出价2130万英镑，拉斐尔·利奥 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
