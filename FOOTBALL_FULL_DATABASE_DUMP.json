@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-05 19:10:08",
+    "scraped_at": "2026-08-06 01:21:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f0f3bb"
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-05 19:10:08",
+      "updatedAt": "2026-08-06 01:21:11",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f0f3bb"
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "报道赫尔城想要皮纳蒙蒂，第一次报价被拒绝，但1000万欧元就足够了 进神聊球",
-          "安杰利诺完成拉科蒂沃体检，在租借前飞往西班牙 鬼手爱球",
-          "友好|那不勒斯2-1奥萨苏纳：波利塔诺和卢卡取得胜利 安胖懂个球",
+          "马德里竞技球星同意转投意甲 进神聊球",
+          "那不勒斯即将引进伯努瓦·巴迪亚希勒 锤哥营地",
+          "加图索拒绝以拉齐奥球迷缺席为借口，暗示一线队晋级 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
