@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-06 08:11:18",
+    "scraped_at": "2026-08-06 13:29:57",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-06 08:11:18",
+      "updatedAt": "2026-08-06 13:29:57",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "消息来源：利物浦将就签下4000万至5000万欧元的姆巴耶展开谈判，他“喜欢”红军项目 进神聊球",
-          "报道：水晶宫准备斥资1500万英镑引进后卫 大伟侃球",
-          "利兹联队最新转会詹姆斯·特拉福德，帕维尔·苏尔奇出价2130万英镑，拉斐尔·利奥 大伟侃球",
+          "“只需要熨好”--俱乐部对利兹联明星交易充满信心 安胖懂个球",
+          "佩莱格里尼比以往任何时候都更接近新的罗马交易：Giallorossi队长将签下一年合同 波总聊波",
+          "尤文图斯跳出框框思考他们的目标 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
