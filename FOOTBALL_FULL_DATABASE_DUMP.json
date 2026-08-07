@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-06 23:47:22",
+    "scraped_at": "2026-08-07 02:00:10",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-06 23:47:22",
+      "updatedAt": "2026-08-07 02:00:10",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "迪奥曼德加盟皇马后，非洲球员身价最高 进神聊球",
-          "可耻的积分榜：SV位居德甲榜首！ 大伟侃球",
-          "意大利新开始：BVB租借扬·库托到科莫 大伟侃球",
+          "由于赫尔城的出价被拒绝，拉齐奥“已为安德里亚·皮纳蒙蒂提供1500万欧元 东神看球",
+          "罗马诺：罗马和努萨之间没有正在进行的谈判 锤哥营地",
+          "法布里齐奥·罗马诺确认转会谈判，那不勒斯与阿森纳球星接洽 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
