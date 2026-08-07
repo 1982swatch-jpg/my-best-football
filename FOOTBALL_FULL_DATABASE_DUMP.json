@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-07 02:00:10",
+    "scraped_at": "2026-08-07 06:57:00",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-07 02:00:10",
+      "updatedAt": "2026-08-07 06:57:00",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "由于赫尔城的出价被拒绝，拉齐奥“已为安德里亚·皮纳蒙蒂提供1500万欧元 东神看球",
-          "罗马诺：罗马和努萨之间没有正在进行的谈判 锤哥营地",
-          "法布里齐奥·罗马诺确认转会谈判，那不勒斯与阿森纳球星接洽 锤哥营地",
+          "AFC伯恩茅斯的新右后卫胡安卢·桑切斯是谁？ 安胖懂个球",
+          "法布里齐奥·罗马诺证实阿森纳本周已对克里斯蒂安·罗梅罗进行了询问 锤哥营地",
+          "罗宾·科赫继续担任队长 进神聊球 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
