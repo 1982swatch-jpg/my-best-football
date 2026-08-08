@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-08 12:21:43",
+    "scraped_at": "2026-08-08 18:19:27",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-08 12:21:43",
+      "updatedAt": "2026-08-08 18:19:27",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "Mario Domínguez继续在Excelsior发展 进神聊球",
-          "马赛与皇家社会就纳耶夫·阿格德租借达成“原则上协议” 安胖懂个球",
-          "在罗德里受到打击后，贝尔纳多·席尔瓦将在皇家马德里担任更深层次的中场角色 大伟侃球",
+          "纽卡斯尔在杰斯勒领导的重建中抵达梅斯塔拉，瓦伦西亚在特罗费乌塔龙尼亚进行调整 锤哥营地",
+          "季前友谊赛现场直播，塞维利亚在勒沃库森领先，皇家社会在科洛尼亚扳平比分 大伟侃球",
+          "皇马主帅反对两名球员夏季离开--报道 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
