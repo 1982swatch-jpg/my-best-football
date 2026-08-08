@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-08 00:43:03",
+    "scraped_at": "2026-08-08 06:30:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-08 00:43:03",
+      "updatedAt": "2026-08-08 06:30:45",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "克里斯蒂安·马维萨在摩纳哥与赫塔菲的友谊赛中铲球后，克里斯坦图斯·乌切“将缺席”赛季 鬼手爱球",
-          "法昆多·博纳诺特租借布莱顿一个赛季加盟埃尔切 曾哥谈球",
-          "法布里奇奥·罗马诺：利物浦从巴塞罗那转会罗纳德·阿劳霍，令人震惊 鬼手爱球",
+          "比利亚雷亚尔造访加拉塔萨雷进行最后一次季前测试，推出新的第三套球衣 东神看球",
+          "门德斯·曼尼亚！哥伦布在联赛杯中复仇战胜帕丘卡 V先生",
+          "Gavi在2026年世界杯夺冠后信守承诺 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
