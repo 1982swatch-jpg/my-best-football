@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-08 18:19:27",
+    "scraped_at": "2026-08-09 00:45:52",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-08 18:19:27",
+      "updatedAt": "2026-08-09 00:45:52",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "纽卡斯尔在杰斯勒领导的重建中抵达梅斯塔拉，瓦伦西亚在特罗费乌塔龙尼亚进行调整 锤哥营地",
-          "季前友谊赛现场直播，塞维利亚在勒沃库森领先，皇家社会在科洛尼亚扳平比分 大伟侃球",
-          "皇马主帅反对两名球员夏季离开--报道 曾哥谈球",
+          "雨果·冈萨雷斯“将永久晋升”为塞尔塔德维戈一线队，下赛季欧洲足坛 进神聊球",
+          "巴塞罗那在意大利友谊赛上向梅西的父亲致敬 大伟侃球",
+          "River Plate宣布与马德里竞技队签下蒂亚戈·阿尔马达 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
