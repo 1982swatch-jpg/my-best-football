@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-09 12:23:17",
+    "scraped_at": "2026-08-09 18:21:20",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-09 12:23:17",
+      "updatedAt": "2026-08-09 18:21:20",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "亮点瓦伦西亚CF-Newcastle United FC 安胖懂个球",
-          "奥亚尔扎巴尔在圣塞巴斯蒂安致敬后重返皇家社会 锤哥营地",
-          "皇马中场无意离开俱乐部;想说服穆里尼奥 锤哥营地",
+          "瓦伦西亚在拒绝斯旺西转会后向阿尔梅达发出明确信息 安胖懂个球",
+          "塞维利亚同意签下罗比·乌尔 V先生",
+          "随着皇家社会转会临近，阿格尔德缺席了奥林匹克与竞技德比 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
