@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-09 00:45:52",
+    "scraped_at": "2026-08-09 06:34:47",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-09 00:45:52",
+      "updatedAt": "2026-08-09 06:34:47",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,8 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "雨果·冈萨雷斯“将永久晋升”为塞尔塔德维戈一线队，下赛季欧洲足坛 进神聊球",
-          "巴塞罗那在意大利友谊赛上向梅西的父亲致敬 大伟侃球",
-          "River Plate宣布与马德里竞技队签下蒂亚戈·阿尔马达 大伟侃球",
+          "比利亚雷亚尔球员在加拉塔萨雷声明获胜后的收视率 鬼手爱球",
+          "沃尔夫斯堡主席确认Pejcinovic到斯图加特 V先生 · 1小时前 莱比锡RB“追踪”德国U21前锋特索尔迪 锤哥营地 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
