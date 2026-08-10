@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-10 12:39:36",
+    "scraped_at": "2026-08-10 18:39:33",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-10 12:39:36",
+      "updatedAt": "2026-08-10 18:39:33",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "随着帕普·盖伊的价格升至5000万欧元，比利亚雷亚尔将最后一周的解约条款提高了1000万欧元 V先生",
-          "揭幕战推迟后，瓦伦西亚寻求季前赛的最终对手 锤哥营地",
-          "皇家社会面临关键的一周转会 大伟侃球",
+          "水晶宫、诺丁汉森林和比利亚雷亚尔向AC米兰的优素福·福法纳提交报价 鬼手爱球",
+          "3名皇马球星缩短暑假提前重返训练 大伟侃球",
+          "科尔贝兰的瓦伦西亚在西甲联赛开赛前安排友谊赛 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
