@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-10 18:39:33",
+    "scraped_at": "2026-08-11 00:47:49",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-10 18:39:33",
+      "updatedAt": "2026-08-11 00:47:49",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "水晶宫、诺丁汉森林和比利亚雷亚尔向AC米兰的优素福·福法纳提交报价 鬼手爱球",
-          "3名皇马球星缩短暑假提前重返训练 大伟侃球",
-          "科尔贝兰的瓦伦西亚在西甲联赛开赛前安排友谊赛 锤哥营地",
+          "比利亚雷亚尔推出桑坦德客场门票，APV计划大都会之旅，哈桑出售可净赚240万欧元 波总聊波",
+          "拉马扎尼进入禁区，瓦伦西亚目标是阿尔瑙·马丁内斯担任右后卫 进神聊球",
+          "尽管有新的租借传闻，恩德里克仍将“留在”皇家马德里 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
