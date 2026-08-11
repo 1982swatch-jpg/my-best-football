@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-11 00:47:49",
+    "scraped_at": "2026-08-11 06:43:28",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-11 00:47:49",
+      "updatedAt": "2026-08-11 06:43:28",
       "groups": [
         {
           "group": "A組",
@@ -3588,10 +3588,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "比利亚雷亚尔推出桑坦德客场门票，APV计划大都会之旅，哈桑出售可净赚240万欧元 波总聊波",
-          "拉马扎尼进入禁区，瓦伦西亚目标是阿尔瑙·马丁内斯担任右后卫 进神聊球",
-          "尽管有新的租借传闻，恩德里克仍将“留在”皇家马德里 进神聊球",
+          "比利亚雷亚尔加强La Cerámica和Llaneza训练中心升级 锤哥营地",
+          "随着皇马兴趣的增加，阿森纳为马丁·祖比门迪设定了价格 安胖懂个球",
+          "罗德里如何适应弗利克的系统|战术深潜 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
