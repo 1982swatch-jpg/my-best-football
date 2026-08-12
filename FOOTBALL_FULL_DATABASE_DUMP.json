@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-11 18:43:03",
+    "scraped_at": "2026-08-12 00:55:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-11 18:43:03",
+      "updatedAt": "2026-08-12 00:55:11",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "比利亚雷亚尔加快La Cerámica和Ciudad Deportiva Llaneza的现代化 大伟侃球",
-          "尽管卡洛斯·科伯兰对此表示怀疑，瓦伦西亚仍将“带回”拉吉·拉马扎尼 曾哥谈球",
-          "费德里科·加托尼“将加入”阿斯科利，塞维利亚即将晋级 大伟侃球",
+          "随着赫罗纳谈判愈演愈烈，阿诺希望瓦伦西亚转会 安胖懂个球",
+          "37岁的亚历克西斯·桑切斯（Alexis Sanchez）与蒙特利尔足球俱乐部签订MLS合同，直至2027赛季结束 安胖懂个球",
+          "记者：皇马现在优先考虑离开而不是抵达 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
