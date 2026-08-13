@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-13 00:56:05",
+    "scraped_at": "2026-08-13 07:07:41",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-13 00:56:05",
+      "updatedAt": "2026-08-13 07:07:41",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦伦西亚十一世确认参加特鲁埃尔友谊赛 锤哥营地",
-          "皇马最后一位世界杯球星报到训练 大伟侃球",
-          "皇家贝蒂斯“热衷于签下”斯图加特前锋米洛舍维奇 进神聊球",
+          "吉马良斯在战平科莫的比赛中首次亮相 东神看球",
+          "阿斯顿维拉签下马泰奥·鲁杰里显然比佩尔维斯·埃斯图皮尼安升级，尽管有收获 波总聊波",
+          "皇马在友谊赛中对阵莱加内斯 曾哥谈球 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
