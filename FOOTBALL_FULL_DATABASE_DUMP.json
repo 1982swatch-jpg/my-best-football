@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-12 18:44:00",
+    "scraped_at": "2026-08-13 00:56:05",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-12 18:44:00",
+      "updatedAt": "2026-08-13 00:56:05",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "亚历克西斯·桑切斯（Alexis Sánchez）与蒙特利尔足球俱乐部（CF Montreal）签约，将佩戴10号球衣 波总聊波",
-          "皇马主帅在罗德里受到打击后将英超球星视为中场选择 东神看球",
-          "波尔图足球俱乐部对贝蒂斯“瞄准”米兰前锋圣地亚哥·吉门尼斯 鬼手爱球",
+          "瓦伦西亚十一世确认参加特鲁埃尔友谊赛 锤哥营地",
+          "皇马最后一位世界杯球星报到训练 大伟侃球",
+          "皇家贝蒂斯“热衷于签下”斯图加特前锋米洛舍维奇 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
