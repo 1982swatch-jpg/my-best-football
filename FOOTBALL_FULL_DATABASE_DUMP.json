@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-14 12:36:06",
+    "scraped_at": "2026-08-14 18:37:59",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-14 12:36:06",
+      "updatedAt": "2026-08-14 18:37:59",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,8 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "比利亚雷亚尔获得200万欧元，Haissem Hassan加入凯尔特人 锤哥营地",
-          "皇马前锋错过了沙尔克比赛前的小组训练 锤哥营地",
-          "弗伦基·德容打破沉默，对伤病挫折表示：“我很痛苦，非常失望” 安胖懂个球",
+          "阿拉维斯在数据支持的声称业绩持续下滑后解雇了尼古拉·马拉斯 进神聊球",
+          "科拉西纳茨在亚特兰大友谊赛后被沙尔克04“瞄准” 大伟侃球 · 1小时前 尤文-劳姆、米兰-扎莱夫斯基和国际米兰阻止出售收件箱：今天的交易收件箱 锤哥营地 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
