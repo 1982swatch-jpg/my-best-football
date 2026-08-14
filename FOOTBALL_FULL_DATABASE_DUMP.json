@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-13 18:44:45",
+    "scraped_at": "2026-08-14 00:55:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-13 18:44:45",
+      "updatedAt": "2026-08-14 00:55:45",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "阿尔瓦雷斯转会仍受阻，巴塞罗那试探米考塔泽 V先生",
-          "瓦伦西亚与尤文图斯就米歇尔·迪格雷戈里奥租借事宜进行“深入谈判” 鬼手爱球",
-          "Real Sociedad通过门户网站del Abonado改进了门票应用程序 V先生",
+          "汉斯·弗利克和德科对巴塞罗那转会目标存在分歧 鬼手爱球",
+          "纳耶夫·阿格德在后期大转变接受体检后拒绝了皇家社会的租借 曾哥谈球",
+          "佩莱格里诺和马斯坦托诺因佛罗伦萨传奇偶像巴蒂斯塔而建立联系 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
