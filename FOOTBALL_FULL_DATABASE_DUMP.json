@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-14 18:37:59",
+    "scraped_at": "2026-08-15 00:32:02",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-14 18:37:59",
+      "updatedAt": "2026-08-15 00:32:02",
       "groups": [
         {
           "group": "A組",
@@ -3609,8 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "阿拉维斯在数据支持的声称业绩持续下滑后解雇了尼古拉·马拉斯 进神聊球",
-          "科拉西纳茨在亚特兰大友谊赛后被沙尔克04“瞄准” 大伟侃球 · 1小时前 尤文-劳姆、米兰-扎莱夫斯基和国际米兰阻止出售收件箱：今天的交易收件箱 锤哥营地 · 1小时前",
+          "纳耶夫·阿格德：皇家社会的转会因健康疑虑和不同的说法而失败 V先生",
+          "皇马夏季签约将首发对阵西班牙人 锤哥营地",
+          "皇家贝蒂斯与多特蒙德球星展开谈判 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
