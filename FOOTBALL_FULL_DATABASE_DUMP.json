@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-16 06:19:22",
+    "scraped_at": "2026-08-16 12:14:35",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-16 06:19:22",
+      "updatedAt": "2026-08-16 12:14:35",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "基利安·姆巴佩将在最后一场季前友谊赛中重返皇马 鬼手爱球",
-          "多特蒙德队处于领先地位，以2000万欧元签下巴塞罗那后卫 鬼手爱球",
-          "美因茨2-1伯恩茅斯结束樱桃队季前赛不败纪录 锤哥营地 · 1小时前",
+          "2026/2027赛季在马德里进行地面跳跃周末创意！ 大伟侃球",
+          "西甲联赛临近，瓦伦西亚40天没有签约 鬼手爱球",
+          "皇家社会在没有签约的情况下结束季前赛，但防守方面存在担忧 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
