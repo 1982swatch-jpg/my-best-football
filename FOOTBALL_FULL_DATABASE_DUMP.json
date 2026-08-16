@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-16 12:14:35",
+    "scraped_at": "2026-08-16 18:11:10",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-16 12:14:35",
+      "updatedAt": "2026-08-16 18:11:10",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "2026/2027赛季在马德里进行地面跳跃周末创意！ 大伟侃球",
-          "西甲联赛临近，瓦伦西亚40天没有签约 鬼手爱球",
-          "皇家社会在没有签约的情况下结束季前赛，但防守方面存在担忧 V先生",
+          "何塞·穆里尼奥、菲利普·克莱门特的时刻许多诺维奇城球迷可能不知道发生了 安胖懂个球",
+          "赫克托·贝莱林在贝蒂斯的最后一场友谊赛中受伤，瓦伦西亚的表现存疑 安胖懂个球",
+          "后卫的理发师似乎证实了巴塞罗那的举动 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
