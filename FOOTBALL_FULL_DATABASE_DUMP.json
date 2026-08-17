@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-17 00:31:32",
+    "scraped_at": "2026-08-17 06:28:53",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-17 00:31:32",
+      "updatedAt": "2026-08-17 06:28:53",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "大卫·斯特雷克在米德尔斯堡出现新的退出转折 安胖懂个球",
-          "赫罗纳“对马特奥·莫雷感兴趣”，瓦伦西亚继续就阿诺问题进行谈判 鬼手爱球",
-          "皇马主帅穆里尼奥解释他的黑眼圈 锤哥营地",
+          "瓦伦西亚在PSV询问交易时对Danjuma采取了立场 锤哥营地",
+          "签了名的罗德里，马德里亮出了自己的底牌...周一头版 波总聊波",
+          "桑坦德赛车比赛后比利亚雷亚尔球员评分 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
