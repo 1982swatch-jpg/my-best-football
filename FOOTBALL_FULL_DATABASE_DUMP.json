@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-17 12:17:50",
+    "scraped_at": "2026-08-17 18:20:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-17 12:17:50",
+      "updatedAt": "2026-08-17 18:20:11",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "中场球员前往AEK，科文·阿里亚加出售缓解莱万特的财务状况 波总聊波",
-          "吕迪格处于后脚，两名皇马后卫领衔穆里尼奥最喜欢的中后卫搭档--报道 鬼手爱球",
-          "皇家社会面对贝蒂斯揭幕战，选择存疑，转会悬而未决 波总聊波",
+          "赫塔菲就签下斯特凡·巴伊西蒂奇展开谈判，利物浦正在考虑夏季退出 进神聊球",
+          "伊普斯维奇敞开大门挑战迪米特里耶夫斯基，瓦伦西亚“瞄准”范奥维伦 V先生",
+          "皇马、巴塞罗那追踪19岁西甲中场天才-报道 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
