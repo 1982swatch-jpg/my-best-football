@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-18 06:21:22",
+    "scraped_at": "2026-08-18 12:20:01",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-18 06:21:22",
+      "updatedAt": "2026-08-18 12:20:01",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "欧洲豪门对签下阿森纳前锋维克托·捷克雷斯的兴趣增强 安胖懂个球",
-          "阿斯顿维拉接近锁定转会双 波总聊波",
-          "比利亚雷亚尔加紧寻找中场球员，这是欧冠的最后一块 东神看球",
+          "2026年最有趣的转会，奥巴梅扬的狂野职业生涯再次发生转折 V先生",
+          "San Mamés出席，以增加潜在Copa决赛的机会 进神聊球",
+          "SV晋级英雄找到新俱乐部-米克尔布伦西斯仍在等待 锤哥营地 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
