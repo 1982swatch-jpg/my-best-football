@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-17 18:20:11",
+    "scraped_at": "2026-08-18 00:31:22",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-17 18:20:11",
+      "updatedAt": "2026-08-18 00:31:22",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "赫塔菲就签下斯特凡·巴伊西蒂奇展开谈判，利物浦正在考虑夏季退出 进神聊球",
-          "伊普斯维奇敞开大门挑战迪米特里耶夫斯基，瓦伦西亚“瞄准”范奥维伦 V先生",
-          "皇马、巴塞罗那追踪19岁西甲中场天才-报道 大伟侃球",
+          "阿诺·马丁内斯的母亲在瓦伦西亚谈判中赫罗纳比赛后发表讲话 东神看球",
+          "皇家社会将迎战贝蒂斯，古德斯缺阵，奥亚尔扎瓦尔身体状况不佳 锤哥营地",
+          "Raphinha在Araujo和Ter Stegen贷款后被任命为巴塞罗那队长 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
