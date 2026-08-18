@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-18 12:20:01",
+    "scraped_at": "2026-08-18 18:18:56",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-18 12:20:01",
+      "updatedAt": "2026-08-18 18:18:56",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "2026年最有趣的转会，奥巴梅扬的狂野职业生涯再次发生转折 V先生",
-          "San Mamés出席，以增加潜在Copa决赛的机会 进神聊球",
-          "SV晋级英雄找到新俱乐部-米克尔布伦西斯仍在等待 锤哥营地 · 1小时前",
+          "皇家社会将埃德森·阿尔瓦雷斯视为多才多艺的中场选择 曾哥谈球",
+          "皇马呈现穆里尼奥，回归感觉就像回家 曾哥谈球",
+          "皇家贝蒂斯拒绝5000万欧元报价，曼联错失1800万英镑，安东尼受到打击 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
