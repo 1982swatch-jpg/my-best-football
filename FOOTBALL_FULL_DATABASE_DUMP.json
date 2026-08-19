@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-19 06:22:32",
+    "scraped_at": "2026-08-19 12:19:51",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-19 06:22:32",
+      "updatedAt": "2026-08-19 12:19:51",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦伦西亚足球俱乐部“将终止”巴勃罗·马菲奥的租借，并有选择权 东神看球",
-          "卡洛斯·马西亚将在9月1日生日后夺得比利亚雷亚尔16号 进神聊球",
-          "鲍尔要开始吗？| 预计4-2-3-1凯尔特人阵容将迎战LASK V先生 · 1小时前",
+          "利物浦后卫伊费亚尼·恩杜奎将租借加盟莱万特 大伟侃球",
+          "阿尔诺·马丁内斯即将出局，赫罗纳签下阿卜杜勒·穆明 曾哥谈球",
+          "瓦伦西亚CF培训会议2026年8月19日 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
