@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-20 06:22:50",
+    "scraped_at": "2026-08-20 12:21:21",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-20 06:22:50",
+      "updatedAt": "2026-08-20 12:21:21",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "马菲奥抵达瓦伦西亚并表示他想留下来 安胖懂个球",
-          "皇家社会在最近夺得国王杯冠军的拉卡图哈首发 锤哥营地",
-          "CD Castellón将在Athletic退出后签下Gaizka Alboniga-Menor 锤哥营地",
+          "巴勃罗·马菲奥完成瓦伦西亚体检并开始在帕特纳工作 波总聊波",
+          "奥钦（Ochieng）投出12分，皇家社会设定了临时号码，卡里卡布鲁（Karrikaburu）19分，戈蒂（Goti）22分 波总聊波",
+          "穆里尼奥透露他警告维尼修斯：离开皇马加盟阿森纳将是一个他会后悔的错误 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
