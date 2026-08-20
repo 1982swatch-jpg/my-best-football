@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-20 00:31:47",
+    "scraped_at": "2026-08-20 06:22:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-20 00:31:47",
+      "updatedAt": "2026-08-20 06:22:50",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "贝尔纳多·席尔瓦为穿上皇马球衣感到自豪，称这是一种罕见的特权 东神看球",
-          "Real Betis vs Real Sociedad预测和投注技巧- 21/08/2026 曾哥谈球",
-          "随着阿尔梅达即将转会塞尔塔，韦西诺预计将离开 东神看球",
+          "马菲奥抵达瓦伦西亚并表示他想留下来 安胖懂个球",
+          "皇家社会在最近夺得国王杯冠军的拉卡图哈首发 锤哥营地",
+          "CD Castellón将在Athletic退出后签下Gaizka Alboniga-Menor 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
