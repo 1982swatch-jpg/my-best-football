@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-20 18:20:04",
+    "scraped_at": "2026-08-21 00:34:00",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-20 18:20:04",
+      "updatedAt": "2026-08-21 00:34:00",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "确认XI：体育馆开启赫塔菲的欧洲梦 V先生",
-          "莱万特结束了从利物浦租借Ifeanyi Ndukwe的交易 V先生",
-          "瓦伦西亚足球俱乐部进入关键阶段，拉吉·拉马扎尼是后期目标之一 锤哥营地",
+          "大赫塔菲获胜：他们在最后时刻的闪电战中击败了游击队 大伟侃球",
+          "官方：瓦伦西亚宣布签约后卫 东神看球",
+          "何塞·穆里尼奥谈皇马夏季签约：“我没有要求他，但是.” 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
