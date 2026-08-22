@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-21 18:21:21",
+    "scraped_at": "2026-08-22 00:31:29",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fdd745"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-21 18:21:21",
+      "updatedAt": "2026-08-22 00:31:29",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fdd745"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "莱万特从利物浦引进的新援伊费亚尼·恩杜奎是谁？ 鬼手爱球",
-          "预览|马德里竞技vs比利亚雷亚尔CF：球队新闻、阵容、预测（西甲23/08） V先生",
-          "瓦伦西亚考虑转会，利兹联阵容名单省略了拉吉·拉马扎尼 波总聊波",
+          "官方：马拉加接近签下自由球员中场球员 安胖懂个球",
+          "贝蒂斯被新的五秒投球规则淘汰 进神聊球",
+          "费兰·托雷斯和米卡·戈茨预计将出现在巴黎圣日耳曼阵容中，参加雷恩之旅 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
