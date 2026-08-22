@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-22 06:18:32",
+    "scraped_at": "2026-08-22 12:14:54",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-22 06:18:32",
+      "updatedAt": "2026-08-22 12:14:54",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "Sanse追逐卡洛斯贝尔蒙特的第一场胜利 曾哥谈球",
-          "阿尔梅达成为众人瞩目的焦点，瓦伦西亚开始梅斯塔拉队对阵塞尔塔队的比赛 鬼手爱球",
-          "特尔齐奇时代在圣马梅斯开始，竞技队对阵塞维利亚 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
@@ -3623,7 +3620,7 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "天天盈球2026世界盃積分頁已連線，可作分組積分來源。"
+          "天天盈球世界盃積分頁可連線，但實際表格可能由前端動態載入。"
         ],
         "error": ""
       }
