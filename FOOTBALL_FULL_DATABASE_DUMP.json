@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-23 06:20:01",
+    "scraped_at": "2026-08-23 12:15:27",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-23 06:20:01",
+      "updatedAt": "2026-08-23 12:15:27",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "塞尔塔收视率：马科斯·阿隆索领先，加兰·菲巴斯符合吉拉德兹的蓝图 进神聊球",
-          "瓦伦西亚被塞尔塔控制，梅斯塔拉上赛季揭幕战和巴勃罗·马菲奥首次亮相，抗议活动标志着瓦伦西亚 V先生",
-          "马德里竞技vs比利亚雷亚尔-比赛预览和球队新闻 安胖懂个球",
+          "居勒的突破、埃斯皮和皇马胜利的出色数据 大伟侃球",
+          "皇家社会竞相在9月1日截止日期前增加三名签约 安胖懂个球",
+          "本周套件新闻 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
