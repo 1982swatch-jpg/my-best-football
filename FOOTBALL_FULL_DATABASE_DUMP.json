@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-23 18:12:16",
+    "scraped_at": "2026-08-24 00:33:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-23 18:12:16",
+      "updatedAt": "2026-08-24 00:33:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "何塞·穆里尼奥透露他与两名皇马球星住在瓦尔德贝巴斯 大伟侃球",
-          "迈克尔·卡里克向英力士发出信息后，曼联的转会策略得到了回报 曾哥谈球",
-          "利兹联寻求出售，拉吉·拉马扎尼与瓦伦西亚更衣室保持联系 锤哥营地",
+          "皇马英雄卡洛斯·埃斯皮透露了何塞·穆里尼奥在上场对阵西班牙人队之前告诉他的话 V先生",
+          "塞尔塔·维戈与埃因霍温达成转会协议 波总聊波",
+          "还剩9天的瓦伦西亚转会优先事项：阿诺·马丁内斯、拉马扎尼、丹朱马、安德烈·阿尔梅达、拉巴 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
