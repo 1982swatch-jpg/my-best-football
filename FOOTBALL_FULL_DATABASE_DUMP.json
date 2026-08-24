@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-24 06:32:45",
+    "scraped_at": "2026-08-24 12:21:48",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-24 06:32:45",
+      "updatedAt": "2026-08-24 12:21:48",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "拉芬哈、费米首秀大放异彩：巴塞罗那5-0击败安塞尔米的埃尔切 安胖懂个球",
-          "西蒙尼表示，马竞2-2战平比利亚雷亚尔后，跳过球迷敬礼不是阿尔瓦雷斯的决定 大伟侃球",
-          "富勒姆vs切尔西-预测阵容和球队新闻 锤哥营地",
+          "埃德·加西亚以令人惊叹的扳平比分为科尔多瓦闪耀 大伟侃球",
+          "阿兰布鲁是皇家社会伯纳乌之旅中唯一的右后卫 鬼手爱球",
+          "巴萨谴责埃尔切冲突前警察的暴行 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
