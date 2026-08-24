@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-24 00:33:40",
+    "scraped_at": "2026-08-24 06:32:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-24 00:33:40",
+      "updatedAt": "2026-08-24 06:32:45",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "皇马英雄卡洛斯·埃斯皮透露了何塞·穆里尼奥在上场对阵西班牙人队之前告诉他的话 V先生",
-          "塞尔塔·维戈与埃因霍温达成转会协议 波总聊波",
-          "还剩9天的瓦伦西亚转会优先事项：阿诺·马丁内斯、拉马扎尼、丹朱马、安德烈·阿尔梅达、拉巴 安胖懂个球",
+          "拉芬哈、费米首秀大放异彩：巴塞罗那5-0击败安塞尔米的埃尔切 安胖懂个球",
+          "西蒙尼表示，马竞2-2战平比利亚雷亚尔后，跳过球迷敬礼不是阿尔瓦雷斯的决定 大伟侃球",
+          "富勒姆vs切尔西-预测阵容和球队新闻 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
