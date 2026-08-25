@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-25 12:22:21",
+    "scraped_at": "2026-08-25 18:20:54",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-25 12:22:21",
+      "updatedAt": "2026-08-25 18:20:54",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "塞维利亚失利后，特尔齐奇在莱扎马与乌奈·西蒙举行会谈 大伟侃球",
-          "安德尔·巴伦特西亚（Ander Barrenetxea）在伯纳乌之行前在祖比埃塔（Zubieta）训练 进神聊球",
-          "皇家马德里正在为桑坦德竞技中场塞尔吉奥·马丁内斯进行交易 安胖懂个球",
+          "皇家社会就切尔西球星达成协议 安胖懂个球",
+          "费尔明·洛佩兹指出巴塞罗那排名第九的阵容选择 大伟侃球",
+          "穆里尼奥未过滤：维尼修斯，恩德里克、新秀埃斯皮和稳定的球队 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
