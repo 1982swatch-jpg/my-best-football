@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-25 06:23:42",
+    "scraped_at": "2026-08-25 12:22:21",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-25 06:23:42",
+      "updatedAt": "2026-08-25 12:22:21",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "切尔西同意与皇家社会租借后卫马马杜·萨尔一个赛季 进神聊球",
-          "瓦伦西亚可能会对阵贝蒂斯，科贝兰在快速转变后思考变化 安胖懂个球",
-          "皇马中后卫劳尔·阿森西奥面临避免手术的最后机会 进神聊球",
+          "塞维利亚失利后，特尔齐奇在莱扎马与乌奈·西蒙举行会谈 大伟侃球",
+          "安德尔·巴伦特西亚（Ander Barrenetxea）在伯纳乌之行前在祖比埃塔（Zubieta）训练 进神聊球",
+          "皇家马德里正在为桑坦德竞技中场塞尔吉奥·马丁内斯进行交易 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
