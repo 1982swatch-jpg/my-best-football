@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-24 18:21:28",
+    "scraped_at": "2026-08-25 00:32:58",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-24 18:21:28",
+      "updatedAt": "2026-08-25 00:32:58",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "巴塞罗那对阵竞技队在诺坎普进入第250个篇章 东神看球",
-          "皇家社会将于8月31日“向”波诺欧罗巴收取费用，退款窗口至9月6日 进神聊球",
-          "巴塞罗那球星解释了对阵埃尔切的独特进球庆祝活动 波总聊波",
+          "埃丁·泰尔齐奇的竞技队经历了本世纪俱乐部最糟糕的开幕日失利之一 安胖懂个球",
+          "萨尔的签约被视为对皇家社会的重大推动 大伟侃球",
+          "埃尔切之后，巴塞罗那球星向安东尼·戈登发出公开信息 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
