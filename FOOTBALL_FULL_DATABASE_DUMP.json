@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-25 00:32:58",
+    "scraped_at": "2026-08-25 06:23:42",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-25 00:32:58",
+      "updatedAt": "2026-08-25 06:23:42",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "埃丁·泰尔齐奇的竞技队经历了本世纪俱乐部最糟糕的开幕日失利之一 安胖懂个球",
-          "萨尔的签约被视为对皇家社会的重大推动 大伟侃球",
-          "埃尔切之后，巴塞罗那球星向安东尼·戈登发出公开信息 鬼手爱球",
+          "切尔西同意与皇家社会租借后卫马马杜·萨尔一个赛季 进神聊球",
+          "瓦伦西亚可能会对阵贝蒂斯，科贝兰在快速转变后思考变化 安胖懂个球",
+          "皇马中后卫劳尔·阿森西奥面临避免手术的最后机会 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
