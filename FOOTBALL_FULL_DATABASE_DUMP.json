@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-25 18:20:54",
+    "scraped_at": "2026-08-26 00:34:01",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-25 18:20:54",
+      "updatedAt": "2026-08-26 00:34:01",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "皇家社会就切尔西球星达成协议 安胖懂个球",
-          "费尔明·洛佩兹指出巴塞罗那排名第九的阵容选择 大伟侃球",
-          "穆里尼奥未过滤：维尼修斯，恩德里克、新秀埃斯皮和稳定的球队 鬼手爱球",
+          "西布朗队的目标卡里姆·通德被描述为阿尔比恩正在进行交易 安胖懂个球",
+          "瓦伦西亚球员评级：新年，同样的足球 锤哥营地",
+          "预览|塞尔塔·德维戈vs奥萨苏纳：球队新闻、阵容、预测（西甲27/08） 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
