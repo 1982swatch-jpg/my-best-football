@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-26 06:26:02",
+    "scraped_at": "2026-08-26 12:24:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-26 06:26:02",
+      "updatedAt": "2026-08-26 12:24:50",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "巴塞罗那的世界杯仪式在政治暴力后“挂在一根线上” 安胖懂个球",
-          "皇家马德里和皇家社会的球衣 东神看球",
-          "拉约·巴莱卡诺（Rayo Vallecano）盯着马科斯·皮亚诺（Marcos Peano）、前联盟（Unión）和拉斐尔（Rafaela） V先生",
+          "贝尼亚特·普拉多斯因左腿肌肉轻度受伤缺席巴塞罗那比赛 东神看球",
+          "RCD马略卡“提高了”马拉加对古德利的报价，但他对地点犹豫不决 安胖懂个球",
+          "诺丁汉森林正在就塞尔塔维戈签下哈维·鲁埃达进行深入谈判 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
