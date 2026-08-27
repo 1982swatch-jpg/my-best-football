@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-26 19:29:23",
+    "scraped_at": "2026-08-27 05:26:31",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-26 19:29:23",
+      "updatedAt": "2026-08-27 05:26:31",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "“被拒绝”--流浪者队拒绝攻击者出价“等待更高报价” 大伟侃球",
-          "拉特科夫向塞维利亚敞开大门，皮纳蒙蒂“将接受”拉齐奥体检 大伟侃球",
-          "乌迪内斯加入寻找沃尔夫斯堡队的阿莫拉 波总聊波",
+          "梦幻德甲中场精选2026/27赛季开球 波总聊波",
+          "SC Freiburg 2026/27预览：转会、季前赛、预测XI和赛季展望 安胖懂个球",
+          "拜仁-斯图加特足球俱乐部：预测阵容和最近结果 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
