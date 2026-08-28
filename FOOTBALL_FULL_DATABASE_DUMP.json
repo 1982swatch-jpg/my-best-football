@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-27 16:58:48",
+    "scraped_at": "2026-08-28 01:50:42",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-27 16:58:48",
+      "updatedAt": "2026-08-28 01:50:42",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "米德尔斯堡签下伊普斯维奇镇球星杰克·克拉克的机会变得更加清晰 V先生",
-          "法布里齐奥·罗马诺透露切尔西将完成4000万英镑转会“我们出发了” 大伟侃球",
-          "亚基罗维奇确认另外两名赫尔城签约并指定",
+          "桑托斯拒绝热那亚租借小罗比尼奥 大伟侃球",
+          "预览|尤文图斯vs帕尔马：球队新闻、阵容、预测（意甲29/08） 安胖懂个球",
+          "科莫希望与基恩谈判，但与米兰“拖延”里奇 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
