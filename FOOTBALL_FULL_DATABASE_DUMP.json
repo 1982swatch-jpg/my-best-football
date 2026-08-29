@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-28 17:48:17",
+    "scraped_at": "2026-08-29 01:14:37",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-28 17:48:17",
+      "updatedAt": "2026-08-29 01:14:37",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "预览|弗莱堡vs云达不莱梅：球队新闻、阵容、预测（德甲30/08） 锤哥营地",
-          "官方：美因茨和纽伦堡就博文租借一年达成协议 鬼手爱球",
-          "霍芬海姆和勒沃库森了解欧罗巴联赛阶段的对手 曾哥谈球",
+          "拉莫斯：“米兰希望赢得每场比赛，但也享受我们的足球” V先生",
+          "预览|拉齐奥vs热那亚：球队新闻、阵容、预测（意甲30/08） 鬼手爱球",
+          "弗拉门戈拒绝帕尔马对若昂·维克多的1000万欧元加奖金出价 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
