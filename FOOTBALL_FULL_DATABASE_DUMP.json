@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-29 01:14:37",
+    "scraped_at": "2026-08-29 11:52:43",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-29 01:14:37",
+      "updatedAt": "2026-08-29 11:52:43",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "拉莫斯：“米兰希望赢得每场比赛，但也享受我们的足球” V先生",
-          "预览|拉齐奥vs热那亚：球队新闻、阵容、预测（意甲30/08） 鬼手爱球",
-          "弗拉门戈拒绝帕尔马对若昂·维克多的1000万欧元加奖金出价 安胖懂个球",
+          "哈里·凯恩“正在就拜仁续约进行谈判” 东神看球",
+          "确认2.德甲阵容：科特布斯能源队对阵格鲁特·富特 东神看球",
+          "与胡尔特的紧张关系是否会导致克ösche离开法兰克福？ 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
