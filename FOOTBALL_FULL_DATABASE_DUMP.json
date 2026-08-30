@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-30 15:37:10",
+    "scraped_at": "2026-08-30 20:10:57",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-30 15:37:10",
+      "updatedAt": "2026-08-30 20:10:57",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "球员评级I巴黎FC 3-0尼斯：Kebbal和Sinayoko带领Liam Rosenior的FC取得本赛季首场主场胜利 东神看球",
+          "伊布里尔·西迪贝在勒芒队对阵雷恩队的首秀开始43秒时被罚下场 鬼手爱球",
+          "才华横溢的巴黎圣日耳曼攻击手在阿斯顿维拉完成体检 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
