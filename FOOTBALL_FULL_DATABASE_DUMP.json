@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-30 10:49:52",
+    "scraped_at": "2026-08-30 15:37:10",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-30 10:49:52",
+      "updatedAt": "2026-08-30 15:37:10",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "法布里奇奥·罗马诺透露转会更新，利物浦正在就伊斯梅尔·萨尔进行积极谈判 安胖懂个球",
-          "曼联预测首发阵容对阵伊普斯维奇：卡里克将放弃苦苦挣扎的四人组 大伟侃球",
-          "富勒姆在夏季转会窗口的最后一周与罗马接洽苏勒 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
