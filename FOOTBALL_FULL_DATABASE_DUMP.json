@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-31 11:59:40",
+    "scraped_at": "2026-08-31 18:50:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-31 11:59:40",
+      "updatedAt": "2026-08-31 18:50:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "职业出了问题？30岁时参加地区联赛的前德国球员 东神看球",
-          "法比奥·维埃拉在汉堡，从阿森纳永久转会到SV即将完成 鬼手爱球",
-          "勒沃库森将以3600万欧元的价格“签下”右后卫盖拉·杜埃 曾哥谈球",
+          "南安普顿在截止日期前“瞄准”埃尔切中卫大卫·阿芬格鲁伯 曾哥谈球",
+          "阿尔梅达等待瓦伦西亚退出塞尔塔寻求租借 锤哥营地",
+          "年轻和未来塑造了皇家社会的防守 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
