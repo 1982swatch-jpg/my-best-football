@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-31 01:59:33",
+    "scraped_at": "2026-08-31 11:59:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-31 01:59:33",
+      "updatedAt": "2026-08-31 11:59:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "迭戈·卡洛斯准备从费内巴切回到帕尔马 波总聊波",
-          "马赛和都灵询问退出事宜，萨尔·昆贝迪在沃尔夫斯堡陷入困境 安胖懂个球",
-          "齐沃：“国际米兰冒着陷入麻烦的风险，琼斯和斯通斯只能靠自己” 锤哥营地",
+          "职业出了问题？30岁时参加地区联赛的前德国球员 东神看球",
+          "法比奥·维埃拉在汉堡，从阿森纳永久转会到SV即将完成 鬼手爱球",
+          "勒沃库森将以3600万欧元的价格“签下”右后卫盖拉·杜埃 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
