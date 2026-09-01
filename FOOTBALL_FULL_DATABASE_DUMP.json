@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-08-31 18:50:40",
+    "scraped_at": "2026-09-01 02:21:02",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-08-31 18:50:40",
+      "updatedAt": "2026-09-01 02:21:02",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "南安普顿在截止日期前“瞄准”埃尔切中卫大卫·阿芬格鲁伯 曾哥谈球",
-          "阿尔梅达等待瓦伦西亚退出塞尔塔寻求租借 锤哥营地",
-          "年轻和未来塑造了皇家社会的防守 鬼手爱球",
+          "尼尔斯·恩孔库（Niels Nkounkou）即将租借到尼斯，并选择购买 东神看球",
+          "奥利约拉帕普议员指控里昂奥运会对阵勒阿弗尔比赛后发生种族主义袭击 曾哥谈球",
+          "法甲新人着眼于三年合同，哈比卜·迪亚洛即将转会勒芒 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
