@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-02 10:04:44",
+    "scraped_at": "2026-09-02 15:28:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-02 10:04:44",
+      "updatedAt": "2026-09-02 15:28:11",
       "groups": [
         {
           "group": "A組",
