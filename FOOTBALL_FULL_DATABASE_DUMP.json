@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-01 20:16:42",
+    "scraped_at": "2026-09-02 01:42:36",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f06466"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-01 20:16:42",
+      "updatedAt": "2026-09-02 01:42:36",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f06466"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "马赛和水晶宫恢复就五天木材交易进行谈判 大伟侃球",
-          "Jean-Clair Todibo租借给Lens确认没有购买选项 鬼手爱球",
-          "蒂莫西·恩卡达租借加盟特鲁瓦，并选择从标准列日购买 锤哥营地",
+          "离开博卡后，埃克斯基尔·泽巴洛斯由蒙扎揭幕 安胖懂个球",
+          "随着斯蒂芬·埃尔·沙拉维接近热那亚，沃特福德“退出”里卡多·索蒂尔的交易 V先生",
+          "都灵签下曼德拉戈拉、布拉甘卡和帕特森，凯尔特人队等待吉内蒂斯 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
