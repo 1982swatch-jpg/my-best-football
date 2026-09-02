@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-02 01:42:36",
+    "scraped_at": "2026-09-02 10:04:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-02 01:42:36",
+      "updatedAt": "2026-09-02 10:04:44",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "离开博卡后，埃克斯基尔·泽巴洛斯由蒙扎揭幕 安胖懂个球",
-          "随着斯蒂芬·埃尔·沙拉维接近热那亚，沃特福德“退出”里卡多·索蒂尔的交易 V先生",
-          "都灵签下曼德拉戈拉、布拉甘卡和帕特森，凯尔特人队等待吉内蒂斯 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
