@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-03 10:15:04",
+    "scraped_at": "2026-09-03 15:22:27",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-03 10:15:04",
+      "updatedAt": "2026-09-03 15:22:27",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "“惊人的开始”-奥利·沃特金斯梦想首次亮相，帮助阿尔·希拉尔取得巨大胜利 东神看球",
-          "曼联搭档和身价4850万英镑的切尔西边锋在转会窗口关闭后陷入困境 安胖懂个球",
-          "西汉姆联签下了几个月前被欧足联评为欧洲最佳球员的球员 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
