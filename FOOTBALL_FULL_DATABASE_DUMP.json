@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-03 15:22:27",
+    "scraped_at": "2026-09-03 20:13:08",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-03 15:22:27",
+      "updatedAt": "2026-09-03 20:13:08",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "埃塞尔前往里昂目标是获胜，没有时间可以浪费 鬼手爱球",
+          "预计利兹联十一世对阵布莱顿：新签约首次亮相，丹尼尔·法克的两次变动 波总聊波",
+          "预览|勒阿弗尔vs布雷斯特：球队新闻，阵容，预测（法甲05/09） 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
