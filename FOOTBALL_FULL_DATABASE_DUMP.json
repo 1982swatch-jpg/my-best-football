@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-03 01:47:59",
+    "scraped_at": "2026-09-03 10:15:04",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-03 01:47:59",
+      "updatedAt": "2026-09-03 10:15:04",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹联球星离开俱乐部后兴奋不已：对白人来说最好的决定？ 波总聊波",
-          "拉齐奥将帕特里克和佩莱格里尼排除在意甲大名单之外 鬼手爱球",
-          "亚特兰大确认2026-27赛季欧洲联盟联赛阵容 曾哥谈球",
+          "“惊人的开始”-奥利·沃特金斯梦想首次亮相，帮助阿尔·希拉尔取得巨大胜利 东神看球",
+          "曼联搭档和身价4850万英镑的切尔西边锋在转会窗口关闭后陷入困境 安胖懂个球",
+          "西汉姆联签下了几个月前被欧足联评为欧洲最佳球员的球员 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
