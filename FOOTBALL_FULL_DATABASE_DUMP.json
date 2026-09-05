@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-05 14:06:48",
+    "scraped_at": "2026-09-05 19:38:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-05 14:06:48",
+      "updatedAt": "2026-09-05 19:38:44",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "Lens预测XI v Lorion：Odsonne Édouard回归？ 大伟侃球",
-          "OGC尼斯预测XI对阵勒芒：阿克塞尔·维塞尔将为奥利维尔·潘塔洛尼的球队首发 大伟侃球",
-          "花费6.7亿英镑后评价理查德·休斯（Richard Hughes）领导下的每一名利物浦签约球员 锤哥营地",
+          "佩莱格里诺网，都灵拉力赛与超级曼德拉！格罗索处于危险之中 曾哥谈球",
+          "预览|卡利亚里vs莱切：球队新闻、阵容、预测（意甲07/09） V先生",
+          "布莱顿的利兹十一人队确认丹尼尔·法克召回加布里埃尔·古德蒙森并做出关键防守决定 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
