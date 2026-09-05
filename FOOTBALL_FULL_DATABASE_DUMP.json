@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-05 01:43:15",
+    "scraped_at": "2026-09-05 09:34:09",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-05 01:43:15",
+      "updatedAt": "2026-09-05 09:34:09",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "官方：都灵转会帕莱里和安约林，卡利亚里将博雷利送到土耳其 波总聊波",
-          "拉齐奥“重返自由球员迪奥戈·莱特、若昂·席尔瓦和潘佐的谈判” 大伟侃球",
-          "迪巴拉和恩迪卡完成罗马的比赛，应该为亚特兰大做好准备 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
