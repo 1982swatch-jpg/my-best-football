@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-06 01:37:45",
+    "scraped_at": "2026-09-06 09:49:09",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-06 01:37:45",
+      "updatedAt": "2026-09-06 09:49:09",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "罗斯·巴克利在零失球中大放异彩，阿斯顿维拉球员评分 V先生",
-          "罗马相信自己的信念，并坚称自己希望“本赛季做得更好” 大伟侃球",
-          "预览|乌迪内斯vs拉齐奥：球队新闻、阵容、预测（意甲07/09） 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
