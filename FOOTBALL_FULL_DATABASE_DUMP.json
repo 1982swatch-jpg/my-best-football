@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-05 19:38:44",
+    "scraped_at": "2026-09-06 01:37:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-05 19:38:44",
+      "updatedAt": "2026-09-06 01:37:45",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "佩莱格里诺网，都灵拉力赛与超级曼德拉！格罗索处于危险之中 曾哥谈球",
-          "预览|卡利亚里vs莱切：球队新闻、阵容、预测（意甲07/09） V先生",
-          "布莱顿的利兹十一人队确认丹尼尔·法克召回加布里埃尔·古德蒙森并做出关键防守决定 进神聊球",
+          "罗斯·巴克利在零失球中大放异彩，阿斯顿维拉球员评分 V先生",
+          "罗马相信自己的信念，并坚称自己希望“本赛季做得更好” 大伟侃球",
+          "预览|乌迪内斯vs拉齐奥：球队新闻、阵容、预测（意甲07/09） 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
