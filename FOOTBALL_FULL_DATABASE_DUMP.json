@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-07 10:53:56",
+    "scraped_at": "2026-09-07 16:45:24",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-07 10:53:56",
+      "updatedAt": "2026-09-07 16:45:24",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "切尔西正在努力与亚历克斯·斯科特进行早期交易以避免竞购战 大伟侃球",
-          "阿隆索坚称漏水的切尔西必须加强防守 东神看球",
-          "巴科拉、费尔南德斯、基恩，梦想首次亮相的周末！ 安胖懂个球",
+          "埃利奥特·安德森迫使健忘的弗兰克·兰帕德以破纪录的表演记住他 进神聊球",
+          "Heung-Min Son揭示了LAFC如何说服他转会到MLS 大伟侃球",
+          "奥利弗·艾斯纳重塑诺丁汉森林，詹姆斯·麦卡蒂在更深层次的角色中蓬勃发展 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
