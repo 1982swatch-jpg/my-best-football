@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-07 01:35:27",
+    "scraped_at": "2026-09-07 10:53:56",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-07 01:35:27",
+      "updatedAt": "2026-09-07 10:53:56",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "直播：安联球场尤文图斯对阵米兰的赛后表演 锤哥营地",
-          "据报道，格罗索被解雇后，蒂亚戈·莫塔或瓦诺利已准备好为佛罗伦萨工作 安胖懂个球",
-          "加蒂和康塞考发出的尤文图斯信息：“永不屈服，与所有人战斗” 鬼手爱球",
+          "切尔西正在努力与亚历克斯·斯科特进行早期交易以避免竞购战 大伟侃球",
+          "阿隆索坚称漏水的切尔西必须加强防守 东神看球",
+          "巴科拉、费尔南德斯、基恩，梦想首次亮相的周末！ 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
