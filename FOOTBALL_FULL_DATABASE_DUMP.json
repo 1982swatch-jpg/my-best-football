@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-06 19:43:04",
+    "scraped_at": "2026-09-07 01:35:27",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f648a5"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-06 19:43:04",
+      "updatedAt": "2026-09-07 01:35:27",
       "groups": [
         {
           "group": "A組",
@@ -3597,10 +3597,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f648a5"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "雷蒙多举起弗罗西诺内，威尼斯沉没！帕尔马，蒙扎偏离目标 安胖懂个球",
-          "圣西罗项目在公民抗议后面临新的延误 进神聊球",
-          "意甲|博洛尼亚2-2萨索洛：多夫比克在激烈的德比中夺得第一分 进神聊球",
+          "直播：安联球场尤文图斯对阵米兰的赛后表演 锤哥营地",
+          "据报道，格罗索被解雇后，蒂亚戈·莫塔或瓦诺利已准备好为佛罗伦萨工作 安胖懂个球",
+          "加蒂和康塞考发出的尤文图斯信息：“永不屈服，与所有人战斗” 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
