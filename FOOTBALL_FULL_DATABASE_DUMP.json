@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-07 16:45:24",
+    "scraped_at": "2026-09-07 20:52:17",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-07 16:45:24",
+      "updatedAt": "2026-09-07 20:52:17",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "埃利奥特·安德森迫使健忘的弗兰克·兰帕德以破纪录的表演记住他 进神聊球",
-          "Heung-Min Son揭示了LAFC如何说服他转会到MLS 大伟侃球",
-          "奥利弗·艾斯纳重塑诺丁汉森林，詹姆斯·麦卡蒂在更深层次的角色中蓬勃发展 东神看球",
+          "上田绫濑在里尔首秀中进球，锁定1-0战胜图卢兹 波总聊波",
+          "OL诉勒阿弗尔暴力事件发生后，迈克尔·格林格敦促公共当局 鬼手爱球",
+          "若昂·阿尔梅达从科里蒂巴租借加盟勒芒一个赛季 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
