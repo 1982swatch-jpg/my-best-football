@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-08 01:45:56",
+    "scraped_at": "2026-09-08 10:11:32",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-08 01:45:56",
+      "updatedAt": "2026-09-08 10:11:32",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "佛罗伦萨“将给”法比奥·格罗索三场比赛以挽救开局不佳的工作 进神聊球",
-          "祖比门迪和欣卡皮开始|4-2-3-1阿森纳预测阵容对阵那不勒斯 鬼手爱球",
-          "前西塞主帅赞扬米兰新星：“做了别人不做的事情” 鬼手爱球",
+          "阿森纳失利后，哈维·阿隆索承认莫伊塞斯·凯塞多受伤 安胖懂个球",
+          "桑德兰vs赫尔城-比赛预览和球队新闻 大伟侃球",
+          "那不勒斯在阿森纳比赛之前没有麦克托米奈和其他五名一线队关键球星 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
