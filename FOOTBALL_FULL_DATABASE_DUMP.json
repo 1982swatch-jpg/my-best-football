@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-08 15:31:15",
+    "scraped_at": "2026-09-08 20:24:40",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-08 15:31:15",
+      "updatedAt": "2026-09-08 20:24:40",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "阿隆·登纳姆（Aron Dönnum）在家人丧亲之痛后回到图卢兹 东神看球",
+          "巴黎圣日耳曼创下金球奖提名纪录，但在奥斯曼·登贝莱、赫维查·克瓦拉茨基利亚和法比安·鲁伊斯中没有排名第一 波总聊波",
+          "预览|斯拉维亚·普拉哈vs朗斯：球队新闻、阵容、预测（欧冠10/09） V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
