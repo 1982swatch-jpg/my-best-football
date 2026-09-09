@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-09 10:15:26",
+    "scraped_at": "2026-09-09 15:26:47",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-09 10:15:26",
+      "updatedAt": "2026-09-09 15:26:47",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "瓦斯科提交对理查利森的报价，并在周四之前等待托特纳姆热刺的回复 东神看球",
-          "缺席欧冠联赛后，马蒂·卡什能否对阵诺丁汉森林队存疑 V先生",
-          "本赛季英超最佳转会：切尔西和赫尔城二人组，托特纳姆热刺队意外入选.. 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
