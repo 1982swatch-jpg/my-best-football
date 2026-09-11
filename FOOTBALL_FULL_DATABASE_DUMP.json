@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-11 01:47:17",
+    "scraped_at": "2026-09-11 10:06:59",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-11 01:47:17",
+      "updatedAt": "2026-09-11 10:06:59",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "巴克利和明斯开始|4-2-3-1阿斯顿维拉预测阵容对阵诺丁汉森林 进神聊球",
-          "利兹联进球左定位球教练在指缝中“愤怒” 曾哥谈球",
-          "尤文图斯今年夏天如何错过签下炙手可热的弗拉泰西 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
