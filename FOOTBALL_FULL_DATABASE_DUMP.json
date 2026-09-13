@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-12 19:46:52",
+    "scraped_at": "2026-09-13 01:44:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-12 19:46:52",
+      "updatedAt": "2026-09-13 01:44:44",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "伊戈尔·热苏斯在维拉公园为森林队打进最后时刻制胜球 进神聊球",
-          "毕竟不怕领先吗？科隆结束沮丧运行 东神看球",
-          "租借的皇马球星打破莱昂内尔·梅西纪录 进神聊球",
+          "温克斯赞扬卡利亚里主教练皮萨坎：“这给了我们与任何人比赛的信心” 东神看球",
+          "卢西亚诺·斯帕莱蒂认为尤文图斯缺席欧冠是痛苦和动力 波总聊波",
+          "萨里：“比前几场比赛后我不太担心亚特兰大了” 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
