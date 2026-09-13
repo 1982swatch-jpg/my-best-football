@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-13 10:43:46",
+    "scraped_at": "2026-09-13 15:12:06",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-13 10:43:46",
+      "updatedAt": "2026-09-13 15:12:06",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "富勒姆受挫后，利物浦主帅西莫拉解释了巴科拉的计划 锤哥营地",
-          "曼联为伯恩茅斯左后卫阿德里安·特鲁弗特报价巨额转会费 锤哥营地",
-          "阿尔特塔在桑德兰获胜后特别赞扬了阿森纳球星 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
