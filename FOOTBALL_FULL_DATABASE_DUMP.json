@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-14 02:02:34",
+    "scraped_at": "2026-09-14 11:06:37",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-14 02:02:34",
+      "updatedAt": "2026-09-14 11:06:37",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "最后有个好消息：疱疹病毒年轻人获得弗里茨·沃尔特奖章 鬼手爱球",
+          "令人震惊的1120万英镑转会情况出现，米德尔斯堡一定对银行笑了 安胖懂个球",
+          "格里马尔多在最后时刻进球帮助马竞锁定胜局 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
