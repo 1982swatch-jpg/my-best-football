@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-14 17:09:06",
+    "scraped_at": "2026-09-14 21:07:12",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-14 17:09:06",
+      "updatedAt": "2026-09-14 21:07:12",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "运气不佳：疱疹病毒明星也可能在对阵科隆的比赛中出局！ 东神看球",
-          "斯图加特在多特蒙德转会前探讨了法比奥·席尔瓦的转会 波总聊波",
-          "罗尔夫斯否认勒沃库森对本泽马感兴趣，称“我们的阵容很完整” 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
