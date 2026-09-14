@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-13 19:56:38",
+    "scraped_at": "2026-09-14 02:02:34",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-13 19:56:38",
+      "updatedAt": "2026-09-14 02:02:34",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "德布劳内伤病恐慌影响那不勒斯战胜博洛尼亚 东神看球",
-          "减少罗马比赛中都灵重要的伤病更新 鬼手爱球",
-          "意甲：泽巴洛斯用任意球标志着蒙扎的处子秀，蒙扎输给莱切 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
