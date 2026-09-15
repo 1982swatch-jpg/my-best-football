@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-15 10:35:45",
+    "scraped_at": "2026-09-15 15:48:53",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-15 10:35:45",
+      "updatedAt": "2026-09-15 15:48:53",
       "groups": [
         {
           "group": "A組",
@@ -3609,9 +3609,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "德泽尔比敦促目标害羞的马刺队利用卡拉堡杯在利物浦的比赛作为赛季复兴的跳板 进神聊球",
-          "水晶宫希望将迪恩·亨德森与新合同联系起来 锤哥营地",
-          "周中重要：利物浦在欧洲对阵热刺、曼联、兰帕德、布阿迪、桑德兰和伯恩茅斯 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
