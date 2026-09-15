@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-15 15:48:53",
+    "scraped_at": "2026-09-15 20:33:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1743,7 +1743,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-15 15:48:53",
+      "updatedAt": "2026-09-15 20:33:14",
       "groups": [
         {
           "group": "A組",
@@ -3609,6 +3609,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "2021年严重不当解雇后，图卢兹被勒令向前教练帕特里斯·加兰德支付345，000欧元 V先生",
+          "预览|贝西克塔斯vs马赛：球队新闻、阵容、预测（欧罗巴联赛17/09） V先生",
+          "迪诺·托普穆勒在六场比赛后合同终止后离开RC Lens 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
