@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-14 21:07:12",
+    "scraped_at": "2026-09-15 02:10:49",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -637,8 +637,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球",
+          "externalIntel": [
+            "天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1231,8 +1233,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球",
+          "externalIntel": [
+            "天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球"
+          ],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1743,7 +1747,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-14 21:07:12",
+      "updatedAt": "2026-09-15 02:10:49",
       "groups": [
         {
           "group": "A組",
@@ -3063,8 +3067,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球",
+        "externalIntel": [
+          "天天盈球：里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球"
+        ],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -3588,10 +3594,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3609,6 +3615,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "球员出口机器Unión：销售额超过4000万美元 东神看球",
+          "里昂的费利克斯·巴赫尔在青年队中获得了第一个奥地利征召 安胖懂个球",
+          "埃内姆首次亮相红黑军团 V先生 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
