@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-16 10:24:12",
+    "scraped_at": "2026-09-16 15:40:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-16 10:24:12",
+      "updatedAt": "2026-09-16 15:40:50",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "米克尔·阿尔特塔表示与马克斯·道曼合作“令人愉快”，但阿森纳必须“谨慎”与青少年球星 锤哥营地",
-          "结局好一切都好 锤哥营地",
-          "安多尼·莫拉称赞利物浦年轻人“具有感染力”，因为他们在热刺获胜中发挥了作用 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
