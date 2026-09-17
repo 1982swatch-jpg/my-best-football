@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-16 20:33:02",
+    "scraped_at": "2026-09-17 02:06:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-16 20:33:02",
+      "updatedAt": "2026-09-17 02:06:14",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "埃尔维·雷纳德在科特迪瓦首支重新执教的阵容中任命了八名新秀 鬼手爱球",
-          "Collectif Ultras Paris计划就Vélodrome旅行禁令在最高法院进行合法竞标 安胖懂个球",
-          "马赛/巴黎圣日耳曼，经过11年的禁令，CUP向国务委员会提出上诉 锤哥营地",
+          "托普穆勒退出、卡胡扎克晋级和转会窗口缓慢后，让-路易斯·莱卡成为众人瞩目的焦点 波总聊波",
+          "亚伯拉罕将维拉送入卡拉宝杯第四轮 锤哥营地",
+          "中村圭藤在安德莱赫特首次首发并为俱乐部打进第一粒进球后享受OL风格 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
