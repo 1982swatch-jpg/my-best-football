@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-18 01:53:36",
+    "scraped_at": "2026-09-18 10:09:52",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-18 01:53:36",
+      "updatedAt": "2026-09-18 10:09:52",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "身价3000万英镑的阿斯顿维拉球员面临前童子军的重大质疑：俱乐部能否让他保持最佳状态？ 曾哥谈球",
-          "帕拉迪诺谈博洛尼亚任务：“我三天内没有魔杖” 曾哥谈球",
-          "梦幻德甲提示：第4场比赛需要考虑的10名球员 进神聊球",
+          "水晶宫冲突比赛日节目发售 曾哥谈球",
+          "西班牙：下一次国际比赛日的世界冠军阵容 锤哥营地",
+          "法比安·胡尔泽勒谈乌斯科维奇的健康状况、扣篮暗示和阿森纳测试 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
