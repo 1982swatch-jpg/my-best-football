@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-19 01:58:30",
+    "scraped_at": "2026-09-19 09:51:05",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-19 01:58:30",
+      "updatedAt": "2026-09-19 09:51:05",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹联弃儿谈他为何想离开俱乐部：白人让他离开正确吗？ 鬼手爱球",
-          "萨里：“唯一积极的开始是在切尔西，而不是尤文图斯的美好回忆” V先生",
-          "意大利征召34名球员，但曼奇尼冷落雷特吉、乌多吉、扎卡尼和波利塔诺 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
