@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-19 19:42:31",
+    "scraped_at": "2026-09-20 02:01:38",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-19 19:42:31",
+      "updatedAt": "2026-09-20 02:01:38",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "博洛尼亚战平都灵后，帕拉迪诺“没想到会有完美的比赛” 安胖懂个球",
-          "萨里：“教练没有球杆，对球员的控制很少。 锤哥营地",
-          "利兹联球迷在2026/27赛季的强劲开局中选出表现出色的球员 曾哥谈球",
+          "斯特罗帕：“威尼斯的结果并不能反映表现，我们必须抓住机会” 曾哥谈球",
+          "南安普顿在米德尔斯堡晋级之前为他支付了1200万英镑--他35岁时仍在踢球 锤哥营地",
+          "凯尔特人准备重新以900万英镑竞购意甲球星：篮球队应该在一月份回归吗？ 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
