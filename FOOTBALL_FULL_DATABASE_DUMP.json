@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-20 19:53:58",
+    "scraped_at": "2026-09-21 02:02:43",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-20 19:53:58",
+      "updatedAt": "2026-09-21 02:02:43",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "帕尔玛飞了，德罗西有危险？热那亚2-1被淘汰：阿尔姆奎斯特·托特、奥斯斯蒂加德·托特 鬼手爱球",
-          "利兹联对阵水晶宫的收视率：塔里克·穆哈雷莫维奇（Tarik Muharemovic）中有8人给人留下了深刻的印象，因为丹尼尔·法克的球队低于标准杆 大伟侃球",
-          "佛罗伦萨1-1那不勒斯后，阿奎萨遭遇新的伤病问题 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
