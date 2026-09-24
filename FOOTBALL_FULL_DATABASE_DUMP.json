@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-24 01:55:46",
+    "scraped_at": "2026-09-24 10:39:08",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-24 01:55:46",
+      "updatedAt": "2026-09-24 10:39:08",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,8 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "佛罗伦萨100周年：看看中提琴最佳球员、球衣和时刻 鬼手爱球",
-          "大卫·阿拉巴离开皇马后找到了新俱乐部 进神聊球",
-          "曼奇尼的第一支意大利球队为比利时测试而成型 锤哥营地",
+          "布鲁诺·费尔南德斯是未来曼联DNA经理的必然选择。 曾哥谈球",
+          "切尔西密谋斯科特转会，阿森纳着眼于阿尔瓦雷斯的开局，以及曼联和利物浦的最新消息 安胖懂个球 · 2小时前 备受争议的斩首庆祝活动会产生后果！德国天才被禁 波总聊波 · 2小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
