@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-23 20:45:55",
+    "scraped_at": "2026-09-24 01:55:46",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-23 20:45:55",
+      "updatedAt": "2026-09-24 01:55:46",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "保罗·丰塞卡：OL的休息既容易又难管理 V先生",
-          "巴黎·布伦纳在斯特拉斯堡庆祝活动后被禁赛两场 大伟侃球",
-          "收件箱转移：您最近几天错过的公告 曾哥谈球 · 1小时前",
+          "佛罗伦萨100周年：看看中提琴最佳球员、球衣和时刻 鬼手爱球",
+          "大卫·阿拉巴离开皇马后找到了新俱乐部 进神聊球",
+          "曼奇尼的第一支意大利球队为比利时测试而成型 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
