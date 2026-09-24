@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-24 16:02:05",
+    "scraped_at": "2026-09-24 20:52:01",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-24 16:02:05",
+      "updatedAt": "2026-09-24 20:52:01",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "伊德里萨·盖伊（Idrissa Gueye）加入投资者后，敦促抵制勒芒 东神看球",
+          "特别参观更衣室：马特奥·德尔·布兰科看到了尤尼翁的友好溃败 进神聊球",
+          "观点-巴黎圣日耳曼在中场休息期间的真正问题不是疲劳 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
