@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-26 10:25:50",
+    "scraped_at": "2026-09-26 15:14:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1465,10 +1465,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
-          "externalIntel": [
-            "天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1739,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-26 10:25:50",
+      "updatedAt": "2026-09-26 15:14:50",
       "groups": [
         {
           "group": "A組",
@@ -3293,10 +3291,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
-        "externalIntel": [
-          "天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3576,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3597,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "哪些英超俱乐部希望曼城获得赔偿？ 曾哥谈球",
-          "英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
-          "桑德兰担忧加剧，北爱尔兰主帅提前向丹·巴拉德通报了最新伤情 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
