@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-26 02:18:06",
+    "scraped_at": "2026-09-26 10:25:50",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -279,10 +279,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球",
-          "externalIntel": [
-            "天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -875,10 +873,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球",
-          "externalIntel": [
-            "天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -1469,8 +1465,10 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-          "externalIntel": [],
+          "market": "外部公開資訊：天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
+          "externalIntel": [
+            "天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波"
+          ],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1741,7 +1739,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-26 02:18:06",
+      "updatedAt": "2026-09-26 10:25:50",
       "groups": [
         {
           "group": "A組",
@@ -2705,10 +2703,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球",
-        "externalIntel": [
-          "天天盈球：卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -3297,8 +3293,10 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
-        "externalIntel": [],
+        "market": "外部公開資訊：天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
+        "externalIntel": [
+          "天天盈球：英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波"
+        ],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3578,10 +3576,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3599,9 +3597,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "卢卡斯·莱瓦与费利佩·马萨和德约科维奇一起投资法国勒芒俱乐部 鬼手爱球",
-          "马赛队的德里克·科尼利厄斯在加拿大训练臀部受伤后可能缺席三个月 安胖懂个球",
-          "坎比亚吉：“意大利陷入困境，但土耳其队会有更好的表现” 鬼手爱球 · 1小时前",
+          "哪些英超俱乐部希望曼城获得赔偿？ 曾哥谈球",
+          "英格兰的机会为DCL、TAA、MBE、MLS甚至没有双管名字的球员敲响了大门 波总聊波",
+          "桑德兰担忧加剧，北爱尔兰主帅提前向丹·巴拉德通报了最新伤情 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
