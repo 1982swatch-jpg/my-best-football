@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-26 20:17:16",
+    "scraped_at": "2026-09-27 02:12:28",
     "auth_used": "none",
     "external_sources": [
       {
@@ -515,10 +515,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球",
-          "externalIntel": [
-            "天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 74,
           "homeForm": {
             "wins": 8,
@@ -1111,10 +1109,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球",
-          "externalIntel": [
-            "天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 74,
           "homeForm": {
             "wins": 8,
@@ -1741,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-26 20:17:16",
+      "updatedAt": "2026-09-27 02:12:28",
       "groups": [
         {
           "group": "A組",
@@ -2941,10 +2937,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球",
-        "externalIntel": [
-          "天天盈球：阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 74,
         "homeForm": {
           "wins": 8,
@@ -3599,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "阿明·古里（Amine Gouiri）因与阿尔及利亚股四头肌问题获释返回马赛 曾哥谈球",
-          "拜仁慕尼黑等待丹尼·奥尔莫离开巴塞罗那的绿灯 鬼手爱球",
-          "摩纳哥领先法甲，里昂和巴黎足球俱乐部在五轮后保持同步 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
