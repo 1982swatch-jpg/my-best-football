@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-27 20:32:00",
+    "scraped_at": "2026-09-28 02:16:41",
     "auth_used": "none",
     "external_sources": [
       {
@@ -279,10 +279,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球",
-          "externalIntel": [
-            "天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -875,10 +873,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球",
-          "externalIntel": [
-            "天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 60,
           "homeForm": {
             "wins": 7,
@@ -1741,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-27 20:32:00",
+      "updatedAt": "2026-09-28 02:16:41",
       "groups": [
         {
           "group": "A組",
@@ -2705,10 +2701,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球",
-        "externalIntel": [
-          "天天盈球：阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 60,
         "homeForm": {
           "wins": 7,
@@ -3599,9 +3593,7 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "阿里·阿哈马达在坦桑尼亚效力后随奥巴涅返回法国 大伟侃球",
-          "观点-留或走：巴黎圣日耳曼必须最终决定其走向何方 进神聊球",
-          "那不勒斯达成协议，将Rrahmani的合同延长至2029年 大伟侃球 · 1小时前",
+          "前皇马年轻球员今年夏天拒绝重返俱乐部 V先生 · 1小时前 桑德兰前锋布罗贝吸引了曼联的兴趣 曾哥谈球 · 1小时前 AC米兰和国际米兰争夺卡利亚里新星门迪 波总聊波 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
