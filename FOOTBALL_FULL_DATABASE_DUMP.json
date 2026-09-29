@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-29 17:09:06",
+    "scraped_at": "2026-09-29 21:35:32",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-29 17:09:06",
+      "updatedAt": "2026-09-29 21:35:32",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "芬恩·耶尔奇（Finn Jeltsch）在首次入选德国队后渴望给尤尔根·克洛普留下深刻印象 进神聊球",
-          "德比输给格拉德巴赫可能会结束瓦格纳在科隆1号的统治 大伟侃球",
-          "回到科塔韦格：迈向德甲回归 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
