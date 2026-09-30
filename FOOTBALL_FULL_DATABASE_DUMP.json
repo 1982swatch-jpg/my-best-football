@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-09-30 17:07:16",
+    "scraped_at": "2026-09-30 21:36:00",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-09-30 17:07:16",
+      "updatedAt": "2026-09-30 21:36:00",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "新董事会报告：SV公开反击！ 锤哥营地",
-          "皇马、阿森纳还是拜仁？德国球探专家评估斯图加特的芬恩·耶尔奇的最佳状态和下一步行动 曾哥谈球",
-          "官方：云达不莱梅队策划师皮拉瓦要求终止合同 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
