@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-02 16:56:19",
+    "scraped_at": "2026-10-02 21:31:09",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -635,10 +635,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-          "externalIntel": [
-            "天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1229,10 +1227,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-          "externalIntel": [
-            "天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 70,
           "homeForm": {
             "wins": 3,
@@ -1469,10 +1465,8 @@
             "📅 最新賽程",
             "🧠 本地模型"
           ],
-          "market": "外部公開資訊：天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-          "externalIntel": [
-            "天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地"
-          ],
+          "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+          "externalIntel": [],
           "qualityScore": 55,
           "homeForm": {
             "wins": 4,
@@ -1743,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-02 16:56:19",
+      "updatedAt": "2026-10-02 21:31:09",
       "groups": [
         {
           "group": "A組",
@@ -3061,10 +3055,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-        "externalIntel": [
-          "天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 70,
         "homeForm": {
           "wins": 3,
@@ -3299,10 +3291,8 @@
           "📅 最新賽程",
           "🧠 本地模型"
         ],
-        "market": "外部公開資訊：天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-        "externalIntel": [
-          "天天盈球：乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地"
-        ],
+        "market": "站內自建資料模型；外部公開資料暫無直接命中。",
+        "externalIntel": [],
         "qualityScore": 55,
         "homeForm": {
           "wins": 4,
@@ -3582,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3603,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "桑德罗·托纳利的经纪人解释了米兰的退出和纽卡斯尔早期的挣扎 V先生",
-          "乔丹·皮克福德（Jordan Pickford）在英格兰排名第一的威胁中反抗：“我只会变得更好” 锤哥营地",
-          "报道：利物浦仍然对引进世界级前锋感兴趣 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
