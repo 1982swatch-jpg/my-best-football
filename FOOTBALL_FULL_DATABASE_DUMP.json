@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-05 02:43:26",
+    "scraped_at": "2026-10-05 12:51:53",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-05 02:43:26",
+      "updatedAt": "2026-10-05 12:51:53",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "了解为行动不便的人更新或登记季票的程序、球迷区和接待服务 锤哥营地",
+          "古鲁泽塔和乌奈·西蒙，从莱扎马住所到室友，友谊经久不衰 大伟侃球",
+          "国王杯首轮抽签开始，比利亚雷亚尔和卡斯特隆等待对手 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
