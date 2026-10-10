@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-10 16:29:13",
+    "scraped_at": "2026-10-10 20:47:54",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-10 16:29:13",
+      "updatedAt": "2026-10-10 20:47:54",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "托特纳姆热刺十一世vs曼联：首发阵容、确认球队新闻、英超联赛最新伤病情况 曾哥谈球",
-          "报道：利物浦和阿森纳正在争夺意甲球星 锤哥营地",
-          "若昂·佩德罗的股价继续飙升，蓝军又一次关键表现 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
