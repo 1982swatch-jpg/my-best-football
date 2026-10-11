@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-11 11:42:56",
+    "scraped_at": "2026-10-11 16:54:27",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-11 11:42:56",
+      "updatedAt": "2026-10-11 16:54:27",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "尼古拉·伦伯格在汉堡SV战胜霍芬海姆的比赛中ACL撕裂 锤哥营地",
-          "特征|弗莱堡的不败开局表明他们最近的成功并非巧合 波总聊波",
-          "未能抓住机会：凯恩对拜仁的表现感到沮丧 进神聊球",
+          "卡里克“猛烈抨击”曼联球星对阵托特纳姆热刺的关键失误-“太容易了” 进神聊球",
+          "阿尔比恩2-0击败桑德兰，哈贾姆成为第十射手 进神聊球",
+          "尤文图斯努力降低需求，阿斯顿维拉“准备好竞争”法甲球星 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
