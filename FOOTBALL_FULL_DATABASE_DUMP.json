@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-14 10:45:30",
+    "scraped_at": "2026-10-14 16:04:24",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-14 10:45:30",
+      "updatedAt": "2026-10-14 16:04:24",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "这位前布伦特福德球员有可能转会至富勒姆俱乐部。 安胖懂个球",
-          "本菲卡设定一月份立场，帕夫利迪斯引起了豪门的兴趣 V先生",
-          "利物浦和切尔西都希望能够吸引这位价值1亿英镑的球员的加盟，不过这两家球队的立场已经发生了改变。 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
