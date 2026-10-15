@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-15 02:07:42",
+    "scraped_at": "2026-10-15 10:28:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-15 02:07:42",
+      "updatedAt": "2026-10-15 10:28:14",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "富勒姆可能会求助于前英超主帅来取代阿尔瓦罗·阿贝罗阿 大伟侃球",
+          "托特纳姆的年轻球员给罗伯托·德泽尔比留下了深刻的印象，他的机会似乎越来越多了。 进神聊球",
+          "最新消息：利物浦和切尔西已经就1月份转会中的亚历克斯·斯科特交易达成了一致意见。 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
