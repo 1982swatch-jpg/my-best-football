@@ -1,14 +1,14 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-16 01:57:38",
+    "scraped_at": "2026-10-16 10:15:44",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-16 01:57:38",
+      "updatedAt": "2026-10-16 10:15:44",
       "groups": [
         {
           "group": "A組",
@@ -3566,7 +3566,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "意外的合同续约通知让他能够继续在佛罗伦萨效力下去。 曾哥谈球",
-          "萨里对亚特兰大的进步感到满意，但对“荒谬”的赛程表感到愤怒 进神聊球",
-          "欧联杯：尤文队主帅斯帕莱蒂在换人后批评了康塞桑；拉莫斯进球，阿莫里姆的米兰队成功击败萨尔茨堡队 鬼手爱球",
+          "托特纳姆热刺租借球员解释了德甲转会后“理所当然”的英超转会冷落 V先生",
+          "伯恩茅斯的亚历克斯·斯科特将比预期更早伤愈复出 进神聊球",
+          "雷吉斯·勒布里斯在欧罗巴联赛扳平比分后赞扬朱尔斯·阿霍卡 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
