@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-15 20:37:20",
+    "scraped_at": "2026-10-16 01:57:38",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-15 20:37:20",
+      "updatedAt": "2026-10-16 01:57:38",
       "groups": [
         {
           "group": "A組",
@@ -3593,8 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "蒂埃里·伦德尔重新首发，威尼斯以长期合同任命大卫·尼古拉 东神看球 · 1小时前 “他有",
-          "问题”--前球星看到托特纳姆热刺租借球员的困境 波总聊波 · 1小时前 预览|博洛尼亚vs国际米兰：球队新闻、阵容、预测（意甲17/10） 鬼手爱球 · 1小时前",
+          "意外的合同续约通知让他能够继续在佛罗伦萨效力下去。 曾哥谈球",
+          "萨里对亚特兰大的进步感到满意，但对“荒谬”的赛程表感到愤怒 进神聊球",
+          "欧联杯：尤文队主帅斯帕莱蒂在换人后批评了康塞桑；拉莫斯进球，阿莫里姆的米兰队成功击败萨尔茨堡队 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
