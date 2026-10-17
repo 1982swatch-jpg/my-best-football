@@ -1,14 +1,14 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-17 01:52:15",
+    "scraped_at": "2026-10-17 09:49:27",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-17 01:52:15",
+      "updatedAt": "2026-10-17 09:49:27",
       "groups": [
         {
           "group": "A組",
@@ -3566,7 +3566,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "对阵佛罗伦萨的守门员困境，佛罗伦萨首发对阵紫百合 大伟侃球",
-          "意甲联赛 | 弗罗西诺内4-2萨索洛：意大利U21队球员雷蒙多上演帽子戏法，表现极为出色 曾哥谈球",
-          "马伦谈到了他与迪巴拉以及加斯佩里尼的关系。 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
