@@ -1,20 +1,20 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-18 01:51:14",
+    "scraped_at": "2026-10-18 10:00:55",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-18 01:51:14",
+      "updatedAt": "2026-10-18 10:00:55",
       "groups": [
         {
           "group": "A組",
@@ -3566,16 +3566,16 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "在最近三场比赛中被按在替补席上：这位夏季新签的球员正在成为一个问题。 鬼手爱球",
-          "尤文图斯打算让科洛·穆阿尼首发出场，以争夺对阵拉齐奥的一个位置。 鬼手爱球",
-          "罗比尼奥·小在0-2输给罗马的比赛中首次为热那亚队出场。 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
