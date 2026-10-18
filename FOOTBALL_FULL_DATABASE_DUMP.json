@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-17 19:46:20",
+    "scraped_at": "2026-10-18 01:51:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-17 19:46:20",
+      "updatedAt": "2026-10-18 01:51:14",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "法布雷加斯：“对于每个人来说，这都是一次新的体验。迪奥需要休息两到三周。” 安胖懂个球",
-          "意甲联赛阵容：罗马对阵热那亚 安胖懂个球",
-          "阿塔兰塔队因为拉斯帕多里的新伤，不得不让他休战三周。 安胖懂个球",
+          "在最近三场比赛中被按在替补席上：这位夏季新签的球员正在成为一个问题。 鬼手爱球",
+          "尤文图斯打算让科洛·穆阿尼首发出场，以争夺对阵拉齐奥的一个位置。 鬼手爱球",
+          "罗比尼奥·小在0-2输给罗马的比赛中首次为热那亚队出场。 东神看球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
