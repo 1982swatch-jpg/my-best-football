@@ -1,14 +1,14 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-18 19:47:35",
+    "scraped_at": "2026-10-19 02:07:44",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "404 Client Error: Not Found for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-18 19:47:35",
+      "updatedAt": "2026-10-19 02:07:44",
       "groups": [
         {
           "group": "A組",
@@ -3566,7 +3566,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "404 Client Error: Not Found for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "法布雷加斯：“不存在完美的战术方案，我们还需要看看关于查洛巴的情况如何。” 鬼手爱球",
-          "帕尔马对阵都灵的比赛，投注赔率：都灵有优势，预计比赛不会打很多球 大伟侃球",
-          "乌迪内斯在以3-0击败莱切之后，正在考虑Runjaic的未来发展情况 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
