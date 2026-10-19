@@ -1,14 +1,14 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-19 17:52:16",
+    "scraped_at": "2026-10-19 21:48:02",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-19 17:52:16",
+      "updatedAt": "2026-10-19 21:48:02",
       "groups": [
         {
           "group": "A組",
@@ -3566,7 +3566,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "502 Server Error: Bad Gateway for url: https://m.qtx.com/worldcup"
+        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
       },
       {
         "name": "7M赛前分析",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "霍内斯建议米特尔施泰特组成一支队伍，以迎战“极具威胁”的马德里竞技队。 进神聊球",
-          "法兰克福足球俱乐部已经确认，BSC青年人队的负责人克里斯托夫·斯皮彻将成为克罗斯的替代者。 锤哥营地",
-          "情绪上的首次进球，以及穆里尼奥的赞扬：扬·迪奥曼德在皇家马德里逐渐找回状态了。 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
