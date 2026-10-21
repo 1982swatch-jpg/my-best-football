@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-21 16:13:03",
+    "scraped_at": "2026-10-21 20:57:59",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-21 16:13:03",
+      "updatedAt": "2026-10-21 20:57:59",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "尽管禁令被撤销，但评审团仍然支持了斯特鲁伊克的行为，给予了他红牌处罚。 安胖懂个球",
-          "在博尔顿发生手球争议后，马特·多诺霍被召回英超联赛阵容中。 安胖懂个球",
-          "托特纳姆热刺队的外租球星继续展现出出色的表现，被封为“真正的巨人”。 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
