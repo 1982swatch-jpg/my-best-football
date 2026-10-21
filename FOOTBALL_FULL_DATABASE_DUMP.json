@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-21 02:17:27",
+    "scraped_at": "2026-10-21 10:44:39",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-21 02:17:27",
+      "updatedAt": "2026-10-21 10:44:39",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "桑德兰计划再次与Geny Catamo进行合作，Gessime Yassine和Ismaila Sarr也参与了这项合作。Florent Ghisolfi对此有所提及。 东神看球",
+          "穆里洛在效力于英超第100场比赛时，以出色的表现和精湛的技术击败了格拉斯纳的挑战者。 鬼手爱球",
+          "转会新闻直播：阿森纳的新前锋目标；曼联再次介入霍尔的交易；切尔西和利物浦的最新动态 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
