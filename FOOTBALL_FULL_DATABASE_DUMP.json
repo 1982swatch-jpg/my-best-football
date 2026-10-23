@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-23 10:39:25",
+    "scraped_at": "2026-10-23 16:01:21",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f9f455"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-23 10:39:25",
+      "updatedAt": "2026-10-23 16:01:21",
       "groups": [
         {
           "group": "A組",
@@ -3581,10 +3581,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7f9f455"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3593,9 +3593,8 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "利兹队的球迷们对桑德兰的比赛预测意见一致，多米尼克·卡尔弗特-莱温被认为是决定胜负的关键人物。 波总聊波",
-          "试图弄清楚佩莱为何会成为富勒姆队的球探，以及具体是如何成为这样的球探的。 曾哥谈球",
-          "从帕尔马到皇家馆：那些从未获得过联赛冠军却能够赢得欧洲奖杯的俱乐部 鬼手爱球",
+          "佛罗伦萨对阵尤文图斯的比赛门票现已开始销售，各场比赛的日期和地点均已公布。 大伟侃球 · 昨日 米兰和尤文图斯的比赛结果并没有帮助意大利队赢得",
+          "的欧冠参赛资格。 锤哥营地 · 昨日 都灵-蒙扎，都灵队取得了自2019年以来首个三连胜记录 鬼手爱球 · 昨日",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
