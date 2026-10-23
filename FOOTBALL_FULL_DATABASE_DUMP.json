@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-23 16:01:21",
+    "scraped_at": "2026-10-23 20:43:34",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-23 16:01:21",
+      "updatedAt": "2026-10-23 20:43:34",
       "groups": [
         {
           "group": "A組",
@@ -3593,8 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "佛罗伦萨对阵尤文图斯的比赛门票现已开始销售，各场比赛的日期和地点均已公布。 大伟侃球 · 昨日 米兰和尤文图斯的比赛结果并没有帮助意大利队赢得",
-          "的欧冠参赛资格。 锤哥营地 · 昨日 都灵-蒙扎，都灵队取得了自2019年以来首个三连胜记录 鬼手爱球 · 昨日",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
