@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-26 02:03:36",
+    "scraped_at": "2026-10-26 11:43:43",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-26 02:03:36",
+      "updatedAt": "2026-10-26 11:43:43",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "双重退出的风险迫在眉睫：有两人可能早在1月份就离开佛罗伦萨队。 曾哥谈球",
-          "鲁尼亚茨：“乌迪内斯充满活力，现在不是谈论我未来的时候。” 曾哥谈球",
-          "斯帕莱蒂：“尤文图斯的战术体系确实带来了稳定性，但我们在下半场表现有所下滑。” 进神聊球 · 1小时前",
+          "预览：双场赛事的第一部分 安胖懂个球",
+          "武斯科维奇即将回归：他有可能在2030年前与HSV签订合同。 锤哥营地",
+          "专题 | 尼克拉斯·菲尔克鲁格证明，回到维尔德布伦姆队是一个非常正确的决定 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
