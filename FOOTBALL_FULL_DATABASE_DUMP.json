@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-25 20:05:18",
+    "scraped_at": "2026-10-26 02:03:36",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-25 20:05:18",
+      "updatedAt": "2026-10-26 02:03:36",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "奇武（DAZN）：“虽然球门距离只有30米，但保持冷静，不公平的待遇并没有阻止我们。” 鬼手爱球",
-          "报道——米兰的选秀危机：鲁本·阿莫里姆出现了7次缺席情况 进神聊球",
-          "意甲联赛 | 热那亚1-0战胜威尼斯：埃勒特森击败了自己的老东家 东神看球 · 1小时前",
+          "双重退出的风险迫在眉睫：有两人可能早在1月份就离开佛罗伦萨队。 曾哥谈球",
+          "鲁尼亚茨：“乌迪内斯充满活力，现在不是谈论我未来的时候。” 曾哥谈球",
+          "斯帕莱蒂：“尤文图斯的战术体系确实带来了稳定性，但我们在下半场表现有所下滑。” 进神聊球 · 1小时前",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
