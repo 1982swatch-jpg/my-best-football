@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-27 11:10:59",
+    "scraped_at": "2026-10-27 16:57:13",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-27 11:10:59",
+      "updatedAt": "2026-10-27 16:57:13",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "1. 科隆足球俱乐部对阵柏林联合足球俱乐部，德国足球协会杯预赛分析、球队消息以及预测的比赛阵容。 东神看球",
-          "为HSV提供数百万的资金？与法兰克福的较量中，究竟有什么利害关系呢？ V先生",
-          "DFB杯周二比赛：格拉德巴赫和埃尔弗斯贝格作为主队，奥格斯堡和梅因茨作为客队参加比赛 鬼手爱球",
+          "“我带了一封消息”——理查德·凯斯解释了为什么曼彻斯特联不解雇迈克尔·卡里克 鬼手爱球",
+          "迪恩·亨德森有望重返水晶宫队，而伊萨米拉·萨尔的状态则尚不确定。 锤哥营地",
+          "“极不可能的”托特纳姆热刺会在冬季转会窗口期间与这位球星进行谈判 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
