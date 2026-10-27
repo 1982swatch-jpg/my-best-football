@@ -1,20 +1,20 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-27 02:40:55",
+    "scraped_at": "2026-10-27 11:10:59",
     "auth_used": "none",
     "external_sources": [
       {
         "name": "球天下世界杯",
         "url": "https://m.qtx.com/worldcup",
         "ok": false,
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "HTTPSConnectionPool(host='m.qtx.com', port=443): Max retries exceeded with url: /worldcup (Caused by NameResolutionError(\"HTTPSConnection(host='m.qtx.com', port=443): Failed to res"
       },
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-27 02:40:55",
+      "updatedAt": "2026-10-27 11:10:59",
       "groups": [
         {
           "group": "A組",
@@ -3566,16 +3566,16 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "504 Server Error: Gateway Time-out for url: https://m.qtx.com/worldcup"
+        "error": "HTTPSConnectionPool(host='m.qtx.com', port=443): Max retries exceeded with url: /worldcup (Caused by NameResolutionError(\"HTTPSConnection(host='m.qtx.com', port=443): Failed to res"
       },
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "1. 科隆足球俱乐部对阵柏林联合足球俱乐部，德国足球协会杯预赛分析、球队消息以及预测的比赛阵容。 东神看球",
+          "为HSV提供数百万的资金？与法兰克福的较量中，究竟有什么利害关系呢？ V先生",
+          "DFB杯周二比赛：格拉德巴赫和埃尔弗斯贝格作为主队，奥格斯堡和梅因茨作为客队参加比赛 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
