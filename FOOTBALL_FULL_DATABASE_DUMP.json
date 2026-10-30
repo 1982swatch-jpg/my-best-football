@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-30 11:46:24",
+    "scraped_at": "2026-10-30 17:21:20",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-30 11:46:24",
+      "updatedAt": "2026-10-30 17:21:20",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "格拉德巴赫正在与瓦埃尔·莫希亚进行续约谈判。 安胖懂个球",
-          "不仅仅是足球：克鲁格希望保护HSV的教练职位 V先生",
-          "维尔茨堡Bremen对阵霍芬海姆的预赛：两支表现出色的球队将展开较量 进神聊球",
+          "预览 | 1. 柏林联合足球俱乐部对阵科隆足球俱乐部：球队动态、阵容安排、预测结果（德甲联赛，1月11日） 鬼手爱球",
+          "汉堡队主教练在即将与法兰克福队进行德甲联赛复赛之前，谈到了球队面临的伤病危机。 鬼手爱球",
+          "伊尔泽在周中受伤后，提供了关于康特的最新情况。 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
