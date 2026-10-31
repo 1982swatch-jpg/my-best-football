@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-31 11:20:22",
+    "scraped_at": "2026-10-31 16:26:07",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-31 11:20:22",
+      "updatedAt": "2026-10-31 16:26:07",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "法兰克福足球俱乐部同意任命克罗斯的继任者。 锤哥营地",
-          "“拥有如此多的潜力”——HSV青训学院的毕业生即将成为常规成员了？ 波总聊波",
-          "拜仁对这位价值1420万英镑的前锋给予了“密切的关注” 波总聊波",
+          "预赛：热刺希望继续赢得胜利，他们将在主场对阵水晶宫队 波总聊波",
+          "桑德兰队的消息如下：雷吉斯·勒布里斯在对阵考文垂城的比赛中遭受了两次伤势，这给球队带来了很大的挑战。 波总聊波",
+          "“俱乐部考虑再次把我租出去，但我告诉他们，我希望留下并证明自己的价值。”——哈里·凯恩在谈到2013年拒绝离开托特纳姆热刺的事时说道。 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
