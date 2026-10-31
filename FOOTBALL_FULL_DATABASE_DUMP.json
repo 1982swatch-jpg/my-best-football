@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-10-31 02:59:36",
+    "scraped_at": "2026-10-31 11:20:22",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-10-31 02:59:36",
+      "updatedAt": "2026-10-31 11:20:22",
       "groups": [
         {
           "group": "A組",
@@ -3581,10 +3581,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3593,7 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "“人字型”套件，献给“共和国之父”+",
+          "法兰克福足球俱乐部同意任命克罗斯的继任者。 锤哥营地",
+          "“拥有如此多的潜力”——HSV青训学院的毕业生即将成为常规成员了？ 波总聊波",
+          "拜仁对这位价值1420万英镑的前锋给予了“密切的关注” 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
