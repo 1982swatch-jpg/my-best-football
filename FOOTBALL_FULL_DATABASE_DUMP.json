@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-01 02:54:34",
+    "scraped_at": "2026-11-01 12:10:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-01 02:54:34",
+      "updatedAt": "2026-11-01 12:10:44",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "️ 头版新闻：西蒙尼创造了历史，巴塞罗那队大胜，曼联显得非常弱小 波总聊波",
+          "安塞利米和阿吉雷在埃尔切与瓦伦西亚的德比比赛中首次会面讨论比赛事宜。 大伟侃球",
+          "在首次参加欧洲赛事之前，曾为比利亚雷亚尔和巴黎圣日耳曼队效力过的七名球员 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
