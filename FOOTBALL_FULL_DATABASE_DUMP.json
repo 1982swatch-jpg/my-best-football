@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-03 00:07:20",
+    "scraped_at": "2026-11-03 13:08:12",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-03 00:07:20",
+      "updatedAt": "2026-11-03 13:08:12",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "预览 | 多特蒙德对阵贝蒂斯：球队动态、阵容安排及预测（欧冠联赛，4月11日） 鬼手爱球",
-          "皇家马德里在即将对阵雅典AEK的欧冠比赛前，又面临了严重的伤病问题。 安胖懂个球",
-          "7位拜仁慕尼黑的球员可能无法参加对阵马德里竞技的比赛。 锤哥营地",
+          "乌迪内斯用伦雅伊奇替换了扎内蒂，担任他们的中场球员。 进神聊球",
+          "“佛罗伦萨队的项目非常出色，维克托非常适合这里。”——瓦尔德佩尼亚斯的经纪人 大伟侃球",
+          "萨里确认，在以3-0败给帕尔马的比赛中后，实力较弱的亚特兰大队需要进行训练调整。 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
