@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-02 13:59:45",
+    "scraped_at": "2026-11-03 00:07:20",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-02 13:59:45",
+      "updatedAt": "2026-11-03 00:07:20",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "乌迪内斯已经确定了一位新的主教练人选，Runjaic即将被解雇。 鬼手爱球",
-          "范奥利队形势严峻，这场比赛必须赢下。 大伟侃球",
-          "皮奥利对尤文图斯2-0战胜那不勒斯的比赛进行分析：“从我的观察来看，科洛·穆阿尼表现非常出色。” 东神看球",
+          "预览 | 多特蒙德对阵贝蒂斯：球队动态、阵容安排及预测（欧冠联赛，4月11日） 鬼手爱球",
+          "皇家马德里在即将对阵雅典AEK的欧冠比赛前，又面临了严重的伤病问题。 安胖懂个球",
+          "7位拜仁慕尼黑的球员可能无法参加对阵马德里竞技的比赛。 锤哥营地",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
