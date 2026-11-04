@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-04 13:24:09",
+    "scraped_at": "2026-11-04 22:57:34",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-04 13:24:09",
+      "updatedAt": "2026-11-04 22:57:34",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "如果蒙扎出售古斯塔沃·瓦雷拉，本菲卡可能会获得一笔意外之财。 V先生",
-          "佛罗伦萨对阵尤文图斯，令人惊讶的回归：他将从第一分钟就开始首发登场。 V先生",
-          "皮科洛与团队一起返回了家。 进神聊球",
+          "桑德兰将在欧联杯比赛中面对进17球的贝尔约所在的迪纳摩队。 曾哥谈球",
+          "法兰克福足球俱乐部计划在1月份继续追捕阿诺德·卡利穆恩多。 锤哥营地",
+          "桑德兰、埃弗顿和水晶宫将在1月转会窗口期间对凯尔文·耶博阿进行观察。 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
