@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-05 13:38:26",
+    "scraped_at": "2026-11-05 22:58:17",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-05 13:38:26",
+      "updatedAt": "2026-11-05 22:58:17",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "雷吉斯·勒布里斯为桑德兰队在欧联杯中对阵萨格勒布迪纳摩的比赛做出了重要决策。 V先生",
+          "诺丁汉森林队的前锋在最新更新后，离被淘汰的威胁又近了一步。 V先生",
+          "在卡马达完成一次精彩的扑救后，萨奇继续在水晶宫队中奋战。而皮诺的过度依赖现象则变得明显起来。 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
