@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-06 03:56:03",
+    "scraped_at": "2026-11-06 13:21:21",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-06 03:56:03",
+      "updatedAt": "2026-11-06 13:21:21",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "佛罗伦萨对阵尤文图斯，缺席与回归：维奥拉有望取得进步，以下是相关数据支持。 安胖懂个球",
+          "在最新的意大利国家队名单中，有四位球员首次入选国家队：你需要了解的所有信息 东神看球",
+          "德布劳内、莫雷拉和凯塔等意甲明星球员入选了比利时国家队，准备对阵意大利队。 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
