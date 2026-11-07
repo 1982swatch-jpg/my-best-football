@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-07 17:31:35",
+    "scraped_at": "2026-11-07 21:09:44",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-07 17:31:35",
+      "updatedAt": "2026-11-07 21:09:44",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "沙尔克队的进球荒持续不已：穆斯基现在对卡拉曼有何要求？ 大伟侃球",
-          "在格拉德巴赫的精彩表现之后：格罗恩贝克让汉莎足球俱乐部的球迷们充满期待。 安胖懂个球",
-          "科隆希望继续保持不败的纪录，而勒沃库森则希望在当地的德比战中取得胜利。 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
