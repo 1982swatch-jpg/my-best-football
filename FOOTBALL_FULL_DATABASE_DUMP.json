@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-08 12:19:51",
+    "scraped_at": "2026-11-08 21:25:39",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-08 12:19:51",
+      "updatedAt": "2026-11-08 21:25:39",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "从伯纳乌球场到拉塞拉米卡球场：比利亚雷亚尔队将完成1000场西甲联赛的比赛目标 大伟侃球",
-          "奥萨苏纳队与亚特兰大足球俱乐部球员的评分，一一列举 大伟侃球",
-          "人工智能分析表明，巴塞罗那在比赛中表现较为稳健，而马德里竞技则对阵了联赛领头羊球队。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
