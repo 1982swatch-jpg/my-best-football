@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-10 13:52:50",
+    "scraped_at": "2026-11-10 22:37:14",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-10 13:52:50",
+      "updatedAt": "2026-11-10 22:37:14",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "扎尼奥洛因个人原因退出了意大利国家队阵容。 波总聊波",
-          "诺丁汉森林队和佛罗伦萨对巴里姆顿城队的德国中后卫菲尔·诺伊曼表现出浓厚的兴趣。 安胖懂个球",
-          "尤文图斯关注两名年轻的意大利中场球员 曾哥谈球",
+          "伯明翰城、西布罗姆维奇和西汉姆联听到关于水晶宫队的最新消息后，一定会兴奋得合不拢嘴。 安胖懂个球",
+          "在诺丁汉森林与伯明翰城之间的竞争中，科文特利奇城的局势出现了意想不到的变化。伯明翰城的诺伊曼也成为了这场竞争中的关键人物。 V先生",
+          "诺丁汉森林被要求为转会伯明翰城支付至少1500万英镑的资金。 波总聊波",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
