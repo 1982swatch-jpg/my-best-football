@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-09 14:32:53",
+    "scraped_at": "2026-11-10 00:55:55",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-09 14:32:53",
+      "updatedAt": "2026-11-10 00:55:55",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "马德里竞技正在积极争取在1月份签下阿森纳球星。 东神看球",
+          "前皇家马德里后卫称赞穆里尼奥的影响力：“必须承认他所做出的贡献。” V先生",
+          "巴塞罗那与德国国脚的交易即将取得新进展。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
