@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-13 03:54:15",
+    "scraped_at": "2026-11-13 13:33:39",
     "auth_used": "none",
     "external_sources": [
       {
@@ -20,7 +20,7 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x77ac55e"
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fc9004"
       },
       {
         "name": "天天盈球",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-13 03:54:15",
+      "updatedAt": "2026-11-13 13:33:39",
       "groups": [
         {
           "group": "A組",
@@ -3584,7 +3584,7 @@
         "ok": false,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x77ac55e"
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7fc9004"
       },
       {
         "name": "天天盈球",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "佛罗伦萨，过去与未来：年轻一代正在崛起，以下是相关数据。 安胖懂个球",
+          "都灵的转会消息，凯尔特人仍然对吉内蒂感兴趣：可能会在1月提出新的收购提议 鬼手爱球",
+          "PSV试图说服那不勒斯的关键球员加入他们。 V先生",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
