@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-15 13:03:13",
+    "scraped_at": "2026-11-15 22:11:22",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-15 13:03:13",
+      "updatedAt": "2026-11-15 22:11:22",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "关于桑德兰这位前锋的未来，最新消息如下：勒布里斯应该做什么？ 曾哥谈球",
+          "曼联正在努力签下科尼·德温特，而米兰的立场非常明确。 大伟侃球",
+          "那个被冷落的诺丁汉森林球员，有个俱乐部有意以较低的价格收购他。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
