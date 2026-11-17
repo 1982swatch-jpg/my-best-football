@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-16 14:08:42",
+    "scraped_at": "2026-11-17 01:13:19",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-16 14:08:42",
+      "updatedAt": "2026-11-17 01:13:19",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "托特纳姆热刺队面临着激烈的竞争，因为他们要争夺这位意甲前锋的归属权：他真的值得争夺吗？ V先生",
+          "帕尔马队因罗梅罗在2026年剩余时间无法参赛，因为他遭受了严重的肩部受伤。 进神聊球",
+          "卡普里莱在卡利亚里拥有机会，康特则感到愤怒，而阿尔巴尼亚则有望获得机会。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
