@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-17 15:01:43",
+    "scraped_at": "2026-11-18 00:07:02",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-17 15:01:43",
+      "updatedAt": "2026-11-18 00:07:02",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "在基安受伤的问题得到解决后，他可以成为新的进攻球员了。 安胖懂个球",
+          "罗德里戈·门多萨在西班牙U21队的比赛中首发登场。 安胖懂个球",
+          "奥恩斯坦透露，阿森纳有可能会签下维尼修斯·朱尼奥尔，他认为“有实现这一目标的潜力”。 安胖懂个球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
