@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-20 00:00:25",
+    "scraped_at": "2026-11-20 05:34:11",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x76c8638"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-20 00:00:25",
+      "updatedAt": "2026-11-20 05:34:11",
       "groups": [
         {
           "group": "A組",
@@ -3581,10 +3581,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x76c8638"
+        "error": ""
       },
       {
         "name": "天天盈球",
@@ -3593,9 +3593,7 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "拜仁慕尼黑对阵科隆足球俱乐部的首场预赛：孔帕尼回归，两位德甲冠军球队将展开较量，争夺德甲冠军宝座。 东神看球",
-          "“一些俱乐部认为这个转会成本太高了。”——埃尔·乌阿迪关于HSV的转会消息评论 安胖懂个球",
-          "斯图加特队的天才年轻球员耶尔奇，其转会费高达6000万欧元。 曾哥谈球",
+          "关于沙尔克比赛的所有信息 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
