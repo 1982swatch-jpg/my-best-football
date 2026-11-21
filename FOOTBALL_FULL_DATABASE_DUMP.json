@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-20 23:27:16",
+    "scraped_at": "2026-11-21 04:33:46",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-20 23:27:16",
+      "updatedAt": "2026-11-21 04:33:46",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "博登、库拉尼、科拉辛纳克等球员：沙尔克在斯图加特的成功交易 V先生",
-          "在那个不同寻常的夜晚，前热刺前锋科尔恩以一次令人震惊的进球，给伤病的拜仁队带来了麻烦。 大伟侃球",
-          "正如波尔津所提到的，维伊拉在即将到来的不莱梅德比比赛中一定会表现出色。 鬼手爱球",
+          "桑德兰可能会重新激发人们对这位法甲边锋的兴趣：难道勒布里斯不会把他招致麾下吗？ 波总聊波",
+          "费利克斯·恩梅查：曼联正在与前曼城球员的经纪人进行联系，目前INEOS俱乐部正在考虑在1月份达成交易。 曾哥谈球",
+          "在杰斯莱的建议被忽视之后，纽卡斯尔队面临着引援方面的难题。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
