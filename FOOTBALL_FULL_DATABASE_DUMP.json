@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-21 13:49:21",
+    "scraped_at": "2026-11-21 22:31:10",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": false,
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "ok": true,
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-21 13:49:21",
+      "updatedAt": "2026-11-21 22:31:10",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": false,
+        "ok": true,
         "matches": [],
         "headlines": [],
-        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
+        "error": ""
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "佛罗伦萨，范奥利公司的计划：佩莱格里诺必须击败瓦雷拉，这就是目标。 曾哥谈球",
-          "当尤文图斯上次击败维琴察时，发生了什么？ 大伟侃球",
-          "意甲联赛：科莫对阵卡利亚里——可能的比赛阵容以及在哪里观看比赛 鬼手爱球",
+          "水晶宫俱乐部非常担心奥斯卡·明格扎的伤势，该后卫已经接受了检查。 东神看球",
+          "阿斯顿维拉在这场毫无进球的平局中未能取得胜利，感到非常沮丧。 进神聊球",
+          "托马斯·弗兰克在水晶宫的首次出场就以乌龙球告终，令人失望不已。 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
