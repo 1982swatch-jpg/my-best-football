@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-22 22:54:27",
+    "scraped_at": "2026-11-23 04:25:45",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-22 22:54:27",
+      "updatedAt": "2026-11-23 04:25:45",
       "groups": [
         {
           "group": "A組",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "托马斯·弗兰克认为：“他一定不知道自己闯入了什么样的境地吧。”——主持人 曾哥谈球",
-          "“对我来说，这次测试的结果非常积极”：毛里西奥·波切蒂诺在曼联败给利物浦后做出了令人惊讶的声明。 波总聊波",
-          "利物浦和切尔西现在希望以2000万英镑的价格签下这位明星球员，而森林队的教练格拉斯纳也对其很感兴趣。 曾哥谈球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
