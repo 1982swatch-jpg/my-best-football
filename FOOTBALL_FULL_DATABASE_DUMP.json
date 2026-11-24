@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-24 03:32:48",
+    "scraped_at": "2026-11-24 16:38:07",
     "auth_used": "none",
     "external_sources": [
       {
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-24 03:32:48",
+      "updatedAt": "2026-11-24 16:38:07",
       "groups": [
         {
           "group": "A組",
@@ -3593,6 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
+          "桑德罗·托纳利：在对阵桑德兰的比赛中，托特纳姆的球员状态有所提升，有明星球员在训练场上出现。 锤哥营地",
+          "杰克·科尔贝克分享了他对森林队时期杰德·斯宾塞的印象，觉得他有一些令人惊讶的地方。 大伟侃球",
+          "纽卡斯尔队管理层在埃迪·豪即将加盟球队时未能及时采取行动，不过纽卡斯尔队目前的情况相当不错。 鬼手爱球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
