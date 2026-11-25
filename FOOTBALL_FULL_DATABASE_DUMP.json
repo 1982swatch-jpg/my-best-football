@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-24 16:38:07",
+    "scraped_at": "2026-11-25 01:43:30",
     "auth_used": "none",
     "external_sources": [
       {
@@ -19,8 +19,8 @@
       {
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7b82bad"
       },
       {
         "name": "天天盈球",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-24 16:38:07",
+      "updatedAt": "2026-11-25 01:43:30",
       "groups": [
         {
           "group": "A組",
@@ -3581,10 +3581,10 @@
         "name": "7M AI模型预测",
         "url": "https://tv.7m.com.cn/big/",
         "kind": "ai_prediction",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='tv.7m.com.cn', port=443): Max retries exceeded with url: /big/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='tv.7m.com.cn', port=443) at 0x7b82bad"
       },
       {
         "name": "天天盈球",
@@ -3593,9 +3593,9 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "桑德罗·托纳利：在对阵桑德兰的比赛中，托特纳姆的球员状态有所提升，有明星球员在训练场上出现。 锤哥营地",
-          "杰克·科尔贝克分享了他对森林队时期杰德·斯宾塞的印象，觉得他有一些令人惊讶的地方。 大伟侃球",
-          "纽卡斯尔队管理层在埃迪·豪即将加盟球队时未能及时采取行动，不过纽卡斯尔队目前的情况相当不错。 鬼手爱球",
+          "基安-雷特吉，加图索的搭档射手：在对阵爱沙尼亚和以色列的比赛中定要表现出色。 安胖懂个球",
+          "利物浦已经决定在1月份转会市场上引进那名在意甲联赛中打进11个进球的天才球员古斯塔沃·瓦雷拉。 波总聊波",
+          "都灵，Ismajli的手术成功：他的右手手术已经结束 进神聊球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
