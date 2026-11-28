@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "site-local-worldcup-model",
-    "scraped_at": "2026-11-28 00:46:05",
+    "scraped_at": "2026-11-28 14:40:15",
     "auth_used": "none",
     "external_sources": [
       {
@@ -13,8 +13,8 @@
       {
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
-        "ok": true,
-        "error": ""
+        "ok": false,
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -1737,7 +1737,7 @@
     "groupStandings": {
       "source": "ttyingqiu-standings-cache",
       "sourceUrl": "https://www.ttyingqiu.com/live/zq/league/1999/tab/jf?season=2026",
-      "updatedAt": "2026-11-28 00:46:05",
+      "updatedAt": "2026-11-28 14:40:15",
       "groups": [
         {
           "group": "A組",
@@ -3572,10 +3572,10 @@
         "name": "7M赛前分析",
         "url": "https://news.7m.com.cn/list/5/index.shtml",
         "kind": "pre_match_news",
-        "ok": true,
+        "ok": false,
         "matches": [],
         "headlines": [],
-        "error": ""
+        "error": "HTTPSConnectionPool(host='news.7m.com.cn', port=443): Read timed out. (read timeout=15)"
       },
       {
         "name": "7M AI模型预测",
@@ -3593,9 +3593,6 @@
         "ok": true,
         "matches": [],
         "headlines": [
-          "西蒙尼：转会？我们需要加强球队实力。 锤哥营地",
-          "瓦伦西亚正在考虑在1月份以低价签下皇家贝蒂斯球星 锤哥营地",
-          "雷亚尔瓦莱卡诺希望能够击败在欧洲联赛中表现强劲的贝蒂斯队。 大伟侃球",
           "赛事 赛事数据 资料库 英超 西甲 德甲 意甲 法甲 欧冠 欧联 NBA 足球积分榜 篮球积分榜"
         ],
         "error": ""
